@@ -9,77 +9,90 @@
    -------------------------------------------------------------------------- */
 :root,
 [data-theme="light"] {
-  /* Canvas & Atmospheric Surfaces — Serene, crisp, clinical light canvas */
-  --k-canvas: #f8fafc;
-  --k-canvas-pattern: #f8fafc;
-  --k-surface: #ffffff;
-  --k-surface-alt: #f1f5f9;
-  --k-surface-tint: #f0fdfa;
-  --k-surface-blue: #f0f7ff;
-  --k-surface-elevated: #ffffff;
+  /* 1. Core Brand Colors (KOSHIKA Identity) */
+  --k-navy: #152A55;
+  --k-primary: #0F9D95;           /* Primary Teal (Healthcare) */
+  --k-primary-hover: #087A73;     /* Deep Teal (Dark Healthcare) */
+  --k-primary-deep: #087A73;
+  --k-primary-light: #EAF9F7;
+  --k-primary-subtle: rgba(15, 157, 149, 0.08);
+
+  --k-teal: #0F9D95;
+  --k-teal-deep: #087A73;
+  --k-sky-blue: #2F9FEA;          /* Connection / Telehealth */
+  --k-clinical-blue: #2F6BDE;     /* Clinical / Preparation */
+  --k-purple: #7B2ED6;            /* AI / Intelligence */
+  --k-soft-violet: #9B6DFF;       /* Secondary AI / learning accent */
+  --k-pink: #E85AA5;              /* Biology / Cellular illustrations */
+
+  /* 2. Semantic Accents */
+  --k-success: #16A36F;           /* Verified, approved, positive */
+  --k-success-bg: #ECF9F3;
+  --k-success-border: rgba(22, 163, 111, 0.3);
+  --k-success-text: #16A36F;
+
+  --k-warning: #E58A00;           /* Attention, caution, decision */
+  --k-warning-bg: #FFF6E6;
+  --k-warning-border: #F4D39B;
+  --k-warning-text: #E58A00;
+
+  --k-danger: #E5394F;            /* Critical, unsafe, action required */
+  --k-danger-bg: #FFF0F2;
+  --k-danger-border: rgba(229, 57, 79, 0.3);
+  --k-danger-text: #E5394F;
+
+  --k-info: #2F9FEA;
+  --k-info-bg: #EEF7FF;
+  --k-info-border: #A9CEF4;
+  --k-info-text: #2F6BDE;
+
+  /* 3. Soft Background / Surface Colors (Never harsh plain white) */
+  --k-canvas: #F4F8FC;            /* Main Background */
+  --k-canvas-pattern: #F4F8FC;
+  --k-surface: #FFFFFF;           /* Card Surface */
+  --k-surface-elevated: #FAFCFF;  /* Elevated Surface */
+  --k-surface-alt: #F4F8FC;
+  --k-surface-tint: #EAF9F7;      /* Soft Teal */
+  --k-surface-blue: #EEF7FF;      /* Cool Blue */
+  --k-surface-lavender: #F5F0FF;  /* Soft Lavender */
+  --k-surface-green: #ECF9F3;     /* Soft Green */
+  --k-surface-amber: #FFF6E6;     /* Soft Amber */
+  --k-surface-red: #FFF0F2;       /* Soft Red */
+  --k-surface-pink: #FFF1F8;      /* Soft Pink */
   --k-surface-glass: rgba(255, 255, 255, 0.98);
 
-  /* Borders & Dividers — Crisp, disciplined hairline dividers */
-  --k-border: #e2e8f0;
-  --k-border-subtle: #f1f5f9;
-  --k-border-focus: #0d9488;
+  /* 4. Text Colors */
+  --k-text-primary: #15213D;      /* Primary Text */
+  --k-text-secondary: #50617D;    /* Secondary Text */
+  --k-text-muted: #71809A;        /* Muted Text */
+  --k-text-disabled: #A7B1C2;     /* Disabled Text */
+  --k-text-inverse: #FFFFFF;
 
-  /* Typography / Text Colors (High-contrast, authoritative slate-900) */
-  --k-text-primary: #0f172a;
-  --k-text-secondary: #475569;
-  --k-text-muted: #64748b;
-  --k-text-tertiary: #94a3b8;
-  --k-text-inverse: #ffffff;
+  /* 5. Borders */
+  --k-border: #DCE5F0;            /* Normal border */
+  --k-border-subtle: #E8EEF5;     /* Subtle border */
+  --k-border-teal: #9DDED9;       /* Teal border */
+  --k-border-blue: #A9CEF4;       /* Blue border */
+  --k-border-purple: #D5BCFA;     /* Purple border */
+  --k-border-warning: #F4D39B;    /* Warning border */
+  --k-border-focus: #0F9D95;
 
-  /* Primary Brand (Koshika Clinical Heritage Teal) */
-  --k-primary: #0d9488;
-  --k-primary-hover: #0f766e;
-  --k-primary-deep: #115e59;
-  --k-primary-light: #ccfbf1;
-  --k-primary-subtle: rgba(13, 148, 136, 0.08);
-
-  /* Secondary Brand (Clinical Cyan/Blue) */
-  --k-accent-blue: #0284c7;
-  --k-accent-blue-hover: #0369a1;
-  --k-accent-blue-light: #e0f2fe;
-
-  /* Semantic Accents */
-  --k-success: #059669;
-  --k-success-bg: #ecfdf5;
-  --k-success-border: #a7f3d0;
-  --k-success-text: #047857;
-
-  --k-warning: #d97706;
-  --k-warning-bg: #fffbeb;
-  --k-warning-border: #fde68a;
-  --k-warning-text: #b45309;
-
-  --k-danger: #e11d48;
-  --k-danger-bg: #fff1f2;
-  --k-danger-border: #fecdd3;
-  --k-danger-text: #be123c;
-
-  --k-info: #0284c7;
-  --k-info-bg: #f0f9ff;
-  --k-info-border: #bae6fd;
-  --k-info-text: #0369a1;
-
-  /* Shadows (Soft, calm, airy) */
-  --k-shadow-xs: 0 1px 3px rgba(13, 118, 110, 0.04);
-  --k-shadow-card: 0 4px 20px -2px rgba(13, 118, 110, 0.04), 0 2px 6px -1px rgba(13, 118, 110, 0.02);
-  --k-shadow-hover: 0 12px 28px -4px rgba(13, 118, 110, 0.08), 0 4px 8px -2px rgba(13, 118, 110, 0.03);
-  --k-shadow-modal: 0 20px 45px -8px rgba(13, 118, 110, 0.14);
+  /* Shadows (Soft, disciplined, airy) */
+  --k-shadow-xs: 0 1px 3px rgba(21, 42, 85, 0.04);
+  --k-shadow-card: 0 4px 20px -2px rgba(21, 42, 85, 0.04), 0 2px 6px -1px rgba(21, 42, 85, 0.02);
+  --k-shadow-hover: 0 12px 28px -4px rgba(21, 42, 85, 0.08), 0 4px 8px -2px rgba(21, 42, 85, 0.03);
+  --k-shadow-modal: 0 20px 45px -8px rgba(21, 42, 85, 0.14);
 
   /* Navbar / Topbar */
-  --k-topbar-bg: #edf8f7;
-  --k-topbar-border: #d8ece9;
+  --k-topbar-bg: #FAFCFF;
+  --k-topbar-border: #DCE5F0;
 
   /* Sidebar */
-  --k-sidebar-bg: #ffffff;
-  --k-sidebar-border: #e2e8f0;
-  --k-sidebar-link-active-bg: #f0fdfa;
-  --k-sidebar-link-active-text: #0d9488;
-  --k-sidebar-link-active-border: #0d9488;
+  --k-sidebar-bg: #FAFCFF;
+  --k-sidebar-border: #DCE5F0;
+  --k-sidebar-link-active-bg: #EAF9F7;
+  --k-sidebar-link-active-text: #087A73;
+  --k-sidebar-link-active-border: #0F9D95;
 }
 
 /* --------------------------------------------------------------------------
@@ -498,19 +511,21 @@ p, .k-body {
 
 /* --------------------------------------------------------------------------
    6. SEMANTIC HEALTHCARE PILLARS (UNDERSTAND / PREPARE / CONNECT / VERIFIED)
-   Meaning-driven, cohesive clinical palette:
-   - UNDERSTAND: Cellular Biology & Clarity (Bio-Teal #0d9488 / #2dd4bf)
-   - PREPARE: Diagnostics, Reports & Records (Diagnostic Sapphire #2563eb / #60a5fa)
-   - CONNECT: Care Teams & Specialists (Warm Care Amber #d97706 / #fbbf24)
-   - VERIFIED: Accreditation & Match Integrity (Emerald #059669 / #34d399)
-   - CRITICAL: Urgent Clinical Flags (Clinical Rose #e11d48 / #fb7185)
-   -------------------------------------------------------------------------- */
+   Meaning-driven, cohesive clinical pale    6. SEMANTIC HEALTHCARE PILLARS (UNDERSTAND / PREPARE / CONNECT / VERIFIED)
+    Meaning-driven, cohesive clinical palette:
+    - 01 UNDERSTAND: Healthcare / Knowledge (Primary Teal #0F9D95 / Deep Teal #087A73)
+    - 02 PREPARE: Clinical / Diagnostics (Clinical Blue #2F6BDE)
+    - 03 CONNECT: Telehealth & Care Teams (Sky Blue #2F9FEA)
+    - VERIFIED: Accreditation & Success (Success Green #16A36F)
+    - CRITICAL: Urgent Action Required (Red #E5394F)
+    - CAUTION: Safety & Review (Amber #E58A00)
+    -------------------------------------------------------------------------- */
 
 /* Badges: High-contrast, clean borders, patient-accessible */
 .k-badge-understand {
-  background-color: rgba(13, 148, 136, 0.12);
-  color: #0f766e;
-  border: 1px solid rgba(13, 148, 136, 0.28);
+  background-color: #EAF9F7;
+  color: #087A73;
+  border: 1px solid #9DDED9;
   font-size: 0.72rem;
   font-weight: 700;
   letter-spacing: 0.04em;
@@ -521,15 +536,15 @@ p, .k-body {
   transition: all 0.2s ease;
 }
 [data-theme="dark"] .k-badge-understand {
-  background-color: rgba(20, 184, 166, 0.2);
+  background-color: rgba(15, 157, 149, 0.2);
   color: #5eead4;
   border-color: rgba(94, 234, 212, 0.35);
 }
 
 .k-badge-prepare {
-  background-color: rgba(37, 99, 235, 0.12);
-  color: #1d4ed8;
-  border: 1px solid rgba(37, 99, 235, 0.28);
+  background-color: #EEF7FF;
+  color: #2F6BDE;
+  border: 1px solid #A9CEF4;
   font-size: 0.72rem;
   font-weight: 700;
   letter-spacing: 0.04em;
@@ -540,15 +555,15 @@ p, .k-body {
   transition: all 0.2s ease;
 }
 [data-theme="dark"] .k-badge-prepare {
-  background-color: rgba(59, 130, 246, 0.2);
+  background-color: rgba(47, 107, 222, 0.2);
   color: #93c5fd;
   border-color: rgba(147, 197, 253, 0.35);
 }
 
 .k-badge-connect {
-  background-color: rgba(217, 119, 6, 0.12);
-  color: #b45309;
-  border: 1px solid rgba(217, 119, 6, 0.28);
+  background-color: #EEF7FF;
+  color: #2F9FEA;
+  border: 1px solid #A9CEF4;
   font-size: 0.72rem;
   font-weight: 700;
   letter-spacing: 0.04em;
@@ -559,15 +574,15 @@ p, .k-body {
   transition: all 0.2s ease;
 }
 [data-theme="dark"] .k-badge-connect {
-  background-color: rgba(245, 158, 11, 0.2);
-  color: #fde68a;
-  border-color: rgba(253, 230, 138, 0.35);
+  background-color: rgba(47, 159, 234, 0.2);
+  color: #7dd3fc;
+  border-color: rgba(125, 211, 252, 0.35);
 }
 
 .k-badge-verified {
-  background-color: rgba(5, 150, 105, 0.12);
-  color: #047857;
-  border: 1px solid rgba(5, 150, 105, 0.28);
+  background-color: #ECF9F3;
+  color: #16A36F;
+  border: 1px solid rgba(22, 163, 111, 0.3);
   font-size: 0.72rem;
   font-weight: 700;
   letter-spacing: 0.04em;
@@ -577,15 +592,15 @@ p, .k-body {
   align-items: center;
 }
 [data-theme="dark"] .k-badge-verified {
-  background-color: rgba(52, 211, 153, 0.2);
+  background-color: rgba(22, 163, 111, 0.2);
   color: #6ee7b7;
   border-color: rgba(110, 231, 183, 0.35);
 }
 
 .k-badge-critical {
-  background-color: rgba(225, 29, 72, 0.12);
-  color: #be123c;
-  border: 1px solid rgba(225, 29, 72, 0.28);
+  background-color: #FFF0F2;
+  color: #E5394F;
+  border: 1px solid rgba(229, 57, 79, 0.3);
   font-size: 0.72rem;
   font-weight: 700;
   letter-spacing: 0.04em;
@@ -595,74 +610,74 @@ p, .k-body {
   align-items: center;
 }
 [data-theme="dark"] .k-badge-critical {
-  background-color: rgba(251, 113, 133, 0.2);
+  background-color: rgba(229, 57, 79, 0.2);
   color: #fca5a5;
   border-color: rgba(252, 165, 165, 0.35);
 }
 
 /* Pillar Action Buttons: Tactile, distinctive, purposeful gradients */
 .k-btn-understand {
-  background: linear-gradient(135deg, #0d9488 0%, #0f766e 100%) !important;
+  background: linear-gradient(135deg, #0F9D95 0%, #087A73 100%) !important;
   color: #ffffff !important;
   border: 1px solid rgba(255, 255, 255, 0.2) !important;
-  box-shadow: 0 4px 14px rgba(13, 148, 136, 0.25) !important;
+  box-shadow: 0 4px 14px rgba(15, 157, 149, 0.25) !important;
   transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1) !important;
 }
 .k-btn-understand:hover {
-  background: linear-gradient(135deg, #0f766e 0%, #115e59 100%) !important;
+  background: linear-gradient(135deg, #087A73 0%, #065e58 100%) !important;
   color: #ffffff !important;
   transform: translateY(-1.5px);
-  box-shadow: 0 6px 18px rgba(13, 148, 136, 0.35) !important;
+  box-shadow: 0 6px 18px rgba(15, 157, 149, 0.35) !important;
 }
 
 .k-btn-prepare {
-  background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%) !important;
+  background: linear-gradient(135deg, #2F6BDE 0%, #1e52b5 100%) !important;
   color: #ffffff !important;
   border: 1px solid rgba(255, 255, 255, 0.2) !important;
-  box-shadow: 0 4px 14px rgba(37, 99, 235, 0.25) !important;
+  box-shadow: 0 4px 14px rgba(47, 107, 222, 0.25) !important;
   transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1) !important;
 }
 .k-btn-prepare:hover {
-  background: linear-gradient(135deg, #1d4ed8 0%, #1e40af 100%) !important;
+  background: linear-gradient(135deg, #1e52b5 0%, #163f91 100%) !important;
   color: #ffffff !important;
   transform: translateY(-1.5px);
-  box-shadow: 0 6px 18px rgba(37, 99, 235, 0.35) !important;
+  box-shadow: 0 6px 18px rgba(47, 107, 222, 0.35) !important;
 }
 
 .k-btn-connect {
-  background: linear-gradient(135deg, #d97706 0%, #b45309 100%) !important;
+  background: linear-gradient(135deg, #2F9FEA 0%, #1e87cf 100%) !important;
   color: #ffffff !important;
   border: 1px solid rgba(255, 255, 255, 0.2) !important;
-  box-shadow: 0 4px 14px rgba(217, 119, 6, 0.25) !important;
+  box-shadow: 0 4px 14px rgba(47, 159, 234, 0.25) !important;
   transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1) !important;
 }
 .k-btn-connect:hover {
-  background: linear-gradient(135deg, #b45309 0%, #92400e 100%) !important;
+  background: linear-gradient(135deg, #1e87cf 0%, #166ba8 100%) !important;
   color: #ffffff !important;
   transform: translateY(-1.5px);
-  box-shadow: 0 6px 18px rgba(217, 119, 6, 0.35) !important;
+  box-shadow: 0 6px 18px rgba(47, 159, 234, 0.35) !important;
 }
 
 /* Card Top Illustration Canvas: Soft tints matching semantic domain */
 .k-card-top-understand {
-  background: linear-gradient(180deg, rgba(13, 148, 136, 0.08) 0%, rgba(13, 148, 136, 0.01) 100%) !important;
+  background: linear-gradient(180deg, rgba(15, 157, 149, 0.08) 0%, rgba(15, 157, 149, 0.01) 100%) !important;
 }
 [data-theme="dark"] .k-card-top-understand {
-  background: linear-gradient(180deg, rgba(20, 184, 166, 0.15) 0%, rgba(17, 24, 39, 0.3) 100%) !important;
+  background: linear-gradient(180deg, rgba(15, 157, 149, 0.15) 0%, rgba(17, 24, 39, 0.3) 100%) !important;
 }
 
 .k-card-top-prepare {
-  background: linear-gradient(180deg, rgba(37, 99, 235, 0.08) 0%, rgba(37, 99, 235, 0.01) 100%) !important;
+  background: linear-gradient(180deg, rgba(47, 107, 222, 0.08) 0%, rgba(47, 107, 222, 0.01) 100%) !important;
 }
 [data-theme="dark"] .k-card-top-prepare {
-  background: linear-gradient(180deg, rgba(59, 130, 246, 0.15) 0%, rgba(17, 24, 39, 0.3) 100%) !important;
+  background: linear-gradient(180deg, rgba(47, 107, 222, 0.15) 0%, rgba(17, 24, 39, 0.3) 100%) !important;
 }
 
 .k-card-top-connect {
-  background: linear-gradient(180deg, rgba(217, 119, 6, 0.08) 0%, rgba(217, 119, 6, 0.01) 100%) !important;
+  background: linear-gradient(180deg, rgba(47, 159, 234, 0.08) 0%, rgba(47, 159, 234, 0.01) 100%) !important;
 }
 [data-theme="dark"] .k-card-top-connect {
-  background: linear-gradient(180deg, rgba(245, 158, 11, 0.15) 0%, rgba(17, 24, 39, 0.3) 100%) !important;
+  background: linear-gradient(180deg, rgba(47, 159, 234, 0.15) 0%, rgba(17, 24, 39, 0.3) 100%) !important;
 }
 
 /* Journey Card Border Accents on Hover */
@@ -671,16 +686,16 @@ p, .k-body {
 }
 .koshika-journey-card:hover {
   transform: translateY(-3px);
-  box-shadow: 0 12px 28px -4px rgba(13, 118, 110, 0.08), 0 4px 12px -2px rgba(13, 118, 110, 0.04);
+  box-shadow: 0 12px 28px -4px rgba(21, 42, 85, 0.08), 0 4px 12px -2px rgba(21, 42, 85, 0.04);
 }
 .koshika-journey-card.k-card-understand:hover {
-  border-color: rgba(13, 148, 136, 0.45) !important;
+  border-color: #9DDED9 !important;
 }
 .koshika-journey-card.k-card-prepare:hover {
-  border-color: rgba(37, 99, 235, 0.45) !important;
+  border-color: #A9CEF4 !important;
 }
 .koshika-journey-card.k-card-connect:hover {
-  border-color: rgba(217, 119, 6, 0.45) !important;
+  border-color: #A9CEF4 !important;
 }
 
 /* Care Journey Card Image Header Fitted & Cropped */

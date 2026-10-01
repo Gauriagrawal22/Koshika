@@ -118,17 +118,14 @@ const DoctorDashboard = () => {
   return (
     <div className="koshika-animate-fadein pb-5">
       {/* ---------------------------------------------------------------------
-          1. HERO BANNER: WARM GREETING + STATUS + FITTED CLINICAL VIDEO CARD
-      ---------------------------------------------------------------------- */}
-      {/* ---------------------------------------------------------------------
           1. HERO BANNER: WARM GREETING + STATUS + COMPACT CLINICAL VISUAL CARD
       ---------------------------------------------------------------------- */}
       <div
         className="card border-0 mb-3.5 p-3.5 p-md-4 koshika-hero-banner overflow-hidden position-relative"
         style={{
           borderRadius: '20px',
-          background: 'linear-gradient(135deg, #064e3b 0%, #0d9488 60%, #115e59 100%)',
-          boxShadow: '0 8px 24px -4px rgba(6, 78, 59, 0.22)',
+          background: 'linear-gradient(135deg, #152A55 0%, #087A73 50%, #0F9D95 100%)',
+          boxShadow: '0 8px 24px -4px rgba(21, 42, 85, 0.22)',
           border: '1px solid rgba(255, 255, 255, 0.18)',
           color: '#ffffff'
         }}
@@ -177,7 +174,7 @@ const DoctorDashboard = () => {
                 className="btn rounded-pill px-3.5 py-1.5 fw-bold d-inline-flex align-items-center gap-1.5 shadow-sm transition-all hover-translate-y koshika-hero-action-btn"
                 style={{
                   backgroundColor: '#ffffff',
-                  color: '#064e3b',
+                  color: '#087A73',
                   border: 'none',
                   fontSize: '0.82rem'
                 }}
@@ -225,7 +222,7 @@ const DoctorDashboard = () => {
                   <div className="d-flex align-items-center justify-content-between">
                     <span
                       className="badge rounded-pill px-2 py-0.5 text-white fw-semibold"
-                      style={{ backgroundColor: 'rgba(13, 148, 136, 0.9)', backdropFilter: 'blur(4px)', fontSize: '0.66rem' }}
+                      style={{ backgroundColor: 'rgba(15, 157, 149, 0.9)', backdropFilter: 'blur(4px)', fontSize: '0.66rem' }}
                     >
                       Virtual Suite 4B
                     </span>
@@ -247,9 +244,9 @@ const DoctorDashboard = () => {
                       className="btn btn-sm btn-warning rounded-pill px-2.5 py-0.5 fw-bold d-inline-flex align-items-center gap-1 shadow-sm"
                       style={{
                         fontSize: '0.72rem',
-                        backgroundColor: isDark ? 'rgba(234, 179, 8, 0.22)' : '#fef08a',
-                        borderColor: isDark ? '#eab308' : '#fef08a',
-                        color: isDark ? '#fde047' : '#1e293b'
+                        backgroundColor: isDark ? 'rgba(229, 138, 0, 0.22)' : '#FFF6E6',
+                        borderColor: isDark ? '#E58A00' : '#F4D39B',
+                        color: isDark ? '#fbbf24' : '#E58A00'
                       }}
                     >
                       <span className={isDark ? 'text-warning' : 'text-dark'}>Join</span>
@@ -262,7 +259,7 @@ const DoctorDashboard = () => {
               {/* Status Footer Strip */}
               <div className={`p-2 px-3 d-flex align-items-center justify-content-between ${isDark ? 'bg-surface' : 'bg-white'}`}>
                 <div className="d-flex align-items-center gap-1.5">
-                  <Activity size={14} style={{ color: '#0d9488' }} />
+                  <Activity size={14} style={{ color: '#0F9D95' }} />
                   <span className={`small fw-semibold text-truncate ${isDark ? 'text-white' : 'text-dark'}`} style={{ fontSize: '0.74rem', maxWidth: '210px' }}>
                     Mazumdar Shaw &bull; BMT Unit
                   </span>
@@ -288,12 +285,12 @@ const DoctorDashboard = () => {
             badge: 'Patients',
             link: '/doctor/patients',
             icon: Users,
-            accent: '#0d9488',
-            gradient: 'linear-gradient(135deg, #0d9488 0%, #10b981 100%)',
-            bg: isDark ? 'linear-gradient(135deg, rgba(13, 148, 136, 0.22) 0%, rgba(16, 185, 129, 0.1) 100%)' : 'linear-gradient(135deg, #f0fdfa 0%, #ccfbf1 100%)',
-            border: isDark ? 'rgba(45, 212, 191, 0.35)' : 'rgba(13, 148, 136, 0.3)',
-            textCol: isDark ? '#2dd4bf' : '#0f766e',
-            shadow: '0 4px 14px -2px rgba(13, 148, 136, 0.16)'
+            accent: '#0F9D95',
+            gradient: 'linear-gradient(135deg, #0F9D95 0%, #16A36F 100%)',
+            bg: isDark ? 'linear-gradient(135deg, rgba(15, 157, 149, 0.22) 0%, rgba(22, 163, 111, 0.1) 100%)' : '#EAF9F7',
+            border: isDark ? 'rgba(45, 212, 191, 0.35)' : '#9DDED9',
+            textCol: isDark ? '#2dd4bf' : '#087A73',
+            shadow: '0 4px 14px -2px rgba(15, 157, 149, 0.16)'
           },
           {
             label: 'Diagnostic Sign-Offs',
@@ -302,12 +299,12 @@ const DoctorDashboard = () => {
             badge: 'Action Due',
             link: '/doctor/reports',
             icon: FileText,
-            accent: '#e11d48',
-            gradient: 'linear-gradient(135deg, #e11d48 0%, #f43f5e 100%)',
-            bg: isDark ? 'linear-gradient(135deg, rgba(225, 29, 72, 0.22) 0%, rgba(244, 63, 94, 0.1) 100%)' : 'linear-gradient(135deg, #fff1f2 0%, #ffe4e6 100%)',
-            border: isDark ? 'rgba(251, 113, 133, 0.35)' : 'rgba(225, 29, 72, 0.3)',
-            textCol: isDark ? '#fb7185' : '#be123c',
-            shadow: '0 4px 14px -2px rgba(225, 29, 72, 0.16)'
+            accent: '#E5394F',
+            gradient: 'linear-gradient(135deg, #E5394F 0%, #F43F5E 100%)',
+            bg: isDark ? 'linear-gradient(135deg, rgba(229, 57, 79, 0.22) 0%, rgba(244, 63, 94, 0.1) 100%)' : '#FFF0F2',
+            border: isDark ? 'rgba(251, 113, 133, 0.35)' : 'rgba(229, 57, 79, 0.3)',
+            textCol: isDark ? '#fb7185' : '#E5394F',
+            shadow: '0 4px 14px -2px rgba(229, 57, 79, 0.16)'
           },
           {
             label: "Today's Consultations",
@@ -316,12 +313,12 @@ const DoctorDashboard = () => {
             badge: 'Telehealth',
             link: '/doctor/consultations',
             icon: Video,
-            accent: '#2563eb',
-            gradient: 'linear-gradient(135deg, #2563eb 0%, #0284c7 100%)',
-            bg: isDark ? 'linear-gradient(135deg, rgba(37, 99, 235, 0.22) 0%, rgba(2, 132, 199, 0.1) 100%)' : 'linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%)',
-            border: isDark ? 'rgba(96, 165, 250, 0.35)' : 'rgba(37, 99, 235, 0.3)',
-            textCol: isDark ? '#60a5fa' : '#1d4ed8',
-            shadow: '0 4px 14px -2px rgba(37, 99, 235, 0.16)'
+            accent: '#2F6BDE',
+            gradient: 'linear-gradient(135deg, #2F6BDE 0%, #2F9FEA 100%)',
+            bg: isDark ? 'linear-gradient(135deg, rgba(47, 107, 222, 0.22) 0%, rgba(47, 159, 234, 0.1) 100%)' : '#EEF7FF',
+            border: isDark ? 'rgba(96, 165, 250, 0.35)' : '#A9CEF4',
+            textCol: isDark ? '#60a5fa' : '#2F6BDE',
+            shadow: '0 4px 14px -2px rgba(47, 107, 222, 0.16)'
           },
           {
             label: 'Donor Matches Found',
@@ -330,12 +327,12 @@ const DoctorDashboard = () => {
             badge: 'Registry',
             link: '/doctor/banks',
             icon: HeartPulse,
-            accent: '#d97706',
-            gradient: 'linear-gradient(135deg, #d97706 0%, #f59e0b 100%)',
-            bg: isDark ? 'linear-gradient(135deg, rgba(217, 119, 6, 0.22) 0%, rgba(245, 158, 11, 0.1) 100%)' : 'linear-gradient(135deg, #fffbeb 0%, #fef3c7 100%)',
-            border: isDark ? 'rgba(251, 191, 36, 0.35)' : 'rgba(217, 119, 6, 0.3)',
-            textCol: isDark ? '#fbbf24' : '#b45309',
-            shadow: '0 4px 14px -2px rgba(217, 119, 6, 0.16)'
+            accent: '#E58A00',
+            gradient: 'linear-gradient(135deg, #E58A00 0%, #F59E0B 100%)',
+            bg: isDark ? 'linear-gradient(135deg, rgba(229, 138, 0, 0.22) 0%, rgba(245, 158, 11, 0.1) 100%)' : '#FFF6E6',
+            border: isDark ? 'rgba(251, 191, 36, 0.35)' : '#F4D39B',
+            textCol: isDark ? '#fbbf24' : '#E58A00',
+            shadow: '0 4px 14px -2px rgba(229, 138, 0, 0.16)'
           }
         ].map((item, idx) => {
           const ItemIcon = item.icon;

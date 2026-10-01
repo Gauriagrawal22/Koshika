@@ -137,8 +137,8 @@ const AdminDashboard = () => {
         className="card border-0 mb-3.5 p-3.5 p-md-4 koshika-hero-banner overflow-hidden position-relative"
         style={{
           borderRadius: '20px',
-          background: 'linear-gradient(135deg, #064e3b 0%, #0d9488 60%, #115e59 100%)',
-          boxShadow: '0 8px 24px -4px rgba(6, 78, 59, 0.22)',
+          background: 'linear-gradient(135deg, #152A55 0%, #087A73 50%, #0F9D95 100%)',
+          boxShadow: '0 8px 24px -4px rgba(21, 42, 85, 0.22)',
           border: '1px solid rgba(255, 255, 255, 0.18)',
           color: '#ffffff'
         }}
@@ -187,7 +187,7 @@ const AdminDashboard = () => {
                 className="btn rounded-pill px-3.5 py-1.5 fw-bold d-inline-flex align-items-center gap-1.5 shadow-sm transition-all hover-translate-y koshika-hero-action-btn"
                 style={{
                   backgroundColor: '#ffffff',
-                  color: '#064e3b',
+                  color: '#087A73',
                   border: 'none',
                   fontSize: '0.82rem'
                 }}
@@ -298,12 +298,12 @@ const AdminDashboard = () => {
             badge: 'Clinicians',
             link: '/admin/doctors',
             icon: Stethoscope,
-            accent: '#2563eb',
-            gradient: 'linear-gradient(135deg, #2563eb 0%, #3b82f6 100%)',
-            bg: isDark ? 'linear-gradient(135deg, rgba(37, 99, 235, 0.22) 0%, rgba(59, 130, 246, 0.1) 100%)' : 'linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%)',
-            border: isDark ? 'rgba(96, 165, 250, 0.35)' : 'rgba(37, 99, 235, 0.3)',
-            textCol: isDark ? '#60a5fa' : '#1d4ed8',
-            shadow: '0 4px 14px -2px rgba(37, 99, 235, 0.16)'
+            accent: '#2F6BDE',
+            gradient: 'linear-gradient(135deg, #2F6BDE 0%, #3B82F6 100%)',
+            bg: isDark ? 'linear-gradient(135deg, rgba(47, 107, 222, 0.22) 0%, rgba(59, 130, 246, 0.1) 100%)' : '#EEF7FF',
+            border: isDark ? 'rgba(96, 165, 250, 0.35)' : '#A9CEF4',
+            textCol: isDark ? '#60a5fa' : '#2F6BDE',
+            shadow: '0 4px 14px -2px rgba(47, 107, 222, 0.16)'
           },
           {
             label: 'Accredited Biobanks',
@@ -312,12 +312,12 @@ const AdminDashboard = () => {
             badge: 'Cryo-Vaults',
             link: '/admin/banks',
             icon: Building2,
-            accent: '#0d9488',
-            gradient: 'linear-gradient(135deg, #0d9488 0%, #14b8a6 100%)',
-            bg: isDark ? 'linear-gradient(135deg, rgba(13, 148, 136, 0.22) 0%, rgba(20, 184, 166, 0.1) 100%)' : 'linear-gradient(135deg, #f0fdfa 0%, #ccfbf1 100%)',
-            border: isDark ? 'rgba(45, 212, 191, 0.35)' : 'rgba(13, 148, 136, 0.3)',
-            textCol: isDark ? '#2dd4bf' : '#0f766e',
-            shadow: '0 4px 14px -2px rgba(13, 148, 136, 0.16)'
+            accent: '#0F9D95',
+            gradient: 'linear-gradient(135deg, #0F9D95 0%, #16A36F 100%)',
+            bg: isDark ? 'linear-gradient(135deg, rgba(15, 157, 149, 0.22) 0%, rgba(20, 184, 166, 0.1) 100%)' : '#EAF9F7',
+            border: isDark ? 'rgba(45, 212, 191, 0.35)' : '#9DDED9',
+            textCol: isDark ? '#2dd4bf' : '#087A73',
+            shadow: '0 4px 14px -2px rgba(15, 157, 149, 0.16)'
           },
           {
             label: 'Active Care Patients',
@@ -326,12 +326,12 @@ const AdminDashboard = () => {
             badge: 'Patient Cohort',
             link: '/admin/users',
             icon: Users,
-            accent: '#7c3aed',
-            gradient: 'linear-gradient(135deg, #7c3aed 0%, #8b5cf6 100%)',
-            bg: isDark ? 'linear-gradient(135deg, rgba(124, 58, 237, 0.22) 0%, rgba(139, 92, 246, 0.1) 100%)' : 'linear-gradient(135deg, #faf5ff 0%, #ede9fe 100%)',
-            border: isDark ? 'rgba(192, 132, 252, 0.35)' : 'rgba(124, 58, 237, 0.3)',
-            textCol: isDark ? '#c084fc' : '#6d28d9',
-            shadow: '0 4px 14px -2px rgba(124, 58, 237, 0.16)'
+            accent: '#7B2ED6',
+            gradient: 'linear-gradient(135deg, #7B2ED6 0%, #9B6DFF 100%)',
+            bg: isDark ? 'linear-gradient(135deg, rgba(123, 46, 214, 0.22) 0%, rgba(155, 109, 255, 0.1) 100%)' : '#F5F0FF',
+            border: isDark ? 'rgba(192, 132, 252, 0.35)' : '#D5BCFA',
+            textCol: isDark ? '#c084fc' : '#7B2ED6',
+            shadow: '0 4px 14px -2px rgba(123, 46, 214, 0.16)'
           },
           {
             label: 'Security & Audit (24h)',
@@ -340,12 +340,12 @@ const AdminDashboard = () => {
             badge: 'All Nominal',
             link: '/admin/activity',
             icon: ShieldCheck,
-            accent: '#059669',
-            gradient: 'linear-gradient(135deg, #059669 0%, #10b981 100%)',
-            bg: isDark ? 'linear-gradient(135deg, rgba(5, 150, 105, 0.22) 0%, rgba(16, 185, 129, 0.1) 100%)' : 'linear-gradient(135deg, #ecfdf5 0%, #d1fae5 100%)',
-            border: isDark ? 'rgba(52, 211, 153, 0.35)' : 'rgba(5, 150, 105, 0.3)',
-            textCol: isDark ? '#34d399' : '#047857',
-            shadow: '0 4px 14px -2px rgba(5, 150, 105, 0.16)'
+            accent: '#16A36F',
+            gradient: 'linear-gradient(135deg, #16A36F 0%, #10B981 100%)',
+            bg: isDark ? 'linear-gradient(135deg, rgba(22, 163, 111, 0.22) 0%, rgba(16, 185, 129, 0.1) 100%)' : '#ECF9F3',
+            border: isDark ? 'rgba(52, 211, 153, 0.35)' : 'rgba(22, 163, 111, 0.3)',
+            textCol: isDark ? '#34d399' : '#16A36F',
+            shadow: '0 4px 14px -2px rgba(22, 163, 111, 0.16)'
           }
         ].map((item, idx) => {
           const ItemIcon = item.icon;

@@ -83,7 +83,7 @@ const Dashboard = () => {
       cardClass: 'k-card-understand',
       title: t.cardUnderstandTitle || 'Learn about stem cells in simple language.',
       bullet: t.cardUnderstandBullet || 'What are stem cells?',
-      bulletColor: '#0d9488',
+      bulletColor: '#0F9D95',
       image: '/images/home/card_understand_clean.jpg',
       primaryLink: '/learn',
       primaryLabel: t.cardExploreLearning || 'Explore Learning',
@@ -100,7 +100,7 @@ const Dashboard = () => {
       cardClass: 'k-card-prepare',
       title: t.cardPrepareTitle || 'Make sense of your own information.',
       bullet: t.cardPrepareBullet || 'Upload medical report',
-      bulletColor: '#2563eb',
+      bulletColor: '#2F6BDE',
       image: '/images/home/card_prepare_clean.jpg',
       primaryLink: '/ocr-reports',
       primaryLabel: t.cardUploadReport || 'Upload Report',
@@ -117,7 +117,7 @@ const Dashboard = () => {
       cardClass: 'k-card-connect',
       title: t.cardConnectTitle || 'Find the right kind of support.',
       bullet: t.cardConnectBullet || 'Find specialists',
-      bulletColor: '#d97706',
+      bulletColor: '#2F9FEA',
       image: '/images/home/card_connect_clean.jpg',
       primaryLink: '/find-care/doctors',
       primaryLabel: t.cardFindSpecialists || 'Find Specialists',
@@ -133,8 +133,8 @@ const Dashboard = () => {
       title: t.quickAssessmentTitle || 'Baseline Assessment',
       desc: t.quickAssessmentDesc || 'Check preliminary health eligibility & criteria',
       icon: ClipboardCheck,
-      iconColor: '#2563eb',
-      iconBg: 'rgba(37, 99, 235, 0.1)',
+      iconColor: '#2F6BDE',
+      iconBg: '#EEF7FF',
       link: '/preliminary-assessment',
       badge: t.quickAssessmentBadge || 'Health Check'
     },
@@ -143,8 +143,8 @@ const Dashboard = () => {
       title: t.quickReportsTitle || 'Medical Reports & OCR',
       desc: t.quickReportsDesc || 'Upload lab tests, CBC & view HLA allele parameters',
       icon: FileText,
-      iconColor: '#2563eb',
-      iconBg: 'rgba(37, 99, 235, 0.1)',
+      iconColor: '#2F6BDE',
+      iconBg: '#EEF7FF',
       link: '/ocr-reports',
       badge: t.quickReportsBadge || 'Smart OCR'
     },
@@ -153,8 +153,8 @@ const Dashboard = () => {
       title: t.quickConsultTitle || 'Doctor Consultations',
       desc: t.quickConsultDesc || 'Join video telehealth calls & hospital OPD visits',
       icon: Calendar,
-      iconColor: '#d97706',
-      iconBg: 'rgba(217, 119, 6, 0.1)',
+      iconColor: '#2F9FEA',
+      iconBg: '#EEF7FF',
       link: '/appointments',
       badge: t.quickConsultBadge || 'Telehealth'
     }
@@ -163,20 +163,14 @@ const Dashboard = () => {
   return (
     <div className="koshika-animate-fadein pb-5">
       {/* ---------------------------------------------------------------------
-          1. HERO: SHORT WELCOME + CTA + PROPERLY FITTED EDUCATIONAL VIDEO
-      ---------------------------------------------------------------------- */}
-      {/* ---------------------------------------------------------------------
-          1. HERO: MATCHING USER REFERENCE PALETTE & BG
-      ---------------------------------------------------------------------- */}
-      {/* ---------------------------------------------------------------------
           1. HERO: COMPACT MEDIUM-SIZE WELCOME + FITTED EDUCATIONAL VIDEO
       ---------------------------------------------------------------------- */}
       <div
         className="card border-0 mb-3.5 p-3.5 p-md-4 koshika-hero-banner overflow-hidden position-relative"
         style={{ 
           borderRadius: '20px',
-          background: 'linear-gradient(135deg, #064e3b 0%, #0d9488 60%, #115e59 100%)',
-          boxShadow: '0 8px 24px -4px rgba(6, 78, 59, 0.22)',
+          background: 'linear-gradient(135deg, #152A55 0%, #087A73 50%, #0F9D95 100%)',
+          boxShadow: '0 8px 24px -4px rgba(21, 42, 85, 0.22)',
           border: '1px solid rgba(255, 255, 255, 0.18)',
           color: '#ffffff'
         }}
@@ -205,7 +199,7 @@ const Dashboard = () => {
                 className="btn rounded-pill px-3.5 py-1.5 fw-bold d-inline-flex align-items-center gap-1.5 shadow-sm transition-all hover-translate-y koshika-hero-action-btn"
                 style={{
                   backgroundColor: '#ffffff',
-                  color: '#064e3b',
+                  color: '#087A73',
                   border: 'none',
                   fontSize: '0.82rem'
                 }}
