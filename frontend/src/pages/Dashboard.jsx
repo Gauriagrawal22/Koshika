@@ -168,57 +168,60 @@ const Dashboard = () => {
       {/* ---------------------------------------------------------------------
           1. HERO: MATCHING USER REFERENCE PALETTE & BG
       ---------------------------------------------------------------------- */}
+      {/* ---------------------------------------------------------------------
+          1. HERO: COMPACT MEDIUM-SIZE WELCOME + FITTED EDUCATIONAL VIDEO
+      ---------------------------------------------------------------------- */}
       <div
-        className="card border-0 mb-4.5 p-4 p-md-5 koshika-hero-banner overflow-hidden position-relative"
+        className="card border-0 mb-3.5 p-3.5 p-md-4 koshika-hero-banner overflow-hidden position-relative"
         style={{ 
-          borderRadius: '28px',
+          borderRadius: '20px',
           background: 'linear-gradient(135deg, #064e3b 0%, #0d9488 60%, #115e59 100%)',
-          boxShadow: '0 10px 30px -5px rgba(6, 78, 59, 0.25)',
+          boxShadow: '0 8px 24px -4px rgba(6, 78, 59, 0.22)',
           border: '1px solid rgba(255, 255, 255, 0.18)',
           color: '#ffffff'
         }}
       >
-        <div className="row g-4 align-items-center">
+        <div className="row g-3.5 align-items-center">
           {/* Left: Headline & CTAs */}
-          <div className="col-12 col-lg-7">
+          <div className="col-12 col-md-7 col-lg-7">
             <h1
-              className="koshika-editorial-heading mb-2.5 text-white"
-              style={{ fontSize: 'clamp(2rem, 3.5vw, 2.85rem)', color: '#ffffff' }}
+              className="fw-bold mb-1.5 text-white"
+              style={{ fontSize: 'clamp(1.35rem, 2.2vw, 1.7rem)', letterSpacing: '-0.02em', lineHeight: 1.25 }}
             >
               {t.greetingHello || 'Hello'} 👋<br />
               {t.heroTakeOneStep || "Let's take this one step at a time."}
             </h1>
 
             <p
-              className="mb-4 text-white"
-              style={{ fontSize: '1rem', lineHeight: 1.6, maxWidth: '520px', color: 'rgba(255, 255, 255, 0.92)' }}
+              className="mb-3 text-white"
+              style={{ fontSize: '0.88rem', lineHeight: 1.45, maxWidth: '460px', color: 'rgba(255, 255, 255, 0.9)' }}
             >
               {t.heroUnderstandSupport || "Understand stem cells, make sense of your information, and find the right support."}
             </p>
 
-            <div className="d-flex align-items-center gap-2.5 flex-wrap">
+            <div className="d-flex align-items-center gap-2 flex-wrap">
               <Link
                 to="/preliminary-assessment"
-                className="btn rounded-pill px-4 py-2.5 fw-bold d-inline-flex align-items-center gap-2 shadow-sm transition-all hover-translate-y koshika-hero-action-btn"
+                className="btn rounded-pill px-3.5 py-1.5 fw-bold d-inline-flex align-items-center gap-1.5 shadow-sm transition-all hover-translate-y koshika-hero-action-btn"
                 style={{
                   backgroundColor: '#ffffff',
                   color: '#064e3b',
                   border: 'none',
-                  fontSize: '0.9rem'
+                  fontSize: '0.82rem'
                 }}
               >
                 <span>{t.startYourJourney || "Start your journey"}</span>
-                <ArrowRight size={16} color="currentColor" />
+                <ArrowRight size={14} color="currentColor" />
               </Link>
 
               <Link
                 to="/learn"
-                className="btn rounded-pill px-4 py-2.5 fw-semibold d-inline-flex align-items-center gap-1.5 shadow-xs transition-all hover-translate-y"
+                className="btn rounded-pill px-3 py-1.5 fw-semibold d-inline-flex align-items-center gap-1 shadow-xs transition-all hover-translate-y"
                 style={{
                   backgroundColor: 'rgba(255, 255, 255, 0.18)',
                   color: '#ffffff',
                   border: '1px solid rgba(255, 255, 255, 0.35)',
-                  fontSize: '0.9rem'
+                  fontSize: '0.82rem'
                 }}
               >
                 <span>{t.justBrowsing || "Just browsing"}</span>
@@ -226,16 +229,21 @@ const Dashboard = () => {
             </div>
           </div>
 
-          {/* Right: Video Card matching Reference */}
-          <div className="col-12 col-lg-5">
+          {/* Right: Clean, Properly Proportioned Video Preview Card */}
+          <div className="col-12 col-md-5 col-lg-5">
             <div
-              className="card border-0 overflow-hidden shadow-xs top-head-subcard"
-              style={{ borderRadius: '24px', backgroundColor: 'var(--k-surface)', border: '1px solid var(--k-border)' }}
+              className="card border-0 overflow-hidden shadow-sm top-head-subcard ms-md-auto"
+              style={{
+                borderRadius: '16px',
+                backgroundColor: 'var(--k-surface)',
+                border: '1px solid var(--k-border)',
+                maxWidth: '350px'
+              }}
             >
-              {/* Video Thumbnail with Hover Overlay */}
+              {/* Video Thumbnail with Hover Overlay & Play Badge */}
               <div
                 className="position-relative cursor-pointer overflow-hidden"
-                style={{ height: '175px' }}
+                style={{ height: '110px' }}
                 onClick={() => setShowVideoModal(true)}
                 role="button"
                 tabIndex={0}
@@ -248,15 +256,34 @@ const Dashboard = () => {
                   className="w-100 h-100 object-fit-cover transition-all"
                   onError={(e) => { e.target.style.display = 'none'; }}
                 />
+                {/* Center Play Overlay Icon */}
+                <div
+                  className="position-absolute top-50 start-50 translate-middle rounded-circle d-flex align-items-center justify-content-center shadow-sm"
+                  style={{
+                    width: '32px',
+                    height: '32px',
+                    backgroundColor: 'rgba(6, 78, 59, 0.88)',
+                    color: '#ffffff',
+                    backdropFilter: 'blur(4px)'
+                  }}
+                >
+                  <Play size={13} fill="#ffffff" style={{ marginLeft: '2px' }} />
+                </div>
               </div>
 
               {/* Video Info Strip */}
-              <div className="d-flex align-items-center justify-content-between" style={{ padding: '16px 20px', backgroundColor: 'var(--k-surface)' }}>
-                <div style={{ paddingRight: '12px' }}>
-                  <h3 className="fw-bold mb-1" style={{ fontSize: '0.96rem', color: 'var(--k-text-primary)', letterSpacing: '-0.01em' }}>
+              <div
+                className="d-flex align-items-center justify-content-between p-2 px-3"
+                style={{ backgroundColor: 'var(--k-surface)' }}
+              >
+                <div style={{ paddingRight: '8px' }}>
+                  <h3
+                    className="fw-bold mb-0 text-truncate"
+                    style={{ fontSize: '0.84rem', color: 'var(--k-text-primary)', letterSpacing: '-0.01em', maxWidth: '210px' }}
+                  >
                     {t.whatAreStemCellsTitle || "What are stem cells?"}
                   </h3>
-                  <p className="mb-0" style={{ fontSize: '0.8rem', color: 'var(--k-text-secondary)', lineHeight: '1.4' }}>
+                  <p className="mb-0 text-truncate" style={{ fontSize: '0.72rem', color: 'var(--k-text-secondary)', maxWidth: '210px' }}>
                     {t.video3MinIntro || "A 3 minute intro, in plain language"}
                   </p>
                 </div>
@@ -264,10 +291,15 @@ const Dashboard = () => {
                 <button
                   type="button"
                   onClick={() => setShowVideoModal(true)}
-                  className="btn btn-sm rounded-pill px-3.5 py-2 fw-bold d-inline-flex align-items-center gap-1.5 shadow-xs flex-shrink-0"
-                  style={{ backgroundColor: 'var(--k-surface-tint)', border: '1px solid var(--k-border)', color: 'var(--k-primary)', fontSize: '0.82rem' }}
+                  className="btn btn-sm rounded-pill px-2.5 py-1 fw-bold d-inline-flex align-items-center gap-1 shadow-xs flex-shrink-0"
+                  style={{
+                    backgroundColor: 'var(--k-surface-tint)',
+                    border: '1px solid var(--k-border)',
+                    color: 'var(--k-primary)',
+                    fontSize: '0.74rem'
+                  }}
                 >
-                  <Play size={13} fill="currentColor" />
+                  <Play size={11} fill="currentColor" />
                   <span>{t.watch || "Watch"}</span>
                 </button>
               </div>

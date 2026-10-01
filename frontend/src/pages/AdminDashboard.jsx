@@ -131,94 +131,95 @@ const AdminDashboard = () => {
       )}
 
       {/* ---------------------------------------------------------------------
-          1. HERO BANNER: WARM GREETING + STATUS + FITTED NETWORK PREVIEW
+          1. HERO BANNER: WARM GREETING + STATUS + COMPACT INFRASTRUCTURE CARD
       ---------------------------------------------------------------------- */}
       <div
-        className="card border-0 rounded-4 mb-4 p-4 p-md-4 koshika-hero-banner overflow-hidden position-relative"
+        className="card border-0 mb-3.5 p-3.5 p-md-4 koshika-hero-banner overflow-hidden position-relative"
         style={{
+          borderRadius: '20px',
           background: 'linear-gradient(135deg, #064e3b 0%, #0d9488 60%, #115e59 100%)',
-          boxShadow: '0 10px 30px -5px rgba(6, 78, 59, 0.25)',
+          boxShadow: '0 8px 24px -4px rgba(6, 78, 59, 0.22)',
           border: '1px solid rgba(255, 255, 255, 0.18)',
           color: '#ffffff'
         }}
       >
-        <div className="row g-4 align-items-center">
+        <div className="row g-3.5 align-items-center">
           {/* Left Column: Greeting, Role & Primary CTAs */}
-          <div className="col-12 col-lg-7">
-            <div className="d-flex align-items-center gap-2 mb-2.5 flex-wrap">
+          <div className="col-12 col-md-7 col-lg-7">
+            <div className="d-flex align-items-center gap-2 mb-2 flex-wrap">
               <span
-                className="badge rounded-pill px-3 py-1.5 fw-semibold d-inline-flex align-items-center gap-1.5"
-                style={{ backgroundColor: 'rgba(255, 255, 255, 0.18)', color: '#ffffff', border: '1px solid rgba(255, 255, 255, 0.3)', fontSize: '0.76rem' }}
+                className="badge rounded-pill px-2.5 py-1 fw-semibold d-inline-flex align-items-center gap-1.5"
+                style={{ backgroundColor: 'rgba(255, 255, 255, 0.18)', color: '#ffffff', border: '1px solid rgba(255, 255, 255, 0.3)', fontSize: '0.72rem' }}
               >
                 <span
                   className="rounded-circle d-inline-block bg-success"
-                  style={{ width: '7px', height: '7px' }}
+                  style={{ width: '6px', height: '6px' }}
                 />
                 <span>Platform Governance &bull; All Systems Nominal</span>
               </span>
 
               <span
-                className="badge rounded-pill px-3 py-1.5 fw-semibold d-inline-flex align-items-center gap-1.5"
-                style={{ backgroundColor: 'rgba(255, 255, 255, 0.18)', color: '#ffffff', border: '1px solid rgba(255, 255, 255, 0.3)', fontSize: '0.76rem' }}
+                className="badge rounded-pill px-2.5 py-1 fw-semibold d-inline-flex align-items-center gap-1"
+                style={{ backgroundColor: 'rgba(255, 255, 255, 0.18)', color: '#ffffff', border: '1px solid rgba(255, 255, 255, 0.3)', fontSize: '0.72rem' }}
               >
-                <ShieldCheck size={13} />
+                <ShieldCheck size={12} />
                 <span>CDSCO Licensed &bull; HIPAA &amp; ISO 27001 Active</span>
               </span>
             </div>
 
             <h1
-              className="fw-extrabold text-white mb-2"
-              style={{ fontSize: 'clamp(1.5rem, 3vw, 2.15rem)', letterSpacing: '-0.025em', lineHeight: 1.25 }}
+              className="fw-bold text-white mb-1.5"
+              style={{ fontSize: 'clamp(1.35rem, 2.2vw, 1.7rem)', letterSpacing: '-0.02em', lineHeight: 1.25 }}
             >
               {getGreeting()}, {adminName} 🛡️
             </h1>
 
             <p
-              className="text-white text-opacity-90 mb-3.5"
-              style={{ fontSize: '0.94rem', lineHeight: 1.5, maxWidth: '520px' }}
+              className="text-white text-opacity-90 mb-3"
+              style={{ fontSize: '0.88rem', lineHeight: 1.45, maxWidth: '480px' }}
             >
               KOSHIKA Healthcare Platform Operations. Review clinician licenses, verify diagnostic report safety standards, and oversee national stem cell bank partnerships.
             </p>
 
-            <div className="d-flex align-items-center gap-2.5 flex-wrap">
+            <div className="d-flex align-items-center gap-2 flex-wrap">
               <Link
                 to="/admin/doctors"
-                className="btn rounded-pill px-4 py-2.5 fw-bold d-inline-flex align-items-center gap-2 shadow-sm transition-all hover-translate-y koshika-hero-action-btn"
+                className="btn rounded-pill px-3.5 py-1.5 fw-bold d-inline-flex align-items-center gap-1.5 shadow-sm transition-all hover-translate-y koshika-hero-action-btn"
                 style={{
                   backgroundColor: '#ffffff',
                   color: '#064e3b',
                   border: 'none',
-                  fontSize: '0.88rem'
+                  fontSize: '0.82rem'
                 }}
               >
-                <Users size={16} color="currentColor" />
+                <Users size={14} color="currentColor" />
                 <span>Doctor Directory</span>
-                <ArrowRight size={15} color="currentColor" />
+                <ArrowRight size={13} color="currentColor" />
               </Link>
 
               <Link
                 to="/admin/activity"
-                className="btn rounded-pill px-3.5 py-2.5 fw-semibold d-inline-flex align-items-center gap-1.5 hover-translate-y"
+                className="btn rounded-pill px-3 py-1.5 fw-semibold d-inline-flex align-items-center gap-1 hover-translate-y"
                 style={{
                   backgroundColor: 'rgba(255, 255, 255, 0.18)',
                   color: '#ffffff',
                   border: '1px solid rgba(255, 255, 255, 0.35)',
-                  fontSize: '0.85rem'
+                  fontSize: '0.82rem'
                 }}
               >
-                <Activity size={15} color="#ffffff" />
+                <Activity size={14} color="#ffffff" />
                 <span className="text-white">Security Audit</span>
               </Link>
             </div>
           </div>
 
           {/* Right Column: Properly Fitted Platform Infrastructure Visual Card */}
-          <div className="col-12 col-lg-5">
+          <div className="col-12 col-md-5 col-lg-5">
             <div
-              className="card border-0 rounded-4 overflow-hidden bg-white shadow-xs"
-              style={{ border: '1px solid #e2e8f0' }}
+              className="card border-0 rounded-4 overflow-hidden bg-white shadow-xs ms-md-auto"
+              style={{ border: '1px solid #e2e8f0', maxWidth: '350px' }}
             >
-              <div className="position-relative overflow-hidden" style={{ height: '160px' }}>
+              <div className="position-relative overflow-hidden" style={{ height: '125px' }}>
                 <img
                   src="/images/home/admin_network_ecosystem.jpg"
                   alt="KOSHIKA Stem Cell Biobank Network"
@@ -228,19 +229,19 @@ const AdminDashboard = () => {
 
                 {/* Dark Gradient Overlay */}
                 <div
-                  className="position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-between p-3"
-                  style={{ background: 'linear-gradient(180deg, rgba(15, 23, 42, 0.4) 0%, rgba(15, 23, 42, 0.7) 100%)' }}
+                  className="position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-between p-2.5"
+                  style={{ background: 'linear-gradient(180deg, rgba(15, 23, 42, 0.35) 0%, rgba(15, 23, 42, 0.75) 100%)' }}
                 >
                   <div className="d-flex align-items-center justify-content-between">
                     <span
-                      className="badge rounded-pill px-2.5 py-1 text-white fw-semibold"
-                      style={{ backgroundColor: 'rgba(13, 148, 136, 0.85)', backdropFilter: 'blur(4px)', fontSize: '0.7rem' }}
+                      className="badge rounded-pill px-2 py-0.5 text-white fw-semibold"
+                      style={{ backgroundColor: 'rgba(13, 148, 136, 0.9)', backdropFilter: 'blur(4px)', fontSize: '0.66rem' }}
                     >
                       Biobank Registry Active
                     </span>
                     <span
-                      className="badge rounded-pill px-2.5 py-1 text-white fw-normal"
-                      style={{ backgroundColor: 'rgba(0, 0, 0, 0.5)', backdropFilter: 'blur(4px)', fontSize: '0.68rem' }}
+                      className="badge rounded-pill px-2 py-0.5 text-white fw-normal"
+                      style={{ backgroundColor: 'rgba(0, 0, 0, 0.5)', backdropFilter: 'blur(4px)', fontSize: '0.64rem' }}
                     >
                       256-Bit Encrypted
                     </span>
@@ -248,35 +249,35 @@ const AdminDashboard = () => {
 
                   <div className="d-flex align-items-center justify-content-between text-white">
                     <div>
-                      <div className="fw-bold small" style={{ fontSize: '0.85rem' }}>14 Hospital Centers Online</div>
-                      <div className="small opacity-75" style={{ fontSize: '0.72rem' }}>99.98% Telehealth Uptime</div>
+                      <div className="fw-bold small" style={{ fontSize: '0.8rem' }}>14 Hospital Centers Online</div>
+                      <div className="small opacity-75" style={{ fontSize: '0.68rem' }}>99.98% Telehealth Uptime</div>
                     </div>
                     <Link
                       to="/admin/banks"
-                      className="btn btn-sm btn-warning rounded-pill px-3 py-1 fw-bold d-inline-flex align-items-center gap-1 shadow-sm"
+                      className="btn btn-sm btn-warning rounded-pill px-2.5 py-0.5 fw-bold d-inline-flex align-items-center gap-1 shadow-sm"
                       style={{
-                        fontSize: '0.75rem',
+                        fontSize: '0.72rem',
                         backgroundColor: isDark ? 'rgba(234, 179, 8, 0.22)' : '#fef08a',
                         borderColor: isDark ? '#eab308' : '#fef08a',
                         color: isDark ? '#fde047' : '#1e293b'
                       }}
                     >
-                      <span className={isDark ? 'text-warning' : 'text-dark'}>Audit Biobanks</span>
-                      <ArrowRight size={13} className={isDark ? 'text-warning' : 'text-dark'} />
+                      <span className={isDark ? 'text-warning' : 'text-dark'}>Audit</span>
+                      <ArrowRight size={11} className={isDark ? 'text-warning' : 'text-dark'} />
                     </Link>
                   </div>
                 </div>
               </div>
 
               {/* Status Footer Strip */}
-              <div className={`p-3 d-flex align-items-center justify-content-between ${isDark ? 'bg-surface' : 'bg-white'}`}>
-                <div className="d-flex align-items-center gap-2">
-                  <Lock size={15} style={{ color: '#0d9488' }} />
-                  <span className={`small fw-semibold ${isDark ? 'text-white' : 'text-dark'}`} style={{ fontSize: '0.8rem' }}>
+              <div className={`p-2 px-3 d-flex align-items-center justify-content-between ${isDark ? 'bg-surface' : 'bg-white'}`}>
+                <div className="d-flex align-items-center gap-1.5">
+                  <Lock size={14} style={{ color: '#0d9488' }} />
+                  <span className={`small fw-semibold text-truncate ${isDark ? 'text-white' : 'text-dark'}`} style={{ fontSize: '0.74rem', maxWidth: '210px' }}>
                     National Registry Integration Active
                   </span>
                 </div>
-                <span className="badge rounded-pill bg-light text-secondary border small px-2 py-0.5" style={{ fontSize: '0.68rem' }}>
+                <span className="badge rounded-pill bg-light text-secondary border small px-2 py-0.5" style={{ fontSize: '0.64rem' }}>
                   Live Telemetry
                 </span>
               </div>
@@ -286,9 +287,9 @@ const AdminDashboard = () => {
       </div>
 
       {/* ---------------------------------------------------------------------
-          OPERATIONAL GOVERNANCE STRIP: CREATIVE & COLORFUL SYSTEM METRICS
+          OPERATIONAL GOVERNANCE STRIP: COMPACT, HIGH-READABILITY SYSTEM METRICS
       ---------------------------------------------------------------------- */}
-      <div className="row g-3.5 mb-4">
+      <div className="row g-2.5 mb-3.5">
         {[
           {
             label: 'Licensed Clinicians',
@@ -299,10 +300,10 @@ const AdminDashboard = () => {
             icon: Stethoscope,
             accent: '#2563eb',
             gradient: 'linear-gradient(135deg, #2563eb 0%, #3b82f6 100%)',
-            bg: isDark ? 'linear-gradient(135deg, rgba(37, 99, 235, 0.25) 0%, rgba(59, 130, 246, 0.12) 100%)' : 'linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%)',
+            bg: isDark ? 'linear-gradient(135deg, rgba(37, 99, 235, 0.22) 0%, rgba(59, 130, 246, 0.1) 100%)' : 'linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%)',
             border: isDark ? 'rgba(96, 165, 250, 0.35)' : 'rgba(37, 99, 235, 0.3)',
             textCol: isDark ? '#60a5fa' : '#1d4ed8',
-            shadow: '0 8px 24px -4px rgba(37, 99, 235, 0.22)'
+            shadow: '0 4px 14px -2px rgba(37, 99, 235, 0.16)'
           },
           {
             label: 'Accredited Biobanks',
@@ -313,10 +314,10 @@ const AdminDashboard = () => {
             icon: Building2,
             accent: '#0d9488',
             gradient: 'linear-gradient(135deg, #0d9488 0%, #14b8a6 100%)',
-            bg: isDark ? 'linear-gradient(135deg, rgba(13, 148, 136, 0.25) 0%, rgba(20, 184, 166, 0.12) 100%)' : 'linear-gradient(135deg, #f0fdfa 0%, #ccfbf1 100%)',
+            bg: isDark ? 'linear-gradient(135deg, rgba(13, 148, 136, 0.22) 0%, rgba(20, 184, 166, 0.1) 100%)' : 'linear-gradient(135deg, #f0fdfa 0%, #ccfbf1 100%)',
             border: isDark ? 'rgba(45, 212, 191, 0.35)' : 'rgba(13, 148, 136, 0.3)',
             textCol: isDark ? '#2dd4bf' : '#0f766e',
-            shadow: '0 8px 24px -4px rgba(13, 148, 136, 0.22)'
+            shadow: '0 4px 14px -2px rgba(13, 148, 136, 0.16)'
           },
           {
             label: 'Active Care Patients',
@@ -326,11 +327,11 @@ const AdminDashboard = () => {
             link: '/admin/users',
             icon: Users,
             accent: '#7c3aed',
-            gradient: 'linear-gradient(135deg, #7c3aed 0%, #a855f7 100%)',
-            bg: isDark ? 'linear-gradient(135deg, rgba(124, 58, 237, 0.25) 0%, rgba(168, 85, 247, 0.12) 100%)' : 'linear-gradient(135deg, #faf5ff 0%, #ede9fe 100%)',
+            gradient: 'linear-gradient(135deg, #7c3aed 0%, #8b5cf6 100%)',
+            bg: isDark ? 'linear-gradient(135deg, rgba(124, 58, 237, 0.22) 0%, rgba(139, 92, 246, 0.1) 100%)' : 'linear-gradient(135deg, #faf5ff 0%, #ede9fe 100%)',
             border: isDark ? 'rgba(192, 132, 252, 0.35)' : 'rgba(124, 58, 237, 0.3)',
             textCol: isDark ? '#c084fc' : '#6d28d9',
-            shadow: '0 8px 24px -4px rgba(124, 58, 237, 0.22)'
+            shadow: '0 4px 14px -2px rgba(124, 58, 237, 0.16)'
           },
           {
             label: 'Security & Audit (24h)',
@@ -341,10 +342,10 @@ const AdminDashboard = () => {
             icon: ShieldCheck,
             accent: '#059669',
             gradient: 'linear-gradient(135deg, #059669 0%, #10b981 100%)',
-            bg: isDark ? 'linear-gradient(135deg, rgba(5, 150, 105, 0.25) 0%, rgba(16, 185, 129, 0.12) 100%)' : 'linear-gradient(135deg, #ecfdf5 0%, #d1fae5 100%)',
+            bg: isDark ? 'linear-gradient(135deg, rgba(5, 150, 105, 0.22) 0%, rgba(16, 185, 129, 0.1) 100%)' : 'linear-gradient(135deg, #ecfdf5 0%, #d1fae5 100%)',
             border: isDark ? 'rgba(52, 211, 153, 0.35)' : 'rgba(5, 150, 105, 0.3)',
             textCol: isDark ? '#34d399' : '#047857',
-            shadow: '0 8px 24px -4px rgba(5, 150, 105, 0.22)'
+            shadow: '0 4px 14px -2px rgba(5, 150, 105, 0.16)'
           }
         ].map((item, idx) => {
           const ItemIcon = item.icon;
@@ -352,32 +353,41 @@ const AdminDashboard = () => {
             <div key={idx} className="col-6 col-lg-3">
               <Link
                 to={item.link}
-                className="card border-0 rounded-4 p-3.5 text-decoration-none transition-all hover-translate-y d-flex flex-column justify-content-between h-100 position-relative overflow-hidden"
+                className="card border-0 rounded-3 p-2.5 px-3 text-decoration-none transition-all hover-translate-y d-flex flex-column justify-content-between h-100 position-relative overflow-hidden shadow-xs"
                 style={{
                   background: item.bg,
-                  border: `1.5px solid ${item.border}`,
+                  border: `1px solid ${item.border}`,
                   boxShadow: item.shadow
                 }}
               >
-                {/* Top: Colorful Icon + Pill Badge */}
-                <div className="d-flex align-items-center justify-content-between mb-3">
-                  <div
-                    className="rounded-3 d-flex align-items-center justify-content-center text-white flex-shrink-0 shadow-xs"
-                    style={{
-                      width: '40px',
-                      height: '40px',
-                      background: item.gradient
-                    }}
-                  >
-                    <ItemIcon size={20} />
+                {/* Top: Icon + Label + Pill Badge */}
+                <div className="d-flex align-items-center justify-content-between mb-2">
+                  <div className="d-flex align-items-center gap-2 min-w-0">
+                    <div
+                      className="rounded-2 d-flex align-items-center justify-content-center text-white flex-shrink-0 shadow-xs"
+                      style={{
+                        width: '28px',
+                        height: '28px',
+                        background: item.gradient
+                      }}
+                    >
+                      <ItemIcon size={14} />
+                    </div>
+                    <span
+                      className={`fw-bold small text-truncate ${isDark ? 'text-white' : 'text-dark'}`}
+                      style={{ fontSize: '0.78rem' }}
+                      title={item.label}
+                    >
+                      {item.label}
+                    </span>
                   </div>
                   <span
-                    className="badge rounded-pill px-2.5 py-1 fw-bold small shadow-xs"
+                    className="badge rounded-pill px-2 py-0.5 fw-bold flex-shrink-0"
                     style={{
-                      backgroundColor: 'rgba(255, 255, 255, 0.75)',
+                      backgroundColor: isDark ? 'rgba(0, 0, 0, 0.4)' : 'rgba(255, 255, 255, 0.85)',
                       color: item.textCol,
                       border: `1px solid ${item.border}`,
-                      fontSize: '0.68rem',
+                      fontSize: '0.64rem',
                       backdropFilter: 'blur(4px)'
                     }}
                   >
@@ -385,17 +395,21 @@ const AdminDashboard = () => {
                   </span>
                 </div>
 
-                {/* Bottom: Big Count + Label + Subtitle */}
-                <div>
-                  <div className="fw-extrabold mb-0.5" style={{ fontSize: '1.95rem', lineHeight: 1.1, color: item.textCol }}>
+                {/* Bottom: Metric Count + Subtitle */}
+                <div className="d-flex align-items-baseline gap-2">
+                  <span
+                    className="fw-extrabold"
+                    style={{ fontSize: '1.45rem', lineHeight: 1, color: item.textCol, letterSpacing: '-0.02em' }}
+                  >
                     {item.count}
-                  </div>
-                  <div className="fw-bold text-dark small text-truncate" style={{ fontSize: '0.86rem' }}>
-                    {item.label}
-                  </div>
-                  <div className="text-secondary small mt-0.5 text-truncate" style={{ fontSize: '0.74rem', opacity: 0.9 }}>
+                  </span>
+                  <span
+                    className={`small text-truncate ${isDark ? 'text-white-50' : 'text-secondary'}`}
+                    style={{ fontSize: '0.72rem' }}
+                    title={item.sub}
+                  >
                     {item.sub}
-                  </div>
+                  </span>
                 </div>
               </Link>
             </div>

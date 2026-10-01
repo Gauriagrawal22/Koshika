@@ -120,92 +120,96 @@ const DoctorDashboard = () => {
       {/* ---------------------------------------------------------------------
           1. HERO BANNER: WARM GREETING + STATUS + FITTED CLINICAL VIDEO CARD
       ---------------------------------------------------------------------- */}
+      {/* ---------------------------------------------------------------------
+          1. HERO BANNER: WARM GREETING + STATUS + COMPACT CLINICAL VISUAL CARD
+      ---------------------------------------------------------------------- */}
       <div
-        className="card border-0 rounded-4 mb-4 p-4 p-md-4 koshika-hero-banner overflow-hidden position-relative"
+        className="card border-0 mb-3.5 p-3.5 p-md-4 koshika-hero-banner overflow-hidden position-relative"
         style={{
+          borderRadius: '20px',
           background: 'linear-gradient(135deg, #064e3b 0%, #0d9488 60%, #115e59 100%)',
-          boxShadow: '0 10px 30px -5px rgba(6, 78, 59, 0.25)',
+          boxShadow: '0 8px 24px -4px rgba(6, 78, 59, 0.22)',
           border: '1px solid rgba(255, 255, 255, 0.18)',
           color: '#ffffff'
         }}
       >
-        <div className="row g-4 align-items-center">
+        <div className="row g-3.5 align-items-center">
           {/* Left Column: Greeting, Role & Primary CTAs */}
-          <div className="col-12 col-lg-7">
-            <div className="d-flex align-items-center gap-2 mb-2.5 flex-wrap">
+          <div className="col-12 col-md-7 col-lg-7">
+            <div className="d-flex align-items-center gap-2 mb-2 flex-wrap">
               <span
-                className="badge rounded-pill px-3 py-1.5 fw-semibold d-inline-flex align-items-center gap-1.5"
-                style={{ backgroundColor: 'rgba(255, 255, 255, 0.18)', color: '#ffffff', border: '1px solid rgba(255, 255, 255, 0.3)', fontSize: '0.76rem' }}
+                className="badge rounded-pill px-2.5 py-1 fw-semibold d-inline-flex align-items-center gap-1.5"
+                style={{ backgroundColor: 'rgba(255, 255, 255, 0.18)', color: '#ffffff', border: '1px solid rgba(255, 255, 255, 0.3)', fontSize: '0.72rem' }}
               >
                 <span
                   className="rounded-circle d-inline-block bg-success"
-                  style={{ width: '7px', height: '7px' }}
+                  style={{ width: '6px', height: '6px' }}
                 />
                 <span>Attending Clinician &bull; On Duty</span>
               </span>
 
               <span
-                className="badge rounded-pill px-3 py-1.5 fw-semibold d-inline-flex align-items-center gap-1.5"
-                style={{ backgroundColor: 'rgba(255, 255, 255, 0.18)', color: '#ffffff', border: '1px solid rgba(255, 255, 255, 0.3)', fontSize: '0.76rem' }}
+                className="badge rounded-pill px-2.5 py-1 fw-semibold d-inline-flex align-items-center gap-1"
+                style={{ backgroundColor: 'rgba(255, 255, 255, 0.18)', color: '#ffffff', border: '1px solid rgba(255, 255, 255, 0.3)', fontSize: '0.72rem' }}
               >
-                <ShieldCheck size={13} />
+                <ShieldCheck size={12} />
                 <span>ICMR &bull; EBMT Triage Active</span>
               </span>
             </div>
 
             <h1
-              className="fw-extrabold text-white mb-2"
-              style={{ fontSize: 'clamp(1.5rem, 3vw, 2.15rem)', letterSpacing: '-0.025em', lineHeight: 1.25 }}
+              className="fw-bold text-white mb-1.5"
+              style={{ fontSize: 'clamp(1.35rem, 2.2vw, 1.7rem)', letterSpacing: '-0.02em', lineHeight: 1.25 }}
             >
               {getGreeting()}, {doctorName} 🩺
             </h1>
 
             <p
-              className="text-white text-opacity-90 mb-3.5"
-              style={{ fontSize: '0.94rem', lineHeight: 1.5, maxWidth: '520px' }}
+              className="text-white text-opacity-90 mb-3"
+              style={{ fontSize: '0.88rem', lineHeight: 1.45, maxWidth: '480px' }}
             >
               Hematology &amp; BMT Clinical Workspace. Review scheduled consultations, sign off diagnostic reports, and verify stem cell donor matches.
             </p>
 
-            <div className="d-flex align-items-center gap-2.5 flex-wrap">
+            <div className="d-flex align-items-center gap-2 flex-wrap">
               <Link
                 to="/doctor/consultations"
-                className="btn rounded-pill px-4 py-2.5 fw-bold d-inline-flex align-items-center gap-2 shadow-sm transition-all hover-translate-y koshika-hero-action-btn"
+                className="btn rounded-pill px-3.5 py-1.5 fw-bold d-inline-flex align-items-center gap-1.5 shadow-sm transition-all hover-translate-y koshika-hero-action-btn"
                 style={{
                   backgroundColor: '#ffffff',
                   color: '#064e3b',
                   border: 'none',
-                  fontSize: '0.88rem'
+                  fontSize: '0.82rem'
                 }}
               >
-                <Video size={16} color="currentColor" />
+                <Video size={14} color="currentColor" />
                 <span>Start Consultation</span>
-                <ArrowRight size={15} color="currentColor" />
+                <ArrowRight size={13} color="currentColor" />
               </Link>
 
               <Link
                 to="/doctor/patients"
-                className="btn rounded-pill px-3.5 py-2.5 fw-semibold d-inline-flex align-items-center gap-1.5 hover-translate-y"
+                className="btn rounded-pill px-3 py-1.5 fw-semibold d-inline-flex align-items-center gap-1 hover-translate-y"
                 style={{
                   backgroundColor: 'rgba(255, 255, 255, 0.18)',
                   color: '#ffffff',
                   border: '1px solid rgba(255, 255, 255, 0.35)',
-                  fontSize: '0.85rem'
+                  fontSize: '0.82rem'
                 }}
               >
-                <Users size={15} color="#ffffff" />
+                <Users size={14} color="#ffffff" />
                 <span className="text-white">Patient Cohort</span>
               </Link>
             </div>
           </div>
 
           {/* Right Column: Properly Fitted Clinical Visual Card */}
-          <div className="col-12 col-lg-5">
+          <div className="col-12 col-md-5 col-lg-5">
             <div
-              className="card border-0 rounded-4 overflow-hidden bg-white shadow-xs"
-              style={{ border: '1px solid #e2e8f0' }}
+              className="card border-0 rounded-4 overflow-hidden bg-white shadow-xs ms-md-auto"
+              style={{ border: '1px solid #e2e8f0', maxWidth: '350px' }}
             >
-              <div className="position-relative overflow-hidden" style={{ height: '160px' }}>
+              <div className="position-relative overflow-hidden" style={{ height: '125px' }}>
                 <img
                   src="/images/home/doc_telehealth_rounds.jpg"
                   alt="Clinical Cellular Therapy Suite"
@@ -215,19 +219,19 @@ const DoctorDashboard = () => {
 
                 {/* Dark Gradient Overlay */}
                 <div
-                  className="position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-between p-3"
-                  style={{ background: 'linear-gradient(180deg, rgba(15, 23, 42, 0.4) 0%, rgba(15, 23, 42, 0.7) 100%)' }}
+                  className="position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-between p-2.5"
+                  style={{ background: 'linear-gradient(180deg, rgba(15, 23, 42, 0.35) 0%, rgba(15, 23, 42, 0.75) 100%)' }}
                 >
                   <div className="d-flex align-items-center justify-content-between">
                     <span
-                      className="badge rounded-pill px-2.5 py-1 text-white fw-semibold"
-                      style={{ backgroundColor: 'rgba(13, 148, 136, 0.85)', backdropFilter: 'blur(4px)', fontSize: '0.7rem' }}
+                      className="badge rounded-pill px-2 py-0.5 text-white fw-semibold"
+                      style={{ backgroundColor: 'rgba(13, 148, 136, 0.9)', backdropFilter: 'blur(4px)', fontSize: '0.66rem' }}
                     >
                       Virtual Suite 4B
                     </span>
                     <span
-                      className="badge rounded-pill px-2.5 py-1 text-white fw-normal"
-                      style={{ backgroundColor: 'rgba(0, 0, 0, 0.5)', backdropFilter: 'blur(4px)', fontSize: '0.68rem' }}
+                      className="badge rounded-pill px-2 py-0.5 text-white fw-normal"
+                      style={{ backgroundColor: 'rgba(0, 0, 0, 0.5)', backdropFilter: 'blur(4px)', fontSize: '0.64rem' }}
                     >
                       WebRTC Encrypted
                     </span>
@@ -235,35 +239,35 @@ const DoctorDashboard = () => {
 
                   <div className="d-flex align-items-center justify-content-between text-white">
                     <div>
-                      <div className="fw-bold small" style={{ fontSize: '0.85rem' }}>Next: Aarav Sharma</div>
-                      <div className="small opacity-75" style={{ fontSize: '0.72rem' }}>10:30 AM &bull; Telehealth Review</div>
+                      <div className="fw-bold small" style={{ fontSize: '0.8rem' }}>Next: Aarav Sharma</div>
+                      <div className="small opacity-75" style={{ fontSize: '0.68rem' }}>10:30 AM &bull; Telehealth Review</div>
                     </div>
                     <Link
                       to="/doctor/consultations?patient=PT-9042"
-                      className="btn btn-sm btn-warning rounded-pill px-3 py-1 fw-bold d-inline-flex align-items-center gap-1 shadow-sm"
+                      className="btn btn-sm btn-warning rounded-pill px-2.5 py-0.5 fw-bold d-inline-flex align-items-center gap-1 shadow-sm"
                       style={{
-                        fontSize: '0.75rem',
+                        fontSize: '0.72rem',
                         backgroundColor: isDark ? 'rgba(234, 179, 8, 0.22)' : '#fef08a',
                         borderColor: isDark ? '#eab308' : '#fef08a',
                         color: isDark ? '#fde047' : '#1e293b'
                       }}
                     >
-                      <span className={isDark ? 'text-warning' : 'text-dark'}>Join Room</span>
-                      <ArrowRight size={13} className={isDark ? 'text-warning' : 'text-dark'} />
+                      <span className={isDark ? 'text-warning' : 'text-dark'}>Join</span>
+                      <ArrowRight size={11} className={isDark ? 'text-warning' : 'text-dark'} />
                     </Link>
                   </div>
                 </div>
               </div>
 
               {/* Status Footer Strip */}
-              <div className={`p-3 d-flex align-items-center justify-content-between ${isDark ? 'bg-surface' : 'bg-white'}`}>
-                <div className="d-flex align-items-center gap-2">
-                  <Activity size={16} style={{ color: '#0d9488' }} />
-                  <span className={`small fw-semibold ${isDark ? 'text-white' : 'text-dark'}`} style={{ fontSize: '0.8rem' }}>
-                    Mazumdar Shaw Cancer Centre &bull; BMT Unit
+              <div className={`p-2 px-3 d-flex align-items-center justify-content-between ${isDark ? 'bg-surface' : 'bg-white'}`}>
+                <div className="d-flex align-items-center gap-1.5">
+                  <Activity size={14} style={{ color: '#0d9488' }} />
+                  <span className={`small fw-semibold text-truncate ${isDark ? 'text-white' : 'text-dark'}`} style={{ fontSize: '0.74rem', maxWidth: '210px' }}>
+                    Mazumdar Shaw &bull; BMT Unit
                   </span>
                 </div>
-                <span className="badge rounded-pill bg-light text-secondary border small px-2 py-0.5" style={{ fontSize: '0.68rem' }}>
+                <span className="badge rounded-pill bg-light text-secondary border small px-2 py-0.5" style={{ fontSize: '0.64rem' }}>
                   OPD Active
                 </span>
               </div>
@@ -273,9 +277,9 @@ const DoctorDashboard = () => {
       </div>
 
       {/* ---------------------------------------------------------------------
-          CLINICAL TELEMETRY STRIP: CREATIVE & COLORFUL CLINICAL CARDS
+          CLINICAL TELEMETRY STRIP: COMPACT, HIGH-READABILITY CLINICAL METRICS
       ---------------------------------------------------------------------- */}
-      <div className="row g-3.5 mb-4">
+      <div className="row g-2.5 mb-3.5">
         {[
           {
             label: 'Active BMT Cohort',
@@ -286,10 +290,10 @@ const DoctorDashboard = () => {
             icon: Users,
             accent: '#0d9488',
             gradient: 'linear-gradient(135deg, #0d9488 0%, #10b981 100%)',
-            bg: isDark ? 'linear-gradient(135deg, rgba(13, 148, 136, 0.25) 0%, rgba(16, 185, 129, 0.12) 100%)' : 'linear-gradient(135deg, #f0fdfa 0%, #ccfbf1 100%)',
+            bg: isDark ? 'linear-gradient(135deg, rgba(13, 148, 136, 0.22) 0%, rgba(16, 185, 129, 0.1) 100%)' : 'linear-gradient(135deg, #f0fdfa 0%, #ccfbf1 100%)',
             border: isDark ? 'rgba(45, 212, 191, 0.35)' : 'rgba(13, 148, 136, 0.3)',
             textCol: isDark ? '#2dd4bf' : '#0f766e',
-            shadow: '0 8px 24px -4px rgba(13, 148, 136, 0.22)'
+            shadow: '0 4px 14px -2px rgba(13, 148, 136, 0.16)'
           },
           {
             label: 'Diagnostic Sign-Offs',
@@ -300,10 +304,10 @@ const DoctorDashboard = () => {
             icon: FileText,
             accent: '#e11d48',
             gradient: 'linear-gradient(135deg, #e11d48 0%, #f43f5e 100%)',
-            bg: isDark ? 'linear-gradient(135deg, rgba(225, 29, 72, 0.25) 0%, rgba(244, 63, 94, 0.12) 100%)' : 'linear-gradient(135deg, #fff1f2 0%, #ffe4e6 100%)',
+            bg: isDark ? 'linear-gradient(135deg, rgba(225, 29, 72, 0.22) 0%, rgba(244, 63, 94, 0.1) 100%)' : 'linear-gradient(135deg, #fff1f2 0%, #ffe4e6 100%)',
             border: isDark ? 'rgba(251, 113, 133, 0.35)' : 'rgba(225, 29, 72, 0.3)',
             textCol: isDark ? '#fb7185' : '#be123c',
-            shadow: '0 8px 24px -4px rgba(225, 29, 72, 0.22)'
+            shadow: '0 4px 14px -2px rgba(225, 29, 72, 0.16)'
           },
           {
             label: "Today's Consultations",
@@ -314,10 +318,10 @@ const DoctorDashboard = () => {
             icon: Video,
             accent: '#2563eb',
             gradient: 'linear-gradient(135deg, #2563eb 0%, #0284c7 100%)',
-            bg: isDark ? 'linear-gradient(135deg, rgba(37, 99, 235, 0.25) 0%, rgba(2, 132, 199, 0.12) 100%)' : 'linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%)',
+            bg: isDark ? 'linear-gradient(135deg, rgba(37, 99, 235, 0.22) 0%, rgba(2, 132, 199, 0.1) 100%)' : 'linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%)',
             border: isDark ? 'rgba(96, 165, 250, 0.35)' : 'rgba(37, 99, 235, 0.3)',
             textCol: isDark ? '#60a5fa' : '#1d4ed8',
-            shadow: '0 8px 24px -4px rgba(37, 99, 235, 0.22)'
+            shadow: '0 4px 14px -2px rgba(37, 99, 235, 0.16)'
           },
           {
             label: 'Donor Matches Found',
@@ -328,10 +332,10 @@ const DoctorDashboard = () => {
             icon: HeartPulse,
             accent: '#d97706',
             gradient: 'linear-gradient(135deg, #d97706 0%, #f59e0b 100%)',
-            bg: isDark ? 'linear-gradient(135deg, rgba(217, 119, 6, 0.25) 0%, rgba(245, 158, 11, 0.12) 100%)' : 'linear-gradient(135deg, #fffbeb 0%, #fef3c7 100%)',
+            bg: isDark ? 'linear-gradient(135deg, rgba(217, 119, 6, 0.22) 0%, rgba(245, 158, 11, 0.1) 100%)' : 'linear-gradient(135deg, #fffbeb 0%, #fef3c7 100%)',
             border: isDark ? 'rgba(251, 191, 36, 0.35)' : 'rgba(217, 119, 6, 0.3)',
             textCol: isDark ? '#fbbf24' : '#b45309',
-            shadow: '0 8px 24px -4px rgba(217, 119, 6, 0.22)'
+            shadow: '0 4px 14px -2px rgba(217, 119, 6, 0.16)'
           }
         ].map((item, idx) => {
           const ItemIcon = item.icon;
@@ -339,32 +343,41 @@ const DoctorDashboard = () => {
             <div key={idx} className="col-6 col-lg-3">
               <Link
                 to={item.link}
-                className="card border-0 rounded-4 p-3.5 text-decoration-none transition-all hover-translate-y d-flex flex-column justify-content-between h-100 position-relative overflow-hidden"
+                className="card border-0 rounded-3 p-2.5 px-3 text-decoration-none transition-all hover-translate-y d-flex flex-column justify-content-between h-100 position-relative overflow-hidden"
                 style={{
                   background: item.bg,
-                  border: `1.5px solid ${item.border}`,
+                  border: `1px solid ${item.border}`,
                   boxShadow: item.shadow
                 }}
               >
-                {/* Top: Colorful Icon + Pill Badge */}
-                <div className="d-flex align-items-center justify-content-between mb-3">
-                  <div
-                    className="rounded-3 d-flex align-items-center justify-content-center text-white flex-shrink-0 shadow-xs"
-                    style={{
-                      width: '40px',
-                      height: '40px',
-                      background: item.gradient
-                    }}
-                  >
-                    <ItemIcon size={20} />
+                {/* Top: Icon + Label + Pill Badge */}
+                <div className="d-flex align-items-center justify-content-between mb-2">
+                  <div className="d-flex align-items-center gap-2 min-w-0">
+                    <div
+                      className="rounded-2 d-flex align-items-center justify-content-center text-white flex-shrink-0 shadow-xs"
+                      style={{
+                        width: '28px',
+                        height: '28px',
+                        background: item.gradient
+                      }}
+                    >
+                      <ItemIcon size={14} />
+                    </div>
+                    <span
+                      className={`fw-bold small text-truncate ${isDark ? 'text-white' : 'text-dark'}`}
+                      style={{ fontSize: '0.78rem' }}
+                      title={item.label}
+                    >
+                      {item.label}
+                    </span>
                   </div>
                   <span
-                    className="badge rounded-pill px-2.5 py-1 fw-bold small shadow-xs"
+                    className="badge rounded-pill px-2 py-0.5 fw-bold flex-shrink-0"
                     style={{
-                      backgroundColor: 'rgba(255, 255, 255, 0.75)',
+                      backgroundColor: isDark ? 'rgba(0, 0, 0, 0.4)' : 'rgba(255, 255, 255, 0.85)',
                       color: item.textCol,
                       border: `1px solid ${item.border}`,
-                      fontSize: '0.68rem',
+                      fontSize: '0.64rem',
                       backdropFilter: 'blur(4px)'
                     }}
                   >
@@ -372,17 +385,21 @@ const DoctorDashboard = () => {
                   </span>
                 </div>
 
-                {/* Bottom: Big Count + Label + Subtitle */}
-                <div>
-                  <div className="fw-extrabold mb-0.5" style={{ fontSize: '1.95rem', lineHeight: 1.1, color: item.textCol }}>
+                {/* Bottom: Metric Count + Subtitle */}
+                <div className="d-flex align-items-baseline gap-2">
+                  <span
+                    className="fw-extrabold"
+                    style={{ fontSize: '1.45rem', lineHeight: 1, color: item.textCol, letterSpacing: '-0.02em' }}
+                  >
                     {item.count}
-                  </div>
-                  <div className="fw-bold text-dark small text-truncate" style={{ fontSize: '0.86rem' }}>
-                    {item.label}
-                  </div>
-                  <div className="text-secondary small mt-0.5 text-truncate" style={{ fontSize: '0.74rem', opacity: 0.9 }}>
+                  </span>
+                  <span
+                    className={`small text-truncate ${isDark ? 'text-white-50' : 'text-secondary'}`}
+                    style={{ fontSize: '0.72rem' }}
+                    title={item.sub}
+                  >
                     {item.sub}
-                  </div>
+                  </span>
                 </div>
               </Link>
             </div>
