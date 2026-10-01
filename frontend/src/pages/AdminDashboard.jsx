@@ -286,45 +286,121 @@ const AdminDashboard = () => {
       </div>
 
       {/* ---------------------------------------------------------------------
-          OPERATIONAL GOVERNANCE STRIP: SYSTEM & AUDIT HEALTH METRICS
+          OPERATIONAL GOVERNANCE STRIP: CREATIVE & COLORFUL SYSTEM METRICS
       ---------------------------------------------------------------------- */}
-      <div className="row g-3 mb-4">
+      <div className="row g-3.5 mb-4">
         {[
-          { label: 'Licensed Clinicians', count: '48', sub: '5 Pending NMC Verification', link: '/admin/doctors', color: '#2563eb' },
-          { label: 'Accredited Biobanks', count: '12', sub: 'All Cryo-Sensors Normal', link: '/admin/banks', color: '#0d9488' },
-          { label: 'Active Care Patients', count: '1,240', sub: '+18% Month-over-Month', link: '/admin/users', color: '#7c3aed' },
-          { label: 'Security & Audit (24h)', count: '284', sub: '0 Critical Exceptions', link: '/admin/activity', color: '#059669' }
-        ].map((item, idx) => (
-          <div key={idx} className="col-6 col-lg-3">
-            <Link
-              to={item.link}
-              className="card border-0 rounded-4 p-3 text-decoration-none shadow-xs transition-all hover-translate-y d-flex flex-column justify-content-between h-100"
-              style={{
-                backgroundColor: 'var(--k-surface)',
-                border: '1px solid var(--k-border)',
-                borderTop: `3px solid ${item.color}`
-              }}
-            >
-              <div className="d-flex align-items-center justify-content-between mb-1">
-                <span className="text-secondary small fw-semibold" style={{ fontSize: '0.78rem' }}>
-                  {item.label}
-                </span>
-                <span
-                  className="rounded-circle d-inline-block"
-                  style={{ width: '6px', height: '6px', backgroundColor: item.color }}
-                />
-              </div>
-              <div className="d-flex align-items-baseline gap-2">
-                <span className="fw-extrabold text-dark" style={{ fontSize: '1.65rem', lineHeight: 1.1 }}>
-                  {item.count}
-                </span>
-                <span className="text-secondary small text-truncate" style={{ fontSize: '0.72rem' }}>
-                  {item.sub}
-                </span>
-              </div>
-            </Link>
-          </div>
-        ))}
+          {
+            label: 'Licensed Clinicians',
+            count: '48',
+            sub: '5 Pending NMC Verification',
+            badge: 'Clinicians',
+            link: '/admin/doctors',
+            icon: Stethoscope,
+            accent: '#2563eb',
+            gradient: 'linear-gradient(135deg, #2563eb 0%, #3b82f6 100%)',
+            bg: isDark ? 'linear-gradient(135deg, rgba(37, 99, 235, 0.25) 0%, rgba(59, 130, 246, 0.12) 100%)' : 'linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%)',
+            border: isDark ? 'rgba(96, 165, 250, 0.35)' : 'rgba(37, 99, 235, 0.3)',
+            textCol: isDark ? '#60a5fa' : '#1d4ed8',
+            shadow: '0 8px 24px -4px rgba(37, 99, 235, 0.22)'
+          },
+          {
+            label: 'Accredited Biobanks',
+            count: '12',
+            sub: 'All Cryo-Sensors Normal',
+            badge: 'Cryo-Vaults',
+            link: '/admin/banks',
+            icon: Building2,
+            accent: '#0d9488',
+            gradient: 'linear-gradient(135deg, #0d9488 0%, #14b8a6 100%)',
+            bg: isDark ? 'linear-gradient(135deg, rgba(13, 148, 136, 0.25) 0%, rgba(20, 184, 166, 0.12) 100%)' : 'linear-gradient(135deg, #f0fdfa 0%, #ccfbf1 100%)',
+            border: isDark ? 'rgba(45, 212, 191, 0.35)' : 'rgba(13, 148, 136, 0.3)',
+            textCol: isDark ? '#2dd4bf' : '#0f766e',
+            shadow: '0 8px 24px -4px rgba(13, 148, 136, 0.22)'
+          },
+          {
+            label: 'Active Care Patients',
+            count: '1,240',
+            sub: '+18% Month-over-Month',
+            badge: 'Patient Cohort',
+            link: '/admin/users',
+            icon: Users,
+            accent: '#7c3aed',
+            gradient: 'linear-gradient(135deg, #7c3aed 0%, #a855f7 100%)',
+            bg: isDark ? 'linear-gradient(135deg, rgba(124, 58, 237, 0.25) 0%, rgba(168, 85, 247, 0.12) 100%)' : 'linear-gradient(135deg, #faf5ff 0%, #ede9fe 100%)',
+            border: isDark ? 'rgba(192, 132, 252, 0.35)' : 'rgba(124, 58, 237, 0.3)',
+            textCol: isDark ? '#c084fc' : '#6d28d9',
+            shadow: '0 8px 24px -4px rgba(124, 58, 237, 0.22)'
+          },
+          {
+            label: 'Security & Audit (24h)',
+            count: '284',
+            sub: '0 Critical Exceptions',
+            badge: 'All Nominal',
+            link: '/admin/activity',
+            icon: ShieldCheck,
+            accent: '#059669',
+            gradient: 'linear-gradient(135deg, #059669 0%, #10b981 100%)',
+            bg: isDark ? 'linear-gradient(135deg, rgba(5, 150, 105, 0.25) 0%, rgba(16, 185, 129, 0.12) 100%)' : 'linear-gradient(135deg, #ecfdf5 0%, #d1fae5 100%)',
+            border: isDark ? 'rgba(52, 211, 153, 0.35)' : 'rgba(5, 150, 105, 0.3)',
+            textCol: isDark ? '#34d399' : '#047857',
+            shadow: '0 8px 24px -4px rgba(5, 150, 105, 0.22)'
+          }
+        ].map((item, idx) => {
+          const ItemIcon = item.icon;
+          return (
+            <div key={idx} className="col-6 col-lg-3">
+              <Link
+                to={item.link}
+                className="card border-0 rounded-4 p-3.5 text-decoration-none transition-all hover-translate-y d-flex flex-column justify-content-between h-100 position-relative overflow-hidden"
+                style={{
+                  background: item.bg,
+                  border: `1.5px solid ${item.border}`,
+                  boxShadow: item.shadow
+                }}
+              >
+                {/* Top: Colorful Icon + Pill Badge */}
+                <div className="d-flex align-items-center justify-content-between mb-3">
+                  <div
+                    className="rounded-3 d-flex align-items-center justify-content-center text-white flex-shrink-0 shadow-xs"
+                    style={{
+                      width: '40px',
+                      height: '40px',
+                      background: item.gradient
+                    }}
+                  >
+                    <ItemIcon size={20} />
+                  </div>
+                  <span
+                    className="badge rounded-pill px-2.5 py-1 fw-bold small shadow-xs"
+                    style={{
+                      backgroundColor: 'rgba(255, 255, 255, 0.75)',
+                      color: item.textCol,
+                      border: `1px solid ${item.border}`,
+                      fontSize: '0.68rem',
+                      backdropFilter: 'blur(4px)'
+                    }}
+                  >
+                    {item.badge}
+                  </span>
+                </div>
+
+                {/* Bottom: Big Count + Label + Subtitle */}
+                <div>
+                  <div className="fw-extrabold mb-0.5" style={{ fontSize: '1.95rem', lineHeight: 1.1, color: item.textCol }}>
+                    {item.count}
+                  </div>
+                  <div className="fw-bold text-dark small text-truncate" style={{ fontSize: '0.86rem' }}>
+                    {item.label}
+                  </div>
+                  <div className="text-secondary small mt-0.5 text-truncate" style={{ fontSize: '0.74rem', opacity: 0.9 }}>
+                    {item.sub}
+                  </div>
+                </div>
+              </Link>
+            </div>
+          );
+        })}
       </div>
 
       {/* ---------------------------------------------------------------------

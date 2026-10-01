@@ -273,45 +273,121 @@ const DoctorDashboard = () => {
       </div>
 
       {/* ---------------------------------------------------------------------
-          CLINICAL TELEMETRY STRIP: IMMEDIATE DECISION-SUPPORT COUNTS
+          CLINICAL TELEMETRY STRIP: CREATIVE & COLORFUL CLINICAL CARDS
       ---------------------------------------------------------------------- */}
-      <div className="row g-3 mb-4">
+      <div className="row g-3.5 mb-4">
         {[
-          { label: 'Active BMT Cohort', count: '24', sub: '3 High Priority', link: '/doctor/patients', color: '#0d9488', bg: 'rgba(13, 148, 136, 0.08)' },
-          { label: 'Diagnostic Sign-Offs', count: '3', sub: 'Awaiting Attending Sign', link: '/doctor/reports', color: '#e11d48', bg: 'rgba(225, 29, 72, 0.08)' },
-          { label: "Today's Consultations", count: '4', sub: 'Next call at 10:30 AM', link: '/doctor/consultations', color: '#2563eb', bg: 'rgba(37, 99, 235, 0.08)' },
-          { label: 'Donor Matches Found', count: '18', sub: '10/10 & 9/10 HLA Alleles', link: '/doctor/banks', color: '#d97706', bg: 'rgba(217, 119, 6, 0.08)' }
-        ].map((item, idx) => (
-          <div key={idx} className="col-6 col-lg-3">
-            <Link
-              to={item.link}
-              className="card border-0 rounded-4 p-3 text-decoration-none shadow-xs transition-all hover-translate-y d-flex flex-column justify-content-between h-100"
-              style={{
-                backgroundColor: 'var(--k-surface)',
-                border: '1px solid var(--k-border)',
-                borderTop: `3px solid ${item.color}`
-              }}
-            >
-              <div className="d-flex align-items-center justify-content-between mb-1">
-                <span className="text-secondary small fw-semibold" style={{ fontSize: '0.78rem' }}>
-                  {item.label}
-                </span>
-                <span
-                  className="rounded-circle d-inline-block"
-                  style={{ width: '6px', height: '6px', backgroundColor: item.color }}
-                />
-              </div>
-              <div className="d-flex align-items-baseline gap-2">
-                <span className="fw-extrabold text-dark" style={{ fontSize: '1.65rem', lineHeight: 1.1 }}>
-                  {item.count}
-                </span>
-                <span className="text-secondary small text-truncate" style={{ fontSize: '0.72rem' }}>
-                  {item.sub}
-                </span>
-              </div>
-            </Link>
-          </div>
-        ))}
+          {
+            label: 'Active BMT Cohort',
+            count: '24',
+            sub: '3 High Priority',
+            badge: 'Patients',
+            link: '/doctor/patients',
+            icon: Users,
+            accent: '#0d9488',
+            gradient: 'linear-gradient(135deg, #0d9488 0%, #10b981 100%)',
+            bg: isDark ? 'linear-gradient(135deg, rgba(13, 148, 136, 0.25) 0%, rgba(16, 185, 129, 0.12) 100%)' : 'linear-gradient(135deg, #f0fdfa 0%, #ccfbf1 100%)',
+            border: isDark ? 'rgba(45, 212, 191, 0.35)' : 'rgba(13, 148, 136, 0.3)',
+            textCol: isDark ? '#2dd4bf' : '#0f766e',
+            shadow: '0 8px 24px -4px rgba(13, 148, 136, 0.22)'
+          },
+          {
+            label: 'Diagnostic Sign-Offs',
+            count: '3',
+            sub: 'Awaiting Attending Sign',
+            badge: 'Action Due',
+            link: '/doctor/reports',
+            icon: FileText,
+            accent: '#e11d48',
+            gradient: 'linear-gradient(135deg, #e11d48 0%, #f43f5e 100%)',
+            bg: isDark ? 'linear-gradient(135deg, rgba(225, 29, 72, 0.25) 0%, rgba(244, 63, 94, 0.12) 100%)' : 'linear-gradient(135deg, #fff1f2 0%, #ffe4e6 100%)',
+            border: isDark ? 'rgba(251, 113, 133, 0.35)' : 'rgba(225, 29, 72, 0.3)',
+            textCol: isDark ? '#fb7185' : '#be123c',
+            shadow: '0 8px 24px -4px rgba(225, 29, 72, 0.22)'
+          },
+          {
+            label: "Today's Consultations",
+            count: '4',
+            sub: 'Next call at 10:30 AM',
+            badge: 'Telehealth',
+            link: '/doctor/consultations',
+            icon: Video,
+            accent: '#2563eb',
+            gradient: 'linear-gradient(135deg, #2563eb 0%, #0284c7 100%)',
+            bg: isDark ? 'linear-gradient(135deg, rgba(37, 99, 235, 0.25) 0%, rgba(2, 132, 199, 0.12) 100%)' : 'linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%)',
+            border: isDark ? 'rgba(96, 165, 250, 0.35)' : 'rgba(37, 99, 235, 0.3)',
+            textCol: isDark ? '#60a5fa' : '#1d4ed8',
+            shadow: '0 8px 24px -4px rgba(37, 99, 235, 0.22)'
+          },
+          {
+            label: 'Donor Matches Found',
+            count: '18',
+            sub: '10/10 & 9/10 HLA Alleles',
+            badge: 'Registry',
+            link: '/doctor/banks',
+            icon: HeartPulse,
+            accent: '#d97706',
+            gradient: 'linear-gradient(135deg, #d97706 0%, #f59e0b 100%)',
+            bg: isDark ? 'linear-gradient(135deg, rgba(217, 119, 6, 0.25) 0%, rgba(245, 158, 11, 0.12) 100%)' : 'linear-gradient(135deg, #fffbeb 0%, #fef3c7 100%)',
+            border: isDark ? 'rgba(251, 191, 36, 0.35)' : 'rgba(217, 119, 6, 0.3)',
+            textCol: isDark ? '#fbbf24' : '#b45309',
+            shadow: '0 8px 24px -4px rgba(217, 119, 6, 0.22)'
+          }
+        ].map((item, idx) => {
+          const ItemIcon = item.icon;
+          return (
+            <div key={idx} className="col-6 col-lg-3">
+              <Link
+                to={item.link}
+                className="card border-0 rounded-4 p-3.5 text-decoration-none transition-all hover-translate-y d-flex flex-column justify-content-between h-100 position-relative overflow-hidden"
+                style={{
+                  background: item.bg,
+                  border: `1.5px solid ${item.border}`,
+                  boxShadow: item.shadow
+                }}
+              >
+                {/* Top: Colorful Icon + Pill Badge */}
+                <div className="d-flex align-items-center justify-content-between mb-3">
+                  <div
+                    className="rounded-3 d-flex align-items-center justify-content-center text-white flex-shrink-0 shadow-xs"
+                    style={{
+                      width: '40px',
+                      height: '40px',
+                      background: item.gradient
+                    }}
+                  >
+                    <ItemIcon size={20} />
+                  </div>
+                  <span
+                    className="badge rounded-pill px-2.5 py-1 fw-bold small shadow-xs"
+                    style={{
+                      backgroundColor: 'rgba(255, 255, 255, 0.75)',
+                      color: item.textCol,
+                      border: `1px solid ${item.border}`,
+                      fontSize: '0.68rem',
+                      backdropFilter: 'blur(4px)'
+                    }}
+                  >
+                    {item.badge}
+                  </span>
+                </div>
+
+                {/* Bottom: Big Count + Label + Subtitle */}
+                <div>
+                  <div className="fw-extrabold mb-0.5" style={{ fontSize: '1.95rem', lineHeight: 1.1, color: item.textCol }}>
+                    {item.count}
+                  </div>
+                  <div className="fw-bold text-dark small text-truncate" style={{ fontSize: '0.86rem' }}>
+                    {item.label}
+                  </div>
+                  <div className="text-secondary small mt-0.5 text-truncate" style={{ fontSize: '0.74rem', opacity: 0.9 }}>
+                    {item.sub}
+                  </div>
+                </div>
+              </Link>
+            </div>
+          );
+        })}
       </div>
 
       {/* ---------------------------------------------------------------------
