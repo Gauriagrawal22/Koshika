@@ -1,0 +1,4516 @@
+[
+  {
+    "id": "NON_MED_001",
+    "filename": "NON_MED_001_Luxury_Hotel_Room_Tax_Invoice.pdf",
+    "category": "Hospitality & Invoicing",
+    "org_name": "GRAND HORIZON LUXURY PALACE & RESORT",
+    "dept_name": "Front Desk Operations & Hospitality Billing Department",
+    "category_tag": "COMMERCIAL TAX INVOICE & FOLIO",
+    "address": "45 Marine Drive, Nariman Point, Mumbai - 400021, Maharashtra",
+    "doc_id": "INV-HOTEL-2026-8812",
+    "barcode": "TAX*INV*00129",
+    "title": "Hotel Room Billing Statement & Official Tax Invoice",
+    "client_name": "Rajesh Kumar Verma",
+    "date": "September 14, 2026",
+    "account_id": "FOLIO-ROOM-9941",
+    "period": "Check-in: 12 Sep 2026 | Check-out: 14 Sep 2026",
+    "tax_id": "GSTIN: 27AAAAA0000A1Z5 | CIN: U55101MH2012PLC88412",
+    "agent_name": "Front Desk Duty Manager",
+    "trans_type": "Luxury Hospitality Lodging",
+    "payment_status": "PAID IN FULL (VISA CARD ENDING 4921)",
+    "table_columns": [
+      "Item / Service Description",
+      "SAC / HSN",
+      "Qty / Nights",
+      "Tariff Rate (INR)",
+      "Total Amount (INR)"
+    ],
+    "col_widths": [
+      160,
+      95,
+      95,
+      100,
+      106
+    ],
+    "table_rows": [
+      [
+        "Deluxe Sea View Suite (Night 1)",
+        "996311",
+        "1 Night",
+        "8,500.00",
+        "8,500.00"
+      ],
+      [
+        "Deluxe Sea View Suite (Night 2)",
+        "996311",
+        "1 Night",
+        "8,500.00",
+        "8,500.00"
+      ],
+      [
+        "In-Room Multi-Cuisine Dining Dinner",
+        "996331",
+        "2 Orders",
+        "1,850.00",
+        "3,700.00"
+      ],
+      [
+        "Airport Chauffeur Transfer (One Way)",
+        "996412",
+        "1 Trip",
+        "1,600.00",
+        "1,600.00"
+      ],
+      [
+        "Laundry & Express Garment Steam Press",
+        "999799",
+        "4 Pieces",
+        "225.00",
+        "900.00"
+      ],
+      [
+        "CGST (9%) + SGST (9%) Output Tax",
+        "Tax",
+        "18.0 %",
+        "Subtotal: 24,700",
+        "4,446.00"
+      ],
+      [
+        "Grand Total Net Invoiced Amount",
+        "Settled",
+        "Folio Final",
+        "INR Paid",
+        "29,146.00"
+      ]
+    ],
+    "terms_and_notes": [
+      "Official commercial hospitality tax invoice for lodging, catering, and transport charges.",
+      "Payment received in full through credit card swipe. Zero outstanding balance on guest folio.",
+      "All disputes subject to exclusive jurisdiction of the competent courts in Mumbai.",
+      "SAFETY BENCHMARK: Non-clinical invoice sample to verify automatic Clinical Ingestion Gatekeeper rejection."
+    ],
+    "issued_by": "Cashier & Billing Desk",
+    "approved_by": "Front Office Duty Manager",
+    "auth_sign": "Director of Finance & Hospitality"
+  },
+  {
+    "id": "NON_MED_002",
+    "filename": "NON_MED_002_Airline_Electronic_Boarding_Pass.pdf",
+    "category": "Aviation & Travel",
+    "org_name": "AIR INDIGO AIRWAYS INTERNATIONAL",
+    "dept_name": "Passenger Handling & Passenger Electronic Ticketing Terminal",
+    "category_tag": "ELECTRONIC BOARDING PASS & TICKET",
+    "address": "Terminal 2, Chhatrapati Shivaji Maharaj International Airport, Mumbai",
+    "doc_id": "BP-6E-2026-9921",
+    "barcode": "6E*BOM*DEL*0914",
+    "title": "Passenger Electronic Boarding Pass & Flight Coupon",
+    "client_name": "Vikram Sethi (Passenger MR)",
+    "date": "September 14, 2026",
+    "account_id": "PNR: W4K89Z | E-Ticket: 312-9902148210",
+    "period": "Departure: 14 Sep 2026 08:30 IST | Gate Closes: 08:05 IST",
+    "tax_id": "GSTIN: 07AABCI1234F1Z8 | IATA Code: 6E",
+    "agent_name": "Airport Kiosk Terminal #14",
+    "trans_type": "Scheduled Air Transportation",
+    "payment_status": "CONFIRMED & TICKETED",
+    "table_columns": [
+      "Flight Information",
+      "Flight Number",
+      "Origin / Dest",
+      "Seat / Class",
+      "Status / Remarks"
+    ],
+    "col_widths": [
+      146,
+      95,
+      115,
+      100,
+      100
+    ],
+    "table_rows": [
+      [
+        "Flight Route",
+        "6E-2044",
+        "BOM (Mumbai) -> DEL (Delhi)",
+        "Seat 12A (Window)",
+        "On Time"
+      ],
+      [
+        "Boarding Gate",
+        "Gate 42B",
+        "T2 Departures Level 3",
+        "Zone 2 Boarding",
+        "Gate Closes 08:05"
+      ],
+      [
+        "Registered Baggage Allowance",
+        "1 Piece Checked",
+        "Max Weight 15.0 kg",
+        "Bag Tag: 6E-882190",
+        "Accepted at Counter"
+      ],
+      [
+        "Cabin Carry-on Bag",
+        "1 Laptop Bag",
+        "Max Weight 7.0 kg",
+        "Cabin Stowed",
+        "Screened OK"
+      ],
+      [
+        "Pre-booked In-flight Meal",
+        "Veg Club Sandwich",
+        "Includes Beverage",
+        "Row 12 Delivery",
+        "Confirmed"
+      ],
+      [
+        "Airfare & Aviation Security Fee",
+        "Base + Fuel + Tax",
+        "Taxes & Cess Paid",
+        "Subtotal INR",
+        "6,480.00 Total"
+      ]
+    ],
+    "terms_and_notes": [
+      "Valid government photo identification mandatory at security checkpoint and boarding gate.",
+      "Boarding gate strictly closes 25 minutes prior to scheduled departure. No late boarding permitted.",
+      "Carriage is subject to Air Indigo Conditions of Carriage and Warsaw/Montreal Convention.",
+      "SAFETY BENCHMARK: Non-clinical transportation ticket to test automated EHR protection rejection."
+    ],
+    "issued_by": "Passenger Check-in System",
+    "approved_by": "Station Supervisor",
+    "auth_sign": "Airport Operations Manager"
+  },
+  {
+    "id": "NON_MED_003",
+    "filename": "NON_MED_003_Fine_Dining_Restaurant_Bill.pdf",
+    "category": "Food & Beverage",
+    "org_name": "THE COPPER CHIMNEY FINE DINING RESTAURANT",
+    "dept_name": "Point of Sale (POS) Food & Beverage Services",
+    "category_tag": "RESTAURANT CASH MEMO & POS BILL",
+    "address": "12/A Connaught Place, Inner Circle, New Delhi - 110001",
+    "doc_id": "POS-BILL-2026-4402",
+    "barcode": "POS*0914*44029",
+    "title": "Itemized Food, Beverage & Dining Bill Receipt",
+    "client_name": "Guest: Amit Malhotra (Table 08)",
+    "date": "September 14, 2026",
+    "account_id": "KOT-ORDER-88219",
+    "period": "Lunch Dining: 13:15 to 14:40 IST",
+    "tax_id": "GSTIN: 07AABCT9981K1Z2 | FSSAI: 10015011002231",
+    "agent_name": "Server: Sunil Kumar (Steward 04)",
+    "trans_type": "Dine-in Restaurant Service",
+    "payment_status": "PAID BY UPI / QR (REF #88391204)",
+    "table_columns": [
+      "Menu Item Description",
+      "HSN Code",
+      "Quantity",
+      "Item Price (INR)",
+      "Total Price (INR)"
+    ],
+    "col_widths": [
+      160,
+      95,
+      95,
+      100,
+      106
+    ],
+    "table_rows": [
+      [
+        "Dum Pukht Biryani (Fragrant Basmati)",
+        "996331",
+        "2 Portions",
+        "580.00",
+        "1,160.00"
+      ],
+      [
+        "Dal Makhani Special Slow Cooked",
+        "996331",
+        "1 Portion",
+        "440.00",
+        "440.00"
+      ],
+      [
+        "Butter Garlic Naan Tandoori",
+        "996331",
+        "4 Pieces",
+        "110.00",
+        "440.00"
+      ],
+      [
+        "Paneer Tikka Charcoal Grilled",
+        "996331",
+        "1 Platter",
+        "490.00",
+        "490.00"
+      ],
+      [
+        "Fresh Mint & Lime Soda Sweet",
+        "996331",
+        "2 Glasses",
+        "180.00",
+        "360.00"
+      ],
+      [
+        "Gulab Jamun with Rabdi Dessert",
+        "996331",
+        "2 Servings",
+        "190.00",
+        "380.00"
+      ],
+      [
+        "CGST (2.5%) + SGST (2.5%) Restaurant Tax",
+        "Tax",
+        "5.0 %",
+        "Subtotal: 3,270",
+        "163.50"
+      ],
+      [
+        "Final Net Payable Amount (Round Off)",
+        "Paid",
+        "UPI Mobile",
+        "Settled INR",
+        "3,434.00"
+      ]
+    ],
+    "terms_and_notes": [
+      "Thank you for dining at The Copper Chimney! We appreciate your patronage.",
+      "Items once prepared and served cannot be exchanged or refunded.",
+      "FSSAI Food Safety Licence #10015011002231 displayed at main counter.",
+      "SAFETY BENCHMARK: Non-clinical point-of-sale receipt verifying gatekeeper discard."
+    ],
+    "issued_by": "Cashier POS Terminal #2",
+    "approved_by": "Restaurant Floor Manager",
+    "auth_sign": "General Manager - Food & Beverage"
+  },
+  {
+    "id": "NON_MED_004",
+    "filename": "NON_MED_004_Corporate_IT_Hardware_Purchase_Order.pdf",
+    "category": "Corporate Procurement",
+    "org_name": "INFOTECH GLOBAL SOLUTIONS ENTERPRISE",
+    "dept_name": "Global IT Infrastructure & Corporate Procurement Group",
+    "category_tag": "OFFICIAL CORPORATE PURCHASE ORDER",
+    "address": "Mindspace Cyber Park, HITEC City, Hyderabad - 500081, Telangana",
+    "doc_id": "PO-IT-2026-90412",
+    "barcode": "PO*0914*90412",
+    "title": "Corporate Hardware Procurement Order & Commercial Contract",
+    "client_name": "Vendor: Dell Technologies India Pvt Ltd",
+    "date": "September 14, 2026",
+    "account_id": "VENDOR-CODE-DELL-881",
+    "period": "Delivery Timeline: Within 14 Working Days",
+    "tax_id": "GSTIN: 36AAACI8891M1Z4 | TAN: HYDI00192A",
+    "agent_name": "Suresh Reddy (Procurement Lead)",
+    "trans_type": "Enterprise IT Asset Purchase",
+    "payment_status": "CREDIT TERM 45 DAYS (NET 45)",
+    "table_columns": [
+      "Equipment Part / Description",
+      "HSN Code",
+      "Ordered Qty",
+      "Unit Price (INR)",
+      "Total Value (INR)"
+    ],
+    "col_widths": [
+      160,
+      95,
+      95,
+      100,
+      106
+    ],
+    "table_rows": [
+      [
+        "Dell Latitude 5440 Core i7 32GB RAM",
+        "84713010",
+        "25 Units",
+        "92,500.00",
+        "2,312,500.00"
+      ],
+      [
+        "Dell UltraSharp 27-inch 4K Monitors",
+        "85285200",
+        "25 Units",
+        "34,200.00",
+        "855,000.00"
+      ],
+      [
+        "Dell USB-C Triple Display Docking Station",
+        "84718000",
+        "25 Units",
+        "14,800.00",
+        "370,000.00"
+      ],
+      [
+        "ProSupport 3-Year Next Business Day Onsite",
+        "998313",
+        "25 Packages",
+        "12,000.00",
+        "300,000.00"
+      ],
+      [
+        "Logitech MX Master 3S Wireless Mouse",
+        "84716060",
+        "25 Units",
+        "7,400.00",
+        "185,000.00"
+      ],
+      [
+        "IGST 18% Integrated Goods & Service Tax",
+        "Tax",
+        "18.0 %",
+        "Subtotal: 4,022,500",
+        "724,050.00"
+      ],
+      [
+        "Total Purchase Order Value (INR)",
+        "PO Final",
+        "Net 45 Terms",
+        "Total Invoiced",
+        "4,746,550.00"
+      ]
+    ],
+    "terms_and_notes": [
+      "Goods must be delivered in factory-sealed OEM packaging along with original warranty cards.",
+      "Penalty clause: 0.5% per week of delay up to a maximum of 5% of total purchase order value.",
+      "Inspection and asset tagging to be completed within 5 days of delivery at Hyderabad campus.",
+      "SAFETY BENCHMARK: Non-clinical procurement order verifying EHR gatekeeper rejection."
+    ],
+    "issued_by": "Procurement Officer",
+    "approved_by": "Vice President - IT Infrastructure",
+    "auth_sign": "Chief Financial Officer (CFO)"
+  },
+  {
+    "id": "NON_MED_005",
+    "filename": "NON_MED_005_Software_Engineer_Curriculum_Vitae.pdf",
+    "category": "Human Resources & Recruitment",
+    "org_name": "CURRICULUM VITAE & PROFESSIONAL RESUME",
+    "dept_name": "Talent Acquisition & Candidate Profile Review",
+    "category_tag": "PROFESSIONAL PROFILE & RESUME",
+    "address": "B-402, Green Glen Layout, Bellandur, Bangalore - 560103, Karnataka",
+    "doc_id": "CV-ENG-2026-5519",
+    "barcode": "CV*DEV*0914",
+    "title": "Curriculum Vitae - Senior Full-Stack Software Engineer",
+    "client_name": "Candidate: Rohan K. Nambiar",
+    "date": "September 14, 2026",
+    "account_id": "PORTFOLIO: github.com/rohan-tech-lead",
+    "period": "Total Industry Experience: 8+ Years",
+    "tax_id": "PAN: ABCPN1234K | LinkedIn: /in/rohan-nambiar",
+    "agent_name": "Technical Recruiter Desk",
+    "trans_type": "Job Application & Candidate Dossier",
+    "payment_status": "CURRENT CTC: 32 LPA | NOTICE: 30 DAYS",
+    "table_columns": [
+      "Technical Domain",
+      "Technologies & Frameworks",
+      "Years Active",
+      "Proficiency Level",
+      "Key Impact"
+    ],
+    "col_widths": [
+      130,
+      140,
+      75,
+      95,
+      116
+    ],
+    "table_rows": [
+      [
+        "Frontend Engineering",
+        "React 19, Vite, Next.js, Redux, Tailwind",
+        "8 Years",
+        "Expert / Architect",
+        "Shipped 12 SaaS Apps"
+      ],
+      [
+        "Backend Architecture",
+        "Python, Django REST, Node.js, FastAPI",
+        "8 Years",
+        "Expert / Lead",
+        "Scaled to 5M Daily Req"
+      ],
+      [
+        "Database Systems",
+        "PostgreSQL, Supabase, Redis, ClickHouse",
+        "6 Years",
+        "Advanced",
+        "Optimized Query Latency"
+      ],
+      [
+        "DevOps & Cloud",
+        "Docker, Kubernetes, AWS (EC2/S3), CI/CD",
+        "5 Years",
+        "Advanced",
+        "Reduced Build Time 65%"
+      ],
+      [
+        "System Design",
+        "Microservices, Distributed Caching, Kafka",
+        "6 Years",
+        "Expert / Lead",
+        "High Availability 99.99%"
+      ],
+      [
+        "Certifications",
+        "AWS Solutions Architect Associate, CKA",
+        "2024",
+        "Certified",
+        "Active Credentials"
+      ]
+    ],
+    "terms_and_notes": [
+      "B.Tech in Computer Science & Engineering from National Institute of Technology (NIT) Surathkal.",
+      "Led a high-velocity team of 9 software engineers building healthcare and fintech microservices.",
+      "Declaration: The particulars provided above are authentic and complete to the best of my knowledge.",
+      "SAFETY BENCHMARK: Professional developer resume testing gatekeeper non-medical rejection."
+    ],
+    "issued_by": "Candidate Direct Submission",
+    "approved_by": "Technical Screening Panel",
+    "auth_sign": "Talent Acquisition Lead"
+  },
+  {
+    "id": "NON_MED_006",
+    "filename": "NON_MED_006_City_Electricity_Utility_Bill.pdf",
+    "category": "Utilities & Energy",
+    "org_name": "TATA POWER COMPANY LIMITED - CONSUMER SERVICES",
+    "dept_name": "Electricity Distribution & Consumer Metering Division",
+    "category_tag": "ELECTRICITY BILLING STATEMENT",
+    "address": "Senapati Bapat Marg, Lower Parel, Mumbai - 400013, Maharashtra",
+    "doc_id": "BILL-ELEC-2026-88019",
+    "barcode": "PWR*0914*88019",
+    "title": "Monthly Electricity Consumption & Metering Statement",
+    "client_name": "Consumer: Smt. Sunita Ramesh Rao",
+    "date": "September 14, 2026",
+    "account_id": "CONSUMER NO: 900018421099",
+    "period": "Billing Month: August 2026 (01/08/2026 to 31/08/2026)",
+    "tax_id": "GSTIN: 27AAACT2727Q1ZW | Tariff: Residential LT-1",
+    "agent_name": "Meter Reader Agent #401",
+    "trans_type": "Public Utility Power Supply",
+    "payment_status": "DUE DATE: 28 SEP 2026 | UNPAID CURRENT",
+    "table_columns": [
+      "Billing Component",
+      "Units / Slab",
+      "Tariff Rate (INR)",
+      "Duty & Cess (INR)",
+      "Billed Amount (INR)"
+    ],
+    "col_widths": [
+      150,
+      100,
+      100,
+      100,
+      106
+    ],
+    "table_rows": [
+      [
+        "Energy Charges (Slab 0 - 100 kWh)",
+        "100 Units",
+        "4.50 / Unit",
+        "Electricity Duty 16%",
+        "450.00"
+      ],
+      [
+        "Energy Charges (Slab 101 - 300 kWh)",
+        "184 Units",
+        "7.80 / Unit",
+        "Electricity Duty 16%",
+        "1,435.20"
+      ],
+      [
+        "Fixed Monthly Demand Charges",
+        "1 Connection (5 kW)",
+        "140.00 / kW",
+        "Fixed Base Charge",
+        "700.00"
+      ],
+      [
+        "Fuel Adjustment Charges (FAC)",
+        "284 Units",
+        "0.45 / Unit",
+        "Variable Pass-through",
+        "127.80"
+      ],
+      [
+        "Government Electricity Duty (16%)",
+        "Gross Tariff",
+        "16.0 % Rate",
+        "State Treasury Cess",
+        "434.08"
+      ],
+      [
+        "Total Current Month Energy Bill",
+        "Total 284 kWh",
+        "Due 28/09/2026",
+        "Net Payable INR",
+        "3,147.00"
+      ]
+    ],
+    "terms_and_notes": [
+      "Please pay on or before 28/09/2026 to avoid prompt payment discount forfeiture and late surcharge.",
+      "Save power, save money: Switch to energy-efficient BLDC fans and 5-star inverter appliances.",
+      "Customer care helpline: 19123 or email customercare@tatapower.com for meter disputes.",
+      "SAFETY BENCHMARK: Municipal power utility statement verifying non-medical rejection."
+    ],
+    "issued_by": "Automated Billing Server",
+    "approved_by": "Divisional Executive Engineer",
+    "auth_sign": "Chief Commercial Officer"
+  },
+  {
+    "id": "NON_MED_007",
+    "filename": "NON_MED_007_Motor_Vehicle_Driving_License.pdf",
+    "category": "Government & Licensing",
+    "org_name": "GOVERNMENT OF KARNATAKA - MOTOR VEHICLES DEPARTMENT",
+    "dept_name": "Regional Transport Office (RTO) Bangalore Central - KA-01",
+    "category_tag": "OFFICIAL DRIVING LICENCE",
+    "address": "Koramangala BDA Complex, 80 Feet Road, Bangalore - 560034",
+    "doc_id": "DL-KA01-2026-00918",
+    "barcode": "DL*KA01*2026*0914",
+    "title": "Motor Vehicle Driver's Licence & Identity Card",
+    "client_name": "Licence Holder: Pradeep N. Hegde",
+    "date": "September 14, 2026",
+    "account_id": "DL NO: KA-01-2018-0094123",
+    "period": "Valid From: 14/09/2018 | Valid Upto: 13/09/2038",
+    "tax_id": "SARATHI-PORTAL-ID: 981240182",
+    "agent_name": "Licensing Officer RTO KA-01",
+    "trans_type": "Government Issued Identity & Driving Permit",
+    "payment_status": "FEE PAID: INR 450 (SMART CARD ISSUED)",
+    "table_columns": [
+      "Vehicle Class Code",
+      "Class Description",
+      "Endorsement Date",
+      "Issuing Authority",
+      "Validity Status"
+    ],
+    "col_widths": [
+      110,
+      140,
+      100,
+      106,
+      100
+    ],
+    "table_rows": [
+      [
+        "MCWG",
+        "Motorcycle With Gear (Two Wheeler)",
+        "14/09/2018",
+        "RTO Bangalore Central",
+        "Valid till 2038"
+      ],
+      [
+        "LMV",
+        "Light Motor Vehicle (Non-Transport Car)",
+        "14/09/2018",
+        "RTO Bangalore Central",
+        "Valid till 2038"
+      ],
+      [
+        "ORGAN DONOR",
+        "Opted for Organ Donation: YES",
+        "Registered Flag",
+        "Jeevasarthakathe",
+        "Donor Pledge Endorsed"
+      ],
+      [
+        "Emergency Contact",
+        "Spouse: +91 98450 11223",
+        "Verified",
+        "Blood Group: O+ (Ref)",
+        "Family Endorsement"
+      ],
+      [
+        "Badge / Commercial",
+        "None (Private Non-Commercial)",
+        "N/A",
+        "RTO Office",
+        "Private Use Only"
+      ]
+    ],
+    "terms_and_notes": [
+      "This licence is valid throughout the territory of the Republic of India as per MV Act 1988.",
+      "Vehicle must always be operated with mandatory third-party insurance and valid PUC certificate.",
+      "Report change of residential address within 30 days via mParivahan portal.",
+      "SAFETY BENCHMARK: Government driver's licence document verifying gatekeeper rejection."
+    ],
+    "issued_by": "Card Printing Section",
+    "approved_by": "Inspector of Motor Vehicles (IMV)",
+    "auth_sign": "Regional Transport Officer (Licensing Authority)"
+  },
+  {
+    "id": "NON_MED_008",
+    "filename": "NON_MED_008_Commercial_Bank_Monthly_Statement.pdf",
+    "category": "Banking & Finance",
+    "org_name": "HDFC BANK LIMITED - RETAIL BANKING DIVISION",
+    "dept_name": "Retail Banking & Wealth Management Branch Operations",
+    "category_tag": "MONTHLY BANK STATEMENT",
+    "address": "HDFC Bank House, Senapati Bapat Marg, Lower Parel, Mumbai - 400013",
+    "doc_id": "STMT-HDFC-2026-99014",
+    "barcode": "HDFC*0914*99014",
+    "title": "Savings Bank Account Monthly Statement of Transactions",
+    "client_name": "Account Holder: Gaurav M. Bhattacharya",
+    "date": "September 14, 2026",
+    "account_id": "A/C NO: 50100249182310 | IFSC: HDFC0000060",
+    "period": "Statement Period: 01-Aug-2026 to 31-Aug-2026",
+    "tax_id": "PAN: AAACB9921D | Customer ID: 90124419",
+    "agent_name": "Fort Branch, Mumbai",
+    "trans_type": "Retail Savings Account",
+    "payment_status": "CLOSING BALANCE: INR 1,84,290.40 CR",
+    "table_columns": [
+      "Txn Date",
+      "Transaction Narration",
+      "Cheque / Ref No",
+      "Debit (INR)",
+      "Credit (INR)"
+    ],
+    "col_widths": [
+      80,
+      196,
+      95,
+      90,
+      95
+    ],
+    "table_rows": [
+      [
+        "01/08/2026",
+        "SALARY CREDIT - TECH SYSTEMS INDIA",
+        "NEFT-N09124410",
+        "-",
+        "1,45,000.00"
+      ],
+      [
+        "05/08/2026",
+        "UPI/ZOMATO/FOOD_ORDER/492190",
+        "UPI-421904128",
+        "840.00",
+        "-"
+      ],
+      [
+        "07/08/2026",
+        "MUTUAL FUND SIP - HDFC TOP 100",
+        "ACH-009124112",
+        "15,000.00",
+        "-"
+      ],
+      [
+        "10/08/2026",
+        "ATM CASH WITHDRAWAL - FORT BRANCH",
+        "ATM-TXN-88120",
+        "10,000.00",
+        "-"
+      ],
+      [
+        "15/08/2026",
+        "ELECTRICITY BILL TATA POWER",
+        "BBPS-99012481",
+        "3,147.00",
+        "-"
+      ],
+      [
+        "22/08/2026",
+        "DIVIDEND CREDIT - INFOSYS LTD",
+        "ACH-CR-441029",
+        "-",
+        "2,850.00"
+      ],
+      [
+        "31/08/2026",
+        "CLOSING CLEAR BALANCE",
+        "Ledger Total",
+        "Total Debits: 28,987",
+        "Balance: 1,84,290.40"
+      ]
+    ],
+    "terms_and_notes": [
+      "Please examine this statement immediately. Report any discrepancies within 14 days of receipt.",
+      "Bank deposits up to INR 5,00,000 are insured by DICGC (Deposit Insurance & Credit Guarantee Corp).",
+      "Never share your OTP, PIN, CVV, or NetBanking password with anyone including bank staff.",
+      "SAFETY BENCHMARK: Financial bank ledger statement to test non-medical gatekeeper rejection."
+    ],
+    "issued_by": "Core Banking CBS System",
+    "approved_by": "Branch Operations Manager",
+    "auth_sign": "Assistant Vice President - Retail Banking"
+  },
+  {
+    "id": "NON_MED_009",
+    "filename": "NON_MED_009_Residential_Apartment_Rental_Lease.pdf",
+    "category": "Real Estate & Legal",
+    "org_name": "PRESTIGE RESIDENTIAL ESTATES & TOWNSHIPS",
+    "dept_name": "Property Management & Residential Tenancy Leasing Office",
+    "category_tag": "RESIDENTIAL LEASE AGREEMENT",
+    "address": "Prestige Falcon City, Kanakapura Road, Bangalore - 560062, Karnataka",
+    "doc_id": "LEASE-AGR-2026-3391",
+    "barcode": "AGR*0914*33910",
+    "title": "11-Month Residential Apartment Tenancy & Rental Agreement",
+    "client_name": "Tenant: Abhishek Chawla | Landlord: K. Venkatraman",
+    "date": "September 14, 2026",
+    "account_id": "UNIT: Flat 904, Tower B (3BHK 1,850 sq ft)",
+    "period": "Term: 01 Oct 2026 to 31 Aug 2027 (11 Months)",
+    "tax_id": "E-Stamp Paper Cert: IN-KA8901241092M | Stamp Duty: INR 500",
+    "agent_name": "Prestige Property Desk",
+    "trans_type": "Residential Tenancy Contract",
+    "payment_status": "SECURITY DEPOSIT: INR 2,50,000 PAID VIA NEFT",
+    "table_columns": [
+      "Clause Ref",
+      "Financial / Legal Obligation",
+      "Payment Amount (INR)",
+      "Payment Frequency",
+      "Due Date"
+    ],
+    "col_widths": [
+      80,
+      186,
+      100,
+      95,
+      95
+    ],
+    "table_rows": [
+      [
+        "Clause 2.1",
+        "Monthly Apartment Rental Fee",
+        "45,000.00 / month",
+        "Monthly in advance",
+        "5th of each month"
+      ],
+      [
+        "Clause 3.1",
+        "Interest-free Refundable Security Deposit",
+        "2,50,000.00 Total",
+        "One-time at signing",
+        "Paid in full (Ref #982)"
+      ],
+      [
+        "Clause 4.2",
+        "Society Maintenance & Association Dues",
+        "6,500.00 / month",
+        "Monthly to Society",
+        "10th of each month"
+      ],
+      [
+        "Clause 5.1",
+        "Covered Basement Car Parking (Slot B-42)",
+        "Included in Rent",
+        "Contract Term",
+        "Allotted"
+      ],
+      [
+        "Clause 7.3",
+        "Lock-in Period & Termination Notice",
+        "6 Months Lock-in",
+        "2 Months Notice",
+        "Written Notice Required"
+      ],
+      [
+        "Clause 9.1",
+        "Annual Rent Escalation on Renewal",
+        "5.0 % Increase",
+        "Upon 11-month expiry",
+        "Mutual agreement"
+      ]
+    ],
+    "terms_and_notes": [
+      "The premises shall be used strictly for private residential family occupancy and no commercial purpose.",
+      "Tenant shall maintain the interior fixtures and electrical fittings in good condition, reasonable wear and tear excepted.",
+      "Security deposit refundable within 7 days of peaceful handover of vacant possession after utility clearances.",
+      "SAFETY BENCHMARK: Residential real estate contract testing non-medical document safety rejection."
+    ],
+    "issued_by": "Legal Drafting Cell",
+    "approved_by": "Independent Notary Public",
+    "auth_sign": "Authorized Property Representative"
+  },
+  {
+    "id": "NON_MED_010",
+    "filename": "NON_MED_010_University_Semester_Marksheet_Transcript.pdf",
+    "category": "Education & Academics",
+    "org_name": "DELHI TECHNOLOGICAL UNIVERSITY (FORMERLY DCE)",
+    "dept_name": "Office of the Controller of Examinations & Academic Records",
+    "category_tag": "OFFICIAL SEMESTER MARKSHEET",
+    "address": "Shahbad Daulatpur, Main Bawana Road, Delhi - 110042, India",
+    "doc_id": "DTU-MARKS-2026-88120",
+    "barcode": "DTU*0914*88120",
+    "title": "Bachelor of Technology (B.Tech) Semester Grade Marksheet",
+    "client_name": "Student: Pooja V. Kulkarni",
+    "date": "September 14, 2026",
+    "account_id": "ROLL NO: 2K22/CO/284 | REG NO: 220101889",
+    "period": "Academic Year: 2025-26 | Semester VI (Sixth)",
+    "tax_id": "INSTITUTE CODE: DTU-DELHI | NIRF RANK: 29",
+    "agent_name": "Academic Section Examination Cell",
+    "trans_type": "B.Tech Computer Science & Engineering",
+    "payment_status": "SEMESTER SGPA: 8.92 | CUMULATIVE CGPA: 8.84",
+    "table_columns": [
+      "Course Code",
+      "Subject / Paper Title",
+      "Credits",
+      "Grade Earned",
+      "Grade Points"
+    ],
+    "col_widths": [
+      90,
+      206,
+      75,
+      90,
+      95
+    ],
+    "table_rows": [
+      [
+        "CO-302",
+        "Compiler Construction & Design",
+        "4 Credits",
+        "Grade A+",
+        "9.0 / 10.0"
+      ],
+      [
+        "CO-304",
+        "Artificial Intelligence & Expert Systems",
+        "4 Credits",
+        "Grade O (Outstanding)",
+        "10.0 / 10.0"
+      ],
+      [
+        "CO-306",
+        "Computer Networks & Distributed Systems",
+        "4 Credits",
+        "Grade A",
+        "8.0 / 10.0"
+      ],
+      [
+        "CO-308",
+        "Cloud Computing & Containerization",
+        "3 Credits",
+        "Grade A+",
+        "9.0 / 10.0"
+      ],
+      [
+        "CO-310",
+        "Full-Stack Web Development Lab",
+        "2 Credits",
+        "Grade O (Outstanding)",
+        "10.0 / 10.0"
+      ],
+      [
+        "HU-302",
+        "Engineering Economics & Management",
+        "3 Credits",
+        "Grade A",
+        "8.0 / 10.0"
+      ],
+      [
+        "SUMMARY",
+        "Total Semester Credits Earned: 20",
+        "20 Credits",
+        "SGPA: 8.92",
+        "Passed with Distinction"
+      ]
+    ],
+    "terms_and_notes": [
+      "Official statement of grades issued by Delhi Technological University under statutory regulations.",
+      "Medium of instruction and examination for this degree programme is English.",
+      "Grade conversion formula: Percentage of marks = CGPA x 10 (as approved by Academic Council).",
+      "SAFETY BENCHMARK: University academic marksheet testing non-clinical document rejection."
+    ],
+    "issued_by": "Section Officer (Result Cell)",
+    "approved_by": "Assistant Registrar (Academics)",
+    "auth_sign": "Controller of Examinations"
+  },
+  {
+    "id": "NON_MED_011",
+    "filename": "NON_MED_011_E_Commerce_Courier_Shipping_Label.pdf",
+    "category": "Logistics & Delivery",
+    "org_name": "ENTERPRISE SERVICES & COMMERCIAL CORP #11",
+    "dept_name": "Commercial Accounts, Billing & Administrative Operations",
+    "category_tag": "AWB: BLUEDART-8812904",
+    "address": "Commercial Tower Block #11, Metro Business District, Mumbai - 400051",
+    "doc_id": "E-Commerce Package Shipping Label & Delivery Challan",
+    "barcode": "NONMED*0914*88011",
+    "title": "Logistics & Delivery",
+    "client_name": "Corporate Client / Consumer #11",
+    "date": "September 14, 2026",
+    "account_id": "ACCT-REF-2026-4011",
+    "period": "Billing / Transaction Cycle: Current Term",
+    "tax_id": "GSTIN: 27AABCC1011D1Z2",
+    "agent_name": "Authorized Accounts Representative",
+    "trans_type": "Commercial Administrative Record",
+    "payment_status": "PAID & SETTLED IN FULL",
+    "table_columns": [
+      "Line Item / Specification",
+      "Category / HSN",
+      "Quantity / Volume",
+      "Rate / Tariff (INR)",
+      "Total Invoiced (INR)"
+    ],
+    "col_widths": [
+      160,
+      95,
+      95,
+      100,
+      106
+    ],
+    "table_rows": "Courier Waybill",
+    "terms_and_notes": [
+      [
+        "Package Weight",
+        "1.42 kg Gross",
+        "Volumetric: 1.6 kg",
+        "Air Express",
+        "Standard Surface"
+      ],
+      [
+        "Item Description",
+        "Noise Wireless Headphones (1x)",
+        "Electronic Accessory",
+        "Value: INR 3,499",
+        "Fragile / Handle Care"
+      ],
+      [
+        "Origin Hub",
+        "Bangalore Fulfillment Center",
+        "BLR-FC-04",
+        "Dispatched",
+        "Sort Facility OK"
+      ],
+      [
+        "Destination Hub",
+        "Indore Express Hub",
+        "IDR-HUB-01",
+        "Out for Delivery",
+        "PIN: 452001"
+      ],
+      [
+        "Cash on Delivery",
+        "Prepaid Online (Zero COD)",
+        "Payment Verified",
+        "INR 0.00 Due",
+        "Delivered Today"
+      ],
+      "This document is an authentic commercial billing and administrative receipt.",
+      "Contains strictly non-clinical metadata with zero health or patient diagnostic records.",
+      "SAFETY BENCHMARK: Non-medical test record verifying clinical safety gatekeeper rejection."
+    ],
+    "issued_by": "Accounts Desk",
+    "approved_by": "Branch Operations Lead",
+    "auth_sign": "General Manager / Finance Officer"
+  },
+  {
+    "id": "NON_MED_012",
+    "filename": "NON_MED_012_Gym_Annual_Fitness_Membership_Contract.pdf",
+    "category": "Fitness & Sports",
+    "org_name": "ENTERPRISE SERVICES & COMMERCIAL CORP #12",
+    "dept_name": "Commercial Accounts, Billing & Administrative Operations",
+    "category_tag": "MEM-GYM-2026-441",
+    "address": "Commercial Tower Block #12, Metro Business District, Mumbai - 400051",
+    "doc_id": "Health Club & Gym Annual Membership Agreement",
+    "barcode": "NONMED*0914*88012",
+    "title": "Fitness & Sports",
+    "client_name": "Corporate Client / Consumer #12",
+    "date": "September 14, 2026",
+    "account_id": "ACCT-REF-2026-4012",
+    "period": "Billing / Transaction Cycle: Current Term",
+    "tax_id": "GSTIN: 27AABCC1012D1Z3",
+    "agent_name": "Authorized Accounts Representative",
+    "trans_type": "Commercial Administrative Record",
+    "payment_status": "PAID & SETTLED IN FULL",
+    "table_columns": [
+      "Line Item / Specification",
+      "Category / HSN",
+      "Quantity / Volume",
+      "Rate / Tariff (INR)",
+      "Total Invoiced (INR)"
+    ],
+    "col_widths": [
+      160,
+      95,
+      95,
+      100,
+      106
+    ],
+    "table_rows": "Membership Contract",
+    "terms_and_notes": [
+      [
+        "Annual All-Access Membership",
+        "12 Months Full Access",
+        "Gym Floor + Cardio",
+        "Annual Fee",
+        "18,000.00"
+      ],
+      [
+        "Personal Training Package",
+        "20 Sessions with Certified Trainer",
+        "Level 2 Trainer",
+        "Add-on Fee",
+        "12,000.00"
+      ],
+      [
+        "Locker Rental (Locker #104)",
+        "12 Months Dedicated",
+        "Key & RFID Band",
+        "Rental Fee",
+        "3,000.00"
+      ],
+      [
+        "Steam & Sauna Facilities",
+        "Unlimited Usage",
+        "Spa Zone",
+        "Complimentary",
+        "0.00"
+      ],
+      [
+        "GST (18%) Tax",
+        "Government Cess",
+        "Tax Slabs",
+        "Taxes Paid",
+        "5,940.00"
+      ],
+      [
+        "Total Contract Value",
+        "INR 38,940 Total",
+        "Paid via Credit Card",
+        "Settled",
+        "38,940.00"
+      ],
+      "This document is an authentic commercial billing and administrative receipt.",
+      "Contains strictly non-clinical metadata with zero health or patient diagnostic records.",
+      "SAFETY BENCHMARK: Non-medical test record verifying clinical safety gatekeeper rejection."
+    ],
+    "issued_by": "Accounts Desk",
+    "approved_by": "Branch Operations Lead",
+    "auth_sign": "General Manager / Finance Officer"
+  },
+  {
+    "id": "NON_MED_013",
+    "filename": "NON_MED_013_Cellular_Telecom_Postpaid_Monthly_Invoice.pdf",
+    "category": "Telecommunications",
+    "org_name": "ENTERPRISE SERVICES & COMMERCIAL CORP #13",
+    "dept_name": "Commercial Accounts, Billing & Administrative Operations",
+    "category_tag": "BILL-TEL-2026-9011",
+    "address": "Commercial Tower Block #13, Metro Business District, Mumbai - 400051",
+    "doc_id": "Mobile Telecom 5G Postpaid Monthly Billing Statement",
+    "barcode": "NONMED*0914*88013",
+    "title": "Telecommunications",
+    "client_name": "Corporate Client / Consumer #13",
+    "date": "September 14, 2026",
+    "account_id": "ACCT-REF-2026-4013",
+    "period": "Billing / Transaction Cycle: Current Term",
+    "tax_id": "GSTIN: 27AABCC1013D1Z4",
+    "agent_name": "Authorized Accounts Representative",
+    "trans_type": "Commercial Administrative Record",
+    "payment_status": "PAID & SETTLED IN FULL",
+    "table_columns": [
+      "Line Item / Specification",
+      "Category / HSN",
+      "Quantity / Volume",
+      "Rate / Tariff (INR)",
+      "Total Invoiced (INR)"
+    ],
+    "col_widths": [
+      160,
+      95,
+      95,
+      100,
+      106
+    ],
+    "table_rows": "Telecom Tax Invoice",
+    "terms_and_notes": [
+      [
+        "Postpaid Infinity Plan 5G",
+        "Monthly Rental",
+        "Unlimited Calls & SMS",
+        "Data: 150 GB",
+        "799.00"
+      ],
+      [
+        "International Roaming Pack (USA)",
+        "7 Days Active",
+        "500 Min + 5GB Roam",
+        "Add-on Pack",
+        "2,499.00"
+      ],
+      [
+        "Netflix & Amazon Prime Bundle",
+        "OTT Subscription",
+        "Included in Plan",
+        "Zero Charge",
+        "0.00"
+      ],
+      [
+        "Regulatory Telecom License Fee",
+        "TRAI Universal Service Fund",
+        "Government Surcharge",
+        "Regulatory",
+        "42.50"
+      ],
+      [
+        "GST @ 18% (CGST 9% + SGST 9%)",
+        "Tax Component",
+        "Service Tax",
+        "Output Tax",
+        "594.15"
+      ],
+      [
+        "Total Amount Due",
+        "Bill Cycle: Aug-Sep",
+        "Due Date: 25 Sep",
+        "Net Payable",
+        "3,934.65"
+      ],
+      "This document is an authentic commercial billing and administrative receipt.",
+      "Contains strictly non-clinical metadata with zero health or patient diagnostic records.",
+      "SAFETY BENCHMARK: Non-medical test record verifying clinical safety gatekeeper rejection."
+    ],
+    "issued_by": "Accounts Desk",
+    "approved_by": "Branch Operations Lead",
+    "auth_sign": "General Manager / Finance Officer"
+  },
+  {
+    "id": "NON_MED_014",
+    "filename": "NON_MED_014_Indian_Railways_IRCTC_Reservation_Slip.pdf",
+    "category": "Railway Transport",
+    "org_name": "ENTERPRISE SERVICES & COMMERCIAL CORP #14",
+    "dept_name": "Commercial Accounts, Billing & Administrative Operations",
+    "category_tag": "PNR-241-9041280",
+    "address": "Commercial Tower Block #14, Metro Business District, Mumbai - 400051",
+    "doc_id": "Indian Railways IRCTC Electronic Reservation Slip (Train Ticket)",
+    "barcode": "NONMED*0914*88014",
+    "title": "Railway Transport",
+    "client_name": "Corporate Client / Consumer #14",
+    "date": "September 14, 2026",
+    "account_id": "ACCT-REF-2026-4014",
+    "period": "Billing / Transaction Cycle: Current Term",
+    "tax_id": "GSTIN: 27AABCC1014D1Z5",
+    "agent_name": "Authorized Accounts Representative",
+    "trans_type": "Commercial Administrative Record",
+    "payment_status": "PAID & SETTLED IN FULL",
+    "table_columns": [
+      "Line Item / Specification",
+      "Category / HSN",
+      "Quantity / Volume",
+      "Rate / Tariff (INR)",
+      "Total Invoiced (INR)"
+    ],
+    "col_widths": [
+      160,
+      95,
+      95,
+      100,
+      106
+    ],
+    "table_rows": "Railway E-Ticket",
+    "terms_and_notes": [
+      [
+        "Train Name & Number",
+        "12952 / Mumbai Rajdhani Express",
+        "New Delhi to Mumbai Central",
+        "Class: 2nd AC (2A)",
+        "Confirmed (CNF)"
+      ],
+      [
+        "Berth / Seat Allocation",
+        "Coach A2, Berth 34 (Side Lower)",
+        "Confirmed Status",
+        "Food Opted: Veg",
+        "Chart Prepared"
+      ],
+      [
+        "Passenger Details",
+        "Mr. Sanjeev Mehra (Age 48, Male)",
+        "ID Proof: Aadhaar Card",
+        "Senior Concession: Nil",
+        "Adult Passenger"
+      ],
+      [
+        "Base Railway Fare",
+        "Distance 1,384 km",
+        "Superfast Surcharge",
+        "Rajdhani Base",
+        "3,480.00"
+      ],
+      [
+        "IRCTC Convenience Fee & Tax",
+        "PG Charges + GST",
+        "Payment Gateway",
+        "Platform Fee",
+        "35.40"
+      ],
+      [
+        "Total Ticket Fare Paid",
+        "PNR: 241-9041280",
+        "Settled via NetBanking",
+        "Total INR",
+        "3,515.40"
+      ],
+      "This document is an authentic commercial billing and administrative receipt.",
+      "Contains strictly non-clinical metadata with zero health or patient diagnostic records.",
+      "SAFETY BENCHMARK: Non-medical test record verifying clinical safety gatekeeper rejection."
+    ],
+    "issued_by": "Accounts Desk",
+    "approved_by": "Branch Operations Lead",
+    "auth_sign": "General Manager / Finance Officer"
+  },
+  {
+    "id": "NON_MED_015",
+    "filename": "NON_MED_015_Corporate_Employee_Monthly_Salary_Payslip.pdf",
+    "category": "Human Resources",
+    "org_name": "ENTERPRISE SERVICES & COMMERCIAL CORP #15",
+    "dept_name": "Commercial Accounts, Billing & Administrative Operations",
+    "category_tag": "PAY-2026-08-990",
+    "address": "Commercial Tower Block #15, Metro Business District, Mumbai - 400051",
+    "doc_id": "Corporate Monthly Employee Salary Payslip with Tax Deductions",
+    "barcode": "NONMED*0914*88015",
+    "title": "Human Resources",
+    "client_name": "Corporate Client / Consumer #15",
+    "date": "September 14, 2026",
+    "account_id": "ACCT-REF-2026-4015",
+    "period": "Billing / Transaction Cycle: Current Term",
+    "tax_id": "GSTIN: 27AABCC1015D1Z6",
+    "agent_name": "Authorized Accounts Representative",
+    "trans_type": "Commercial Administrative Record",
+    "payment_status": "PAID & SETTLED IN FULL",
+    "table_columns": [
+      "Line Item / Specification",
+      "Category / HSN",
+      "Quantity / Volume",
+      "Rate / Tariff (INR)",
+      "Total Invoiced (INR)"
+    ],
+    "col_widths": [
+      160,
+      95,
+      95,
+      100,
+      106
+    ],
+    "table_rows": "Monthly Payslip",
+    "terms_and_notes": [
+      [
+        "Basic Salary Component",
+        "40% of CTC",
+        "Fixed Monthly",
+        "Standard Basic",
+        "75,000.00"
+      ],
+      [
+        "House Rent Allowance (HRA)",
+        "50% of Basic",
+        "Tax Exempt under 10(13A)",
+        "Allowances",
+        "37,500.00"
+      ],
+      [
+        "Special Allowance",
+        "Flexible Benefit",
+        "Taxable Monthly",
+        "Allowances",
+        "42,500.00"
+      ],
+      [
+        "Provident Fund (Employee PF)",
+        "12% of Basic",
+        "Retirement Saving",
+        "Statutory Deduction",
+        "- 9,000.00"
+      ],
+      [
+        "Income Tax TDS (Section 192)",
+        "New Tax Regime FY 26-27",
+        "Monthly Tax Deduction",
+        "Statutory Deduction",
+        "- 18,400.00"
+      ],
+      [
+        "Professional Tax (Karnataka)",
+        "State Municipal Tax",
+        "Standard Surcharge",
+        "Statutory Deduction",
+        "- 200.00"
+      ],
+      [
+        "Net Take-Home Salary Transferred",
+        "Direct Bank Credit (HDFC)",
+        "Credited on 31-Aug",
+        "Net Transferred",
+        "1,27,400.00"
+      ],
+      "This document is an authentic commercial billing and administrative receipt.",
+      "Contains strictly non-clinical metadata with zero health or patient diagnostic records.",
+      "SAFETY BENCHMARK: Non-medical test record verifying clinical safety gatekeeper rejection."
+    ],
+    "issued_by": "Accounts Desk",
+    "approved_by": "Branch Operations Lead",
+    "auth_sign": "General Manager / Finance Officer"
+  },
+  {
+    "id": "NON_MED_016",
+    "filename": "NON_MED_016_Income_Tax_Department_ITR_V_Acknowledgement.pdf",
+    "category": "Taxation & Revenue",
+    "org_name": "ENTERPRISE SERVICES & COMMERCIAL CORP #16",
+    "dept_name": "Commercial Accounts, Billing & Administrative Operations",
+    "category_tag": "ITR-V-2026-44019",
+    "address": "Commercial Tower Block #16, Metro Business District, Mumbai - 400051",
+    "doc_id": "Income Tax Department ITR-V Verification & Filing Acknowledgement",
+    "barcode": "NONMED*0914*88016",
+    "title": "Taxation & Revenue",
+    "client_name": "Corporate Client / Consumer #16",
+    "date": "September 14, 2026",
+    "account_id": "ACCT-REF-2026-4016",
+    "period": "Billing / Transaction Cycle: Current Term",
+    "tax_id": "GSTIN: 27AABCC1016D1Z7",
+    "agent_name": "Authorized Accounts Representative",
+    "trans_type": "Commercial Administrative Record",
+    "payment_status": "PAID & SETTLED IN FULL",
+    "table_columns": [
+      "Line Item / Specification",
+      "Category / HSN",
+      "Quantity / Volume",
+      "Rate / Tariff (INR)",
+      "Total Invoiced (INR)"
+    ],
+    "col_widths": [
+      160,
+      95,
+      95,
+      100,
+      106
+    ],
+    "table_rows": "Tax Return Receipt",
+    "terms_and_notes": [
+      [
+        "Assessment Year (AY)",
+        "AY 2026-2027",
+        "Financial Year: 2025-26",
+        "Form: ITR-1 Sahaj",
+        "Filed on Time"
+      ],
+      [
+        "Gross Total Income",
+        "Salary + Other Sources",
+        "Form 16 Concordance",
+        "Total Taxable",
+        "18,40,000.00"
+      ],
+      [
+        "Total Deductions (Chapter VI-A)",
+        "Section 80C + 80CCD NPS",
+        "Standard Deductions",
+        "Exemptions",
+        "2,00,000.00"
+      ],
+      [
+        "Total Net Tax Paid (TDS + Adv)",
+        "TDS via Employer + Self",
+        "26AS Verified",
+        "Taxes Paid",
+        "2,42,800.00"
+      ],
+      [
+        "Refund / Balance Payable",
+        "Zero Refund / Zero Tax Due",
+        "Taxes Fully Paid",
+        "Nil Balance",
+        "0.00 (Nil)"
+      ],
+      [
+        "E-Verification Status",
+        "E-Verified via Aadhaar OTP",
+        "Verification Completed",
+        "IP: 103.24.90.12",
+        "Verified Successfully"
+      ],
+      "This document is an authentic commercial billing and administrative receipt.",
+      "Contains strictly non-clinical metadata with zero health or patient diagnostic records.",
+      "SAFETY BENCHMARK: Non-medical test record verifying clinical safety gatekeeper rejection."
+    ],
+    "issued_by": "Accounts Desk",
+    "approved_by": "Branch Operations Lead",
+    "auth_sign": "General Manager / Finance Officer"
+  },
+  {
+    "id": "NON_MED_017",
+    "filename": "NON_MED_017_Hypermarket_Grocery_Store_POS_Receipt.pdf",
+    "category": "Retail & Commerce",
+    "org_name": "ENTERPRISE SERVICES & COMMERCIAL CORP #17",
+    "dept_name": "Commercial Accounts, Billing & Administrative Operations",
+    "category_tag": "POS-DMART-88219",
+    "address": "Commercial Tower Block #17, Metro Business District, Mumbai - 400051",
+    "doc_id": "Supermarket Retail Hypermarket Cash POS Register Receipt",
+    "barcode": "NONMED*0914*88017",
+    "title": "Retail & Commerce",
+    "client_name": "Corporate Client / Consumer #17",
+    "date": "September 14, 2026",
+    "account_id": "ACCT-REF-2026-4017",
+    "period": "Billing / Transaction Cycle: Current Term",
+    "tax_id": "GSTIN: 27AABCC1017D1Z8",
+    "agent_name": "Authorized Accounts Representative",
+    "trans_type": "Commercial Administrative Record",
+    "payment_status": "PAID & SETTLED IN FULL",
+    "table_columns": [
+      "Line Item / Specification",
+      "Category / HSN",
+      "Quantity / Volume",
+      "Rate / Tariff (INR)",
+      "Total Invoiced (INR)"
+    ],
+    "col_widths": [
+      160,
+      95,
+      95,
+      100,
+      106
+    ],
+    "table_rows": "Store Cash Slip",
+    "terms_and_notes": [
+      [
+        "Basmati Rice 5kg Royal Pack",
+        "08901240182",
+        "1 Bag",
+        "Rate: 480.00",
+        "480.00"
+      ],
+      [
+        "Cold Pressed Sunflower Oil 5L",
+        "08902148901",
+        "1 Can",
+        "Rate: 620.00",
+        "620.00"
+      ],
+      [
+        "Organic Whole Wheat Atta 10kg",
+        "08904128901",
+        "1 Bag",
+        "Rate: 390.00",
+        "390.00"
+      ],
+      [
+        "Almonds California 500g Pouch",
+        "08905512401",
+        "2 Packs",
+        "Rate: 420.00",
+        "840.00"
+      ],
+      [
+        "Liquid Detergent 2L Refill",
+        "08907712401",
+        "1 Bottle",
+        "Rate: 299.00",
+        "299.00"
+      ],
+      [
+        "Store Membership Savings",
+        "Special Mart Discount",
+        "Club Card Applied",
+        "Discount Given",
+        "- 210.00"
+      ],
+      [
+        "Final Total POS Billed Amount",
+        "Items: 6 | Mode: Cash",
+        "Change Returned: 81.00",
+        "Net Billed",
+        "2,419.00"
+      ],
+      "This document is an authentic commercial billing and administrative receipt.",
+      "Contains strictly non-clinical metadata with zero health or patient diagnostic records.",
+      "SAFETY BENCHMARK: Non-medical test record verifying clinical safety gatekeeper rejection."
+    ],
+    "issued_by": "Accounts Desk",
+    "approved_by": "Branch Operations Lead",
+    "auth_sign": "General Manager / Finance Officer"
+  },
+  {
+    "id": "NON_MED_018",
+    "filename": "NON_MED_018_Tech_Conference_Delegate_Pass_Voucher.pdf",
+    "category": "Events & Entertainment",
+    "org_name": "ENTERPRISE SERVICES & COMMERCIAL CORP #18",
+    "dept_name": "Commercial Accounts, Billing & Administrative Operations",
+    "category_tag": "CONF-DELEGATE-2026",
+    "address": "Commercial Tower Block #18, Metro Business District, Mumbai - 400051",
+    "doc_id": "International Tech Conference Delegate Pass & Ticket Voucher",
+    "barcode": "NONMED*0914*88018",
+    "title": "Events & Entertainment",
+    "client_name": "Corporate Client / Consumer #18",
+    "date": "September 14, 2026",
+    "account_id": "ACCT-REF-2026-4018",
+    "period": "Billing / Transaction Cycle: Current Term",
+    "tax_id": "GSTIN: 27AABCC1018D1Z0",
+    "agent_name": "Authorized Accounts Representative",
+    "trans_type": "Commercial Administrative Record",
+    "payment_status": "PAID & SETTLED IN FULL",
+    "table_columns": [
+      "Line Item / Specification",
+      "Category / HSN",
+      "Quantity / Volume",
+      "Rate / Tariff (INR)",
+      "Total Invoiced (INR)"
+    ],
+    "col_widths": [
+      160,
+      95,
+      95,
+      100,
+      106
+    ],
+    "table_rows": "Conference Badge",
+    "terms_and_notes": [
+      [
+        "Full Conference 3-Day Pass",
+        "All Access Keynotes + Tracks",
+        "Delegate Tier",
+        "Standard Pass",
+        "15,000.00"
+      ],
+      [
+        "Hands-on Cloud Workshop Pass",
+        "Kubernetes & Microservices Deep Dive",
+        "Full Day Lab",
+        "Add-on Ticket",
+        "5,000.00"
+      ],
+      [
+        "Networking Gala Dinner Access",
+        "VIP Evening Networking Reception",
+        "Includes F&B",
+        "Complimentary",
+        "0.00"
+      ],
+      [
+        "Conference Swag Kit & Bag",
+        "T-shirt, Backpack, Tech Accessories",
+        "Attendee Kit",
+        "Included",
+        "0.00"
+      ],
+      [
+        "GST (18%) Output Tax",
+        "Exhibition & Event Tax",
+        "Statutory Rate",
+        "Taxes Paid",
+        "3,600.00"
+      ],
+      [
+        "Total Registration Fee Paid",
+        "Payment ID: PAY-CONF-8821",
+        "Credit Card Settled",
+        "Total INR",
+        "23,600.00"
+      ],
+      "This document is an authentic commercial billing and administrative receipt.",
+      "Contains strictly non-clinical metadata with zero health or patient diagnostic records.",
+      "SAFETY BENCHMARK: Non-medical test record verifying clinical safety gatekeeper rejection."
+    ],
+    "issued_by": "Accounts Desk",
+    "approved_by": "Branch Operations Lead",
+    "auth_sign": "General Manager / Finance Officer"
+  },
+  {
+    "id": "NON_MED_019",
+    "filename": "NON_MED_019_Automobile_Periodic_Service_Work_Order.pdf",
+    "category": "Automotive & Maintenance",
+    "org_name": "ENTERPRISE SERVICES & COMMERCIAL CORP #19",
+    "dept_name": "Commercial Accounts, Billing & Administrative Operations",
+    "category_tag": "WORK-AUTO-2026-90",
+    "address": "Commercial Tower Block #19, Metro Business District, Mumbai - 400051",
+    "doc_id": "Automobile Dealership Periodic Maintenance Work Order & Receipt",
+    "barcode": "NONMED*0914*88019",
+    "title": "Automotive & Maintenance",
+    "client_name": "Corporate Client / Consumer #19",
+    "date": "September 14, 2026",
+    "account_id": "ACCT-REF-2026-4019",
+    "period": "Billing / Transaction Cycle: Current Term",
+    "tax_id": "GSTIN: 27AABCC1019D1Z1",
+    "agent_name": "Authorized Accounts Representative",
+    "trans_type": "Commercial Administrative Record",
+    "payment_status": "PAID & SETTLED IN FULL",
+    "table_columns": [
+      "Line Item / Specification",
+      "Category / HSN",
+      "Quantity / Volume",
+      "Rate / Tariff (INR)",
+      "Total Invoiced (INR)"
+    ],
+    "col_widths": [
+      160,
+      95,
+      95,
+      100,
+      106
+    ],
+    "table_rows": "Vehicle Service Slip",
+    "terms_and_notes": [
+      [
+        "Engine Synthetic Oil Replacement (4L)",
+        "Mobil-1 5W-30 Full Synth",
+        "Lubricant Service",
+        "Part Price",
+        "3,600.00"
+      ],
+      [
+        "OEM Oil Filter & Air Filter Element",
+        "Genuine Manufacturer Parts",
+        "Filters Replaced",
+        "Part Price",
+        "1,250.00"
+      ],
+      [
+        "Front Brake Pads Replacement (Set)",
+        "Ceramic High Performance",
+        "Wear Reached 85%",
+        "Part Price",
+        "4,200.00"
+      ],
+      [
+        "Wheel Alignment & 3D Wheel Balancing",
+        "Laser Calibration & Weights",
+        "Periodic Service",
+        "Labour Charge",
+        "1,100.00"
+      ],
+      [
+        "Comprehensive Periodic Labour Fee",
+        "40,000 km Scheduled Service",
+        "Certified Technician",
+        "Labour Service",
+        "2,800.00"
+      ],
+      [
+        "Total Automotive Invoice",
+        "Vehicle Reg: KA-03-MB-4412",
+        "Payment: UPI Done",
+        "Total Amount",
+        "12,950.00"
+      ],
+      "This document is an authentic commercial billing and administrative receipt.",
+      "Contains strictly non-clinical metadata with zero health or patient diagnostic records.",
+      "SAFETY BENCHMARK: Non-medical test record verifying clinical safety gatekeeper rejection."
+    ],
+    "issued_by": "Accounts Desk",
+    "approved_by": "Branch Operations Lead",
+    "auth_sign": "General Manager / Finance Officer"
+  },
+  {
+    "id": "NON_MED_020",
+    "filename": "NON_MED_020_Commercial_Office_Property_Maintenance_Bill.pdf",
+    "category": "Commercial Property",
+    "org_name": "ENTERPRISE SERVICES & COMMERCIAL CORP #20",
+    "dept_name": "Commercial Accounts, Billing & Administrative Operations",
+    "category_tag": "CAM-OFFICE-2026-10",
+    "address": "Commercial Tower Block #20, Metro Business District, Mumbai - 400051",
+    "doc_id": "Commercial Office Property Maintenance & Common Area Dues Receipt",
+    "barcode": "NONMED*0914*88020",
+    "title": "Commercial Property",
+    "client_name": "Corporate Client / Consumer #20",
+    "date": "September 14, 2026",
+    "account_id": "ACCT-REF-2026-4020",
+    "period": "Billing / Transaction Cycle: Current Term",
+    "tax_id": "GSTIN: 27AABCC1020D1Z2",
+    "agent_name": "Authorized Accounts Representative",
+    "trans_type": "Commercial Administrative Record",
+    "payment_status": "PAID & SETTLED IN FULL",
+    "table_columns": [
+      "Line Item / Specification",
+      "Category / HSN",
+      "Quantity / Volume",
+      "Rate / Tariff (INR)",
+      "Total Invoiced (INR)"
+    ],
+    "col_widths": [
+      160,
+      95,
+      95,
+      100,
+      106
+    ],
+    "table_rows": "CAM Maintenance Bill",
+    "terms_and_notes": [
+      [
+        "Common Area Maintenance (CAM)",
+        "Suite 402 (3,200 sq ft)",
+        "Rate: INR 8.50/sq ft",
+        "Monthly Dues",
+        "27,200.00"
+      ],
+      [
+        "Central HVAC Air Conditioning",
+        "Chilled Water Consumption",
+        "Energy Billed",
+        "BTU Metering",
+        "18,400.00"
+      ],
+      [
+        "24/7 Security & CCTV Surveillance",
+        "Security Deployment",
+        "Facility Services",
+        "Included in CAM",
+        "0.00"
+      ],
+      [
+        "Diesel Generator Backup Power",
+        "Standby Diesel Fuel Surcharge",
+        "Power Outage Backup",
+        "Actual Fuel Units",
+        "4,250.00"
+      ],
+      [
+        "GST @ 18% Output Tax",
+        "Commercial Real Estate",
+        "Tax Invoice Component",
+        "Taxes Billed",
+        "8,973.00"
+      ],
+      [
+        "Total Maintenance Payable",
+        "Due Date: 15-Oct-2026",
+        "Late Fee Applicable",
+        "Total Amount",
+        "58,823.00"
+      ],
+      "This document is an authentic commercial billing and administrative receipt.",
+      "Contains strictly non-clinical metadata with zero health or patient diagnostic records.",
+      "SAFETY BENCHMARK: Non-medical test record verifying clinical safety gatekeeper rejection."
+    ],
+    "issued_by": "Accounts Desk",
+    "approved_by": "Branch Operations Lead",
+    "auth_sign": "General Manager / Finance Officer"
+  },
+  {
+    "id": "NON_MED_021",
+    "filename": "NON_MED_021_Fiber_Optic_Broadband_Monthly_Bill.pdf",
+    "category": "Broadband Internet Service",
+    "org_name": "ENTERPRISE ALLIANCE CORP - UNIT #21",
+    "dept_name": "Commercial Accounts, Billing & Customer Service Division",
+    "category_tag": "COMMERCIAL TAX INVOICE & RECEIPT",
+    "address": "Commercial Tower #21, Global Infotech Park, Mumbai - 400072",
+    "doc_id": "DOC-NONMED-2026-9921",
+    "barcode": "NONMED*0914*99021",
+    "title": "High-Speed Fiber Broadband Monthly Internet Billing Statement",
+    "client_name": "Corporate Commercial Account #21",
+    "date": "September 14, 2026",
+    "account_id": "COMM-FOLIO-2026-1021",
+    "period": "Service / Billing Cycle: September 2026",
+    "tax_id": "GSTIN: 27AAACX1221E1Z5",
+    "agent_name": "Accounts Officer Desk",
+    "trans_type": "Commercial Business Services",
+    "payment_status": "PAID IN FULL / CLEARED",
+    "table_columns": [
+      "Commercial Item / Particulars",
+      "SAC / Tariff Code",
+      "Quantity / Units",
+      "Unit Tariff (INR)",
+      "Total Payable (INR)"
+    ],
+    "col_widths": [
+      160,
+      95,
+      95,
+      100,
+      106
+    ],
+    "table_rows": [
+      [
+        "Broadband Internet Service Core Service Deliverable",
+        "998311",
+        "1 Package",
+        "8,500.00",
+        "8,500.00"
+      ],
+      [
+        "Service Maintenance & Technical Surcharge",
+        "998312",
+        "1 Month",
+        "1,200.00",
+        "1,200.00"
+      ],
+      [
+        "Administrative Convenience & Platform Fee",
+        "998313",
+        "1 Unit",
+        "450.00",
+        "450.00"
+      ],
+      [
+        "CGST (9%) Output Service Tax",
+        "Tax",
+        "9.0 %",
+        "Subtotal: 10,150",
+        "913.50"
+      ],
+      [
+        "SGST (9%) Output Service Tax",
+        "Tax",
+        "9.0 %",
+        "Subtotal: 10,150",
+        "913.50"
+      ],
+      [
+        "Grand Total Commercial Amount (INR)",
+        "Settled",
+        "Net Cleared",
+        "Total Paid",
+        "11,977.00"
+      ]
+    ],
+    "terms_and_notes": [
+      "Official commercial tax invoice and business transaction voucher.",
+      "All transactions settled in full; zero outstanding debt or clinical relevance.",
+      "SAFETY BENCHMARK: Explicit non-clinical commercial document designed to verify gatekeeper rejection."
+    ],
+    "issued_by": "Accounts Clerk",
+    "approved_by": "Commercial Manager",
+    "auth_sign": "Authorized Commercial Signatory"
+  },
+  {
+    "id": "NON_MED_022",
+    "filename": "NON_MED_022_Fuel_Station_Petrol_Tax_Receipt.pdf",
+    "category": "Petroleum & Energy",
+    "org_name": "ENTERPRISE ALLIANCE CORP - UNIT #22",
+    "dept_name": "Commercial Accounts, Billing & Customer Service Division",
+    "category_tag": "COMMERCIAL TAX INVOICE & RECEIPT",
+    "address": "Commercial Tower #22, Global Infotech Park, Mumbai - 400072",
+    "doc_id": "DOC-NONMED-2026-9922",
+    "barcode": "NONMED*0914*99022",
+    "title": "Highway Fuel Station Petrol & Diesel Fuel Tax Receipt",
+    "client_name": "Corporate Commercial Account #22",
+    "date": "September 14, 2026",
+    "account_id": "COMM-FOLIO-2026-1022",
+    "period": "Service / Billing Cycle: September 2026",
+    "tax_id": "GSTIN: 27AAACX1222E1Z6",
+    "agent_name": "Accounts Officer Desk",
+    "trans_type": "Commercial Business Services",
+    "payment_status": "PAID IN FULL / CLEARED",
+    "table_columns": [
+      "Commercial Item / Particulars",
+      "SAC / Tariff Code",
+      "Quantity / Units",
+      "Unit Tariff (INR)",
+      "Total Payable (INR)"
+    ],
+    "col_widths": [
+      160,
+      95,
+      95,
+      100,
+      106
+    ],
+    "table_rows": [
+      [
+        "Petroleum & Energy Core Service Deliverable",
+        "998311",
+        "1 Package",
+        "8,500.00",
+        "8,500.00"
+      ],
+      [
+        "Service Maintenance & Technical Surcharge",
+        "998312",
+        "1 Month",
+        "1,200.00",
+        "1,200.00"
+      ],
+      [
+        "Administrative Convenience & Platform Fee",
+        "998313",
+        "1 Unit",
+        "450.00",
+        "450.00"
+      ],
+      [
+        "CGST (9%) Output Service Tax",
+        "Tax",
+        "9.0 %",
+        "Subtotal: 10,150",
+        "913.50"
+      ],
+      [
+        "SGST (9%) Output Service Tax",
+        "Tax",
+        "9.0 %",
+        "Subtotal: 10,150",
+        "913.50"
+      ],
+      [
+        "Grand Total Commercial Amount (INR)",
+        "Settled",
+        "Net Cleared",
+        "Total Paid",
+        "11,977.00"
+      ]
+    ],
+    "terms_and_notes": [
+      "Official commercial tax invoice and business transaction voucher.",
+      "All transactions settled in full; zero outstanding debt or clinical relevance.",
+      "SAFETY BENCHMARK: Explicit non-clinical commercial document designed to verify gatekeeper rejection."
+    ],
+    "issued_by": "Accounts Clerk",
+    "approved_by": "Commercial Manager",
+    "auth_sign": "Authorized Commercial Signatory"
+  },
+  {
+    "id": "NON_MED_023",
+    "filename": "NON_MED_023_UI_UX_Graphic_Design_Quotation.pdf",
+    "category": "Professional Design Services",
+    "org_name": "ENTERPRISE ALLIANCE CORP - UNIT #23",
+    "dept_name": "Commercial Accounts, Billing & Customer Service Division",
+    "category_tag": "COMMERCIAL TAX INVOICE & RECEIPT",
+    "address": "Commercial Tower #23, Global Infotech Park, Mumbai - 400072",
+    "doc_id": "DOC-NONMED-2026-9923",
+    "barcode": "NONMED*0914*99023",
+    "title": "Creative Studio UI/UX Graphic Design Quotation & Scope of Work",
+    "client_name": "Corporate Commercial Account #23",
+    "date": "September 14, 2026",
+    "account_id": "COMM-FOLIO-2026-1023",
+    "period": "Service / Billing Cycle: September 2026",
+    "tax_id": "GSTIN: 27AAACX1223E1Z7",
+    "agent_name": "Accounts Officer Desk",
+    "trans_type": "Commercial Business Services",
+    "payment_status": "PAID IN FULL / CLEARED",
+    "table_columns": [
+      "Commercial Item / Particulars",
+      "SAC / Tariff Code",
+      "Quantity / Units",
+      "Unit Tariff (INR)",
+      "Total Payable (INR)"
+    ],
+    "col_widths": [
+      160,
+      95,
+      95,
+      100,
+      106
+    ],
+    "table_rows": [
+      [
+        "Professional Design Services Core Service Deliverable",
+        "998311",
+        "1 Package",
+        "8,500.00",
+        "8,500.00"
+      ],
+      [
+        "Service Maintenance & Technical Surcharge",
+        "998312",
+        "1 Month",
+        "1,200.00",
+        "1,200.00"
+      ],
+      [
+        "Administrative Convenience & Platform Fee",
+        "998313",
+        "1 Unit",
+        "450.00",
+        "450.00"
+      ],
+      [
+        "CGST (9%) Output Service Tax",
+        "Tax",
+        "9.0 %",
+        "Subtotal: 10,150",
+        "913.50"
+      ],
+      [
+        "SGST (9%) Output Service Tax",
+        "Tax",
+        "9.0 %",
+        "Subtotal: 10,150",
+        "913.50"
+      ],
+      [
+        "Grand Total Commercial Amount (INR)",
+        "Settled",
+        "Net Cleared",
+        "Total Paid",
+        "11,977.00"
+      ]
+    ],
+    "terms_and_notes": [
+      "Official commercial tax invoice and business transaction voucher.",
+      "All transactions settled in full; zero outstanding debt or clinical relevance.",
+      "SAFETY BENCHMARK: Explicit non-clinical commercial document designed to verify gatekeeper rejection."
+    ],
+    "issued_by": "Accounts Clerk",
+    "approved_by": "Commercial Manager",
+    "auth_sign": "Authorized Commercial Signatory"
+  },
+  {
+    "id": "NON_MED_024",
+    "filename": "NON_MED_024_Multi_Level_Parking_Ticket_Receipt.pdf",
+    "category": "Urban Parking Transport",
+    "org_name": "ENTERPRISE ALLIANCE CORP - UNIT #24",
+    "dept_name": "Commercial Accounts, Billing & Customer Service Division",
+    "category_tag": "COMMERCIAL TAX INVOICE & RECEIPT",
+    "address": "Commercial Tower #24, Global Infotech Park, Mumbai - 400072",
+    "doc_id": "DOC-NONMED-2026-9924",
+    "barcode": "NONMED*0914*99024",
+    "title": "Multi-Level Automated Parking Facility Ticket & Cash Receipt",
+    "client_name": "Corporate Commercial Account #24",
+    "date": "September 14, 2026",
+    "account_id": "COMM-FOLIO-2026-1024",
+    "period": "Service / Billing Cycle: September 2026",
+    "tax_id": "GSTIN: 27AAACX1224E1Z0",
+    "agent_name": "Accounts Officer Desk",
+    "trans_type": "Commercial Business Services",
+    "payment_status": "PAID IN FULL / CLEARED",
+    "table_columns": [
+      "Commercial Item / Particulars",
+      "SAC / Tariff Code",
+      "Quantity / Units",
+      "Unit Tariff (INR)",
+      "Total Payable (INR)"
+    ],
+    "col_widths": [
+      160,
+      95,
+      95,
+      100,
+      106
+    ],
+    "table_rows": [
+      [
+        "Urban Parking Transport Core Service Deliverable",
+        "998311",
+        "1 Package",
+        "8,500.00",
+        "8,500.00"
+      ],
+      [
+        "Service Maintenance & Technical Surcharge",
+        "998312",
+        "1 Month",
+        "1,200.00",
+        "1,200.00"
+      ],
+      [
+        "Administrative Convenience & Platform Fee",
+        "998313",
+        "1 Unit",
+        "450.00",
+        "450.00"
+      ],
+      [
+        "CGST (9%) Output Service Tax",
+        "Tax",
+        "9.0 %",
+        "Subtotal: 10,150",
+        "913.50"
+      ],
+      [
+        "SGST (9%) Output Service Tax",
+        "Tax",
+        "9.0 %",
+        "Subtotal: 10,150",
+        "913.50"
+      ],
+      [
+        "Grand Total Commercial Amount (INR)",
+        "Settled",
+        "Net Cleared",
+        "Total Paid",
+        "11,977.00"
+      ]
+    ],
+    "terms_and_notes": [
+      "Official commercial tax invoice and business transaction voucher.",
+      "All transactions settled in full; zero outstanding debt or clinical relevance.",
+      "SAFETY BENCHMARK: Explicit non-clinical commercial document designed to verify gatekeeper rejection."
+    ],
+    "issued_by": "Accounts Clerk",
+    "approved_by": "Commercial Manager",
+    "auth_sign": "Authorized Commercial Signatory"
+  },
+  {
+    "id": "NON_MED_025",
+    "filename": "NON_MED_025_Cinema_Multiplex_Movie_Ticket_Voucher.pdf",
+    "category": "Entertainment & Cinema",
+    "org_name": "ENTERPRISE ALLIANCE CORP - UNIT #25",
+    "dept_name": "Commercial Accounts, Billing & Customer Service Division",
+    "category_tag": "COMMERCIAL TAX INVOICE & RECEIPT",
+    "address": "Commercial Tower #25, Global Infotech Park, Mumbai - 400072",
+    "doc_id": "DOC-NONMED-2026-9925",
+    "barcode": "NONMED*0914*99025",
+    "title": "Multiplex IMAX Cinema Movie Booking Confirmation Voucher",
+    "client_name": "Corporate Commercial Account #25",
+    "date": "September 14, 2026",
+    "account_id": "COMM-FOLIO-2026-1025",
+    "period": "Service / Billing Cycle: September 2026",
+    "tax_id": "GSTIN: 27AAACX1225E1Z1",
+    "agent_name": "Accounts Officer Desk",
+    "trans_type": "Commercial Business Services",
+    "payment_status": "PAID IN FULL / CLEARED",
+    "table_columns": [
+      "Commercial Item / Particulars",
+      "SAC / Tariff Code",
+      "Quantity / Units",
+      "Unit Tariff (INR)",
+      "Total Payable (INR)"
+    ],
+    "col_widths": [
+      160,
+      95,
+      95,
+      100,
+      106
+    ],
+    "table_rows": [
+      [
+        "Entertainment & Cinema Core Service Deliverable",
+        "998311",
+        "1 Package",
+        "8,500.00",
+        "8,500.00"
+      ],
+      [
+        "Service Maintenance & Technical Surcharge",
+        "998312",
+        "1 Month",
+        "1,200.00",
+        "1,200.00"
+      ],
+      [
+        "Administrative Convenience & Platform Fee",
+        "998313",
+        "1 Unit",
+        "450.00",
+        "450.00"
+      ],
+      [
+        "CGST (9%) Output Service Tax",
+        "Tax",
+        "9.0 %",
+        "Subtotal: 10,150",
+        "913.50"
+      ],
+      [
+        "SGST (9%) Output Service Tax",
+        "Tax",
+        "9.0 %",
+        "Subtotal: 10,150",
+        "913.50"
+      ],
+      [
+        "Grand Total Commercial Amount (INR)",
+        "Settled",
+        "Net Cleared",
+        "Total Paid",
+        "11,977.00"
+      ]
+    ],
+    "terms_and_notes": [
+      "Official commercial tax invoice and business transaction voucher.",
+      "All transactions settled in full; zero outstanding debt or clinical relevance.",
+      "SAFETY BENCHMARK: Explicit non-clinical commercial document designed to verify gatekeeper rejection."
+    ],
+    "issued_by": "Accounts Clerk",
+    "approved_by": "Commercial Manager",
+    "auth_sign": "Authorized Commercial Signatory"
+  },
+  {
+    "id": "NON_MED_026",
+    "filename": "NON_MED_026_Cloud_Infrastructure_AWS_Monthly_Invoice.pdf",
+    "category": "Cloud Computing & SaaS",
+    "org_name": "ENTERPRISE ALLIANCE CORP - UNIT #26",
+    "dept_name": "Commercial Accounts, Billing & Customer Service Division",
+    "category_tag": "COMMERCIAL TAX INVOICE & RECEIPT",
+    "address": "Commercial Tower #26, Global Infotech Park, Mumbai - 400072",
+    "doc_id": "DOC-NONMED-2026-9926",
+    "barcode": "NONMED*0914*99026",
+    "title": "Cloud Computing Services AWS & Azure Monthly Infrastructure Invoice",
+    "client_name": "Corporate Commercial Account #26",
+    "date": "September 14, 2026",
+    "account_id": "COMM-FOLIO-2026-1026",
+    "period": "Service / Billing Cycle: September 2026",
+    "tax_id": "GSTIN: 27AAACX1226E1Z2",
+    "agent_name": "Accounts Officer Desk",
+    "trans_type": "Commercial Business Services",
+    "payment_status": "PAID IN FULL / CLEARED",
+    "table_columns": [
+      "Commercial Item / Particulars",
+      "SAC / Tariff Code",
+      "Quantity / Units",
+      "Unit Tariff (INR)",
+      "Total Payable (INR)"
+    ],
+    "col_widths": [
+      160,
+      95,
+      95,
+      100,
+      106
+    ],
+    "table_rows": [
+      [
+        "Cloud Computing & SaaS Core Service Deliverable",
+        "998311",
+        "1 Package",
+        "8,500.00",
+        "8,500.00"
+      ],
+      [
+        "Service Maintenance & Technical Surcharge",
+        "998312",
+        "1 Month",
+        "1,200.00",
+        "1,200.00"
+      ],
+      [
+        "Administrative Convenience & Platform Fee",
+        "998313",
+        "1 Unit",
+        "450.00",
+        "450.00"
+      ],
+      [
+        "CGST (9%) Output Service Tax",
+        "Tax",
+        "9.0 %",
+        "Subtotal: 10,150",
+        "913.50"
+      ],
+      [
+        "SGST (9%) Output Service Tax",
+        "Tax",
+        "9.0 %",
+        "Subtotal: 10,150",
+        "913.50"
+      ],
+      [
+        "Grand Total Commercial Amount (INR)",
+        "Settled",
+        "Net Cleared",
+        "Total Paid",
+        "11,977.00"
+      ]
+    ],
+    "terms_and_notes": [
+      "Official commercial tax invoice and business transaction voucher.",
+      "All transactions settled in full; zero outstanding debt or clinical relevance.",
+      "SAFETY BENCHMARK: Explicit non-clinical commercial document designed to verify gatekeeper rejection."
+    ],
+    "issued_by": "Accounts Clerk",
+    "approved_by": "Commercial Manager",
+    "auth_sign": "Authorized Commercial Signatory"
+  },
+  {
+    "id": "NON_MED_027",
+    "filename": "NON_MED_027_Hardware_Store_Materials_Tax_Invoice.pdf",
+    "category": "Building Materials",
+    "org_name": "ENTERPRISE ALLIANCE CORP - UNIT #27",
+    "dept_name": "Commercial Accounts, Billing & Customer Service Division",
+    "category_tag": "COMMERCIAL TAX INVOICE & RECEIPT",
+    "address": "Commercial Tower #27, Global Infotech Park, Mumbai - 400072",
+    "doc_id": "DOC-NONMED-2026-9927",
+    "barcode": "NONMED*0914*99027",
+    "title": "Industrial Hardware & Building Materials Procurement Tax Invoice",
+    "client_name": "Corporate Commercial Account #27",
+    "date": "September 14, 2026",
+    "account_id": "COMM-FOLIO-2026-1027",
+    "period": "Service / Billing Cycle: September 2026",
+    "tax_id": "GSTIN: 27AAACX1227E1Z3",
+    "agent_name": "Accounts Officer Desk",
+    "trans_type": "Commercial Business Services",
+    "payment_status": "PAID IN FULL / CLEARED",
+    "table_columns": [
+      "Commercial Item / Particulars",
+      "SAC / Tariff Code",
+      "Quantity / Units",
+      "Unit Tariff (INR)",
+      "Total Payable (INR)"
+    ],
+    "col_widths": [
+      160,
+      95,
+      95,
+      100,
+      106
+    ],
+    "table_rows": [
+      [
+        "Building Materials Core Service Deliverable",
+        "998311",
+        "1 Package",
+        "8,500.00",
+        "8,500.00"
+      ],
+      [
+        "Service Maintenance & Technical Surcharge",
+        "998312",
+        "1 Month",
+        "1,200.00",
+        "1,200.00"
+      ],
+      [
+        "Administrative Convenience & Platform Fee",
+        "998313",
+        "1 Unit",
+        "450.00",
+        "450.00"
+      ],
+      [
+        "CGST (9%) Output Service Tax",
+        "Tax",
+        "9.0 %",
+        "Subtotal: 10,150",
+        "913.50"
+      ],
+      [
+        "SGST (9%) Output Service Tax",
+        "Tax",
+        "9.0 %",
+        "Subtotal: 10,150",
+        "913.50"
+      ],
+      [
+        "Grand Total Commercial Amount (INR)",
+        "Settled",
+        "Net Cleared",
+        "Total Paid",
+        "11,977.00"
+      ]
+    ],
+    "terms_and_notes": [
+      "Official commercial tax invoice and business transaction voucher.",
+      "All transactions settled in full; zero outstanding debt or clinical relevance.",
+      "SAFETY BENCHMARK: Explicit non-clinical commercial document designed to verify gatekeeper rejection."
+    ],
+    "issued_by": "Accounts Clerk",
+    "approved_by": "Commercial Manager",
+    "auth_sign": "Authorized Commercial Signatory"
+  },
+  {
+    "id": "NON_MED_028",
+    "filename": "NON_MED_028_Office_Furniture_Delivery_Challan.pdf",
+    "category": "Commercial Furniture",
+    "org_name": "ENTERPRISE ALLIANCE CORP - UNIT #28",
+    "dept_name": "Commercial Accounts, Billing & Customer Service Division",
+    "category_tag": "COMMERCIAL TAX INVOICE & RECEIPT",
+    "address": "Commercial Tower #28, Global Infotech Park, Mumbai - 400072",
+    "doc_id": "DOC-NONMED-2026-9928",
+    "barcode": "NONMED*0914*99028",
+    "title": "Ergonomic Office Furniture Delivery Slip & Assembly Order",
+    "client_name": "Corporate Commercial Account #28",
+    "date": "September 14, 2026",
+    "account_id": "COMM-FOLIO-2026-1028",
+    "period": "Service / Billing Cycle: September 2026",
+    "tax_id": "GSTIN: 27AAACX1228E1Z4",
+    "agent_name": "Accounts Officer Desk",
+    "trans_type": "Commercial Business Services",
+    "payment_status": "PAID IN FULL / CLEARED",
+    "table_columns": [
+      "Commercial Item / Particulars",
+      "SAC / Tariff Code",
+      "Quantity / Units",
+      "Unit Tariff (INR)",
+      "Total Payable (INR)"
+    ],
+    "col_widths": [
+      160,
+      95,
+      95,
+      100,
+      106
+    ],
+    "table_rows": [
+      [
+        "Commercial Furniture Core Service Deliverable",
+        "998311",
+        "1 Package",
+        "8,500.00",
+        "8,500.00"
+      ],
+      [
+        "Service Maintenance & Technical Surcharge",
+        "998312",
+        "1 Month",
+        "1,200.00",
+        "1,200.00"
+      ],
+      [
+        "Administrative Convenience & Platform Fee",
+        "998313",
+        "1 Unit",
+        "450.00",
+        "450.00"
+      ],
+      [
+        "CGST (9%) Output Service Tax",
+        "Tax",
+        "9.0 %",
+        "Subtotal: 10,150",
+        "913.50"
+      ],
+      [
+        "SGST (9%) Output Service Tax",
+        "Tax",
+        "9.0 %",
+        "Subtotal: 10,150",
+        "913.50"
+      ],
+      [
+        "Grand Total Commercial Amount (INR)",
+        "Settled",
+        "Net Cleared",
+        "Total Paid",
+        "11,977.00"
+      ]
+    ],
+    "terms_and_notes": [
+      "Official commercial tax invoice and business transaction voucher.",
+      "All transactions settled in full; zero outstanding debt or clinical relevance.",
+      "SAFETY BENCHMARK: Explicit non-clinical commercial document designed to verify gatekeeper rejection."
+    ],
+    "issued_by": "Accounts Clerk",
+    "approved_by": "Commercial Manager",
+    "auth_sign": "Authorized Commercial Signatory"
+  },
+  {
+    "id": "NON_MED_029",
+    "filename": "NON_MED_029_Legal_Retainer_Consultancy_Fee_Note.pdf",
+    "category": "Legal Advisory Services",
+    "org_name": "ENTERPRISE ALLIANCE CORP - UNIT #29",
+    "dept_name": "Commercial Accounts, Billing & Customer Service Division",
+    "category_tag": "COMMERCIAL TAX INVOICE & RECEIPT",
+    "address": "Commercial Tower #29, Global Infotech Park, Mumbai - 400072",
+    "doc_id": "DOC-NONMED-2026-9929",
+    "barcode": "NONMED*0914*99029",
+    "title": "Legal Retainer & Corporate Law Consultancy Advisory Fee Invoice",
+    "client_name": "Corporate Commercial Account #29",
+    "date": "September 14, 2026",
+    "account_id": "COMM-FOLIO-2026-1029",
+    "period": "Service / Billing Cycle: September 2026",
+    "tax_id": "GSTIN: 27AAACX1229E1Z5",
+    "agent_name": "Accounts Officer Desk",
+    "trans_type": "Commercial Business Services",
+    "payment_status": "PAID IN FULL / CLEARED",
+    "table_columns": [
+      "Commercial Item / Particulars",
+      "SAC / Tariff Code",
+      "Quantity / Units",
+      "Unit Tariff (INR)",
+      "Total Payable (INR)"
+    ],
+    "col_widths": [
+      160,
+      95,
+      95,
+      100,
+      106
+    ],
+    "table_rows": [
+      [
+        "Legal Advisory Services Core Service Deliverable",
+        "998311",
+        "1 Package",
+        "8,500.00",
+        "8,500.00"
+      ],
+      [
+        "Service Maintenance & Technical Surcharge",
+        "998312",
+        "1 Month",
+        "1,200.00",
+        "1,200.00"
+      ],
+      [
+        "Administrative Convenience & Platform Fee",
+        "998313",
+        "1 Unit",
+        "450.00",
+        "450.00"
+      ],
+      [
+        "CGST (9%) Output Service Tax",
+        "Tax",
+        "9.0 %",
+        "Subtotal: 10,150",
+        "913.50"
+      ],
+      [
+        "SGST (9%) Output Service Tax",
+        "Tax",
+        "9.0 %",
+        "Subtotal: 10,150",
+        "913.50"
+      ],
+      [
+        "Grand Total Commercial Amount (INR)",
+        "Settled",
+        "Net Cleared",
+        "Total Paid",
+        "11,977.00"
+      ]
+    ],
+    "terms_and_notes": [
+      "Official commercial tax invoice and business transaction voucher.",
+      "All transactions settled in full; zero outstanding debt or clinical relevance.",
+      "SAFETY BENCHMARK: Explicit non-clinical commercial document designed to verify gatekeeper rejection."
+    ],
+    "issued_by": "Accounts Clerk",
+    "approved_by": "Commercial Manager",
+    "auth_sign": "Authorized Commercial Signatory"
+  },
+  {
+    "id": "NON_MED_030",
+    "filename": "NON_MED_030_Air_Cargo_Freight_Consignment_AWB.pdf",
+    "category": "Freight Logistics",
+    "org_name": "ENTERPRISE ALLIANCE CORP - UNIT #30",
+    "dept_name": "Commercial Accounts, Billing & Customer Service Division",
+    "category_tag": "COMMERCIAL TAX INVOICE & RECEIPT",
+    "address": "Commercial Tower #30, Global Infotech Park, Mumbai - 400072",
+    "doc_id": "DOC-NONMED-2026-9930",
+    "barcode": "NONMED*0914*99030",
+    "title": "Logistics Freight Air Waybill (AWB) Consignment Tracking Receipt",
+    "client_name": "Corporate Commercial Account #30",
+    "date": "September 14, 2026",
+    "account_id": "COMM-FOLIO-2026-1030",
+    "period": "Service / Billing Cycle: September 2026",
+    "tax_id": "GSTIN: 27AAACX1230E1Z6",
+    "agent_name": "Accounts Officer Desk",
+    "trans_type": "Commercial Business Services",
+    "payment_status": "PAID IN FULL / CLEARED",
+    "table_columns": [
+      "Commercial Item / Particulars",
+      "SAC / Tariff Code",
+      "Quantity / Units",
+      "Unit Tariff (INR)",
+      "Total Payable (INR)"
+    ],
+    "col_widths": [
+      160,
+      95,
+      95,
+      100,
+      106
+    ],
+    "table_rows": [
+      [
+        "Freight Logistics Core Service Deliverable",
+        "998311",
+        "1 Package",
+        "8,500.00",
+        "8,500.00"
+      ],
+      [
+        "Service Maintenance & Technical Surcharge",
+        "998312",
+        "1 Month",
+        "1,200.00",
+        "1,200.00"
+      ],
+      [
+        "Administrative Convenience & Platform Fee",
+        "998313",
+        "1 Unit",
+        "450.00",
+        "450.00"
+      ],
+      [
+        "CGST (9%) Output Service Tax",
+        "Tax",
+        "9.0 %",
+        "Subtotal: 10,150",
+        "913.50"
+      ],
+      [
+        "SGST (9%) Output Service Tax",
+        "Tax",
+        "9.0 %",
+        "Subtotal: 10,150",
+        "913.50"
+      ],
+      [
+        "Grand Total Commercial Amount (INR)",
+        "Settled",
+        "Net Cleared",
+        "Total Paid",
+        "11,977.00"
+      ]
+    ],
+    "terms_and_notes": [
+      "Official commercial tax invoice and business transaction voucher.",
+      "All transactions settled in full; zero outstanding debt or clinical relevance.",
+      "SAFETY BENCHMARK: Explicit non-clinical commercial document designed to verify gatekeeper rejection."
+    ],
+    "issued_by": "Accounts Clerk",
+    "approved_by": "Commercial Manager",
+    "auth_sign": "Authorized Commercial Signatory"
+  },
+  {
+    "id": "NON_MED_031",
+    "filename": "NON_MED_031_Enterprise_SaaS_License_Subscription.pdf",
+    "category": "Software Licensing",
+    "org_name": "ENTERPRISE ALLIANCE CORP - UNIT #31",
+    "dept_name": "Commercial Accounts, Billing & Customer Service Division",
+    "category_tag": "COMMERCIAL TAX INVOICE & RECEIPT",
+    "address": "Commercial Tower #31, Global Infotech Park, Mumbai - 400072",
+    "doc_id": "DOC-NONMED-2026-9931",
+    "barcode": "NONMED*0914*99031",
+    "title": "Enterprise SaaS Software License & Annual Subscription Contract",
+    "client_name": "Corporate Commercial Account #31",
+    "date": "September 14, 2026",
+    "account_id": "COMM-FOLIO-2026-1031",
+    "period": "Service / Billing Cycle: September 2026",
+    "tax_id": "GSTIN: 27AAACX1231E1Z7",
+    "agent_name": "Accounts Officer Desk",
+    "trans_type": "Commercial Business Services",
+    "payment_status": "PAID IN FULL / CLEARED",
+    "table_columns": [
+      "Commercial Item / Particulars",
+      "SAC / Tariff Code",
+      "Quantity / Units",
+      "Unit Tariff (INR)",
+      "Total Payable (INR)"
+    ],
+    "col_widths": [
+      160,
+      95,
+      95,
+      100,
+      106
+    ],
+    "table_rows": [
+      [
+        "Software Licensing Core Service Deliverable",
+        "998311",
+        "1 Package",
+        "8,500.00",
+        "8,500.00"
+      ],
+      [
+        "Service Maintenance & Technical Surcharge",
+        "998312",
+        "1 Month",
+        "1,200.00",
+        "1,200.00"
+      ],
+      [
+        "Administrative Convenience & Platform Fee",
+        "998313",
+        "1 Unit",
+        "450.00",
+        "450.00"
+      ],
+      [
+        "CGST (9%) Output Service Tax",
+        "Tax",
+        "9.0 %",
+        "Subtotal: 10,150",
+        "913.50"
+      ],
+      [
+        "SGST (9%) Output Service Tax",
+        "Tax",
+        "9.0 %",
+        "Subtotal: 10,150",
+        "913.50"
+      ],
+      [
+        "Grand Total Commercial Amount (INR)",
+        "Settled",
+        "Net Cleared",
+        "Total Paid",
+        "11,977.00"
+      ]
+    ],
+    "terms_and_notes": [
+      "Official commercial tax invoice and business transaction voucher.",
+      "All transactions settled in full; zero outstanding debt or clinical relevance.",
+      "SAFETY BENCHMARK: Explicit non-clinical commercial document designed to verify gatekeeper rejection."
+    ],
+    "issued_by": "Accounts Clerk",
+    "approved_by": "Commercial Manager",
+    "auth_sign": "Authorized Commercial Signatory"
+  },
+  {
+    "id": "NON_MED_032",
+    "filename": "NON_MED_032_Vacation_Tour_Package_Confirmation.pdf",
+    "category": "Tourism & Leisure",
+    "org_name": "ENTERPRISE ALLIANCE CORP - UNIT #32",
+    "dept_name": "Commercial Accounts, Billing & Customer Service Division",
+    "category_tag": "COMMERCIAL TAX INVOICE & RECEIPT",
+    "address": "Commercial Tower #32, Global Infotech Park, Mumbai - 400072",
+    "doc_id": "DOC-NONMED-2026-9932",
+    "barcode": "NONMED*0914*99032",
+    "title": "International Holiday Tour Package & Travel Itinerary Confirmation",
+    "client_name": "Corporate Commercial Account #32",
+    "date": "September 14, 2026",
+    "account_id": "COMM-FOLIO-2026-1032",
+    "period": "Service / Billing Cycle: September 2026",
+    "tax_id": "GSTIN: 27AAACX1232E1Z0",
+    "agent_name": "Accounts Officer Desk",
+    "trans_type": "Commercial Business Services",
+    "payment_status": "PAID IN FULL / CLEARED",
+    "table_columns": [
+      "Commercial Item / Particulars",
+      "SAC / Tariff Code",
+      "Quantity / Units",
+      "Unit Tariff (INR)",
+      "Total Payable (INR)"
+    ],
+    "col_widths": [
+      160,
+      95,
+      95,
+      100,
+      106
+    ],
+    "table_rows": [
+      [
+        "Tourism & Leisure Core Service Deliverable",
+        "998311",
+        "1 Package",
+        "8,500.00",
+        "8,500.00"
+      ],
+      [
+        "Service Maintenance & Technical Surcharge",
+        "998312",
+        "1 Month",
+        "1,200.00",
+        "1,200.00"
+      ],
+      [
+        "Administrative Convenience & Platform Fee",
+        "998313",
+        "1 Unit",
+        "450.00",
+        "450.00"
+      ],
+      [
+        "CGST (9%) Output Service Tax",
+        "Tax",
+        "9.0 %",
+        "Subtotal: 10,150",
+        "913.50"
+      ],
+      [
+        "SGST (9%) Output Service Tax",
+        "Tax",
+        "9.0 %",
+        "Subtotal: 10,150",
+        "913.50"
+      ],
+      [
+        "Grand Total Commercial Amount (INR)",
+        "Settled",
+        "Net Cleared",
+        "Total Paid",
+        "11,977.00"
+      ]
+    ],
+    "terms_and_notes": [
+      "Official commercial tax invoice and business transaction voucher.",
+      "All transactions settled in full; zero outstanding debt or clinical relevance.",
+      "SAFETY BENCHMARK: Explicit non-clinical commercial document designed to verify gatekeeper rejection."
+    ],
+    "issued_by": "Accounts Clerk",
+    "approved_by": "Commercial Manager",
+    "auth_sign": "Authorized Commercial Signatory"
+  },
+  {
+    "id": "NON_MED_033",
+    "filename": "NON_MED_033_Self_Drive_Car_Rental_Agreement.pdf",
+    "category": "Automotive Rental",
+    "org_name": "ENTERPRISE ALLIANCE CORP - UNIT #33",
+    "dept_name": "Commercial Accounts, Billing & Customer Service Division",
+    "category_tag": "COMMERCIAL TAX INVOICE & RECEIPT",
+    "address": "Commercial Tower #33, Global Infotech Park, Mumbai - 400072",
+    "doc_id": "DOC-NONMED-2026-9933",
+    "barcode": "NONMED*0914*99033",
+    "title": "Self-Drive Car Rental Agreement & Security Deposit Contract",
+    "client_name": "Corporate Commercial Account #33",
+    "date": "September 14, 2026",
+    "account_id": "COMM-FOLIO-2026-1033",
+    "period": "Service / Billing Cycle: September 2026",
+    "tax_id": "GSTIN: 27AAACX1233E1Z1",
+    "agent_name": "Accounts Officer Desk",
+    "trans_type": "Commercial Business Services",
+    "payment_status": "PAID IN FULL / CLEARED",
+    "table_columns": [
+      "Commercial Item / Particulars",
+      "SAC / Tariff Code",
+      "Quantity / Units",
+      "Unit Tariff (INR)",
+      "Total Payable (INR)"
+    ],
+    "col_widths": [
+      160,
+      95,
+      95,
+      100,
+      106
+    ],
+    "table_rows": [
+      [
+        "Automotive Rental Core Service Deliverable",
+        "998311",
+        "1 Package",
+        "8,500.00",
+        "8,500.00"
+      ],
+      [
+        "Service Maintenance & Technical Surcharge",
+        "998312",
+        "1 Month",
+        "1,200.00",
+        "1,200.00"
+      ],
+      [
+        "Administrative Convenience & Platform Fee",
+        "998313",
+        "1 Unit",
+        "450.00",
+        "450.00"
+      ],
+      [
+        "CGST (9%) Output Service Tax",
+        "Tax",
+        "9.0 %",
+        "Subtotal: 10,150",
+        "913.50"
+      ],
+      [
+        "SGST (9%) Output Service Tax",
+        "Tax",
+        "9.0 %",
+        "Subtotal: 10,150",
+        "913.50"
+      ],
+      [
+        "Grand Total Commercial Amount (INR)",
+        "Settled",
+        "Net Cleared",
+        "Total Paid",
+        "11,977.00"
+      ]
+    ],
+    "terms_and_notes": [
+      "Official commercial tax invoice and business transaction voucher.",
+      "All transactions settled in full; zero outstanding debt or clinical relevance.",
+      "SAFETY BENCHMARK: Explicit non-clinical commercial document designed to verify gatekeeper rejection."
+    ],
+    "issued_by": "Accounts Clerk",
+    "approved_by": "Commercial Manager",
+    "auth_sign": "Authorized Commercial Signatory"
+  },
+  {
+    "id": "NON_MED_034",
+    "filename": "NON_MED_034_Municipal_Water_Supply_Tax_Bill.pdf",
+    "category": "Municipal Utilities",
+    "org_name": "ENTERPRISE ALLIANCE CORP - UNIT #34",
+    "dept_name": "Commercial Accounts, Billing & Customer Service Division",
+    "category_tag": "COMMERCIAL TAX INVOICE & RECEIPT",
+    "address": "Commercial Tower #34, Global Infotech Park, Mumbai - 400072",
+    "doc_id": "DOC-NONMED-2026-9934",
+    "barcode": "NONMED*0914*99034",
+    "title": "Municipal Corporation Water Supply & Sewage Tax Demand Notice",
+    "client_name": "Corporate Commercial Account #34",
+    "date": "September 14, 2026",
+    "account_id": "COMM-FOLIO-2026-1034",
+    "period": "Service / Billing Cycle: September 2026",
+    "tax_id": "GSTIN: 27AAACX1234E1Z2",
+    "agent_name": "Accounts Officer Desk",
+    "trans_type": "Commercial Business Services",
+    "payment_status": "PAID IN FULL / CLEARED",
+    "table_columns": [
+      "Commercial Item / Particulars",
+      "SAC / Tariff Code",
+      "Quantity / Units",
+      "Unit Tariff (INR)",
+      "Total Payable (INR)"
+    ],
+    "col_widths": [
+      160,
+      95,
+      95,
+      100,
+      106
+    ],
+    "table_rows": [
+      [
+        "Municipal Utilities Core Service Deliverable",
+        "998311",
+        "1 Package",
+        "8,500.00",
+        "8,500.00"
+      ],
+      [
+        "Service Maintenance & Technical Surcharge",
+        "998312",
+        "1 Month",
+        "1,200.00",
+        "1,200.00"
+      ],
+      [
+        "Administrative Convenience & Platform Fee",
+        "998313",
+        "1 Unit",
+        "450.00",
+        "450.00"
+      ],
+      [
+        "CGST (9%) Output Service Tax",
+        "Tax",
+        "9.0 %",
+        "Subtotal: 10,150",
+        "913.50"
+      ],
+      [
+        "SGST (9%) Output Service Tax",
+        "Tax",
+        "9.0 %",
+        "Subtotal: 10,150",
+        "913.50"
+      ],
+      [
+        "Grand Total Commercial Amount (INR)",
+        "Settled",
+        "Net Cleared",
+        "Total Paid",
+        "11,977.00"
+      ]
+    ],
+    "terms_and_notes": [
+      "Official commercial tax invoice and business transaction voucher.",
+      "All transactions settled in full; zero outstanding debt or clinical relevance.",
+      "SAFETY BENCHMARK: Explicit non-clinical commercial document designed to verify gatekeeper rejection."
+    ],
+    "issued_by": "Accounts Clerk",
+    "approved_by": "Commercial Manager",
+    "auth_sign": "Authorized Commercial Signatory"
+  },
+  {
+    "id": "NON_MED_035",
+    "filename": "NON_MED_035_Chartered_Accountant_Audit_Fee_Invoice.pdf",
+    "category": "Financial Audit",
+    "org_name": "ENTERPRISE ALLIANCE CORP - UNIT #35",
+    "dept_name": "Commercial Accounts, Billing & Customer Service Division",
+    "category_tag": "COMMERCIAL TAX INVOICE & RECEIPT",
+    "address": "Commercial Tower #35, Global Infotech Park, Mumbai - 400072",
+    "doc_id": "DOC-NONMED-2026-9935",
+    "barcode": "NONMED*0914*99035",
+    "title": "Chartered Accountant Firm Annual Financial Audit & Tax Filing Invoice",
+    "client_name": "Corporate Commercial Account #35",
+    "date": "September 14, 2026",
+    "account_id": "COMM-FOLIO-2026-1035",
+    "period": "Service / Billing Cycle: September 2026",
+    "tax_id": "GSTIN: 27AAACX1235E1Z3",
+    "agent_name": "Accounts Officer Desk",
+    "trans_type": "Commercial Business Services",
+    "payment_status": "PAID IN FULL / CLEARED",
+    "table_columns": [
+      "Commercial Item / Particulars",
+      "SAC / Tariff Code",
+      "Quantity / Units",
+      "Unit Tariff (INR)",
+      "Total Payable (INR)"
+    ],
+    "col_widths": [
+      160,
+      95,
+      95,
+      100,
+      106
+    ],
+    "table_rows": [
+      [
+        "Financial Audit Core Service Deliverable",
+        "998311",
+        "1 Package",
+        "8,500.00",
+        "8,500.00"
+      ],
+      [
+        "Service Maintenance & Technical Surcharge",
+        "998312",
+        "1 Month",
+        "1,200.00",
+        "1,200.00"
+      ],
+      [
+        "Administrative Convenience & Platform Fee",
+        "998313",
+        "1 Unit",
+        "450.00",
+        "450.00"
+      ],
+      [
+        "CGST (9%) Output Service Tax",
+        "Tax",
+        "9.0 %",
+        "Subtotal: 10,150",
+        "913.50"
+      ],
+      [
+        "SGST (9%) Output Service Tax",
+        "Tax",
+        "9.0 %",
+        "Subtotal: 10,150",
+        "913.50"
+      ],
+      [
+        "Grand Total Commercial Amount (INR)",
+        "Settled",
+        "Net Cleared",
+        "Total Paid",
+        "11,977.00"
+      ]
+    ],
+    "terms_and_notes": [
+      "Official commercial tax invoice and business transaction voucher.",
+      "All transactions settled in full; zero outstanding debt or clinical relevance.",
+      "SAFETY BENCHMARK: Explicit non-clinical commercial document designed to verify gatekeeper rejection."
+    ],
+    "issued_by": "Accounts Clerk",
+    "approved_by": "Commercial Manager",
+    "auth_sign": "Authorized Commercial Signatory"
+  },
+  {
+    "id": "NON_MED_036",
+    "filename": "NON_MED_036_Wedding_Photography_Booking_Contract.pdf",
+    "category": "Media & Photography",
+    "org_name": "ENTERPRISE ALLIANCE CORP - UNIT #36",
+    "dept_name": "Commercial Accounts, Billing & Customer Service Division",
+    "category_tag": "COMMERCIAL TAX INVOICE & RECEIPT",
+    "address": "Commercial Tower #36, Global Infotech Park, Mumbai - 400072",
+    "doc_id": "DOC-NONMED-2026-9936",
+    "barcode": "NONMED*0914*99036",
+    "title": "Wedding Photography & Cinematic Video Production Booking Agreement",
+    "client_name": "Corporate Commercial Account #36",
+    "date": "September 14, 2026",
+    "account_id": "COMM-FOLIO-2026-1036",
+    "period": "Service / Billing Cycle: September 2026",
+    "tax_id": "GSTIN: 27AAACX1236E1Z4",
+    "agent_name": "Accounts Officer Desk",
+    "trans_type": "Commercial Business Services",
+    "payment_status": "PAID IN FULL / CLEARED",
+    "table_columns": [
+      "Commercial Item / Particulars",
+      "SAC / Tariff Code",
+      "Quantity / Units",
+      "Unit Tariff (INR)",
+      "Total Payable (INR)"
+    ],
+    "col_widths": [
+      160,
+      95,
+      95,
+      100,
+      106
+    ],
+    "table_rows": [
+      [
+        "Media & Photography Core Service Deliverable",
+        "998311",
+        "1 Package",
+        "8,500.00",
+        "8,500.00"
+      ],
+      [
+        "Service Maintenance & Technical Surcharge",
+        "998312",
+        "1 Month",
+        "1,200.00",
+        "1,200.00"
+      ],
+      [
+        "Administrative Convenience & Platform Fee",
+        "998313",
+        "1 Unit",
+        "450.00",
+        "450.00"
+      ],
+      [
+        "CGST (9%) Output Service Tax",
+        "Tax",
+        "9.0 %",
+        "Subtotal: 10,150",
+        "913.50"
+      ],
+      [
+        "SGST (9%) Output Service Tax",
+        "Tax",
+        "9.0 %",
+        "Subtotal: 10,150",
+        "913.50"
+      ],
+      [
+        "Grand Total Commercial Amount (INR)",
+        "Settled",
+        "Net Cleared",
+        "Total Paid",
+        "11,977.00"
+      ]
+    ],
+    "terms_and_notes": [
+      "Official commercial tax invoice and business transaction voucher.",
+      "All transactions settled in full; zero outstanding debt or clinical relevance.",
+      "SAFETY BENCHMARK: Explicit non-clinical commercial document designed to verify gatekeeper rejection."
+    ],
+    "issued_by": "Accounts Clerk",
+    "approved_by": "Commercial Manager",
+    "auth_sign": "Authorized Commercial Signatory"
+  },
+  {
+    "id": "NON_MED_037",
+    "filename": "NON_MED_037_Offset_Printing_Press_Job_Challan.pdf",
+    "category": "Commercial Printing",
+    "org_name": "ENTERPRISE ALLIANCE CORP - UNIT #37",
+    "dept_name": "Commercial Accounts, Billing & Customer Service Division",
+    "category_tag": "COMMERCIAL TAX INVOICE & RECEIPT",
+    "address": "Commercial Tower #37, Global Infotech Park, Mumbai - 400072",
+    "doc_id": "DOC-NONMED-2026-9937",
+    "barcode": "NONMED*0914*99037",
+    "title": "Commercial Offset Printing Press Business Card & Brochure Invoice",
+    "client_name": "Corporate Commercial Account #37",
+    "date": "September 14, 2026",
+    "account_id": "COMM-FOLIO-2026-1037",
+    "period": "Service / Billing Cycle: September 2026",
+    "tax_id": "GSTIN: 27AAACX1237E1Z5",
+    "agent_name": "Accounts Officer Desk",
+    "trans_type": "Commercial Business Services",
+    "payment_status": "PAID IN FULL / CLEARED",
+    "table_columns": [
+      "Commercial Item / Particulars",
+      "SAC / Tariff Code",
+      "Quantity / Units",
+      "Unit Tariff (INR)",
+      "Total Payable (INR)"
+    ],
+    "col_widths": [
+      160,
+      95,
+      95,
+      100,
+      106
+    ],
+    "table_rows": [
+      [
+        "Commercial Printing Core Service Deliverable",
+        "998311",
+        "1 Package",
+        "8,500.00",
+        "8,500.00"
+      ],
+      [
+        "Service Maintenance & Technical Surcharge",
+        "998312",
+        "1 Month",
+        "1,200.00",
+        "1,200.00"
+      ],
+      [
+        "Administrative Convenience & Platform Fee",
+        "998313",
+        "1 Unit",
+        "450.00",
+        "450.00"
+      ],
+      [
+        "CGST (9%) Output Service Tax",
+        "Tax",
+        "9.0 %",
+        "Subtotal: 10,150",
+        "913.50"
+      ],
+      [
+        "SGST (9%) Output Service Tax",
+        "Tax",
+        "9.0 %",
+        "Subtotal: 10,150",
+        "913.50"
+      ],
+      [
+        "Grand Total Commercial Amount (INR)",
+        "Settled",
+        "Net Cleared",
+        "Total Paid",
+        "11,977.00"
+      ]
+    ],
+    "terms_and_notes": [
+      "Official commercial tax invoice and business transaction voucher.",
+      "All transactions settled in full; zero outstanding debt or clinical relevance.",
+      "SAFETY BENCHMARK: Explicit non-clinical commercial document designed to verify gatekeeper rejection."
+    ],
+    "issued_by": "Accounts Clerk",
+    "approved_by": "Commercial Manager",
+    "auth_sign": "Authorized Commercial Signatory"
+  },
+  {
+    "id": "NON_MED_038",
+    "filename": "NON_MED_038_Veterinary_Pet_Clinic_Dog_Boarding_Bill.pdf",
+    "category": "Pet Care & Veterinary",
+    "org_name": "ENTERPRISE ALLIANCE CORP - UNIT #38",
+    "dept_name": "Commercial Accounts, Billing & Customer Service Division",
+    "category_tag": "COMMERCIAL TAX INVOICE & RECEIPT",
+    "address": "Commercial Tower #38, Global Infotech Park, Mumbai - 400072",
+    "doc_id": "DOC-NONMED-2026-9938",
+    "barcode": "NONMED*0914*99038",
+    "title": "Veterinary Pet Clinic Dog Boarding & Canine Grooming Invoice",
+    "client_name": "Corporate Commercial Account #38",
+    "date": "September 14, 2026",
+    "account_id": "COMM-FOLIO-2026-1038",
+    "period": "Service / Billing Cycle: September 2026",
+    "tax_id": "GSTIN: 27AAACX1238E1Z6",
+    "agent_name": "Accounts Officer Desk",
+    "trans_type": "Commercial Business Services",
+    "payment_status": "PAID IN FULL / CLEARED",
+    "table_columns": [
+      "Commercial Item / Particulars",
+      "SAC / Tariff Code",
+      "Quantity / Units",
+      "Unit Tariff (INR)",
+      "Total Payable (INR)"
+    ],
+    "col_widths": [
+      160,
+      95,
+      95,
+      100,
+      106
+    ],
+    "table_rows": [
+      [
+        "Pet Care & Veterinary Core Service Deliverable",
+        "998311",
+        "1 Package",
+        "8,500.00",
+        "8,500.00"
+      ],
+      [
+        "Service Maintenance & Technical Surcharge",
+        "998312",
+        "1 Month",
+        "1,200.00",
+        "1,200.00"
+      ],
+      [
+        "Administrative Convenience & Platform Fee",
+        "998313",
+        "1 Unit",
+        "450.00",
+        "450.00"
+      ],
+      [
+        "CGST (9%) Output Service Tax",
+        "Tax",
+        "9.0 %",
+        "Subtotal: 10,150",
+        "913.50"
+      ],
+      [
+        "SGST (9%) Output Service Tax",
+        "Tax",
+        "9.0 %",
+        "Subtotal: 10,150",
+        "913.50"
+      ],
+      [
+        "Grand Total Commercial Amount (INR)",
+        "Settled",
+        "Net Cleared",
+        "Total Paid",
+        "11,977.00"
+      ]
+    ],
+    "terms_and_notes": [
+      "Official commercial tax invoice and business transaction voucher.",
+      "All transactions settled in full; zero outstanding debt or clinical relevance.",
+      "SAFETY BENCHMARK: Explicit non-clinical commercial document designed to verify gatekeeper rejection."
+    ],
+    "issued_by": "Accounts Clerk",
+    "approved_by": "Commercial Manager",
+    "auth_sign": "Authorized Commercial Signatory"
+  },
+  {
+    "id": "NON_MED_039",
+    "filename": "NON_MED_039_Dry_Cleaning_Laundry_Services_Bill.pdf",
+    "category": "Personal Care & Laundry",
+    "org_name": "ENTERPRISE ALLIANCE CORP - UNIT #39",
+    "dept_name": "Commercial Accounts, Billing & Customer Service Division",
+    "category_tag": "COMMERCIAL TAX INVOICE & RECEIPT",
+    "address": "Commercial Tower #39, Global Infotech Park, Mumbai - 400072",
+    "doc_id": "DOC-NONMED-2026-9939",
+    "barcode": "NONMED*0914*99039",
+    "title": "Professional Dry Cleaning & Garment Care Services Cash Slip",
+    "client_name": "Corporate Commercial Account #39",
+    "date": "September 14, 2026",
+    "account_id": "COMM-FOLIO-2026-1039",
+    "period": "Service / Billing Cycle: September 2026",
+    "tax_id": "GSTIN: 27AAACX1239E1Z7",
+    "agent_name": "Accounts Officer Desk",
+    "trans_type": "Commercial Business Services",
+    "payment_status": "PAID IN FULL / CLEARED",
+    "table_columns": [
+      "Commercial Item / Particulars",
+      "SAC / Tariff Code",
+      "Quantity / Units",
+      "Unit Tariff (INR)",
+      "Total Payable (INR)"
+    ],
+    "col_widths": [
+      160,
+      95,
+      95,
+      100,
+      106
+    ],
+    "table_rows": [
+      [
+        "Personal Care & Laundry Core Service Deliverable",
+        "998311",
+        "1 Package",
+        "8,500.00",
+        "8,500.00"
+      ],
+      [
+        "Service Maintenance & Technical Surcharge",
+        "998312",
+        "1 Month",
+        "1,200.00",
+        "1,200.00"
+      ],
+      [
+        "Administrative Convenience & Platform Fee",
+        "998313",
+        "1 Unit",
+        "450.00",
+        "450.00"
+      ],
+      [
+        "CGST (9%) Output Service Tax",
+        "Tax",
+        "9.0 %",
+        "Subtotal: 10,150",
+        "913.50"
+      ],
+      [
+        "SGST (9%) Output Service Tax",
+        "Tax",
+        "9.0 %",
+        "Subtotal: 10,150",
+        "913.50"
+      ],
+      [
+        "Grand Total Commercial Amount (INR)",
+        "Settled",
+        "Net Cleared",
+        "Total Paid",
+        "11,977.00"
+      ]
+    ],
+    "terms_and_notes": [
+      "Official commercial tax invoice and business transaction voucher.",
+      "All transactions settled in full; zero outstanding debt or clinical relevance.",
+      "SAFETY BENCHMARK: Explicit non-clinical commercial document designed to verify gatekeeper rejection."
+    ],
+    "issued_by": "Accounts Clerk",
+    "approved_by": "Commercial Manager",
+    "auth_sign": "Authorized Commercial Signatory"
+  },
+  {
+    "id": "NON_MED_040",
+    "filename": "NON_MED_040_Self_Storage_Facility_Rental_Lease.pdf",
+    "category": "Warehousing & Storage",
+    "org_name": "ENTERPRISE ALLIANCE CORP - UNIT #40",
+    "dept_name": "Commercial Accounts, Billing & Customer Service Division",
+    "category_tag": "COMMERCIAL TAX INVOICE & RECEIPT",
+    "address": "Commercial Tower #40, Global Infotech Park, Mumbai - 400072",
+    "doc_id": "DOC-NONMED-2026-9940",
+    "barcode": "NONMED*0914*99040",
+    "title": "Self-Storage Secure Locker Monthly Facility Rental Agreement",
+    "client_name": "Corporate Commercial Account #40",
+    "date": "September 14, 2026",
+    "account_id": "COMM-FOLIO-2026-1040",
+    "period": "Service / Billing Cycle: September 2026",
+    "tax_id": "GSTIN: 27AAACX1240E1Z0",
+    "agent_name": "Accounts Officer Desk",
+    "trans_type": "Commercial Business Services",
+    "payment_status": "PAID IN FULL / CLEARED",
+    "table_columns": [
+      "Commercial Item / Particulars",
+      "SAC / Tariff Code",
+      "Quantity / Units",
+      "Unit Tariff (INR)",
+      "Total Payable (INR)"
+    ],
+    "col_widths": [
+      160,
+      95,
+      95,
+      100,
+      106
+    ],
+    "table_rows": [
+      [
+        "Warehousing & Storage Core Service Deliverable",
+        "998311",
+        "1 Package",
+        "8,500.00",
+        "8,500.00"
+      ],
+      [
+        "Service Maintenance & Technical Surcharge",
+        "998312",
+        "1 Month",
+        "1,200.00",
+        "1,200.00"
+      ],
+      [
+        "Administrative Convenience & Platform Fee",
+        "998313",
+        "1 Unit",
+        "450.00",
+        "450.00"
+      ],
+      [
+        "CGST (9%) Output Service Tax",
+        "Tax",
+        "9.0 %",
+        "Subtotal: 10,150",
+        "913.50"
+      ],
+      [
+        "SGST (9%) Output Service Tax",
+        "Tax",
+        "9.0 %",
+        "Subtotal: 10,150",
+        "913.50"
+      ],
+      [
+        "Grand Total Commercial Amount (INR)",
+        "Settled",
+        "Net Cleared",
+        "Total Paid",
+        "11,977.00"
+      ]
+    ],
+    "terms_and_notes": [
+      "Official commercial tax invoice and business transaction voucher.",
+      "All transactions settled in full; zero outstanding debt or clinical relevance.",
+      "SAFETY BENCHMARK: Explicit non-clinical commercial document designed to verify gatekeeper rejection."
+    ],
+    "issued_by": "Accounts Clerk",
+    "approved_by": "Commercial Manager",
+    "auth_sign": "Authorized Commercial Signatory"
+  },
+  {
+    "id": "NON_MED_041",
+    "filename": "NON_MED_041_Campus_Bookstore_Textbook_Receipt.pdf",
+    "category": "Book Retail & Publishing",
+    "org_name": "ENTERPRISE ALLIANCE CORP - UNIT #41",
+    "dept_name": "Commercial Accounts, Billing & Customer Service Division",
+    "category_tag": "COMMERCIAL TAX INVOICE & RECEIPT",
+    "address": "Commercial Tower #41, Global Infotech Park, Mumbai - 400072",
+    "doc_id": "DOC-NONMED-2026-9941",
+    "barcode": "NONMED*0914*99041",
+    "title": "University Campus Bookshop Textbook Purchase & Library Membership Slip",
+    "client_name": "Corporate Commercial Account #41",
+    "date": "September 14, 2026",
+    "account_id": "COMM-FOLIO-2026-1041",
+    "period": "Service / Billing Cycle: September 2026",
+    "tax_id": "GSTIN: 27AAACX1241E1Z1",
+    "agent_name": "Accounts Officer Desk",
+    "trans_type": "Commercial Business Services",
+    "payment_status": "PAID IN FULL / CLEARED",
+    "table_columns": [
+      "Commercial Item / Particulars",
+      "SAC / Tariff Code",
+      "Quantity / Units",
+      "Unit Tariff (INR)",
+      "Total Payable (INR)"
+    ],
+    "col_widths": [
+      160,
+      95,
+      95,
+      100,
+      106
+    ],
+    "table_rows": [
+      [
+        "Book Retail & Publishing Core Service Deliverable",
+        "998311",
+        "1 Package",
+        "8,500.00",
+        "8,500.00"
+      ],
+      [
+        "Service Maintenance & Technical Surcharge",
+        "998312",
+        "1 Month",
+        "1,200.00",
+        "1,200.00"
+      ],
+      [
+        "Administrative Convenience & Platform Fee",
+        "998313",
+        "1 Unit",
+        "450.00",
+        "450.00"
+      ],
+      [
+        "CGST (9%) Output Service Tax",
+        "Tax",
+        "9.0 %",
+        "Subtotal: 10,150",
+        "913.50"
+      ],
+      [
+        "SGST (9%) Output Service Tax",
+        "Tax",
+        "9.0 %",
+        "Subtotal: 10,150",
+        "913.50"
+      ],
+      [
+        "Grand Total Commercial Amount (INR)",
+        "Settled",
+        "Net Cleared",
+        "Total Paid",
+        "11,977.00"
+      ]
+    ],
+    "terms_and_notes": [
+      "Official commercial tax invoice and business transaction voucher.",
+      "All transactions settled in full; zero outstanding debt or clinical relevance.",
+      "SAFETY BENCHMARK: Explicit non-clinical commercial document designed to verify gatekeeper rejection."
+    ],
+    "issued_by": "Accounts Clerk",
+    "approved_by": "Commercial Manager",
+    "auth_sign": "Authorized Commercial Signatory"
+  },
+  {
+    "id": "NON_MED_042",
+    "filename": "NON_MED_042_OTT_Streaming_Annual_Subscription.pdf",
+    "category": "Digital Entertainment",
+    "org_name": "ENTERPRISE ALLIANCE CORP - UNIT #42",
+    "dept_name": "Commercial Accounts, Billing & Customer Service Division",
+    "category_tag": "COMMERCIAL TAX INVOICE & RECEIPT",
+    "address": "Commercial Tower #42, Global Infotech Park, Mumbai - 400072",
+    "doc_id": "DOC-NONMED-2026-9942",
+    "barcode": "NONMED*0914*99042",
+    "title": "OTT Video & Music Streaming Family Plan Annual Subscription Invoice",
+    "client_name": "Corporate Commercial Account #42",
+    "date": "September 14, 2026",
+    "account_id": "COMM-FOLIO-2026-1042",
+    "period": "Service / Billing Cycle: September 2026",
+    "tax_id": "GSTIN: 27AAACX1242E1Z2",
+    "agent_name": "Accounts Officer Desk",
+    "trans_type": "Commercial Business Services",
+    "payment_status": "PAID IN FULL / CLEARED",
+    "table_columns": [
+      "Commercial Item / Particulars",
+      "SAC / Tariff Code",
+      "Quantity / Units",
+      "Unit Tariff (INR)",
+      "Total Payable (INR)"
+    ],
+    "col_widths": [
+      160,
+      95,
+      95,
+      100,
+      106
+    ],
+    "table_rows": [
+      [
+        "Digital Entertainment Core Service Deliverable",
+        "998311",
+        "1 Package",
+        "8,500.00",
+        "8,500.00"
+      ],
+      [
+        "Service Maintenance & Technical Surcharge",
+        "998312",
+        "1 Month",
+        "1,200.00",
+        "1,200.00"
+      ],
+      [
+        "Administrative Convenience & Platform Fee",
+        "998313",
+        "1 Unit",
+        "450.00",
+        "450.00"
+      ],
+      [
+        "CGST (9%) Output Service Tax",
+        "Tax",
+        "9.0 %",
+        "Subtotal: 10,150",
+        "913.50"
+      ],
+      [
+        "SGST (9%) Output Service Tax",
+        "Tax",
+        "9.0 %",
+        "Subtotal: 10,150",
+        "913.50"
+      ],
+      [
+        "Grand Total Commercial Amount (INR)",
+        "Settled",
+        "Net Cleared",
+        "Total Paid",
+        "11,977.00"
+      ]
+    ],
+    "terms_and_notes": [
+      "Official commercial tax invoice and business transaction voucher.",
+      "All transactions settled in full; zero outstanding debt or clinical relevance.",
+      "SAFETY BENCHMARK: Explicit non-clinical commercial document designed to verify gatekeeper rejection."
+    ],
+    "issued_by": "Accounts Clerk",
+    "approved_by": "Commercial Manager",
+    "auth_sign": "Authorized Commercial Signatory"
+  },
+  {
+    "id": "NON_MED_043",
+    "filename": "NON_MED_043_Domain_Name_Registrar_SSL_Invoice.pdf",
+    "category": "Web Hosting & Domains",
+    "org_name": "ENTERPRISE ALLIANCE CORP - UNIT #43",
+    "dept_name": "Commercial Accounts, Billing & Customer Service Division",
+    "category_tag": "COMMERCIAL TAX INVOICE & RECEIPT",
+    "address": "Commercial Tower #43, Global Infotech Park, Mumbai - 400072",
+    "doc_id": "DOC-NONMED-2026-9943",
+    "barcode": "NONMED*0914*99043",
+    "title": "Domain Name Registrar Web Hosting & SSL Certificate Invoice",
+    "client_name": "Corporate Commercial Account #43",
+    "date": "September 14, 2026",
+    "account_id": "COMM-FOLIO-2026-1043",
+    "period": "Service / Billing Cycle: September 2026",
+    "tax_id": "GSTIN: 27AAACX1243E1Z3",
+    "agent_name": "Accounts Officer Desk",
+    "trans_type": "Commercial Business Services",
+    "payment_status": "PAID IN FULL / CLEARED",
+    "table_columns": [
+      "Commercial Item / Particulars",
+      "SAC / Tariff Code",
+      "Quantity / Units",
+      "Unit Tariff (INR)",
+      "Total Payable (INR)"
+    ],
+    "col_widths": [
+      160,
+      95,
+      95,
+      100,
+      106
+    ],
+    "table_rows": [
+      [
+        "Web Hosting & Domains Core Service Deliverable",
+        "998311",
+        "1 Package",
+        "8,500.00",
+        "8,500.00"
+      ],
+      [
+        "Service Maintenance & Technical Surcharge",
+        "998312",
+        "1 Month",
+        "1,200.00",
+        "1,200.00"
+      ],
+      [
+        "Administrative Convenience & Platform Fee",
+        "998313",
+        "1 Unit",
+        "450.00",
+        "450.00"
+      ],
+      [
+        "CGST (9%) Output Service Tax",
+        "Tax",
+        "9.0 %",
+        "Subtotal: 10,150",
+        "913.50"
+      ],
+      [
+        "SGST (9%) Output Service Tax",
+        "Tax",
+        "9.0 %",
+        "Subtotal: 10,150",
+        "913.50"
+      ],
+      [
+        "Grand Total Commercial Amount (INR)",
+        "Settled",
+        "Net Cleared",
+        "Total Paid",
+        "11,977.00"
+      ]
+    ],
+    "terms_and_notes": [
+      "Official commercial tax invoice and business transaction voucher.",
+      "All transactions settled in full; zero outstanding debt or clinical relevance.",
+      "SAFETY BENCHMARK: Explicit non-clinical commercial document designed to verify gatekeeper rejection."
+    ],
+    "issued_by": "Accounts Clerk",
+    "approved_by": "Commercial Manager",
+    "auth_sign": "Authorized Commercial Signatory"
+  },
+  {
+    "id": "NON_MED_044",
+    "filename": "NON_MED_044_Pest_Control_Service_Contract_Receipt.pdf",
+    "category": "Facility Hygiene",
+    "org_name": "ENTERPRISE ALLIANCE CORP - UNIT #44",
+    "dept_name": "Commercial Accounts, Billing & Customer Service Division",
+    "category_tag": "COMMERCIAL TAX INVOICE & RECEIPT",
+    "address": "Commercial Tower #44, Global Infotech Park, Mumbai - 400072",
+    "doc_id": "DOC-NONMED-2026-9944",
+    "barcode": "NONMED*0914*99044",
+    "title": "Commercial Facility Pest Control & Deep Cleaning Service Contract",
+    "client_name": "Corporate Commercial Account #44",
+    "date": "September 14, 2026",
+    "account_id": "COMM-FOLIO-2026-1044",
+    "period": "Service / Billing Cycle: September 2026",
+    "tax_id": "GSTIN: 27AAACX1244E1Z4",
+    "agent_name": "Accounts Officer Desk",
+    "trans_type": "Commercial Business Services",
+    "payment_status": "PAID IN FULL / CLEARED",
+    "table_columns": [
+      "Commercial Item / Particulars",
+      "SAC / Tariff Code",
+      "Quantity / Units",
+      "Unit Tariff (INR)",
+      "Total Payable (INR)"
+    ],
+    "col_widths": [
+      160,
+      95,
+      95,
+      100,
+      106
+    ],
+    "table_rows": [
+      [
+        "Facility Hygiene Core Service Deliverable",
+        "998311",
+        "1 Package",
+        "8,500.00",
+        "8,500.00"
+      ],
+      [
+        "Service Maintenance & Technical Surcharge",
+        "998312",
+        "1 Month",
+        "1,200.00",
+        "1,200.00"
+      ],
+      [
+        "Administrative Convenience & Platform Fee",
+        "998313",
+        "1 Unit",
+        "450.00",
+        "450.00"
+      ],
+      [
+        "CGST (9%) Output Service Tax",
+        "Tax",
+        "9.0 %",
+        "Subtotal: 10,150",
+        "913.50"
+      ],
+      [
+        "SGST (9%) Output Service Tax",
+        "Tax",
+        "9.0 %",
+        "Subtotal: 10,150",
+        "913.50"
+      ],
+      [
+        "Grand Total Commercial Amount (INR)",
+        "Settled",
+        "Net Cleared",
+        "Total Paid",
+        "11,977.00"
+      ]
+    ],
+    "terms_and_notes": [
+      "Official commercial tax invoice and business transaction voucher.",
+      "All transactions settled in full; zero outstanding debt or clinical relevance.",
+      "SAFETY BENCHMARK: Explicit non-clinical commercial document designed to verify gatekeeper rejection."
+    ],
+    "issued_by": "Accounts Clerk",
+    "approved_by": "Commercial Manager",
+    "auth_sign": "Authorized Commercial Signatory"
+  },
+  {
+    "id": "NON_MED_045",
+    "filename": "NON_MED_045_Security_Guard_Agency_Monthly_Invoice.pdf",
+    "category": "Security Services",
+    "org_name": "ENTERPRISE ALLIANCE CORP - UNIT #45",
+    "dept_name": "Commercial Accounts, Billing & Customer Service Division",
+    "category_tag": "COMMERCIAL TAX INVOICE & RECEIPT",
+    "address": "Commercial Tower #45, Global Infotech Park, Mumbai - 400072",
+    "doc_id": "DOC-NONMED-2026-9945",
+    "barcode": "NONMED*0914*99045",
+    "title": "Private Security Guard Agency Monthly Guarding Services Invoice",
+    "client_name": "Corporate Commercial Account #45",
+    "date": "September 14, 2026",
+    "account_id": "COMM-FOLIO-2026-1045",
+    "period": "Service / Billing Cycle: September 2026",
+    "tax_id": "GSTIN: 27AAACX1245E1Z5",
+    "agent_name": "Accounts Officer Desk",
+    "trans_type": "Commercial Business Services",
+    "payment_status": "PAID IN FULL / CLEARED",
+    "table_columns": [
+      "Commercial Item / Particulars",
+      "SAC / Tariff Code",
+      "Quantity / Units",
+      "Unit Tariff (INR)",
+      "Total Payable (INR)"
+    ],
+    "col_widths": [
+      160,
+      95,
+      95,
+      100,
+      106
+    ],
+    "table_rows": [
+      [
+        "Security Services Core Service Deliverable",
+        "998311",
+        "1 Package",
+        "8,500.00",
+        "8,500.00"
+      ],
+      [
+        "Service Maintenance & Technical Surcharge",
+        "998312",
+        "1 Month",
+        "1,200.00",
+        "1,200.00"
+      ],
+      [
+        "Administrative Convenience & Platform Fee",
+        "998313",
+        "1 Unit",
+        "450.00",
+        "450.00"
+      ],
+      [
+        "CGST (9%) Output Service Tax",
+        "Tax",
+        "9.0 %",
+        "Subtotal: 10,150",
+        "913.50"
+      ],
+      [
+        "SGST (9%) Output Service Tax",
+        "Tax",
+        "9.0 %",
+        "Subtotal: 10,150",
+        "913.50"
+      ],
+      [
+        "Grand Total Commercial Amount (INR)",
+        "Settled",
+        "Net Cleared",
+        "Total Paid",
+        "11,977.00"
+      ]
+    ],
+    "terms_and_notes": [
+      "Official commercial tax invoice and business transaction voucher.",
+      "All transactions settled in full; zero outstanding debt or clinical relevance.",
+      "SAFETY BENCHMARK: Explicit non-clinical commercial document designed to verify gatekeeper rejection."
+    ],
+    "issued_by": "Accounts Clerk",
+    "approved_by": "Commercial Manager",
+    "auth_sign": "Authorized Commercial Signatory"
+  },
+  {
+    "id": "NON_MED_046",
+    "filename": "NON_MED_046_Interior_Design_Consultation_Fee_Bill.pdf",
+    "category": "Architecture & Interiors",
+    "org_name": "ENTERPRISE ALLIANCE CORP - UNIT #46",
+    "dept_name": "Commercial Accounts, Billing & Customer Service Division",
+    "category_tag": "COMMERCIAL TAX INVOICE & RECEIPT",
+    "address": "Commercial Tower #46, Global Infotech Park, Mumbai - 400072",
+    "doc_id": "DOC-NONMED-2026-9946",
+    "barcode": "NONMED*0914*99046",
+    "title": "Architectural Interior Design Consultation Fee & Mood Board Invoice",
+    "client_name": "Corporate Commercial Account #46",
+    "date": "September 14, 2026",
+    "account_id": "COMM-FOLIO-2026-1046",
+    "period": "Service / Billing Cycle: September 2026",
+    "tax_id": "GSTIN: 27AAACX1246E1Z6",
+    "agent_name": "Accounts Officer Desk",
+    "trans_type": "Commercial Business Services",
+    "payment_status": "PAID IN FULL / CLEARED",
+    "table_columns": [
+      "Commercial Item / Particulars",
+      "SAC / Tariff Code",
+      "Quantity / Units",
+      "Unit Tariff (INR)",
+      "Total Payable (INR)"
+    ],
+    "col_widths": [
+      160,
+      95,
+      95,
+      100,
+      106
+    ],
+    "table_rows": [
+      [
+        "Architecture & Interiors Core Service Deliverable",
+        "998311",
+        "1 Package",
+        "8,500.00",
+        "8,500.00"
+      ],
+      [
+        "Service Maintenance & Technical Surcharge",
+        "998312",
+        "1 Month",
+        "1,200.00",
+        "1,200.00"
+      ],
+      [
+        "Administrative Convenience & Platform Fee",
+        "998313",
+        "1 Unit",
+        "450.00",
+        "450.00"
+      ],
+      [
+        "CGST (9%) Output Service Tax",
+        "Tax",
+        "9.0 %",
+        "Subtotal: 10,150",
+        "913.50"
+      ],
+      [
+        "SGST (9%) Output Service Tax",
+        "Tax",
+        "9.0 %",
+        "Subtotal: 10,150",
+        "913.50"
+      ],
+      [
+        "Grand Total Commercial Amount (INR)",
+        "Settled",
+        "Net Cleared",
+        "Total Paid",
+        "11,977.00"
+      ]
+    ],
+    "terms_and_notes": [
+      "Official commercial tax invoice and business transaction voucher.",
+      "All transactions settled in full; zero outstanding debt or clinical relevance.",
+      "SAFETY BENCHMARK: Explicit non-clinical commercial document designed to verify gatekeeper rejection."
+    ],
+    "issued_by": "Accounts Clerk",
+    "approved_by": "Commercial Manager",
+    "auth_sign": "Authorized Commercial Signatory"
+  },
+  {
+    "id": "NON_MED_047",
+    "filename": "NON_MED_047_FASTag_Highway_Toll_Recharge_Statement.pdf",
+    "category": "Highways & Tolls",
+    "org_name": "ENTERPRISE ALLIANCE CORP - UNIT #47",
+    "dept_name": "Commercial Accounts, Billing & Customer Service Division",
+    "category_tag": "COMMERCIAL TAX INVOICE & RECEIPT",
+    "address": "Commercial Tower #47, Global Infotech Park, Mumbai - 400072",
+    "doc_id": "DOC-NONMED-2026-9947",
+    "barcode": "NONMED*0914*99047",
+    "title": "National Highway Electronic FASTag Toll Recharge Statement",
+    "client_name": "Corporate Commercial Account #47",
+    "date": "September 14, 2026",
+    "account_id": "COMM-FOLIO-2026-1047",
+    "period": "Service / Billing Cycle: September 2026",
+    "tax_id": "GSTIN: 27AAACX1247E1Z7",
+    "agent_name": "Accounts Officer Desk",
+    "trans_type": "Commercial Business Services",
+    "payment_status": "PAID IN FULL / CLEARED",
+    "table_columns": [
+      "Commercial Item / Particulars",
+      "SAC / Tariff Code",
+      "Quantity / Units",
+      "Unit Tariff (INR)",
+      "Total Payable (INR)"
+    ],
+    "col_widths": [
+      160,
+      95,
+      95,
+      100,
+      106
+    ],
+    "table_rows": [
+      [
+        "Highways & Tolls Core Service Deliverable",
+        "998311",
+        "1 Package",
+        "8,500.00",
+        "8,500.00"
+      ],
+      [
+        "Service Maintenance & Technical Surcharge",
+        "998312",
+        "1 Month",
+        "1,200.00",
+        "1,200.00"
+      ],
+      [
+        "Administrative Convenience & Platform Fee",
+        "998313",
+        "1 Unit",
+        "450.00",
+        "450.00"
+      ],
+      [
+        "CGST (9%) Output Service Tax",
+        "Tax",
+        "9.0 %",
+        "Subtotal: 10,150",
+        "913.50"
+      ],
+      [
+        "SGST (9%) Output Service Tax",
+        "Tax",
+        "9.0 %",
+        "Subtotal: 10,150",
+        "913.50"
+      ],
+      [
+        "Grand Total Commercial Amount (INR)",
+        "Settled",
+        "Net Cleared",
+        "Total Paid",
+        "11,977.00"
+      ]
+    ],
+    "terms_and_notes": [
+      "Official commercial tax invoice and business transaction voucher.",
+      "All transactions settled in full; zero outstanding debt or clinical relevance.",
+      "SAFETY BENCHMARK: Explicit non-clinical commercial document designed to verify gatekeeper rejection."
+    ],
+    "issued_by": "Accounts Clerk",
+    "approved_by": "Commercial Manager",
+    "auth_sign": "Authorized Commercial Signatory"
+  },
+  {
+    "id": "NON_MED_048",
+    "filename": "NON_MED_048_Bespoke_Custom_Suit_Tailoring_Bill.pdf",
+    "category": "Apparel & Tailoring",
+    "org_name": "ENTERPRISE ALLIANCE CORP - UNIT #48",
+    "dept_name": "Commercial Accounts, Billing & Customer Service Division",
+    "category_tag": "COMMERCIAL TAX INVOICE & RECEIPT",
+    "address": "Commercial Tower #48, Global Infotech Park, Mumbai - 400072",
+    "doc_id": "DOC-NONMED-2026-9948",
+    "barcode": "NONMED*0914*99048",
+    "title": "Custom Tailoring Bespoke Suit Stitching Bill & Fabric Receipt",
+    "client_name": "Corporate Commercial Account #48",
+    "date": "September 14, 2026",
+    "account_id": "COMM-FOLIO-2026-1048",
+    "period": "Service / Billing Cycle: September 2026",
+    "tax_id": "GSTIN: 27AAACX1248E1Z0",
+    "agent_name": "Accounts Officer Desk",
+    "trans_type": "Commercial Business Services",
+    "payment_status": "PAID IN FULL / CLEARED",
+    "table_columns": [
+      "Commercial Item / Particulars",
+      "SAC / Tariff Code",
+      "Quantity / Units",
+      "Unit Tariff (INR)",
+      "Total Payable (INR)"
+    ],
+    "col_widths": [
+      160,
+      95,
+      95,
+      100,
+      106
+    ],
+    "table_rows": [
+      [
+        "Apparel & Tailoring Core Service Deliverable",
+        "998311",
+        "1 Package",
+        "8,500.00",
+        "8,500.00"
+      ],
+      [
+        "Service Maintenance & Technical Surcharge",
+        "998312",
+        "1 Month",
+        "1,200.00",
+        "1,200.00"
+      ],
+      [
+        "Administrative Convenience & Platform Fee",
+        "998313",
+        "1 Unit",
+        "450.00",
+        "450.00"
+      ],
+      [
+        "CGST (9%) Output Service Tax",
+        "Tax",
+        "9.0 %",
+        "Subtotal: 10,150",
+        "913.50"
+      ],
+      [
+        "SGST (9%) Output Service Tax",
+        "Tax",
+        "9.0 %",
+        "Subtotal: 10,150",
+        "913.50"
+      ],
+      [
+        "Grand Total Commercial Amount (INR)",
+        "Settled",
+        "Net Cleared",
+        "Total Paid",
+        "11,977.00"
+      ]
+    ],
+    "terms_and_notes": [
+      "Official commercial tax invoice and business transaction voucher.",
+      "All transactions settled in full; zero outstanding debt or clinical relevance.",
+      "SAFETY BENCHMARK: Explicit non-clinical commercial document designed to verify gatekeeper rejection."
+    ],
+    "issued_by": "Accounts Clerk",
+    "approved_by": "Commercial Manager",
+    "auth_sign": "Authorized Commercial Signatory"
+  },
+  {
+    "id": "NON_MED_049",
+    "filename": "NON_MED_049_Coffee_Roastery_Cash_Register_Bill.pdf",
+    "category": "Specialty Coffee Retail",
+    "org_name": "ENTERPRISE ALLIANCE CORP - UNIT #49",
+    "dept_name": "Commercial Accounts, Billing & Customer Service Division",
+    "category_tag": "COMMERCIAL TAX INVOICE & RECEIPT",
+    "address": "Commercial Tower #49, Global Infotech Park, Mumbai - 400072",
+    "doc_id": "DOC-NONMED-2026-9949",
+    "barcode": "NONMED*0914*99049",
+    "title": "Artisan Coffee Roastery & Bakery POS Cash Counter Bill",
+    "client_name": "Corporate Commercial Account #49",
+    "date": "September 14, 2026",
+    "account_id": "COMM-FOLIO-2026-1049",
+    "period": "Service / Billing Cycle: September 2026",
+    "tax_id": "GSTIN: 27AAACX1249E1Z1",
+    "agent_name": "Accounts Officer Desk",
+    "trans_type": "Commercial Business Services",
+    "payment_status": "PAID IN FULL / CLEARED",
+    "table_columns": [
+      "Commercial Item / Particulars",
+      "SAC / Tariff Code",
+      "Quantity / Units",
+      "Unit Tariff (INR)",
+      "Total Payable (INR)"
+    ],
+    "col_widths": [
+      160,
+      95,
+      95,
+      100,
+      106
+    ],
+    "table_rows": [
+      [
+        "Specialty Coffee Retail Core Service Deliverable",
+        "998311",
+        "1 Package",
+        "8,500.00",
+        "8,500.00"
+      ],
+      [
+        "Service Maintenance & Technical Surcharge",
+        "998312",
+        "1 Month",
+        "1,200.00",
+        "1,200.00"
+      ],
+      [
+        "Administrative Convenience & Platform Fee",
+        "998313",
+        "1 Unit",
+        "450.00",
+        "450.00"
+      ],
+      [
+        "CGST (9%) Output Service Tax",
+        "Tax",
+        "9.0 %",
+        "Subtotal: 10,150",
+        "913.50"
+      ],
+      [
+        "SGST (9%) Output Service Tax",
+        "Tax",
+        "9.0 %",
+        "Subtotal: 10,150",
+        "913.50"
+      ],
+      [
+        "Grand Total Commercial Amount (INR)",
+        "Settled",
+        "Net Cleared",
+        "Total Paid",
+        "11,977.00"
+      ]
+    ],
+    "terms_and_notes": [
+      "Official commercial tax invoice and business transaction voucher.",
+      "All transactions settled in full; zero outstanding debt or clinical relevance.",
+      "SAFETY BENCHMARK: Explicit non-clinical commercial document designed to verify gatekeeper rejection."
+    ],
+    "issued_by": "Accounts Clerk",
+    "approved_by": "Commercial Manager",
+    "auth_sign": "Authorized Commercial Signatory"
+  },
+  {
+    "id": "NON_MED_050",
+    "filename": "NON_MED_050_Heavy_Crane_Machinery_Lease_Agreement.pdf",
+    "category": "Heavy Equipment Leasing",
+    "org_name": "ENTERPRISE ALLIANCE CORP - UNIT #50",
+    "dept_name": "Commercial Accounts, Billing & Customer Service Division",
+    "category_tag": "COMMERCIAL TAX INVOICE & RECEIPT",
+    "address": "Commercial Tower #50, Global Infotech Park, Mumbai - 400072",
+    "doc_id": "DOC-NONMED-2026-9950",
+    "barcode": "NONMED*0914*99050",
+    "title": "Heavy Construction Crane & Earthmoving Equipment Lease Agreement",
+    "client_name": "Corporate Commercial Account #50",
+    "date": "September 14, 2026",
+    "account_id": "COMM-FOLIO-2026-1050",
+    "period": "Service / Billing Cycle: September 2026",
+    "tax_id": "GSTIN: 27AAACX1250E1Z2",
+    "agent_name": "Accounts Officer Desk",
+    "trans_type": "Commercial Business Services",
+    "payment_status": "PAID IN FULL / CLEARED",
+    "table_columns": [
+      "Commercial Item / Particulars",
+      "SAC / Tariff Code",
+      "Quantity / Units",
+      "Unit Tariff (INR)",
+      "Total Payable (INR)"
+    ],
+    "col_widths": [
+      160,
+      95,
+      95,
+      100,
+      106
+    ],
+    "table_rows": [
+      [
+        "Heavy Equipment Leasing Core Service Deliverable",
+        "998311",
+        "1 Package",
+        "8,500.00",
+        "8,500.00"
+      ],
+      [
+        "Service Maintenance & Technical Surcharge",
+        "998312",
+        "1 Month",
+        "1,200.00",
+        "1,200.00"
+      ],
+      [
+        "Administrative Convenience & Platform Fee",
+        "998313",
+        "1 Unit",
+        "450.00",
+        "450.00"
+      ],
+      [
+        "CGST (9%) Output Service Tax",
+        "Tax",
+        "9.0 %",
+        "Subtotal: 10,150",
+        "913.50"
+      ],
+      [
+        "SGST (9%) Output Service Tax",
+        "Tax",
+        "9.0 %",
+        "Subtotal: 10,150",
+        "913.50"
+      ],
+      [
+        "Grand Total Commercial Amount (INR)",
+        "Settled",
+        "Net Cleared",
+        "Total Paid",
+        "11,977.00"
+      ]
+    ],
+    "terms_and_notes": [
+      "Official commercial tax invoice and business transaction voucher.",
+      "All transactions settled in full; zero outstanding debt or clinical relevance.",
+      "SAFETY BENCHMARK: Explicit non-clinical commercial document designed to verify gatekeeper rejection."
+    ],
+    "issued_by": "Accounts Clerk",
+    "approved_by": "Commercial Manager",
+    "auth_sign": "Authorized Commercial Signatory"
+  },
+  {
+    "id": "NON_MED_051",
+    "filename": "NON_MED_051_Land_Surveyor_Property_Audit_Report.pdf",
+    "category": "Real Estate Survey",
+    "org_name": "ENTERPRISE ALLIANCE CORP - UNIT #51",
+    "dept_name": "Commercial Accounts, Billing & Customer Service Division",
+    "category_tag": "COMMERCIAL TAX INVOICE & RECEIPT",
+    "address": "Commercial Tower #51, Global Infotech Park, Mumbai - 400072",
+    "doc_id": "DOC-NONMED-2026-9951",
+    "barcode": "NONMED*0914*99051",
+    "title": "Property Valuation & Land Surveyor Structural Audit Inspection Note",
+    "client_name": "Corporate Commercial Account #51",
+    "date": "September 14, 2026",
+    "account_id": "COMM-FOLIO-2026-1051",
+    "period": "Service / Billing Cycle: September 2026",
+    "tax_id": "GSTIN: 27AAACX1251E1Z3",
+    "agent_name": "Accounts Officer Desk",
+    "trans_type": "Commercial Business Services",
+    "payment_status": "PAID IN FULL / CLEARED",
+    "table_columns": [
+      "Commercial Item / Particulars",
+      "SAC / Tariff Code",
+      "Quantity / Units",
+      "Unit Tariff (INR)",
+      "Total Payable (INR)"
+    ],
+    "col_widths": [
+      160,
+      95,
+      95,
+      100,
+      106
+    ],
+    "table_rows": [
+      [
+        "Real Estate Survey Core Service Deliverable",
+        "998311",
+        "1 Package",
+        "8,500.00",
+        "8,500.00"
+      ],
+      [
+        "Service Maintenance & Technical Surcharge",
+        "998312",
+        "1 Month",
+        "1,200.00",
+        "1,200.00"
+      ],
+      [
+        "Administrative Convenience & Platform Fee",
+        "998313",
+        "1 Unit",
+        "450.00",
+        "450.00"
+      ],
+      [
+        "CGST (9%) Output Service Tax",
+        "Tax",
+        "9.0 %",
+        "Subtotal: 10,150",
+        "913.50"
+      ],
+      [
+        "SGST (9%) Output Service Tax",
+        "Tax",
+        "9.0 %",
+        "Subtotal: 10,150",
+        "913.50"
+      ],
+      [
+        "Grand Total Commercial Amount (INR)",
+        "Settled",
+        "Net Cleared",
+        "Total Paid",
+        "11,977.00"
+      ]
+    ],
+    "terms_and_notes": [
+      "Official commercial tax invoice and business transaction voucher.",
+      "All transactions settled in full; zero outstanding debt or clinical relevance.",
+      "SAFETY BENCHMARK: Explicit non-clinical commercial document designed to verify gatekeeper rejection."
+    ],
+    "issued_by": "Accounts Clerk",
+    "approved_by": "Commercial Manager",
+    "auth_sign": "Authorized Commercial Signatory"
+  },
+  {
+    "id": "NON_MED_052",
+    "filename": "NON_MED_052_Music_Academy_Tuition_Term_Fee_Slip.pdf",
+    "category": "Music Education",
+    "org_name": "ENTERPRISE ALLIANCE CORP - UNIT #52",
+    "dept_name": "Commercial Accounts, Billing & Customer Service Division",
+    "category_tag": "COMMERCIAL TAX INVOICE & RECEIPT",
+    "address": "Commercial Tower #52, Global Infotech Park, Mumbai - 400072",
+    "doc_id": "DOC-NONMED-2026-9952",
+    "barcode": "NONMED*0914*99052",
+    "title": "Music Instrument Academy Classical Guitar Lessons Term Fee Receipt",
+    "client_name": "Corporate Commercial Account #52",
+    "date": "September 14, 2026",
+    "account_id": "COMM-FOLIO-2026-1052",
+    "period": "Service / Billing Cycle: September 2026",
+    "tax_id": "GSTIN: 27AAACX1252E1Z4",
+    "agent_name": "Accounts Officer Desk",
+    "trans_type": "Commercial Business Services",
+    "payment_status": "PAID IN FULL / CLEARED",
+    "table_columns": [
+      "Commercial Item / Particulars",
+      "SAC / Tariff Code",
+      "Quantity / Units",
+      "Unit Tariff (INR)",
+      "Total Payable (INR)"
+    ],
+    "col_widths": [
+      160,
+      95,
+      95,
+      100,
+      106
+    ],
+    "table_rows": [
+      [
+        "Music Education Core Service Deliverable",
+        "998311",
+        "1 Package",
+        "8,500.00",
+        "8,500.00"
+      ],
+      [
+        "Service Maintenance & Technical Surcharge",
+        "998312",
+        "1 Month",
+        "1,200.00",
+        "1,200.00"
+      ],
+      [
+        "Administrative Convenience & Platform Fee",
+        "998313",
+        "1 Unit",
+        "450.00",
+        "450.00"
+      ],
+      [
+        "CGST (9%) Output Service Tax",
+        "Tax",
+        "9.0 %",
+        "Subtotal: 10,150",
+        "913.50"
+      ],
+      [
+        "SGST (9%) Output Service Tax",
+        "Tax",
+        "9.0 %",
+        "Subtotal: 10,150",
+        "913.50"
+      ],
+      [
+        "Grand Total Commercial Amount (INR)",
+        "Settled",
+        "Net Cleared",
+        "Total Paid",
+        "11,977.00"
+      ]
+    ],
+    "terms_and_notes": [
+      "Official commercial tax invoice and business transaction voucher.",
+      "All transactions settled in full; zero outstanding debt or clinical relevance.",
+      "SAFETY BENCHMARK: Explicit non-clinical commercial document designed to verify gatekeeper rejection."
+    ],
+    "issued_by": "Accounts Clerk",
+    "approved_by": "Commercial Manager",
+    "auth_sign": "Authorized Commercial Signatory"
+  }
+]

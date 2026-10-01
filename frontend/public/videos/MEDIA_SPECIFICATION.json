@@ -1,0 +1,82 @@
+{
+  "system": "KOSHIKA Multilingual Video & Audio Hub",
+  "version": "2.0.0",
+  "languages": ["en", "hi", "mr"],
+  "episodes": [
+    {
+      "id": "v1",
+      "slug": "ep1",
+      "title": {
+        "en": "What are Stem Cells?",
+        "hi": "स्टेम कोशिकाएं क्या हैं?",
+        "mr": "स्टेम सेल्स म्हणजे काय?"
+      },
+      "media": {
+        "en": "/videos/ep1/episode-en.mp4",
+        "hi": "/videos/ep1/episode-hi.mp4",
+        "mr": "/videos/ep1/episode-mr.mp4"
+      },
+      "durationSeconds": 48
+    },
+    {
+      "id": "v2",
+      "slug": "ep2",
+      "title": {
+        "en": "Types of Stem Cells",
+        "hi": "स्टेम कोशिकाओं के प्रकार",
+        "mr": "स्टेम पेशींचे प्रकार"
+      },
+      "media": {
+        "en": "/videos/ep2/episode-en.mp4",
+        "hi": "/videos/ep2/episode-hi.mp4",
+        "mr": "/videos/ep2/episode-mr.mp4"
+      },
+      "durationSeconds": 52
+    },
+    {
+      "id": "v3",
+      "slug": "ep3",
+      "title": {
+        "en": "How Stem-Cell Therapy Works",
+        "hi": "स्टेम सेल थेरेपी कैसे काम करती है",
+        "mr": "स्टेम सेल थेरपी कशी कार्य करते"
+      },
+      "media": {
+        "en": "/videos/ep3/episode-en.mp4",
+        "hi": "/videos/ep3/episode-hi.mp4",
+        "mr": "/videos/ep3/episode-mr.mp4"
+      },
+      "durationSeconds": 55
+    },
+    {
+      "id": "v4",
+      "slug": "ep4",
+      "title": {
+        "en": "Cord Blood Collection & Biobanking",
+        "hi": "गर्भनाल रक्त संग्रह और बायोबैंकिंग",
+        "mr": "नाळेतील रक्त संकलन आणि बायोबँकिंग"
+      },
+      "media": {
+        "en": "/videos/ep4/episode-en.mp4",
+        "hi": "/videos/ep4/episode-hi.mp4",
+        "mr": "/videos/ep4/episode-mr.mp4"
+      },
+      "durationSeconds": 50
+    },
+    {
+      "id": "v5",
+      "slug": "ep5",
+      "title": {
+        "en": "Risks & Avoiding Unapproved Treatments",
+        "hi": "जोखिम और अप्रमाणित उपचारों से बचाव",
+        "mr": "धोके आणि अप्रमाणित उपचारांपासून सावधता"
+      },
+      "media": {
+        "en": "/videos/ep5/episode-en.mp4",
+        "hi": "/videos/ep5/episode-hi.mp4",
+        "mr": "/videos/ep5/episode-mr.mp4"
+      },
+      "durationSeconds": 54
+    }
+  ]
+}

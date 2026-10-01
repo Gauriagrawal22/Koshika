@@ -1,0 +1,1252 @@
+/* ==========================================================================
+   KOSHIKA — REFERENCE UI/UX DESIGN SYSTEM SPECIFICATION
+   Faithfully reproduces the layout, typography, cards, and navigation
+   from the official KOSHIKA primary reference design images.
+   ========================================================================== */
+
+:root {
+  /* Primary Clinical Palette */
+  --k-teal: #0e7971;
+  --k-teal-dark: #095953;
+  --k-teal-light: #14b8a6;
+  --k-teal-soft: #eaf7f4;
+  --k-teal-border: #bfe5dd;
+
+  --k-blue: #1d72b8;
+  --k-blue-dark: #14558c;
+  --k-blue-light: #38bdf8;
+  --k-blue-soft: #edf5ff;
+  --k-blue-border: #c8e0fc;
+
+  --k-amber: #d97706;
+  --k-amber-soft: #fff7ed;
+  --k-amber-border: #fde0bc;
+
+  --k-green: #15803d;
+  --k-green-soft: #edfcf2;
+  --k-green-border: #bbf7d0;
+
+  --k-rose: #be123c;
+  --k-rose-soft: #fdf2f8;
+  --k-rose-border: #fbcfe8;
+
+  --k-purple: #7e22ce;
+  --k-purple-soft: #f5f3ff;
+  --k-purple-border: #e9d5ff;
+
+  /* Neutrals & Surfaces */
+  --k-bg: #f8fafc;
+  --k-surface: #ffffff;
+  --k-surface-alt: #f1f5f9;
+  --k-border: #e2e8f0;
+  --k-border-subtle: #edf2f7;
+
+  /* Typography Colors */
+  --k-ink-900: #0f172a;
+  --k-ink-800: #1e293b;
+  --k-ink-700: #334155;
+  --k-ink-600: #475569;
+  --k-ink-500: #64748b;
+  --k-ink-400: #94a3b8;
+
+  /* Typography Families */
+  --k-font: 'Plus Jakarta Sans', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --k-font-display: 'Space Grotesk', 'Plus Jakarta Sans', sans-serif;
+
+  /* Roundedness */
+  --k-r-sm: 10px;
+  --k-r-md: 16px;
+  --k-r-lg: 22px;
+  --k-r-xl: 28px;
+  --k-r-pill: 9999px;
+
+  /* Subtle Clean Shadows (Non-Excessive) */
+  --k-shadow-card: 0 2px 12px rgba(15, 23, 42, 0.04);
+  --k-shadow-hover: 0 8px 24px rgba(15, 23, 42, 0.07);
+  --k-shadow-nav: 0 -2px 14px rgba(15, 23, 42, 0.05);
+  --k-shadow-modal: 0 20px 48px rgba(15, 23, 42, 0.16);
+}
+
+/* --------------------------------------------------------------------------
+   Global Layout & Wrapper
+   -------------------------------------------------------------------------- */
+body {
+  font-family: var(--k-font);
+  background-color: var(--k-bg);
+  color: var(--k-ink-800);
+  -webkit-font-smoothing: antialiased;
+}
+
+.koshika-app-frame {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: var(--k-bg);
+  position: relative;
+}
+
+.koshika-main-content {
+  flex: 1 0 auto;
+  width: 100%;
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 1.5rem 1.25rem 6.5rem 1.25rem;
+}
+
+@media (min-width: 992px) {
+  .koshika-main-content {
+    padding: 2rem 2rem 4rem 2rem;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   Top Header (Desktop & Mobile)
+   -------------------------------------------------------------------------- */
+.koshika-top-header {
+  background: #ffffff;
+  border-bottom: 1px solid var(--k-border);
+  position: sticky;
+  top: 0;
+  z-index: 1020;
+  padding: 0.75rem 1.25rem;
+}
+
+@media (min-width: 992px) {
+  .koshika-top-header {
+    padding: 0.85rem 2rem;
+  }
+}
+
+.koshika-header-inner {
+  max-width: 1240px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.koshika-brand {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  text-decoration: none;
+}
+
+.koshika-brand-logo-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.koshika-brand-titles {
+  display: flex;
+  flex-direction: column;
+}
+
+.koshika-brand-name {
+  font-family: var(--k-font-display);
+  font-size: 1.28rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  color: var(--k-ink-900);
+  line-height: 1.15;
+}
+
+.koshika-brand-sub {
+  font-size: 0.76rem;
+  font-weight: 500;
+  color: var(--k-ink-500);
+  line-height: 1.1;
+}
+
+/* Desktop & Tablet Navigation Links */
+.koshika-center-nav,
+.koshika-desktop-nav {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.koshika-nav-item,
+.koshika-desktop-nav-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0.45rem 1rem;
+  border-radius: var(--k-r-pill);
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: var(--k-ink-600);
+  text-decoration: none;
+  background-color: transparent;
+  border: 1px solid transparent;
+  transition: all 0.2s ease;
+  user-select: none;
+}
+
+.koshika-nav-item:hover,
+.koshika-desktop-nav-link:hover {
+  background-color: var(--k-surface-alt);
+  color: var(--k-teal);
+}
+
+.koshika-nav-item.active,
+.koshika-desktop-nav-link.active {
+  background-color: var(--k-teal-soft);
+  color: var(--k-teal);
+  border-color: var(--k-teal-border);
+  font-weight: 700;
+}
+
+/* Right Navigation Tools */
+.koshika-header-right {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.koshika-topbar-pill {
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding: 0.35rem 0.75rem;
+  border-radius: var(--k-r-pill);
+  background-color: #ffffff;
+  border: 1px solid var(--k-border);
+  color: var(--k-ink-800);
+  transition: all 0.18s ease;
+}
+
+.koshika-topbar-pill:hover {
+  background-color: var(--k-surface-alt);
+  border-color: #cbd5e1;
+}
+
+.koshika-nav-icon-btn {
+  transition: all 0.18s ease;
+}
+
+.koshika-nav-icon-btn:hover {
+  background-color: var(--k-surface-alt);
+  border-color: #cbd5e1;
+}
+
+.koshika-profile-btn {
+  transition: all 0.18s ease;
+}
+
+.koshika-profile-btn:hover {
+  background-color: var(--k-surface-alt);
+  border-color: #cbd5e1;
+}
+
+/* Mobile Drawer inside Top Header */
+.koshika-mobile-drawer {
+  animation: koshikaDropdownFade 0.2s ease-out forwards;
+}
+
+@keyframes koshikaDropdownFade {
+  from {
+    opacity: 0;
+    transform: translateY(-6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.koshika-mobile-nav-link {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  padding: 0.65rem 0.95rem;
+  border-radius: var(--k-r-md);
+  font-size: 0.92rem;
+  font-weight: 600;
+  color: var(--k-ink-700);
+  text-decoration: none;
+  background-color: transparent;
+  border: 1px solid transparent;
+  transition: all 0.18s ease;
+}
+
+.koshika-mobile-nav-link:hover {
+  background-color: var(--k-surface-alt);
+  color: var(--k-teal);
+}
+
+.koshika-mobile-nav-link.active {
+  background-color: var(--k-teal-soft);
+  color: var(--k-teal);
+  border-color: var(--k-teal-border);
+  font-weight: 700;
+}
+
+/* --------------------------------------------------------------------------
+   Mobile Bottom Navigation Bar (Matching Reference Images Screen 2, 3, 5, etc.)
+   -------------------------------------------------------------------------- */
+.koshika-bottom-nav {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #ffffff;
+  border-top: 1px solid var(--k-border);
+  box-shadow: var(--k-shadow-nav);
+  z-index: 1030;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0.45rem 0.75rem calc(0.45rem + env(safe-area-inset-bottom, 0px)) 0.75rem;
+}
+
+@media (min-width: 992px) {
+  .koshika-bottom-nav {
+    display: none;
+  }
+}
+
+.koshika-bottom-nav-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.2rem;
+  flex: 1;
+  text-decoration: none;
+  color: var(--k-ink-500);
+  font-size: 0.72rem;
+  font-weight: 600;
+  padding: 0.35rem 0.25rem;
+  border-radius: var(--k-r-sm);
+  transition: color 0.18s ease;
+  position: relative;
+}
+
+.koshika-bottom-nav-item:hover {
+  color: var(--k-teal);
+}
+
+.koshika-bottom-nav-item.active {
+  color: var(--k-teal);
+  font-weight: 700;
+}
+
+.koshika-bottom-nav-item.active::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  width: 16px;
+  height: 3px;
+  background-color: var(--k-teal);
+  border-radius: var(--k-r-pill);
+}
+
+/* --------------------------------------------------------------------------
+   Primary Buttons (Teal/Green Pill Buttons from Reference)
+   -------------------------------------------------------------------------- */
+.btn-koshika-primary {
+  background-color: var(--k-teal);
+  color: #ffffff !important;
+  border: 1px solid var(--k-teal);
+  border-radius: var(--k-r-pill);
+  font-weight: 600;
+  font-size: 0.94rem;
+  padding: 0.72rem 1.5rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  box-shadow: 0 2px 6px rgba(14, 121, 113, 0.2);
+}
+
+.btn-koshika-primary:hover {
+  background-color: var(--k-teal-dark);
+  border-color: var(--k-teal-dark);
+  box-shadow: 0 4px 12px rgba(14, 121, 113, 0.3);
+}
+
+.btn-koshika-primary:disabled {
+  opacity: 0.65;
+  cursor: not-allowed;
+}
+
+.btn-koshika-secondary {
+  background-color: var(--k-teal-soft);
+  color: var(--k-teal);
+  border: 1px solid var(--k-teal-border);
+  border-radius: var(--k-r-pill);
+  font-weight: 600;
+  font-size: 0.92rem;
+  padding: 0.68rem 1.35rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.btn-koshika-secondary:hover {
+  background-color: #d8f1ec;
+  color: var(--k-teal-dark);
+}
+
+.btn-koshika-outline {
+  background-color: #ffffff;
+  color: var(--k-ink-700);
+  border: 1px solid var(--k-border);
+  border-radius: var(--k-r-pill);
+  font-weight: 600;
+  font-size: 0.9rem;
+  padding: 0.65rem 1.25rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.45rem;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.18s ease;
+}
+
+.btn-koshika-outline:hover {
+  border-color: var(--k-teal);
+  color: var(--k-teal);
+  background-color: var(--k-teal-soft);
+}
+
+/* --------------------------------------------------------------------------
+   Pastel Cards (Exact Colors from Reference Mockups)
+   -------------------------------------------------------------------------- */
+.koshika-card {
+  background: var(--k-surface);
+  border: 1px solid var(--k-border);
+  border-radius: var(--k-r-lg);
+  padding: 1.25rem;
+  box-shadow: var(--k-shadow-card);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* 3 Primary Pastel Action Cards (Patient Home - Screen 2) */
+.koshika-pastel-action-card {
+  border-radius: var(--k-r-lg);
+  padding: 1.35rem 1.4rem;
+  display: flex;
+  align-items: center;
+  gap: 1.15rem;
+  text-decoration: none;
+  border-width: 1.5px;
+  border-style: solid;
+  transition: transform 0.25s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.25s ease, border-color 0.2s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.koshika-pastel-action-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 28px -6px rgba(15, 23, 42, 0.1) !important;
+}
+
+/* Mint Green: Learn & Understand */
+.koshika-pastel-mint {
+  background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 65%, #ccfbf1 100%);
+  border-color: #86efac;
+  color: var(--k-ink-900);
+}
+.koshika-pastel-mint:hover {
+  border-color: #4ade80;
+  box-shadow: 0 14px 30px -6px rgba(16, 185, 129, 0.2) !important;
+}
+.koshika-pastel-mint .koshika-action-icon {
+  background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+  color: #ffffff;
+  box-shadow: 0 4px 14px rgba(16, 185, 129, 0.35);
+}
+
+/* Soft Sky Blue: Prepare & Consult */
+.koshika-pastel-blue {
+  background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 65%, #e0e7ff 100%);
+  border-color: #93c5fd;
+  color: var(--k-ink-900);
+}
+.koshika-pastel-blue:hover {
+  border-color: #60a5fa;
+  box-shadow: 0 14px 30px -6px rgba(2, 132, 199, 0.2) !important;
+}
+.koshika-pastel-blue .koshika-action-icon {
+  background: linear-gradient(135deg, #0284c7 0%, #2563eb 100%);
+  color: #ffffff;
+  box-shadow: 0 4px 14px rgba(2, 132, 199, 0.35);
+}
+
+/* Soft Amber/Peach: Explore Stem Cell Banks */
+.koshika-pastel-amber {
+  background: linear-gradient(135deg, #fffbeb 0%, #fef3c7 65%, #ffedd5 100%);
+  border-color: #fcd34d;
+  color: var(--k-ink-900);
+}
+.koshika-pastel-amber:hover {
+  border-color: #f59e0b;
+  box-shadow: 0 14px 30px -6px rgba(217, 119, 6, 0.2) !important;
+}
+.koshika-pastel-amber .koshika-action-icon {
+  background: linear-gradient(135deg, #d97706 0%, #ea580c 100%);
+  color: #ffffff;
+  box-shadow: 0 4px 14px rgba(217, 119, 6, 0.35);
+}
+
+.koshika-action-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  transition: transform 0.25s ease;
+}
+
+.koshika-pastel-action-card:hover .koshika-action-icon {
+  transform: scale(1.08);
+}
+
+.koshika-action-title {
+  font-size: 1.08rem;
+  font-weight: 700;
+  color: var(--k-ink-900);
+  margin-bottom: 0.15rem;
+}
+
+.koshika-action-desc {
+  font-size: 0.85rem;
+  color: var(--k-ink-600);
+  margin-bottom: 0;
+  line-height: 1.35;
+}
+
+/* --------------------------------------------------------------------------
+   Progress Bar Component (Matching Reference Screen 2 "Your Progress")
+   -------------------------------------------------------------------------- */
+.koshika-progress-card {
+  background: #ffffff;
+  border: 1px solid var(--k-border);
+  border-radius: var(--k-r-lg);
+  padding: 1.15rem 1.25rem;
+  box-shadow: var(--k-shadow-card);
+}
+
+.koshika-progress-track {
+  height: 8px;
+  background-color: #e2e8f0;
+  border-radius: var(--k-r-pill);
+  overflow: hidden;
+  position: relative;
+  margin-top: 0.5rem;
+}
+
+.koshika-progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #14b8a6, #0e7971);
+  border-radius: var(--k-r-pill);
+  transition: width 0.4s ease;
+}
+
+/* --------------------------------------------------------------------------
+   Topic Cards List (Screen 3: Awareness / Learn List)
+   -------------------------------------------------------------------------- */
+.koshika-topic-card {
+  background: #ffffff;
+  border: 1px solid var(--k-border);
+  border-radius: var(--k-r-md);
+  padding: 1.15rem 1.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  text-decoration: none;
+  color: var(--k-ink-800);
+  transition: all 0.22s cubic-bezier(0.34, 1.56, 0.64, 1);
+  margin-bottom: 0.75rem;
+  box-shadow: 0 1px 4px rgba(15, 23, 42, 0.03);
+}
+
+.koshika-topic-card:hover {
+  transform: translateX(4px) translateY(-2px);
+  box-shadow: 0 10px 24px -6px rgba(15, 23, 42, 0.08);
+}
+
+.koshika-topic-left {
+  display: flex;
+  align-items: center;
+  gap: 0.9rem;
+}
+
+.koshika-topic-icon {
+  width: 42px;
+  height: 42px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.koshika-topic-title {
+  font-size: 0.98rem;
+  font-weight: 600;
+  color: var(--k-ink-900);
+}
+
+.koshika-topic-chevron {
+  color: var(--k-ink-400);
+  transition: transform 0.18s ease;
+}
+
+.koshika-topic-card:hover .koshika-topic-chevron {
+  color: var(--k-teal);
+  transform: translateX(2px);
+}
+
+/* --------------------------------------------------------------------------
+   Segmented Tab Bar (Screen 4, 7, 8: [English | Hindi | Marathi], [Summary | ...])
+   -------------------------------------------------------------------------- */
+.koshika-segmented-tabs {
+  background-color: #f1f5f9;
+  border-radius: var(--k-r-pill);
+  padding: 0.3rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.koshika-segmented-tab {
+  background: transparent;
+  border: none;
+  border-radius: var(--k-r-pill);
+  padding: 0.45rem 1.15rem;
+  font-size: 0.86rem;
+  font-weight: 600;
+  color: var(--k-ink-600);
+  cursor: pointer;
+  transition: all 0.18s ease;
+}
+
+.koshika-segmented-tab.active {
+  background: #ffffff;
+  color: var(--k-teal);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+}
+
+/* --------------------------------------------------------------------------
+   Filter Pills Bar (Screen 8 Doctors, Screen 9 Banks: [All | Public | Private])
+   -------------------------------------------------------------------------- */
+.koshika-filter-pills {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  overflow-x: auto;
+  padding-bottom: 0.25rem;
+  scrollbar-width: none;
+}
+
+.koshika-filter-pills::-webkit-scrollbar {
+  display: none;
+}
+
+.koshika-pill-btn {
+  background: #ffffff;
+  border: 1px solid var(--k-border);
+  border-radius: var(--k-r-pill);
+  padding: 0.42rem 1rem;
+  font-size: 0.84rem;
+  font-weight: 600;
+  color: var(--k-ink-600);
+  cursor: pointer;
+  white-space: nowrap;
+  transition: all 0.18s ease;
+}
+
+.koshika-pill-btn:hover {
+  background-color: var(--k-surface-alt);
+  color: var(--k-ink-800);
+}
+
+.koshika-pill-btn.active {
+  background-color: var(--k-teal);
+  border-color: var(--k-teal);
+  color: #ffffff;
+}
+
+/* --------------------------------------------------------------------------
+   Step Indicators (Screen 9: Preliminary Assessment Steps 1 to 4)
+   -------------------------------------------------------------------------- */
+.koshika-steps-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.koshika-step-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  position: relative;
+}
+
+.koshika-step-circle {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  background-color: #e2e8f0;
+  color: var(--k-ink-600);
+  font-weight: 700;
+  font-size: 0.95rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  transition: all 0.2s ease;
+}
+
+.koshika-step-item.active .koshika-step-circle {
+  background-color: var(--k-blue);
+  color: #ffffff;
+  box-shadow: 0 0 0 4px rgba(29, 114, 184, 0.16);
+}
+
+.koshika-step-item.completed .koshika-step-circle {
+  background-color: var(--k-teal);
+  color: #ffffff;
+}
+
+.koshika-step-details {
+  flex: 1;
+}
+
+.koshika-step-title {
+  font-size: 0.98rem;
+  font-weight: 700;
+  color: var(--k-ink-900);
+  margin-bottom: 0.15rem;
+}
+
+.koshika-step-desc {
+  font-size: 0.82rem;
+  color: var(--k-ink-500);
+  margin-bottom: 0;
+}
+
+/* --------------------------------------------------------------------------
+   Disclaimers & Information Boxes (Screen 6, 7, 9)
+   -------------------------------------------------------------------------- */
+.koshika-disclaimer-box {
+  background-color: #fffbeb;
+  border: 1px solid #fef3c7;
+  border-left: 4px solid var(--k-amber);
+  border-radius: var(--k-r-md);
+  padding: 0.9rem 1.1rem;
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  font-size: 0.84rem;
+  color: #92400e;
+  line-height: 1.45;
+}
+
+.koshika-info-box {
+  background-color: var(--k-blue-soft);
+  border: 1px solid var(--k-blue-border);
+  border-radius: var(--k-r-md);
+  padding: 0.9rem 1.1rem;
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  font-size: 0.84rem;
+  color: #1e40af;
+  line-height: 1.45;
+}
+
+/* --------------------------------------------------------------------------
+   Search Bar (Matching Reference Screen 8 & Screen 9)
+   -------------------------------------------------------------------------- */
+.koshika-search-box {
+  background: #ffffff;
+  border: 1px solid var(--k-border);
+  border-radius: var(--k-r-pill);
+  padding: 0.65rem 1.15rem;
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.03);
+  transition: border-color 0.18s ease;
+}
+
+.koshika-search-box:focus-within {
+  border-color: var(--k-teal);
+  box-shadow: 0 0 0 3px rgba(14, 121, 113, 0.12);
+}
+
+.koshika-search-input {
+  border: none;
+  outline: none;
+  background: transparent;
+  width: 100%;
+  font-size: 0.9rem;
+  color: var(--k-ink-800);
+}
+
+.koshika-search-input::placeholder {
+  color: var(--k-ink-400);
+}
+
+/* --------------------------------------------------------------------------
+   Report Summary Table & Key Findings (Screen 6)
+   -------------------------------------------------------------------------- */
+.koshika-findings-card {
+  background: #ffffff;
+  border: 1px solid var(--k-border);
+  border-radius: var(--k-r-lg);
+  padding: 1.35rem;
+  box-shadow: var(--k-shadow-card);
+}
+
+.koshika-finding-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.85rem 0;
+  border-bottom: 1px solid var(--k-border-subtle);
+}
+
+.koshika-finding-row:last-child {
+  border-bottom: none;
+}
+
+.koshika-finding-label {
+  font-size: 0.92rem;
+  font-weight: 700;
+  color: var(--k-ink-900);
+  margin-bottom: 0.1rem;
+}
+
+.koshika-finding-sub {
+  font-size: 0.78rem;
+  color: var(--k-ink-500);
+}
+
+.koshika-status-pill {
+  border-radius: var(--k-r-pill);
+  padding: 0.28rem 0.85rem;
+  font-size: 0.76rem;
+  font-weight: 700;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.koshika-status-normal {
+  background-color: var(--k-green-soft);
+  color: var(--k-green);
+  border: 1px solid var(--k-green-border);
+}
+
+.koshika-status-alert {
+  background-color: var(--k-rose-soft);
+  color: var(--k-rose);
+  border: 1px solid var(--k-rose-border);
+}
+
+/* --------------------------------------------------------------------------
+   Floating "Ask Koshika" Bot Button & Chat Sheet (Screen 10)
+   -------------------------------------------------------------------------- */
+.koshika-floating-bot {
+  position: fixed;
+  bottom: calc(4.75rem + env(safe-area-inset-bottom, 0px));
+  right: 1.25rem;
+  z-index: 1040;
+}
+
+@media (min-width: 992px) {
+  .koshika-floating-bot {
+    bottom: 2rem;
+    right: 2rem;
+  }
+}
+
+.koshika-bot-bubble-btn {
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #0e7971 0%, #0891b2 100%);
+  color: #ffffff;
+  border: none;
+  box-shadow: 0 8px 24px rgba(14, 121, 113, 0.35);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: transform 0.2s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.2s ease;
+}
+
+.koshika-bot-bubble-btn:hover {
+  transform: scale(1.08);
+  box-shadow: 0 10px 28px rgba(14, 121, 113, 0.45);
+}
+
+.koshika-chat-modal {
+  position: fixed;
+  bottom: calc(5.5rem + env(safe-area-inset-bottom, 0px));
+  right: 1.25rem;
+  width: calc(100vw - 2.5rem);
+  max-width: 410px;
+  height: 560px;
+  max-height: calc(100vh - 8rem);
+  background: #ffffff;
+  border-radius: var(--k-r-xl);
+  box-shadow: var(--k-shadow-modal);
+  border: 1px solid var(--k-border);
+  z-index: 1050;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  animation: koshikaSheetIn 0.24s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@media (min-width: 992px) {
+  .koshika-chat-modal {
+    bottom: 5.5rem;
+    right: 2rem;
+  }
+}
+
+@keyframes koshikaSheetIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px) scale(0.96);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.koshika-chat-header {
+  padding: 1rem 1.25rem;
+  border-bottom: 1px solid var(--k-border);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ffffff;
+}
+
+.koshika-chat-body {
+  flex: 1;
+  overflow-y: auto;
+  padding: 1.15rem;
+  background-color: #fafbfc;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.koshika-chat-msg {
+  max-width: 86%;
+  padding: 0.85rem 1.05rem;
+  border-radius: var(--k-r-lg);
+  font-size: 0.88rem;
+  line-height: 1.45;
+}
+
+.koshika-chat-bot-msg {
+  background: #ffffff;
+  color: var(--k-ink-800);
+  border: 1px solid var(--k-border);
+  align-self: flex-start;
+  border-bottom-left-radius: 4px;
+}
+
+.koshika-chat-user-msg {
+  background: var(--k-teal);
+  color: #ffffff;
+  align-self: flex-end;
+  border-bottom-right-radius: 4px;
+}
+
+.koshika-quick-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-top: 0.5rem;
+}
+
+.koshika-chip {
+  background: #ffffff;
+  border: 1px solid var(--k-border);
+  border-radius: var(--k-r-pill);
+  padding: 0.35rem 0.8rem;
+  font-size: 0.78rem;
+  font-weight: 500;
+  color: var(--k-teal);
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.koshika-chip:hover {
+  background-color: var(--k-teal-soft);
+  border-color: var(--k-teal-border);
+}
+
+.koshika-chat-input-bar {
+  padding: 0.75rem 1rem;
+  border-top: 1px solid var(--k-border);
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.koshika-chat-input {
+  flex: 1;
+  border: 1px solid var(--k-border);
+  border-radius: var(--k-r-pill);
+  padding: 0.6rem 1rem;
+  font-size: 0.88rem;
+  outline: none;
+  transition: border-color 0.18s ease;
+}
+
+.koshika-chat-input:focus {
+  border-color: var(--k-teal);
+}
+
+.koshika-chat-send-btn {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  background: var(--k-teal);
+  color: #ffffff;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.18s ease;
+}
+
+.koshika-chat-send-btn:hover {
+  background-color: var(--k-teal-dark);
+}
+
+/* Dark Mode Overrides for Floating AI Assistant */
+[data-theme="dark"] .koshika-chat-modal {
+  background: var(--k-surface);
+  border-color: var(--k-border);
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.65);
+}
+
+[data-theme="dark"] .koshika-chat-header {
+  background-color: var(--k-surface);
+  border-color: var(--k-border);
+}
+
+[data-theme="dark"] .koshika-chat-body {
+  background-color: var(--k-surface-alt);
+}
+
+[data-theme="dark"] .koshika-chat-bot-msg {
+  background: var(--k-surface);
+  color: var(--k-text-primary);
+  border-color: var(--k-border);
+}
+
+[data-theme="dark"] .koshika-chip {
+  background: var(--k-surface);
+  border-color: var(--k-border);
+  color: #2dd4bf;
+}
+
+[data-theme="dark"] .koshika-chip:hover {
+  background-color: rgba(13, 148, 136, 0.2);
+  border-color: #0d9488;
+  color: #5eead4;
+}
+
+[data-theme="dark"] .koshika-chat-input-bar {
+  background: var(--k-surface);
+  border-color: var(--k-border);
+}
+
+[data-theme="dark"] .koshika-chat-input {
+  background: var(--k-surface-alt);
+  border-color: var(--k-border);
+  color: var(--k-text-primary);
+}
+
+[data-theme="dark"] .koshika-chat-input:focus {
+  border-color: #2dd4bf;
+}
+
+@keyframes pulseGlow {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.15);
+    opacity: 0.75;
+  }
+}
+
+.koshika-pulsing-dot {
+  animation: pulseGlow 2s infinite ease-in-out;
+}
+
+/* --------------------------------------------------------------------------
+   Doctor Dashboard KPI Grid (Doctor User Flow Screen 2)
+   -------------------------------------------------------------------------- */
+.koshika-kpi-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.85rem;
+  margin-bottom: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .koshika-kpi-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.koshika-kpi-card {
+  background: #ffffff;
+  border: 1px solid var(--k-border);
+  border-radius: var(--k-r-lg);
+  padding: 1.15rem;
+  box-shadow: var(--k-shadow-card);
+}
+
+.koshika-kpi-val {
+  font-family: var(--k-font-display);
+  font-size: 1.85rem;
+  font-weight: 800;
+  color: var(--k-ink-900);
+  line-height: 1.1;
+  margin-bottom: 0.2rem;
+}
+
+.koshika-kpi-label {
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--k-ink-500);
+}
+
+/* --------------------------------------------------------------------------
+   Institutional Trust Bar (Bottom of Reference Page)
+   -------------------------------------------------------------------------- */
+.koshika-trust-footer {
+  background: #ffffff;
+  border-top: 1px solid var(--k-border);
+  padding: 2rem 1.5rem 1.5rem 1.5rem;
+  margin-top: 3rem;
+}
+
+.koshika-trust-badges-grid {
+  max-width: 1200px;
+  margin: 0 auto 1.5rem auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.25rem;
+}
+
+@media (min-width: 768px) {
+  .koshika-trust-badges-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.koshika-trust-badge {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.koshika-trust-badge-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 12px;
+  background-color: var(--k-teal-soft);
+  color: var(--k-teal);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.koshika-trust-badge-text {
+  font-size: 0.86rem;
+  font-weight: 600;
+  color: var(--k-ink-800);
+  line-height: 1.25;
+}
+
+/* Dark mode overrides for trust footer */
+[data-theme="dark"] .koshika-trust-footer {
+  background: var(--k-surface) !important;
+  border-top: 1px solid var(--k-border) !important;
+  color: var(--k-text-primary) !important;
+}
+
+[data-theme="dark"] .koshika-trust-badge-icon {
+  background-color: rgba(13, 148, 136, 0.22) !important;
+  color: #2dd4bf !important;
+}
+
+[data-theme="dark"] .koshika-trust-badge-text {
+  color: var(--k-text-primary) !important;
+}
+
+[data-theme="dark"] .koshika-trust-footer .text-dark,
+[data-theme="dark"] .koshika-trust-footer span.text-dark {
+  color: var(--k-text-primary) !important;
+}
+
+[data-theme="dark"] .koshika-trust-footer .text-muted,
+[data-theme="dark"] .koshika-trust-footer small.text-muted,
+[data-theme="dark"] .koshika-trust-footer span.text-muted {
+  color: var(--k-text-secondary) !important;
+}
+
+/* --------------------------------------------------------------------------
+   Modern Game Interactions & Creative Visuals
+   -------------------------------------------------------------------------- */
+.hover-lift {
+  transition: transform 0.25s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.25s ease;
+}
+
+.hover-lift:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 16px 36px -8px rgba(15, 23, 42, 0.12) !important;
+}
+
+.hover-scale {
+  transition: transform 0.2s ease;
+}
+
+.hover-scale:hover {
+  transform: scale(1.02);
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+

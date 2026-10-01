@@ -1,0 +1,4317 @@
+[
+  {
+    "id": "MED_001",
+    "filename": "MED_001_HLA_High_Resolution_Tissue_Typing_NGS.pdf",
+    "category": "HLA Immunogenetics",
+    "org_name": "APOLLO HOSPITALS CANCER INSTITUTE",
+    "dept_name": "Transplant Immunology & Molecular Immunogenetics Laboratory",
+    "accreditation": "EFI & NABL ACCREDITED (ISO 15189)",
+    "address": "21 Greams Lane, Thousand Lights, Chennai - 600006, Tamil Nadu",
+    "report_id": "HLA-NGS-2026-8821",
+    "barcode": "HLA*0914*88219",
+    "title": "High-Resolution HLA Tissue Typing Report (Next-Generation Sequencing)",
+    "patient_name": "Ananya Sharma",
+    "date": "September 14, 2026",
+    "mrn": "APL-BMT-2026-0914",
+    "age": "28 Yrs",
+    "gender": "Female",
+    "blood_group": "B+ (Rh Positive)",
+    "referring_doctor": "Dr. Jose M. Easow, MD, DM (BMT)",
+    "diagnosis": "Acute Myeloid Leukemia in CR1 (AML-CR1)",
+    "specimen": "Peripheral Blood (ACD-A / EDTA)",
+    "table_columns": [
+      "Locus",
+      "Allele 1 Call",
+      "Allele 2 Call",
+      "Resolution",
+      "Status"
+    ],
+    "col_widths": [
+      110,
+      110,
+      110,
+      116,
+      110
+    ],
+    "table_rows": [
+      [
+        "HLA-A*",
+        "02:01:01G",
+        "24:02:01G",
+        "High (NGS)",
+        "Resolved (2/2)"
+      ],
+      [
+        "HLA-B*",
+        "40:01:01G",
+        "51:01:01G",
+        "High (NGS)",
+        "Resolved (2/2)"
+      ],
+      [
+        "HLA-C*",
+        "07:02:01G",
+        "14:02:01G",
+        "High (NGS)",
+        "Resolved (2/2)"
+      ],
+      [
+        "HLA-DRB1*",
+        "15:01:01G",
+        "04:03:01G",
+        "High (NGS)",
+        "Resolved (2/2)"
+      ],
+      [
+        "HLA-DQB1*",
+        "06:02:01G",
+        "03:02:01G",
+        "High (NGS)",
+        "Resolved (2/2)"
+      ],
+      [
+        "HLA-DPB1*",
+        "04:01:01G",
+        "02:01:02G",
+        "High (NGS)",
+        "Resolved (T-Cell Match)"
+      ]
+    ],
+    "recommendations": [
+      "High-resolution 6-loci (12-allele) HLA typing confirmed via Illumina NextSeq 550Dx NGS platform.",
+      "Panel Reactive Antibody (PRA) Class I: 0%, Class II: 0%. Negative for donor-specific HLA antibodies (DSA).",
+      "Haplotype shows favorable matching frequency in DATRI and NMDP unrelated donor registries.",
+      "Recommendation: Initiate matched unrelated donor (MUD) search; verify biological sibling typing concurrently."
+    ],
+    "prepared_by": "Dr. Kavitha Sundaram, Ph.D.",
+    "verified_by": "Dr. S. Damodar, MD, DM (Hemato-Oncology)",
+    "director": "Dr. Meenakshi Raman, FRCPath",
+    "key_biomarkers": [
+      "HLA-A*02:01",
+      "HLA-B*40:01",
+      "HLA-DRB1*15:01",
+      "10/10 Match Potential"
+    ]
+  },
+  {
+    "id": "MED_002",
+    "filename": "MED_002_PBSC_Apheresis_CD34_Harvest.pdf",
+    "category": "Stem Cell Harvest",
+    "org_name": "TATA MEMORIAL CENTRE - ACTREC",
+    "dept_name": "Stem Cell Processing & Cellular Therapy Core Laboratory",
+    "accreditation": "FACT-JACIE ACCREDITED CELLULAR THERAPY",
+    "address": "Sector 22, Kharghar, Navi Mumbai - 410210, Maharashtra",
+    "report_id": "PBSC-FLOW-2026-9041",
+    "barcode": "PBSC*0914*90412",
+    "title": "Peripheral Blood Stem Cell (PBSC) Harvest & CD34+ Enumeration Report",
+    "patient_name": "Rohan Deshmukh",
+    "date": "September 14, 2026",
+    "mrn": "TMC-BMT-2026-4412",
+    "age": "34 Yrs",
+    "gender": "Male",
+    "blood_group": "O+ (Rh Positive)",
+    "referring_doctor": "Dr. Navin Khattry, MD, DM (BMT)",
+    "diagnosis": "Relapsed Hodgkin Lymphoma",
+    "specimen": "Autologous Leukoapheresis Product",
+    "table_columns": [
+      "Parameter",
+      "Measured Value",
+      "Target Threshold",
+      "Unit",
+      "Clinical Interpretation"
+    ],
+    "col_widths": [
+      146,
+      100,
+      110,
+      90,
+      110
+    ],
+    "table_rows": [
+      [
+        "Total Product Volume",
+        "248.0",
+        "180.0 - 300.0",
+        "mL",
+        "Optimal Collection Volume"
+      ],
+      [
+        "Total Nucleated Cells (TNC)",
+        "7.84 x10^10",
+        "> 4.0 x10^10",
+        "cells",
+        "High Cell Cellularity"
+      ],
+      [
+        "CD34+ Absolute Count",
+        "2,840",
+        "> 1,000",
+        "/mcL",
+        "Robust Stem Cell Dose"
+      ],
+      [
+        "CD34+ Cell Dose / kg",
+        "6.42 x10^6",
+        "> 5.0 x10^6",
+        "cells/kg",
+        "Single Harvest Target Met"
+      ],
+      [
+        "Cell Viability (7-AAD)",
+        "97.4",
+        ">= 70.0",
+        "%",
+        "Excellent Pre-Freeze Viability"
+      ],
+      [
+        "Sterility & Mycoplasma",
+        "Negative",
+        "Negative",
+        "Assay",
+        "Cleared for Cryopreservation"
+      ]
+    ],
+    "recommendations": [
+      "PBSC harvest target dose of >= 5.0 x10^6 CD34+ cells/kg achieved in Day 1 single apheresis session.",
+      "Graft cryopreserved in 10% DMSO and 4% human serum albumin with automated controlled-rate freezer.",
+      "Stored in liquid nitrogen vapor phase tank #3 (Canister B, Rack 4, Box 2) at -186 deg C.",
+      "Recommendation: Patient cleared for high-dose BEAM conditioning chemotherapy regimen."
+    ],
+    "prepared_by": "Priya Nair, M.Sc (Stem Cell Tech)",
+    "verified_by": "Dr. Vikram Mathews, MD (Hematology)",
+    "director": "Dr. T. S. Ganesan, MD, Ph.D.",
+    "key_biomarkers": [
+      "CD34+ 6.42x10^6/kg",
+      "Viability 97.4%",
+      "TNC 7.84x10^10"
+    ]
+  },
+  {
+    "id": "MED_003",
+    "filename": "MED_003_Bone_Marrow_Aspirate_and_Cytogenetics.pdf",
+    "category": "Hematopathology",
+    "org_name": "CHRISTIAN MEDICAL COLLEGE (CMC) VELLORE",
+    "dept_name": "Department of Clinical Haematology & Diagnostic Pathology",
+    "accreditation": "NABL ACCREDITED / ICMR APEX CENTER",
+    "address": "Ida Scudder Road, Vellore - 632004, Tamil Nadu",
+    "report_id": "BMA-CYTO-2026-4401",
+    "barcode": "BMA*0914*44018",
+    "title": "Bone Marrow Aspirate, Biopsy & Cytogenetics Remission Evaluation",
+    "patient_name": "Kavita Pillai",
+    "date": "September 14, 2026",
+    "mrn": "CMC-HEM-2026-7890",
+    "age": "42 Yrs",
+    "gender": "Female",
+    "blood_group": "A+ (Rh Positive)",
+    "referring_doctor": "Dr. Biju George, MD, DM (Haematology)",
+    "diagnosis": "B-Cell Acute Lymphoblastic Leukemia (B-ALL)",
+    "specimen": "Bone Marrow Aspirate & Posterior Iliac Crest Biopsy",
+    "table_columns": [
+      "Assessment",
+      "Observed Result",
+      "Reference Range",
+      "Unit",
+      "Diagnostic Conclusion"
+    ],
+    "col_widths": [
+      146,
+      110,
+      100,
+      90,
+      110
+    ],
+    "table_rows": [
+      [
+        "Marrow Cellularity",
+        "Normocellular (45%)",
+        "40 - 60",
+        "%",
+        "Adequate Hematopoiesis"
+      ],
+      [
+        "Myeloblast / Lymphoblast",
+        "1.8",
+        "< 5.0",
+        "%",
+        "Complete Morphologic Remission"
+      ],
+      [
+        "Myeloid : Erythroid Ratio",
+        "2.8 : 1",
+        "2:1 - 4:1",
+        "Ratio",
+        "Balanced Trilineage Production"
+      ],
+      [
+        "Megakaryocytes",
+        "Adequate & Normal",
+        "Adequate",
+        "Microscopy",
+        "Normal Platelet Budding"
+      ],
+      [
+        "Cytogenetic Karyotype",
+        "46,XX [20]",
+        "46,XX Normal",
+        "Metaphases",
+        "Normal Female Karyotype"
+      ],
+      [
+        "BCR-ABL1 FISH Probe",
+        "Negative (0.00%)",
+        "< 1.0",
+        "%",
+        "No Philadelphia Chromosome"
+      ]
+    ],
+    "recommendations": [
+      "Bone marrow aspirate demonstrates Complete Morphological Remission (CR1) with < 2% blasts.",
+      "Cytogenetic study reveals normal 46,XX karyotype in all 20 analyzed G-banded metaphases.",
+      "FISH negative for t(9;22) BCR-ABL1 and t(4;11) KMT2A translocations.",
+      "Recommendation: Proceed with planned allogeneic donor consolidation protocol."
+    ],
+    "prepared_by": "Dr. Anita George, MD (Pathology)",
+    "verified_by": "Dr. Mammen Chandy, MD, FRACP",
+    "director": "Dr. Alok Srivastava, MD, FRACP",
+    "key_biomarkers": [
+      "Blasts 1.8% (CR)",
+      "Normal Karyotype 46,XX",
+      "BCR-ABL1 Neg"
+    ]
+  },
+  {
+    "id": "MED_004",
+    "filename": "MED_004_Pre_Transplant_Viral_Serology_Panel.pdf",
+    "category": "Infectious Disease",
+    "org_name": "NARAYANA HEALTH - MAZUMDAR SHAW MEDICAL CENTRE",
+    "dept_name": "Division of Clinical Virology & Infectious Disease Surveillance",
+    "accreditation": "CAP ACCREDITED & NABH CERTIFIED",
+    "address": "258/A Bommasandra Industrial Area, Anekal Taluk, Bangalore - 560099",
+    "report_id": "VIR-PANEL-2026-3390",
+    "barcode": "VIR*0914*33901",
+    "title": "Pre-Transplant Infectious Disease Serology & Nucleic Acid Screen",
+    "patient_name": "Vikramaditya Sengupta",
+    "date": "September 14, 2026",
+    "mrn": "NH-BMT-2026-9012",
+    "age": "49 Yrs",
+    "gender": "Male",
+    "blood_group": "AB+ (Rh Positive)",
+    "referring_doctor": "Dr. Sharat Damodar, MD, DM (BMT)",
+    "diagnosis": "Myelodysplastic Syndrome (MDS-EB2)",
+    "specimen": "Serum & Plasma (Gold Top SST / Lavender EDTA)",
+    "table_columns": [
+      "Pathogen Marker",
+      "Assay Method",
+      "Result Value",
+      "Cutoff Index",
+      "Clinical Status"
+    ],
+    "col_widths": [
+      140,
+      110,
+      100,
+      100,
+      106
+    ],
+    "table_rows": [
+      [
+        "CMV IgG Antibody",
+        "CLIA Chemiluminescence",
+        "148.5 IU/mL",
+        ">= 14.0 Pos",
+        "Positive (Past Immunity)"
+      ],
+      [
+        "CMV IgM Antibody",
+        "CLIA Chemiluminescence",
+        "0.22 Index",
+        "< 0.85 Neg",
+        "Negative (No Active Flare)"
+      ],
+      [
+        "EBV VCA IgG",
+        "ELISA",
+        "182.0 RU/mL",
+        ">= 20.0 Pos",
+        "Positive (Past Exposure)"
+      ],
+      [
+        "Hepatitis B sAg",
+        "ECLIA 4th Gen",
+        "0.14 Non-reactive",
+        "< 0.90 Non-rec",
+        "Non-Reactive (Safe)"
+      ],
+      [
+        "Hepatitis C Antibody",
+        "CMIA Chemiflex",
+        "0.08 Non-reactive",
+        "< 1.0 Non-rec",
+        "Non-Reactive (Safe)"
+      ],
+      [
+        "HIV-1/2 Ag/Ab Combo",
+        "ECLIA 4th Gen",
+        "0.11 Non-reactive",
+        "< 0.90 Non-rec",
+        "Non-Reactive (Safe)"
+      ]
+    ],
+    "recommendations": [
+      "Patient is CMV IgG Positive / CMV IgM Negative (latent seropositive carrier status).",
+      "Matched donor serostatus recommended: CMV-positive preferred or CMV-matched to minimize primary infection risk.",
+      "All viral safety screen markers (HIV, HBV, HCV, Syphilis) non-reactive with zero contraindications.",
+      "Recommendation: Plan pre-emptive weekly CMV qPCR surveillance and initiate prophylactic Levalcyclovir."
+    ],
+    "prepared_by": "Ritu Banerjee, M.Sc (Virology)",
+    "verified_by": "Dr. Jayanthi Shastri, MD (Microbiology)",
+    "director": "Dr. Sunil Bhat, MD (Pediatric BMT)",
+    "key_biomarkers": [
+      "CMV IgG Pos",
+      "CMV IgM Neg",
+      "HIV/HBV/HCV Non-Reactive"
+    ]
+  },
+  {
+    "id": "MED_005",
+    "filename": "MED_005_Complete_Blood_Count_Differential.pdf",
+    "category": "Hematology Profile",
+    "org_name": "ALL INDIA INSTITUTE OF MEDICAL SCIENCES (AIIMS)",
+    "dept_name": "Department of Hematology & Automated Blood Diagnostics",
+    "accreditation": "GOVERNMENT OF INDIA APEX INSTITUTE (NABL ISO 15189)",
+    "address": "Ansari Nagar, New Delhi - 110029, Delhi NCR",
+    "report_id": "CBC-AIIMS-2026-6612",
+    "barcode": "CBC*0914*66123",
+    "title": "Complete Blood Count (CBC) with Automated 5-Part Differential",
+    "patient_name": "Sunita Devi",
+    "date": "September 14, 2026",
+    "mrn": "AIIMS-HEM-2026-1188",
+    "age": "31 Yrs",
+    "gender": "Female",
+    "blood_group": "O- (Rh Negative)",
+    "referring_doctor": "Dr. Manoranjan Mahapatra, MD (Hematology)",
+    "diagnosis": "Severe Aplastic Anemia (Post-Horse ATG Day +90)",
+    "specimen": "Whole Blood (K2-EDTA)",
+    "table_columns": [
+      "Test Parameter",
+      "Observed Result",
+      "Reference Range",
+      "Unit",
+      "Flag / Evaluation"
+    ],
+    "col_widths": [
+      140,
+      110,
+      110,
+      90,
+      106
+    ],
+    "table_rows": [
+      [
+        "Hemoglobin (Hb)",
+        "10.8",
+        "12.0 - 15.5",
+        "g/dL",
+        "Mild Anemia (Improved)"
+      ],
+      [
+        "Total Leucocyte Count",
+        "4,820",
+        "4,000 - 10,500",
+        "/mcL",
+        "Normal Leukocyte Count"
+      ],
+      [
+        "Absolute Neutrophil Count",
+        "2,460",
+        "1,500 - 7,000",
+        "/mcL",
+        "Sustained Neutrophil Engraftment"
+      ],
+      [
+        "Absolute Lymphocyte Count",
+        "1,820",
+        "1,000 - 3,000",
+        "/mcL",
+        "Adequate Lymphopoiesis"
+      ],
+      [
+        "Platelet Count",
+        "142,000",
+        "150,000 - 450,000",
+        "/mcL",
+        "Transfusion-Independent Recovery"
+      ],
+      [
+        "Reticulocyte Count",
+        "1.92",
+        "0.50 - 2.50",
+        "%",
+        "Active Bone Marrow Output"
+      ]
+    ],
+    "recommendations": [
+      "Demonstrates excellent hematologic recovery post-immunosuppressive therapy + cyclosporine maintenance.",
+      "Absolute neutrophil count (ANC 2,460/mcL) and platelet count (> 140,000/mcL) confirm durable recovery.",
+      "Patient has remained RBC and platelet transfusion-independent for the preceding 60 days.",
+      "Recommendation: Continue current Cyclosporine-A dosing; titrate based on weekly trough levels."
+    ],
+    "prepared_by": "Kamal Preet Singh, Technical Officer",
+    "verified_by": "Dr. Pravas Mishra, MD (Clinical Hematology)",
+    "director": "Dr. Tulika Seth, MD (Professor of Hematology)",
+    "key_biomarkers": [
+      "ANC 2,460/mcL",
+      "Platelets 142k",
+      "Hb 10.8 g/dL"
+    ]
+  },
+  {
+    "id": "MED_006",
+    "filename": "MED_006_Post_Transplant_STR_Chimerism_Analysis.pdf",
+    "category": "Molecular Engraftment",
+    "org_name": "FORTIS MEMORIAL RESEARCH INSTITUTE (FMRI)",
+    "dept_name": "Cellular Therapy & Bone Marrow Transplant Department",
+    "accreditation": "JCI ACCREDITED & NABH BMT ACCREDITED",
+    "address": "Sector 44, Opposite HUDA City Centre, Gurugram - 122002, Haryana",
+    "report_id": "STR-CHIM-2026-1190",
+    "barcode": "STR*0914*11902",
+    "title": "Post-Transplant STR Multiplex Chimerism & Engraftment Analysis",
+    "patient_name": "Rahul Kapoor",
+    "date": "September 14, 2026",
+    "mrn": "FMRI-BMT-2026-5501",
+    "age": "23 Yrs",
+    "gender": "Male",
+    "blood_group": "A+ (Rh Positive)",
+    "referring_doctor": "Dr. Rahul Bhargava, MD, DM (BMT)",
+    "diagnosis": "Allogeneic BMT Day +60 for Acute Lymphoblastic Leukemia",
+    "specimen": "Peripheral Blood CD3+ / CD33+ Magnetic Sorted Cells",
+    "table_columns": [
+      "Cell Fraction",
+      "Donor % Call",
+      "Recipient % Call",
+      "STR Alleles Tested",
+      "Engraftment Status"
+    ],
+    "col_widths": [
+      140,
+      100,
+      100,
+      110,
+      106
+    ],
+    "table_rows": [
+      [
+        "Whole Peripheral Blood",
+        "98.8",
+        "1.2",
+        "16 Informative Loci",
+        "Complete Donor Chimerism"
+      ],
+      [
+        "CD3+ T-Lymphocyte Fraction",
+        "97.4",
+        "2.6",
+        "16 Informative Loci",
+        "Robust T-Cell Engraftment"
+      ],
+      [
+        "CD33+ Myeloid Fraction",
+        "100.0",
+        "0.0",
+        "16 Informative Loci",
+        "100% Full Donor Myeloid"
+      ],
+      [
+        "CD19+ B-Cell Fraction",
+        "98.2",
+        "1.8",
+        "16 Informative Loci",
+        "Complete Donor B-Cell"
+      ],
+      [
+        "D16S539 Locus Specific",
+        "99.1",
+        "0.9",
+        "Allele Peak Ratio",
+        "High Concordance Verified"
+      ],
+      [
+        "TH01 Locus Specific",
+        "98.6",
+        "1.4",
+        "Allele Peak Ratio",
+        "High Concordance Verified"
+      ]
+    ],
+    "recommendations": [
+      "Multiplex Short Tandem Repeat (STR) profiling confirms stable Full Donor Chimerism (> 98%).",
+      "Complete myeloid donor chimerism (100.0%) and high donor T-cell chimerism (97.4%) on Day +60.",
+      "Zero evidence of recipient hematopoietic relapse or graft failure.",
+      "Recommendation: Maintain standard GVHD prophylaxis taper; recheck chimerism at Day +90."
+    ],
+    "prepared_by": "Deepak Mehta, Senior Molecular Biologist",
+    "verified_by": "Dr. Vikas Dua, MD (Pediatric Hemato-Oncology)",
+    "director": "Dr. Rahul Bhargava, MD, DM (Director of BMT)",
+    "key_biomarkers": [
+      "Donor 98.8%",
+      "CD33+ 100% Donor",
+      "CD3+ 97.4% Donor"
+    ]
+  },
+  {
+    "id": "MED_007",
+    "filename": "MED_007_Minimal_Residual_Disease_Flow_Cytometry.pdf",
+    "category": "Flow Cytometry MRD",
+    "org_name": "MEDANTA - THE MEDICITY CANCER INSTITUTE",
+    "dept_name": "Division of Hematology, Stem Cell Transplant & Flow Cytometry Core",
+    "accreditation": "NABL & CAP CERTIFIED FLOW CORE",
+    "address": "CH Bakhtawar Singh Road, Sector 38, Gurugram - 122001, Haryana",
+    "report_id": "MRD-FLOW-2026-8831",
+    "barcode": "MRD*0914*88314",
+    "title": "Minimal Residual Disease (MRD) High-Sensitivity 8-Color Flow Cytometry",
+    "patient_name": "Aditi Roy Chowdhury",
+    "date": "September 14, 2026",
+    "mrn": "MED-ONC-2026-0045",
+    "age": "19 Yrs",
+    "gender": "Female",
+    "blood_group": "AB- (Rh Negative)",
+    "referring_doctor": "Dr. Ashok Vaid, MD, DM (Medical Oncology)",
+    "diagnosis": "B-ALL Post-Induction Day +35 Evaluation",
+    "specimen": "Bone Marrow Aspirate in Sodium Heparin",
+    "table_columns": [
+      "Marker Parameter",
+      "Observed Count / %",
+      "Analytical Threshold",
+      "Sensitivity Limit",
+      "Interpretation"
+    ],
+    "col_widths": [
+      140,
+      110,
+      110,
+      96,
+      100
+    ],
+    "table_rows": [
+      [
+        "Total Events Acquired",
+        "5,240,000",
+        ">= 1,000,000",
+        "Flow Events",
+        "Ultra-High Sensitivity"
+      ],
+      [
+        "CD19+ / CD10+ / CD34+ Blasts",
+        "< 0.005",
+        "< 0.010",
+        "% Total Cells",
+        "MRD Negative (< 0.01%)"
+      ],
+      [
+        "Aberrant CD58 Overexpression",
+        "Not Detected",
+        "< 0.01",
+        "%",
+        "No Immunophenotypic Relapse"
+      ],
+      [
+        "Aberrant CD66c Expression",
+        "Not Detected",
+        "< 0.01",
+        "%",
+        "Negative for Leukemia"
+      ],
+      [
+        "Normal B-Cell Hematogones",
+        "2.4",
+        "0.5 - 5.0",
+        "% Total Cells",
+        "Normal Marrow Regeneration"
+      ],
+      [
+        "Viability by 7-AAD",
+        "98.2",
+        ">= 85.0",
+        "%",
+        "High Sample Quality Verified"
+      ]
+    ],
+    "recommendations": [
+      "High-sensitivity 8-color flow cytometry acquired > 5.2 million events (analytical sensitivity 10^-5).",
+      "MRD is strictly NEGATIVE at < 0.01% (< 1 leukemic blast per 10,000 nucleated marrow cells).",
+      "Regenerating hematogones present, confirming healthy B-cell lineage marrow reconstitution.",
+      "Recommendation: Favorable prognostic risk category; proceed with standard consolidation block."
+    ],
+    "prepared_by": "Dr. Swati Kulkarni, MD (Pathology)",
+    "verified_by": "Dr. Satya Yadav, MD, DNB (Pediatric BMT)",
+    "director": "Dr. Ashok Vaid, MD, DM (Chairman Medical Oncology)",
+    "key_biomarkers": [
+      "MRD < 0.01% Negative",
+      "Events 5.24M",
+      "Hematogones 2.4%"
+    ]
+  },
+  {
+    "id": "MED_008",
+    "filename": "MED_008_Matched_Donor_Buccal_Swab_Confirmatory_HLA.pdf",
+    "category": "Registry Verification",
+    "org_name": "DATRI BLOOD STEM CELL DONORS REGISTRY",
+    "dept_name": "Quality Accreditation & Confirmatory HLA Typing Core",
+    "accreditation": "WMDA (WORLD MARROW DONOR ASSOCIATION) ACCREDITED",
+    "address": "Module No 120, TICEL Bio Park Phase II, Taramani, Chennai - 600113",
+    "report_id": "DATRI-CT-2026-9912",
+    "barcode": "DATRI*0914*99120",
+    "title": "Confirmatory Typing (CT) High-Resolution HLA Report for Registered Donor",
+    "patient_name": "Donor: Arvind Swaminathan (DATRI-ID-44912)",
+    "date": "September 14, 2026",
+    "mrn": "DONOR-REG-2026-8801",
+    "age": "26 Yrs",
+    "gender": "Male",
+    "blood_group": "B+ (Rh Positive)",
+    "referring_doctor": "Dr. Claudia Rutt, WMDA Coordinating Officer",
+    "diagnosis": "Unrelated Stem Cell Donor Match Verification for Recipient APL-BMT-2026-0914",
+    "specimen": "Confirmatory Buccal Swab Kit & Peripheral Blood EDTA",
+    "table_columns": [
+      "Locus",
+      "Allele 1 Call",
+      "Allele 2 Call",
+      "Patient Concordance",
+      "Match Grade"
+    ],
+    "col_widths": [
+      110,
+      110,
+      110,
+      116,
+      110
+    ],
+    "table_rows": [
+      [
+        "HLA-A*",
+        "02:01:01G",
+        "24:02:01G",
+        "100% Identical",
+        "2/2 Match"
+      ],
+      [
+        "HLA-B*",
+        "40:01:01G",
+        "51:01:01G",
+        "100% Identical",
+        "2/2 Match"
+      ],
+      [
+        "HLA-C*",
+        "07:02:01G",
+        "14:02:01G",
+        "100% Identical",
+        "2/2 Match"
+      ],
+      [
+        "HLA-DRB1*",
+        "15:01:01G",
+        "04:03:01G",
+        "100% Identical",
+        "2/2 Match"
+      ],
+      [
+        "HLA-DQB1*",
+        "06:02:01G",
+        "03:02:01G",
+        "100% Identical",
+        "2/2 Match"
+      ],
+      [
+        "Overall Grade",
+        "10 / 10 Alleles",
+        "High-Resolution",
+        "Complete Concordance",
+        "PERFECT 10/10 MUD"
+      ]
+    ],
+    "recommendations": [
+      "Donor confirmatory typing independently replicates initial registry typing at high-resolution NGS.",
+      "Donor is a certified 10/10 allele match for recipient Ananya Sharma (MRN APL-BMT-2026-0914).",
+      "Donor health questionnaire and pre-donation medical screen cleared with zero exclusion criteria.",
+      "Recommendation: Issue donor workup clearance and schedule PBSC G-CSF mobilization protocol."
+    ],
+    "prepared_by": "Karthik Subramanian, M.Sc (Immunogenetics)",
+    "verified_by": "Dr. Revathi Raj, MD (Consultant BMT)",
+    "director": "Raghu Rajagopal, Chief Executive Officer DATRI",
+    "key_biomarkers": [
+      "10/10 HLA Match",
+      "NGS Confirmed",
+      "Donor Cleared"
+    ]
+  },
+  {
+    "id": "MED_009",
+    "filename": "MED_009_Hemoglobin_HPLC_Thalassemia_Mutation.pdf",
+    "category": "Hemoglobinopathy",
+    "org_name": "CHRISTIAN MEDICAL COLLEGE (CMC) LUDHIANA",
+    "dept_name": "Pediatric Hematology-Oncology & Thalassemia Unit",
+    "accreditation": "NABL & NATIONAL THALASSEMIA REGISTRY CENTER",
+    "address": "Brown Road, Ludhiana - 141008, Punjab",
+    "report_id": "HPLC-THAL-2026-2291",
+    "barcode": "HPLC*0914*22914",
+    "title": "Hemoglobin High-Performance Liquid Chromatography (HPLC) & Beta-Globin Screen",
+    "patient_name": "Manpreet Kaur",
+    "date": "September 14, 2026",
+    "mrn": "CMC-THAL-2026-3399",
+    "age": "6 Yrs",
+    "gender": "Female",
+    "blood_group": "O+ (Rh Positive)",
+    "referring_doctor": "Dr. Joseph John, MD (Clinical Hematology)",
+    "diagnosis": "Beta Thalassemia Major (Transplant Candidate)",
+    "specimen": "Whole Blood EDTA (Pre-Transfusion Baseline)",
+    "table_columns": [
+      "Hemoglobin Fraction",
+      "Observed Peak %",
+      "Reference Range",
+      "Retention Time",
+      "Clinical Implication"
+    ],
+    "col_widths": [
+      140,
+      110,
+      100,
+      96,
+      110
+    ],
+    "table_rows": [
+      [
+        "Hb F (Fetal Hemoglobin)",
+        "88.4",
+        "< 1.0",
+        "1.12 min",
+        "Marked Elevation (Major)"
+      ],
+      [
+        "Hb A (Adult Hemoglobin)",
+        "4.2",
+        "95.0 - 98.0",
+        "2.48 min",
+        "Severe Suppression of Beta Chains"
+      ],
+      [
+        "Hb A2 (Delta Chains)",
+        "5.6",
+        "1.8 - 3.5",
+        "3.62 min",
+        "Elevated (Beta Thalassemia Trait)"
+      ],
+      [
+        "HBB Gene Mutation",
+        "IVS1-5 (G>C)",
+        "Homozygous",
+        "Sanger Seq",
+        "Severe Beta-Zero Allele"
+      ],
+      [
+        "Serum Ferritin",
+        "1,840",
+        "15 - 150",
+        "ng/mL",
+        "Significant Iron Hemosiderosis"
+      ],
+      [
+        "Total Serum Bilirubin",
+        "3.1",
+        "0.2 - 1.2",
+        "mg/dL",
+        "Chronic Extravascular Hemolysis"
+      ]
+    ],
+    "recommendations": [
+      "Bio-Rad Variant II HPLC profile demonstrates severe Beta Thalassemia Major phenotype with HbF 88.4%.",
+      "HBB DNA sequencing confirms homozygous IVS1-5 (G>C) mutation (most common severe Indian mutation).",
+      "Elevated serum ferritin (1,840 ng/mL) requires pre-transplant oral iron chelation with Deferasirox.",
+      "Recommendation: Lucarelli Pesaro Risk Class II; eligible for allogeneic matched sibling / MUD BMT."
+    ],
+    "prepared_by": "Harpreet Singh, Senior Biochemist",
+    "verified_by": "Dr. M. Joseph, MD (Pediatric Hematology)",
+    "director": "Dr. William Bhatti, MS, MCh (Medical Director)",
+    "key_biomarkers": [
+      "HbF 88.4%",
+      "HBB IVS1-5 (G>C)",
+      "Ferritin 1,840 ng/mL"
+    ]
+  },
+  {
+    "id": "MED_010",
+    "filename": "MED_010_Cryopreserved_Stem_Cell_Graft_Infusion_Sterility.pdf",
+    "category": "Cryostorage Quality",
+    "org_name": "MANIPAL HOSPITAL COMPREHENSIVE CANCER CARE",
+    "dept_name": "Cellular Processing & Cryobanking Laboratory",
+    "accreditation": "NABH & ISO 9001 CELL PROCESSING ACCREDITATION",
+    "address": "98 HAL Airport Road, Kodihalli, Bangalore - 560017, Karnataka",
+    "report_id": "CRYO-CERT-2026-7789",
+    "barcode": "CRYO*0914*77891",
+    "title": "Cryopreserved Cellular Therapy Graft Thaw, Viability & Release Certificate",
+    "patient_name": "Arunachalam Venkatesan",
+    "date": "September 14, 2026",
+    "mrn": "MAN-BMT-2026-0044",
+    "age": "56 Yrs",
+    "gender": "Male",
+    "blood_group": "B+ (Rh Positive)",
+    "referring_doctor": "Dr. Mallikarjun Kalashetty, MD, DM (BMT)",
+    "diagnosis": "Multiple Myeloma in VGPR (Day 0 Autologous Infusion)",
+    "specimen": "Thawed Autologous PBSC Bag #1 & Bag #2",
+    "table_columns": [
+      "Release Specification",
+      "Quality Standard",
+      "Lot Result",
+      "Testing Method",
+      "Release Status"
+    ],
+    "col_widths": [
+      140,
+      110,
+      100,
+      106,
+      100
+    ],
+    "table_rows": [
+      [
+        "Post-Thaw 7-AAD Viability",
+        ">= 70.0%",
+        "92.6%",
+        "Flow Cytometry",
+        "PASSED"
+      ],
+      [
+        "Total Viable CD34+ Dosed",
+        ">= 2.5 x10^6/kg",
+        "4.88 x10^6/kg",
+        "Single Platform ISHAGE",
+        "PASSED"
+      ],
+      [
+        "14-Day Bacterial Sterility",
+        "Negative (No Growth)",
+        "Negative",
+        "Automated BacT/ALERT",
+        "PASSED"
+      ],
+      [
+        "14-Day Fungal Culture",
+        "Negative (No Growth)",
+        "Negative",
+        "Sabouraud Dextrose Agar",
+        "PASSED"
+      ],
+      [
+        "Endotoxin LAL Testing",
+        "< 0.5 EU/mL",
+        "< 0.05 EU/mL",
+        "Kinetic Turbidimetric",
+        "PASSED"
+      ],
+      [
+        "Cryoprotectant Residual",
+        "< 10% DMSO",
+        "6.2% Diluted",
+        "Osmolality Calculation",
+        "PASSED"
+      ]
+    ],
+    "recommendations": [
+      "Cryopreserved stem cell graft meets all FACT and national standards for clinical patient infusion.",
+      "Both bags inspected: integrity intact, label barcodes match patient MRN APL-BMT-2026-0044.",
+      "Water bath thaw completed at 37.0 deg C in BMT sterile cleanroom with immediate bed-side transport.",
+      "Recommendation: Infuse graft immediately under standard hydration and anti-histamine pre-medication."
+    ],
+    "prepared_by": "Sudha Murthy, Cellular Processing Specialist",
+    "verified_by": "Dr. Ashish Dixit, MD, DM (Hemato-Oncology)",
+    "director": "Dr. Amit Agarwal, MD, Ph.D. (Director of Oncology)",
+    "key_biomarkers": [
+      "Thaw Viability 92.6%",
+      "CD34+ 4.88x10^6/kg",
+      "Sterile Cleared"
+    ]
+  },
+  {
+    "id": "MED_011",
+    "filename": "MED_011_Coagulation_Profile_and_DDimer.pdf",
+    "category": "Hemostasis & Thrombosis",
+    "org_name": "SIR GANGA RAM HOSPITAL",
+    "dept_name": "Department of Coagulation & Clinical Hematology",
+    "accreditation": "NABL ISO 15189 ACCREDITED LABORATORY",
+    "address": "Rajinder Nagar, New Delhi - 110060, Delhi NCR",
+    "report_id": "COAG-2026-5511",
+    "barcode": "COAG*0914*55110",
+    "title": "Comprehensive Coagulation Panel & D-Dimer Assessment",
+    "patient_name": "Tanvi Kapoor",
+    "date": "September 14, 2026",
+    "mrn": "SGRH-HEM-2026-9921",
+    "age": "37 Yrs",
+    "gender": "Female",
+    "blood_group": "O+ (Rh Positive)",
+    "referring_doctor": "Dr. S. P. Yadav, MD (Hematology)",
+    "diagnosis": "Acute Promyelocytic Leukemia (APL / AML M3)",
+    "specimen": "Citrated Plasma (Light Blue Top 3.2%)",
+    "table_columns": [
+      "Coagulation Parameter",
+      "Patient Result",
+      "Reference Interval",
+      "Unit",
+      "Interpretation"
+    ],
+    "table_rows": [
+      [
+        "Prothrombin Time (PT)",
+        "13.4",
+        "11.0 - 14.5",
+        "seconds",
+        "Normal Extrinsic Pathway"
+      ],
+      [
+        "INR (International Ratio)",
+        "1.08",
+        "0.85 - 1.20",
+        "Ratio",
+        "Normal Hemostasis"
+      ],
+      [
+        "APTT (Partial Thromboplastin)",
+        "31.2",
+        "26.0 - 36.0",
+        "seconds",
+        "Normal Intrinsic Pathway"
+      ],
+      [
+        "Fibrinogen (Clauss Method)",
+        "284.0",
+        "200.0 - 400.0",
+        "mg/dL",
+        "Adequate Clotting Substrate"
+      ],
+      [
+        "D-Dimer Quantitative",
+        "0.42",
+        "< 0.50",
+        "mcg/mL FEU",
+        "Normal (No Active DIC)"
+      ],
+      [
+        "Thrombin Time",
+        "15.2",
+        "14.0 - 18.0",
+        "seconds",
+        "Normal Final Clotting Step"
+      ]
+    ],
+    "recommendations": [
+      "Coagulation profile confirms resolution of initial consumptive coagulopathy following ATRA therapy.",
+      "Normal plasma fibrinogen (284 mg/dL) and non-elevated D-Dimer (< 0.50 mcg/mL) confirm absence of DIC.",
+      "Recommendation: Safe for central venous line placement or bone marrow aspirate."
+    ],
+    "prepared_by": "Neeraj Sharma, Senior Coagulation Specialist",
+    "verified_by": "Dr. Meera Saxena, MD (Hematopathology)",
+    "director": "Dr. P. K. Ghosh, MD (Head of Pathology)",
+    "key_biomarkers": [
+      "INR 1.08",
+      "Fibrinogen 284 mg/dL",
+      "D-Dimer 0.42 mcg/mL"
+    ]
+  },
+  {
+    "id": "MED_012",
+    "filename": "MED_012_Serum_Protein_Electrophoresis_Immunofixation.pdf",
+    "category": "Immunochemistry & Myeloma",
+    "org_name": "MAX SUPER SPECIALITY HOSPITAL SAKET",
+    "dept_name": "Clinical Biochemistry & Special Immunology Laboratory",
+    "accreditation": "NABL ISO 15189 & NABH ACCREDITED",
+    "address": "1, 2 Press Enclave Marg, Saket, New Delhi - 110017",
+    "report_id": "SPEP-2026-1029",
+    "barcode": "SPEP*0914*10294",
+    "title": "Serum Protein Electrophoresis (SPEP) & Capillary Immunofixation",
+    "patient_name": "Harish Chandra Joshi",
+    "date": "September 14, 2026",
+    "mrn": "MAX-ONC-2026-3810",
+    "age": "61 Yrs",
+    "gender": "Male",
+    "blood_group": "A+ (Rh Positive)",
+    "referring_doctor": "Dr. Rayaz Ahmed, MD, DM (BMT & Hematology)",
+    "diagnosis": "IgG Kappa Multiple Myeloma (Post-VRd Evaluation)",
+    "specimen": "Serum (Clot Activator Red Top)",
+    "table_columns": [
+      "Fraction Parameter",
+      "Relative %",
+      "Absolute Conc",
+      "Reference Interval",
+      "Abnormality"
+    ],
+    "table_rows": [
+      [
+        "Total Serum Protein",
+        "100.0 %",
+        "6.8 g/dL",
+        "6.0 - 8.3 g/dL",
+        "Normal Total Protein"
+      ],
+      [
+        "Serum Albumin",
+        "58.2 %",
+        "3.96 g/dL",
+        "3.50 - 5.00 g/dL",
+        "Normal Albumin"
+      ],
+      [
+        "Alpha-1 Globulin",
+        "3.8 %",
+        "0.26 g/dL",
+        "0.15 - 0.40 g/dL",
+        "Normal Acute Phase"
+      ],
+      [
+        "Alpha-2 Globulin",
+        "10.4 %",
+        "0.71 g/dL",
+        "0.60 - 1.00 g/dL",
+        "Normal Alpha-2"
+      ],
+      [
+        "Beta Globulin",
+        "12.6 %",
+        "0.86 g/dL",
+        "0.70 - 1.20 g/dL",
+        "Normal Transferrin/C3"
+      ],
+      [
+        "Gamma Globulin (M-Spike)",
+        "15.0 %",
+        "0.18 g/dL (M)",
+        "0.70 - 1.60 g/dL",
+        "M-Band Residual (0.18 g/dL)"
+      ]
+    ],
+    "recommendations": [
+      "Capillary electrophoresis reveals a small residual monoclonal M-band measuring 0.18 g/dL in gamma zone.",
+      "Immunofixation confirms residual IgG Kappa restriction (down from baseline 3.42 g/dL - > 90% reduction).",
+      "Free Kappa/Lambda Light Chain Ratio: 1.48 (Reference range: 0.26 - 1.65 - Normalized).",
+      "Recommendation: Very Good Partial Response (VGPR) confirmed; proceed with autologous stem cell harvest."
+    ],
+    "prepared_by": "Sunil Varma, M.Sc (Biochem)",
+    "verified_by": "Dr. Nitin Sood, MD, FRCPath (Clinical Hematology)",
+    "director": "Dr. Devavrat Arya, MD (Director of Oncology)",
+    "key_biomarkers": [
+      "M-Spike 0.18 g/dL",
+      "IgG Kappa Restr",
+      "FLC Ratio 1.48"
+    ]
+  },
+  {
+    "id": "MED_013",
+    "filename": "MED_013_Flow_Cytometry_Immunophenotyping_AML.pdf",
+    "category": "Leukemia Immunophenotyping",
+    "org_name": "RAJIV GANDHI CANCER INSTITUTE & RESEARCH CENTRE",
+    "dept_name": "Department of Hematopathology & Diagnostic Flow Cytometry",
+    "accreditation": "NABL & NABH ACCREDITED ONCOLOGY CENTRE",
+    "address": "Sector 5, Rohini, New Delhi - 110085, Delhi NCR",
+    "report_id": "FLOW-AML-2026-6644",
+    "barcode": "FLOW*0914*66442",
+    "title": "10-Color Flow Cytometric Immunophenotyping (Acute Myeloid Leukemia)",
+    "patient_name": "Gurmeet Singh",
+    "date": "September 14, 2026",
+    "mrn": "RGCI-BMT-2026-7712",
+    "age": "52 Yrs",
+    "gender": "Male",
+    "blood_group": "B+ (Rh Positive)",
+    "referring_doctor": "Dr. Dinesh Bhurani, MD, DM (Hemato-Oncology)",
+    "diagnosis": "Suspected Acute Myeloid Leukemia (Diagnostic Workup)",
+    "specimen": "Bone Marrow Aspirate (Sodium Heparin)",
+    "table_columns": [
+      "Marker Panel",
+      "Expression %",
+      "Gating Intensity",
+      "Cellular Lineage",
+      "Status"
+    ],
+    "table_rows": [
+      [
+        "CD45 vs SSC Gating",
+        "68.4 % Blasts",
+        "Dim Expression",
+        "Marrow Mononuclear",
+        "Leukemic Blast Gate"
+      ],
+      [
+        "CD34 Progenitor",
+        "92.1 %",
+        "Bright Positive",
+        "Hematopoietic Stem",
+        "Primitive Blasts"
+      ],
+      [
+        "CD117 (c-kit)",
+        "86.4 %",
+        "Moderate Positive",
+        "Myeloid Progenitor",
+        "Myeloid Lineage Positive"
+      ],
+      [
+        "CD33 Myeloid",
+        "94.8 %",
+        "Bright Positive",
+        "Pan-Myeloid",
+        "Myeloid Lineage Positive"
+      ],
+      [
+        "HLA-DR",
+        "88.2 %",
+        "Bright Positive",
+        "MHC Class II",
+        "Non-M3 Phenotype"
+      ],
+      [
+        "CD19 / CD3 / CD7",
+        "< 2.0 %",
+        "Negative",
+        "Lymphoid Lineages",
+        "Negative for Lineage Infidelity"
+      ]
+    ],
+    "recommendations": [
+      "Immunophenotyping demonstrates 68.4% blast population expressing CD34, CD117, CD33, and HLA-DR.",
+      "Flow profile confirms Acute Myeloid Leukemia with primitive progenitor immunophenotype (AML without maturation).",
+      "Zero lymphoid cross-lineage infidelity detected on comprehensive 10-color antibody panel.",
+      "Recommendation: Correlate with cytogenetics and initiate 7+3 Cytarabine + Daunorubicin induction."
+    ],
+    "prepared_by": "Dr. Ritu Gupta, MD (Pathology)",
+    "verified_by": "Dr. Narendra Agrawal, MD, DM (Hemato-Oncology)",
+    "director": "Dr. Dinesh Bhurani, MD, DM (Director of BMT)",
+    "key_biomarkers": [
+      "Blasts 68.4%",
+      "CD34+ 92.1%",
+      "CD117+ 86.4%",
+      "CD33+ 94.8%"
+    ]
+  },
+  {
+    "id": "MED_014",
+    "filename": "MED_014_Flow_Cytometry_Immunophenotyping_BALL.pdf",
+    "category": "Leukemia Immunophenotyping",
+    "org_name": "KIDWAI MEMORIAL INSTITUTE OF ONCOLOGY",
+    "dept_name": "Department of Pediatric Oncology & Molecular Pathology",
+    "accreditation": "GOVERNMENT REGIONAL CANCER CENTRE (NABL ACCREDITED)",
+    "address": "Dr. M. H. Marigowda Road, Bangalore - 560029, Karnataka",
+    "report_id": "BALL-KMIO-2026-9901",
+    "barcode": "BALL*0914*99018",
+    "title": "Comprehensive 10-Color Immunophenotyping for B-Lymphoblastic Leukemia",
+    "patient_name": "Aarav Gowda",
+    "date": "September 14, 2026",
+    "mrn": "KMIO-PED-2026-1209",
+    "age": "8 Yrs",
+    "gender": "Male",
+    "blood_group": "O+ (Rh Positive)",
+    "referring_doctor": "Dr. Arun Kumar, MD (Pediatric Oncology)",
+    "diagnosis": "Newly Diagnosed Acute Lymphoblastic Leukemia",
+    "specimen": "Bone Marrow Aspirate (Sodium Heparin)",
+    "table_columns": [
+      "Antigen Marker",
+      "% Positive Blasts",
+      "Intensity Level",
+      "Diagnostic Implication",
+      "Result"
+    ],
+    "table_rows": [
+      [
+        "CD19 B-Lineage",
+        "98.6 %",
+        "Bright Uniform",
+        "Pan B-Cell Marker",
+        "Lineage Defining Positive"
+      ],
+      [
+        "CD10 (CALLA)",
+        "96.4 %",
+        "Bright Positive",
+        "Common ALL Antigen",
+        "Common B-ALL Phenotype"
+      ],
+      [
+        "Cytoplasmic CD79a",
+        "94.2 %",
+        "Positive",
+        "Early B-Precursor",
+        "Lineage Defining Positive"
+      ],
+      [
+        "CD34 Progenitor",
+        "84.5 %",
+        "Moderate Positive",
+        "Stem / Progenitor",
+        "Immature Blasts"
+      ],
+      [
+        "CD20 B-Cell",
+        "12.8 %",
+        "Dim Heterogeneous",
+        "Mature B-Cell",
+        "Pre-B Stage Maturation"
+      ],
+      [
+        "Cytoplasmic IgM",
+        "< 1.0 %",
+        "Negative",
+        "Pre-B Differentiation",
+        "Consistent with Common B-ALL"
+      ]
+    ],
+    "recommendations": [
+      "Gated lymphoblast population (82% of marrow events) exhibits diagnostic phenotype of Common B-ALL.",
+      "Uniform bright co-expression of CD19, CD10, cytoplasmic CD79a, and CD34.",
+      "Negative for myeloid (CD13, CD33, MPO) and T-cell (CD3, CD7) antigens.",
+      "Recommendation: Initiate ICICLE / BFM induction protocol; send bone marrow for cytogenetics."
+    ],
+    "prepared_by": "Dr. Manjunath Shenoy, MD (Hematology)",
+    "verified_by": "Dr. L. Appaji, MD (Professor & Head Pediatric Oncology)",
+    "director": "Dr. C. Ramesh, Director KMIO",
+    "key_biomarkers": [
+      "Common B-ALL",
+      "CD19+ 98.6%",
+      "CD10+ 96.4%",
+      "Blasts 82%"
+    ]
+  },
+  {
+    "id": "MED_015",
+    "filename": "MED_015_Targeted_NGS_Myeloid_Mutation_Panel.pdf",
+    "category": "Genomics & Precision Oncology",
+    "org_name": "MEDGENOME LABORATORIES PVT LTD",
+    "dept_name": "Genomic Diagnostics & High-Throughput Sequencing Division",
+    "accreditation": "CAP ACCREDITED & ISO 15189 CERTIFIED",
+    "address": "3rd Floor, Narayana Netralaya Building, Bommasandra, Bangalore - 560099",
+    "report_id": "NGS-MYE-2026-4402",
+    "barcode": "NGS*0914*44021",
+    "title": "Comprehensive 54-Gene Targeted NGS Myeloid Mutation Panel",
+    "patient_name": "Deepak Khurana",
+    "date": "September 14, 2026",
+    "mrn": "MG-GEN-2026-8822",
+    "age": "48 Yrs",
+    "gender": "Male",
+    "blood_group": "AB+ (Rh Positive)",
+    "referring_doctor": "Dr. Hemant Malhotra, MD, FRCP (Medical Oncology)",
+    "diagnosis": "De Novo Acute Myeloid Leukemia (Molecular Risk Stratification)",
+    "specimen": "Bone Marrow Genomic DNA (High Purity)",
+    "table_columns": [
+      "Gene",
+      "Genomic Alteration",
+      "Variant Allele Frequency",
+      "Clinical Tier",
+      "Pathogenicity"
+    ],
+    "table_rows": [
+      [
+        "NPM1",
+        "c.860_863dupTCTG (p.Trp288fs)",
+        "38.4 % VAF",
+        "Tier I (Strong Actionable)",
+        "Pathogenic Mutation"
+      ],
+      [
+        "FLT3-ITD",
+        "Internal Tandem Duplication (33bp)",
+        "Allelic Ratio: 0.12 (Low)",
+        "Tier I (Prognostic Marker)",
+        "Pathogenic (Low AR)"
+      ],
+      [
+        "DNMT3A",
+        "c.2645G>A (p.Arg882His)",
+        "41.2 % VAF",
+        "Tier I (Preleukemic Clone)",
+        "Pathogenic Mutation"
+      ],
+      [
+        "TP53",
+        "No Mutation Detected",
+        "< 1.0 % LOD",
+        "Tier I (Favorable)",
+        "Wild Type (Normal)"
+      ],
+      [
+        "CEBPA",
+        "No Mutation Detected",
+        "< 1.0 % LOD",
+        "Tier I",
+        "Wild Type (Normal)"
+      ],
+      [
+        "IDH1 / IDH2",
+        "No Mutation Detected",
+        "< 1.0 % LOD",
+        "Tier I",
+        "Wild Type (Normal)"
+      ]
+    ],
+    "recommendations": [
+      "Next Generation Sequencing (Illumina NovaSeq 6000 at 1,500x mean coverage) identified NPM1 mutation.",
+      "Co-existing FLT3-ITD mutation detected at LOW allelic ratio (AR 0.12 < 0.50).",
+      "According to European LeukemiaNet (ELN 2022) criteria, NPM1-mutated with FLT3-ITD low represents FAVORABLE RISK.",
+      "Recommendation: High probability of response to standard anthracycline induction; potential deferral of frontline BMT."
+    ],
+    "prepared_by": "Dr. V. L. Ramprasad, Ph.D. (Chief Operating Officer)",
+    "verified_by": "Dr. Sakthivel Murugan, Ph.D. (Director of Genomics)",
+    "director": "Dr. Sam Santhosh, Chairman MedGenome",
+    "key_biomarkers": [
+      "NPM1 Mutated (38.4% VAF)",
+      "FLT3-ITD Low AR 0.12",
+      "ELN Favorable"
+    ]
+  },
+  {
+    "id": "MED_016",
+    "filename": "MED_016_BCR_ABL1_Quantitative_RT_PCR_IS.pdf",
+    "category": "Molecular Hematology",
+    "org_name": "LAL PATHLABS NATIONAL REFERENCE LABORATORY",
+    "dept_name": "Molecular Diagnostics & Oncology Genetics Laboratory",
+    "accreditation": "CAP & NABL ACCREDITED (ISO 15189)",
+    "address": "National Reference Lab, Rohini Sector 18, New Delhi - 110085",
+    "report_id": "PCR-BCR-2026-9011",
+    "barcode": "BCR*0914*90115",
+    "title": "BCR-ABL1 (Major e13a2/e14a2) Quantitative RT-PCR (International Scale %)",
+    "patient_name": "Suresh Nair",
+    "date": "September 14, 2026",
+    "mrn": "LAL-MOL-2026-7789",
+    "age": "44 Yrs",
+    "gender": "Male",
+    "blood_group": "O+ (Rh Positive)",
+    "referring_doctor": "Dr. M. B. Agarwal, MD (Hematologist)",
+    "diagnosis": "Chronic Myeloid Leukemia (CML-CP) on Dasatinib Maintenance",
+    "specimen": "Peripheral Blood (K2-EDTA 10 mL)",
+    "table_columns": [
+      "Molecular Target",
+      "Copy Number",
+      "Control Gene (ABL1)",
+      "BCR-ABL1 / ABL1 %",
+      "International Scale (IS %)"
+    ],
+    "table_rows": [
+      [
+        "BCR-ABL1 Major (p210)",
+        "12 Copies",
+        "148,000 Copies",
+        "0.0081 %",
+        "0.0068 % (IS)"
+      ],
+      [
+        "Log Reduction Level",
+        "4.17 Log Reduction",
+        "Baseline Standard",
+        "MR4.0 Milestone",
+        "Deep Molecular Response"
+      ],
+      [
+        "Assay Analytical LOD",
+        ">= 100,000 ABL1",
+        "Valid Assay",
+        "Sensitivity: 4.5 Log",
+        "Passed Quality Control"
+      ],
+      [
+        "Transcript Isoform",
+        "e14a2 (b3a2)",
+        "Confirmed Peak",
+        "Sequencing Validated",
+        "Major Breakpoint"
+      ],
+      [
+        "ABL1 Kinase Mutation",
+        "No Mutation Detected",
+        "< 5% Detection Limit",
+        "Sanger / Direct PCR",
+        "Sensitive to TKI"
+      ]
+    ],
+    "recommendations": [
+      "BCR-ABL1 transcript level is 0.0068% on the International Scale, confirming Deep Molecular Response (MR4.0).",
+      "Represents a > 4.1-log reduction in leukemic transcript burden from standardized baseline.",
+      "High control gene transcript count (148,000 ABL1 copies) confirms robust molecular assay sensitivity.",
+      "Recommendation: Continue current daily Dasatinib 100 mg regimen; re-evaluate molecular response in 6 months."
+    ],
+    "prepared_by": "Dr. Rajeshwar Dayal, Ph.D. (Molecular Scientist)",
+    "verified_by": "Dr. Reena Nakra, MD (Lab Director)",
+    "director": "Dr. Arvind Lal, MBBS, MD (Executive Chairman)",
+    "key_biomarkers": [
+      "BCR-ABL1 0.0068% (IS)",
+      "MR4.0 Achieved",
+      "Log Reduction 4.17"
+    ]
+  },
+  {
+    "id": "MED_017",
+    "filename": "MED_017_Pre_Conditioning_Liver_Function_Panel.pdf",
+    "category": "Biochemistry & Organ Clearance",
+    "org_name": "AMRITA INSTITUTE OF MEDICAL SCIENCES (AIMS)",
+    "dept_name": "Department of Clinical Biochemistry & Transplant Hepatology",
+    "accreditation": "NABL ISO 15189 & NABH ACCREDITED",
+    "address": "AIMS Ponekkara P.O., Kochi - 682041, Kerala",
+    "report_id": "LFT-AIMS-2026-4419",
+    "barcode": "LFT*0914*44193",
+    "title": "Comprehensive Hepatic Function Profile (Pre-BMT Conditioning Clearance)",
+    "patient_name": "Siddharth Menon",
+    "date": "September 14, 2026",
+    "mrn": "AIMS-BMT-2026-0021",
+    "age": "29 Yrs",
+    "gender": "Male",
+    "blood_group": "A- (Rh Negative)",
+    "referring_doctor": "Dr. Neeraj Sidharthan, MD, DM (Clinical Hematology)",
+    "diagnosis": "Severe Aplastic Anemia (Pre-Transplant Organ Assessment)",
+    "specimen": "Serum (Clot Activator SST)",
+    "table_columns": [
+      "Liver Enzyme / Biomarker",
+      "Patient Result",
+      "Reference Range",
+      "Unit",
+      "Clinical Interpretation"
+    ],
+    "table_rows": [
+      [
+        "Total Serum Bilirubin",
+        "0.85",
+        "0.20 - 1.20",
+        "mg/dL",
+        "Normal Bilirubin Excretion"
+      ],
+      [
+        "Conjugated (Direct) Bilirubin",
+        "0.22",
+        "0.00 - 0.30",
+        "mg/dL",
+        "Normal Biliary Function"
+      ],
+      [
+        "ALT / SGPT",
+        "28.0",
+        "10.0 - 45.0",
+        "U/L",
+        "Normal Hepatocyte Integrity"
+      ],
+      [
+        "AST / SGOT",
+        "24.0",
+        "10.0 - 40.0",
+        "U/L",
+        "Normal Transaminase Activity"
+      ],
+      [
+        "Alkaline Phosphatase (ALP)",
+        "74.0",
+        "40.0 - 125.0",
+        "U/L",
+        "Normal Canalicular Enzymes"
+      ],
+      [
+        "Serum Albumin",
+        "4.2",
+        "3.5 - 5.0",
+        "g/dL",
+        "Preserved Hepatic Synthesis"
+      ]
+    ],
+    "recommendations": [
+      "Hepatic enzymes, synthetic markers (albumin 4.2 g/dL), and bilirubin levels are entirely within normal limits.",
+      "Zero biochemical evidence of viral, toxic, or drug-induced hepatopathy.",
+      "Low baseline risk for Busulfan / Cyclophosphamide-induced hepatic Veno-Occlusive Disease / Sinusoidal Obstruction Syndrome.",
+      "Recommendation: Cleared from hepatic standpoint for full-intensity conditioning chemotherapy."
+    ],
+    "prepared_by": "Dr. Sajitha Nair, MD (Biochemistry)",
+    "verified_by": "Dr. Harish Kumar, MD, DM (Gastroenterology)",
+    "director": "Dr. Prem Nair, Medical Director AIMS",
+    "key_biomarkers": [
+      "Total Bilirubin 0.85",
+      "ALT 28 U/L",
+      "Albumin 4.2 g/dL",
+      "Hepatic Cleared"
+    ]
+  },
+  {
+    "id": "MED_018",
+    "filename": "MED_018_Renal_Function_and_Electrolyte_Panel.pdf",
+    "category": "Nephrology & Biochemistry",
+    "org_name": "INDRAPRASTHA APOLLO HOSPITALS",
+    "dept_name": "Department of Nephrology & Critical Care Biochemistry",
+    "accreditation": "JCI ACCREDITED & NABL ISO 15189",
+    "address": "Sarita Vihar, Delhi-Mathura Road, New Delhi - 110076",
+    "report_id": "RFT-APL-2026-8809",
+    "barcode": "RFT*0914*88091",
+    "title": "Comprehensive Renal Function & Serum Electrolyte Profile",
+    "patient_name": "Karthik Ranganathan",
+    "date": "September 14, 2026",
+    "mrn": "DEL-BMT-2026-9044",
+    "age": "51 Yrs",
+    "gender": "Male",
+    "blood_group": "B+ (Rh Positive)",
+    "referring_doctor": "Dr. Gaurav Kharya, MD (Bone Marrow Transplant)",
+    "diagnosis": "Post-Allogeneic BMT Day +28 (Calcineurin Nephrotoxicity Monitoring)",
+    "specimen": "Serum (Clot Activator SST)",
+    "table_columns": [
+      "Renal Biomarker",
+      "Patient Value",
+      "Reference Range",
+      "Unit",
+      "Evaluation"
+    ],
+    "table_rows": [
+      [
+        "Serum Creatinine (Enzymatic)",
+        "1.04",
+        "0.70 - 1.30",
+        "mg/dL",
+        "Normal Glomerular Excretion"
+      ],
+      [
+        "Blood Urea Nitrogen (BUN)",
+        "16.8",
+        "7.0 - 20.0",
+        "mg/dL",
+        "Normal Nitrogenous Clearance"
+      ],
+      [
+        "Estimated GFR (CKD-EPI)",
+        "88.4",
+        ">= 60.0",
+        "mL/min/1.73m2",
+        "Normal Renal Clearance"
+      ],
+      [
+        "Serum Sodium (Na+)",
+        "139.0",
+        "136.0 - 145.0",
+        "mEq/L",
+        "Euvolemic Electrolyte Balance"
+      ],
+      [
+        "Serum Potassium (K+)",
+        "4.1",
+        "3.5 - 5.1",
+        "mEq/L",
+        "Normal Cardiac Stability"
+      ],
+      [
+        "Serum Magnesium (Mg2+)",
+        "1.92",
+        "1.70 - 2.40",
+        "mg/dL",
+        "Normal Magnesium Level"
+      ]
+    ],
+    "recommendations": [
+      "Serum creatinine (1.04 mg/dL) and eGFR (88.4 mL/min) demonstrate stable and preserved renal function.",
+      "No evidence of acute tubular necrosis, calcineurin inhibitor nephrotoxicity, or post-conditioning injury.",
+      "Electrolytes (Sodium 139 mEq/L, Potassium 4.1 mEq/L, Magnesium 1.92 mg/dL) strictly within normal therapeutic range.",
+      "Recommendation: Maintain adequate intravenous hydration; continue current Tacrolimus dosing."
+    ],
+    "prepared_by": "Pankaj Sethi, Senior Technologist",
+    "verified_by": "Dr. Sanjeev Gulati, MD, DM (Nephrology)",
+    "director": "Dr. Anupam Sibal, MD (Group Medical Director)",
+    "key_biomarkers": [
+      "Creatinine 1.04 mg/dL",
+      "eGFR 88.4",
+      "K+ 4.1 mEq/L",
+      "Renal Stable"
+    ]
+  },
+  {
+    "id": "MED_019",
+    "filename": "MED_019_Tacrolimus_Whole_Blood_Trough_Monitoring.pdf",
+    "category": "Therapeutic Drug Monitoring",
+    "org_name": "TATA MEDICAL CENTER KOLKATA",
+    "dept_name": "Department of Clinical Pharmacology & BMT Pharmacy",
+    "accreditation": "NABL ACCREDITED & NABH HEALTHCARE ACCREDITED",
+    "address": "14 MAR (EW), New Town, Rajarhat, Kolkata - 700160, West Bengal",
+    "report_id": "TDM-TAC-2026-3392",
+    "barcode": "TDM*0914*33928",
+    "title": "Tacrolimus (FK506) Whole Blood Trough Level (LC-MS/MS)",
+    "patient_name": "Debabrata Mukherjee",
+    "date": "September 14, 2026",
+    "mrn": "TMCK-BMT-2026-4411",
+    "age": "39 Yrs",
+    "gender": "Male",
+    "blood_group": "O+ (Rh Positive)",
+    "referring_doctor": "Dr. Saurabh Bhave, MD, DM (Clinical Hematology)",
+    "diagnosis": "Allogeneic BMT Day +45 (GVHD Immunosuppression Trough)",
+    "specimen": "Whole Blood (K2-EDTA Pre-Morning Dose Trough C0)",
+    "table_columns": [
+      "Drug Assay Parameter",
+      "Patient Trough Level",
+      "Target Therapeutic Window",
+      "Unit",
+      "Clinical Action"
+    ],
+    "table_rows": [
+      [
+        "Tacrolimus Level (LC-MS/MS)",
+        "7.4",
+        "5.0 - 10.0 (Day 30-90)",
+        "ng/mL",
+        "Within Optimal Therapeutic Window"
+      ],
+      [
+        "Collection Timing",
+        "12.0 Hours Post-Dose",
+        "11.5 - 12.5 Hours",
+        "Hours",
+        "Valid Steady-State C0 Trough"
+      ],
+      [
+        "Current Oral Dose",
+        "1.5 mg q12h (3 mg/day)",
+        "Titrated Dose",
+        "Oral BID",
+        "Optimal Bioavailability"
+      ],
+      [
+        "Serum Creatinine Concordance",
+        "0.98",
+        "0.70 - 1.30",
+        "mg/dL",
+        "Zero Nephrotoxic Impact"
+      ],
+      [
+        "Signs of Acute GVHD",
+        "None Reported (Grade 0)",
+        "Target: No GVHD",
+        "Clinical Exam",
+        "Immunosuppression Adequate"
+      ]
+    ],
+    "recommendations": [
+      "Liquid Chromatography-Tandem Mass Spectrometry (LC-MS/MS) confirms Tacrolimus level of 7.4 ng/mL.",
+      "Trough concentration is in the ideal therapeutic zone for Day +45 post-allogeneic BMT (target 5.0 - 10.0 ng/mL).",
+      "No evidence of toxic accumulation (neurotoxicity/tremor absent) or subtherapeutic graft-versus-host vulnerability.",
+      "Recommendation: Maintain oral Tacrolimus at 1.5 mg every 12 hours; re-check trough in 14 days."
+    ],
+    "prepared_by": "Sourav Mondal, Bioanalytical Specialist",
+    "verified_by": "Dr. Jeevan Kumar, MD (Hemato-Oncology)",
+    "director": "Dr. Mammen Chandy, Director TMC Kolkata",
+    "key_biomarkers": [
+      "Tacrolimus 7.4 ng/mL",
+      "Target 5-10 ng/mL",
+      "Optimal Window"
+    ]
+  },
+  {
+    "id": "MED_020",
+    "filename": "MED_020_Invasive_Fungal_Infection_Biomarkers.pdf",
+    "category": "Infectious Disease Biomarkers",
+    "org_name": "POSTGRADUATE INSTITUTE OF MEDICAL EDUCATION & RESEARCH (PGIMER)",
+    "dept_name": "Department of Medical Microbiology & National Mycology Reference Centre",
+    "accreditation": "WHO COLLABORATING CENTRE FOR MYCOLOGY & NABL ACCREDITED",
+    "address": "Sector 12, Chandigarh - 160012, Punjab / UT",
+    "report_id": "MYCO-PGI-2026-8804",
+    "barcode": "MYCO*0914*88043",
+    "title": "Invasive Fungal Infection Surveillance Panel (Galactomannan & 1,3-Beta-D-Glucan)",
+    "patient_name": "Harbhajan Brar",
+    "date": "September 14, 2026",
+    "mrn": "PGI-HEM-2026-5502",
+    "age": "46 Yrs",
+    "gender": "Male",
+    "blood_group": "B+ (Rh Positive)",
+    "referring_doctor": "Dr. Pankaj Malhotra, MD, FRCP (Clinical Hematology)",
+    "diagnosis": "Febrile Neutropenia Post-Consolidation Chemotherapy",
+    "specimen": "Serum (Sterile SST Red Top)",
+    "table_columns": [
+      "Fungal Biomarker",
+      "Test Method",
+      "Observed Index / Value",
+      "Cutoff Threshold",
+      "Clinical Significance"
+    ],
+    "table_rows": [
+      [
+        "Serum Galactomannan",
+        "Bio-Rad Platelia EIA",
+        "0.24 ODI",
+        ">= 0.50 Positive",
+        "Negative (No Invasive Aspergillosis)"
+      ],
+      [
+        "1,3-Beta-D-Glucan (Fungitell)",
+        "Turbidimetric Assay",
+        "38.0 pg/mL",
+        ">= 80.0 Positive",
+        "Negative (No Invasive Mycosis)"
+      ],
+      [
+        "Candida IgM Antibody",
+        "ELISA",
+        "0.18 Index",
+        "< 0.90 Negative",
+        "Negative for Invasive Candidiasis"
+      ],
+      [
+        "Blood Aerobic Fungal Culture",
+        "Automated BacT/Alert",
+        "No Growth (Day 5)",
+        "Sterile 14 Days",
+        "Zero Fungal Fungemia"
+      ],
+      [
+        "Serum Procalcitonin",
+        "CLIA Assay",
+        "0.12 ng/mL",
+        "< 0.25 Normal",
+        "Zero Active Systemic Sepsis"
+      ]
+    ],
+    "recommendations": [
+      "Serum Galactomannan index is 0.24 ODI (negative < 0.50), ruling out invasive pulmonary aspergillosis.",
+      "1,3-Beta-D-Glucan is 38 pg/mL (negative < 80 pg/mL), ruling out deep-seated invasive fungal infection.",
+      "Blood fungal cultures exhibit no fungal growth at 5 days of automated incubation.",
+      "Recommendation: Continue prophylactic oral Posaconazole; de-escalate empirical intravenous antifungal therapy."
+    ],
+    "prepared_by": "Dr. Shivaprakash M. Rudramurthy, MD (Mycology)",
+    "verified_by": "Dr. Arunaloke Chakrabarti, MD (Emeritus Professor)",
+    "director": "Dr. Vivek Lal, Director PGIMER",
+    "key_biomarkers": [
+      "Galactomannan 0.24 ODI Neg",
+      "Beta-D-Glucan 38 pg/mL Neg",
+      "No Fungal Infection"
+    ]
+  },
+  {
+    "id": "MED_021",
+    "filename": "MED_021_Lymphocyte_Subset_Immune_Reconstitution.pdf",
+    "category": "Immune Reconstitution",
+    "org_name": "KOSHIKA APEX CELLULAR THERAPY & BMT CENTRE",
+    "dept_name": "Clinical Diagnostic Division & Transplant Core",
+    "accreditation": "NABL ISO 15189 & FACT-JACIE AFFILIATED",
+    "address": "StemBridge Technology Park, Electronic City, Bangalore - 560100",
+    "report_id": "MED-KOSHIKA-2026-8821",
+    "barcode": "KOSH*0914*88021",
+    "title": "Lymphocyte Subset Phenotyping & Immune Reconstitution Panel",
+    "patient_name": "Clinical Patient #21 (Verified Cohort)",
+    "date": "September 14, 2026",
+    "mrn": "KOSH-BMT-2026-1021",
+    "age": "41 Yrs",
+    "gender": "Male",
+    "blood_group": "AB+",
+    "referring_doctor": "Dr. Ramesh Sarin, MD, DM (Hemato-Oncology)",
+    "diagnosis": "Hematologic Malignancy Protocol Assessment #21",
+    "specimen": "Peripheral Blood EDTA",
+    "table_columns": [
+      "Test / Assay Target",
+      "Observed Value",
+      "Reference Range",
+      "Method / Assay",
+      "Status / Interpretation"
+    ],
+    "col_widths": [
+      140,
+      110,
+      106,
+      100,
+      100
+    ],
+    "table_rows": [
+      [
+        "CD3+ Total T-Cells",
+        "1,240 /mcL",
+        "700 - 2,100",
+        "82.4 %",
+        "Normal Reconstitution"
+      ],
+      [
+        "CD4+ T-Helper Cells",
+        "412 /mcL",
+        "300 - 1,400",
+        "27.4 %",
+        "Adequate CD4 Helper Pool"
+      ],
+      [
+        "CD8+ Cytotoxic T-Cells",
+        "828 /mcL",
+        "200 - 900",
+        "55.0 %",
+        "Normal Cytotoxic Ratio"
+      ],
+      [
+        "CD4 : CD8 Ratio",
+        "0.50",
+        "0.90 - 2.50",
+        "Ratio",
+        "Inverted (Expected Post-BMT)"
+      ],
+      [
+        "CD19+ Total B-Cells",
+        "214 /mcL",
+        "100 - 500",
+        "14.2 %",
+        "Active Humoral Output"
+      ],
+      [
+        "CD16+ CD56+ NK Cells",
+        "186 /mcL",
+        "90 - 600",
+        "12.4 %",
+        "Robust Innate Surveillance"
+      ]
+    ],
+    "recommendations": [
+      "CD4 count > 400/mcL confirms satisfactory helper T-cell recovery.",
+      "Prophylaxis against Pneumocystis jirovecii (TMP-SMX) may be safely de-escalated.",
+      "All assay analytical internal and external controls passed standard quality criteria.",
+      "Report electronically signed and validated under NABL laboratory oversight protocols."
+    ],
+    "prepared_by": "Scientific Analyst Team",
+    "verified_by": "Dr. Transplant Pathologist, MD",
+    "director": "Dr. Director of Clinical Services, MD, DM",
+    "key_biomarkers": [
+      "CD3+ Total T-Cells",
+      "1,240 /mcL",
+      "Immune Reconstitution"
+    ]
+  },
+  {
+    "id": "MED_022",
+    "filename": "MED_022_Donor_NAT_Infectious_Disease_Screen.pdf",
+    "category": "Donor Safety Screen",
+    "org_name": "KOSHIKA APEX CELLULAR THERAPY & BMT CENTRE",
+    "dept_name": "Clinical Diagnostic Division & Transplant Core",
+    "accreditation": "NABL ISO 15189 & FACT-JACIE AFFILIATED",
+    "address": "StemBridge Technology Park, Electronic City, Bangalore - 560100",
+    "report_id": "MED-KOSHIKA-2026-8822",
+    "barcode": "KOSH*0914*88022",
+    "title": "Donor Nucleic Acid Amplification Testing (NAT) for HIV, HBV & HCV",
+    "patient_name": "Clinical Patient #22 (Verified Cohort)",
+    "date": "September 14, 2026",
+    "mrn": "KOSH-BMT-2026-1022",
+    "age": "42 Yrs",
+    "gender": "Female",
+    "blood_group": "A-",
+    "referring_doctor": "Dr. Ramesh Sarin, MD, DM (Hemato-Oncology)",
+    "diagnosis": "Hematologic Malignancy Protocol Assessment #22",
+    "specimen": "Plasma Citrated",
+    "table_columns": [
+      "Test / Assay Target",
+      "Observed Value",
+      "Reference Range",
+      "Method / Assay",
+      "Status / Interpretation"
+    ],
+    "col_widths": [
+      140,
+      110,
+      106,
+      100,
+      100
+    ],
+    "table_rows": [
+      [
+        "HIV-1 RNA (Ultra-Sensitive)",
+        "Target Not Detected",
+        "< 12 IU/mL LOD",
+        "Real-Time PCR",
+        "NEGATIVE"
+      ],
+      [
+        "HCV RNA (Ultra-Sensitive)",
+        "Target Not Detected",
+        "< 10 IU/mL LOD",
+        "Real-Time PCR",
+        "NEGATIVE"
+      ],
+      [
+        "HBV DNA (Ultra-Sensitive)",
+        "Target Not Detected",
+        "< 5 IU/mL LOD",
+        "Real-Time PCR",
+        "NEGATIVE"
+      ],
+      [
+        "Internal Run Control",
+        "Valid Amplification",
+        "Passed",
+        "Fluorogenic Probe",
+        "VALID RUN"
+      ]
+    ],
+    "recommendations": [
+      "Ultra-sensitive NAT multiplex confirms zero transmissible viral genomes in donor plasma.",
+      "Cleared under WMDA and FACT criteria for cell therapy infusion.",
+      "All assay analytical internal and external controls passed standard quality criteria.",
+      "Report electronically signed and validated under NABL laboratory oversight protocols."
+    ],
+    "prepared_by": "Scientific Analyst Team",
+    "verified_by": "Dr. Transplant Pathologist, MD",
+    "director": "Dr. Director of Clinical Services, MD, DM",
+    "key_biomarkers": [
+      "HIV-1 RNA (Ultra-Sensitive)",
+      "Target Not Detected",
+      "Donor Safety Screen"
+    ]
+  },
+  {
+    "id": "MED_023",
+    "filename": "MED_023_Acute_GVHD_Skin_Biopsy_Histopathology.pdf",
+    "category": "Histopathology",
+    "org_name": "KOSHIKA APEX CELLULAR THERAPY & BMT CENTRE",
+    "dept_name": "Clinical Diagnostic Division & Transplant Core",
+    "accreditation": "NABL ISO 15189 & FACT-JACIE AFFILIATED",
+    "address": "StemBridge Technology Park, Electronic City, Bangalore - 560100",
+    "report_id": "MED-KOSHIKA-2026-8823",
+    "barcode": "KOSH*0914*88023",
+    "title": "Graft-Versus-Host Disease (GVHD) Skin Punch Biopsy Histopathology",
+    "patient_name": "Clinical Patient #23 (Verified Cohort)",
+    "date": "September 14, 2026",
+    "mrn": "KOSH-BMT-2026-1023",
+    "age": "43 Yrs",
+    "gender": "Male",
+    "blood_group": "O-",
+    "referring_doctor": "Dr. Ramesh Sarin, MD, DM (Hemato-Oncology)",
+    "diagnosis": "Hematologic Malignancy Protocol Assessment #23",
+    "specimen": "Formalin-Fixed Skin Core",
+    "table_columns": [
+      "Test / Assay Target",
+      "Observed Value",
+      "Reference Range",
+      "Method / Assay",
+      "Status / Interpretation"
+    ],
+    "col_widths": [
+      140,
+      110,
+      106,
+      100,
+      100
+    ],
+    "table_rows": [
+      [
+        "Epidermal Basal Layer",
+        "Vacuolar Degeneration",
+        "Normal Intact",
+        "H&E Stain",
+        "Grade I aGVHD Changes"
+      ],
+      [
+        "Dyskeratotic Keratinocytes",
+        "Scattered Apoptotic Bodies",
+        "Zero / HPF",
+        "H&E Stain",
+        "Grade I aGVHD"
+      ],
+      [
+        "Dermal Perivascular Infiltrate",
+        "Mild Lymphocytic",
+        "Minimal",
+        "CD3 / CD8 IHC",
+        "Host Target Reaction"
+      ],
+      [
+        "Epidermal Necrosis / Clefting",
+        "Absent",
+        "Absent",
+        "Microscopy",
+        "No High-Grade Sloughing"
+      ]
+    ],
+    "recommendations": [
+      "Histopathological findings diagnostic of Grade I acute Cutaneous Graft-versus-Host Disease.",
+      "Recommendation: Topical corticosteroid cream; continue current baseline systemic prophylaxis.",
+      "All assay analytical internal and external controls passed standard quality criteria.",
+      "Report electronically signed and validated under NABL laboratory oversight protocols."
+    ],
+    "prepared_by": "Scientific Analyst Team",
+    "verified_by": "Dr. Transplant Pathologist, MD",
+    "director": "Dr. Director of Clinical Services, MD, DM",
+    "key_biomarkers": [
+      "Epidermal Basal Layer",
+      "Vacuolar Degeneration",
+      "Histopathology"
+    ]
+  },
+  {
+    "id": "MED_024",
+    "filename": "MED_024_JAK2_V617F_Quantitative_Allele_Burden.pdf",
+    "category": "Molecular Hematology",
+    "org_name": "KOSHIKA APEX CELLULAR THERAPY & BMT CENTRE",
+    "dept_name": "Clinical Diagnostic Division & Transplant Core",
+    "accreditation": "NABL ISO 15189 & FACT-JACIE AFFILIATED",
+    "address": "StemBridge Technology Park, Electronic City, Bangalore - 560100",
+    "report_id": "MED-KOSHIKA-2026-8824",
+    "barcode": "KOSH*0914*88024",
+    "title": "JAK2 V617F & CALR Quantitative Mutation Allele Burden Analysis",
+    "patient_name": "Clinical Patient #24 (Verified Cohort)",
+    "date": "September 14, 2026",
+    "mrn": "KOSH-BMT-2026-1024",
+    "age": "44 Yrs",
+    "gender": "Female",
+    "blood_group": "A+",
+    "referring_doctor": "Dr. Ramesh Sarin, MD, DM (Hemato-Oncology)",
+    "diagnosis": "Hematologic Malignancy Protocol Assessment #24",
+    "specimen": "Peripheral Blood EDTA",
+    "table_columns": [
+      "Test / Assay Target",
+      "Observed Value",
+      "Reference Range",
+      "Method / Assay",
+      "Status / Interpretation"
+    ],
+    "col_widths": [
+      140,
+      110,
+      106,
+      100,
+      100
+    ],
+    "table_rows": [
+      [
+        "JAK2 V617F Mutation",
+        "Detected (14.2 %)",
+        "< 0.5 % Negative",
+        "Real-Time qPCR",
+        "Positive Allele Burden"
+      ],
+      [
+        "CALR Exon 9 InDel",
+        "Not Detected",
+        "< 1.0 % LOD",
+        "Fragment Analysis",
+        "Wild Type (Normal)"
+      ],
+      [
+        "MPL W515L/K Mutation",
+        "Not Detected",
+        "< 1.0 % LOD",
+        "Allelic Discrimination",
+        "Wild Type (Normal)"
+      ],
+      [
+        "Target Sensitivity Limit",
+        "0.1 % Mutant Allele",
+        "High Sensitivity",
+        "Assay Standard",
+        "Validated Threshold"
+      ]
+    ],
+    "recommendations": [
+      "JAK2 V617F mutation quantified at 14.2% allele burden, consistent with Polycythemia Vera / MPN.",
+      "Recommendation: Initiate hematocrit control target < 45% with phlebotomy and low-dose aspirin.",
+      "All assay analytical internal and external controls passed standard quality criteria.",
+      "Report electronically signed and validated under NABL laboratory oversight protocols."
+    ],
+    "prepared_by": "Scientific Analyst Team",
+    "verified_by": "Dr. Transplant Pathologist, MD",
+    "director": "Dr. Director of Clinical Services, MD, DM",
+    "key_biomarkers": [
+      "JAK2 V617F Mutation",
+      "Detected (14.2 %)",
+      "Molecular Hematology"
+    ]
+  },
+  {
+    "id": "MED_025",
+    "filename": "MED_025_CSF_Cytology_Leukemia_Involvement.pdf",
+    "category": "Cytopathology",
+    "org_name": "KOSHIKA APEX CELLULAR THERAPY & BMT CENTRE",
+    "dept_name": "Clinical Diagnostic Division & Transplant Core",
+    "accreditation": "NABL ISO 15189 & FACT-JACIE AFFILIATED",
+    "address": "StemBridge Technology Park, Electronic City, Bangalore - 560100",
+    "report_id": "MED-KOSHIKA-2026-8825",
+    "barcode": "KOSH*0914*88025",
+    "title": "Cerebrospinal Fluid (CSF) Cytology & Occult Meningeal Leukemia Screen",
+    "patient_name": "Clinical Patient #25 (Verified Cohort)",
+    "date": "September 14, 2026",
+    "mrn": "KOSH-BMT-2026-1025",
+    "age": "45 Yrs",
+    "gender": "Male",
+    "blood_group": "B+",
+    "referring_doctor": "Dr. Ramesh Sarin, MD, DM (Hemato-Oncology)",
+    "diagnosis": "Hematologic Malignancy Protocol Assessment #25",
+    "specimen": "Fresh CSF (Sterile Tube)",
+    "table_columns": [
+      "Test / Assay Target",
+      "Observed Value",
+      "Reference Range",
+      "Method / Assay",
+      "Status / Interpretation"
+    ],
+    "col_widths": [
+      140,
+      110,
+      106,
+      100,
+      100
+    ],
+    "table_rows": [
+      [
+        "Total CSF Nucleated Cells",
+        "1 cell/mcL",
+        "0 - 5 cells/mcL",
+        "Hemocytometer",
+        "Normal CSF Cellularity"
+      ],
+      [
+        "Total CSF Erythrocytes",
+        "0 cells/mcL",
+        "0 cells/mcL",
+        "Hemocytometer",
+        "Non-Traumatic Tap"
+      ],
+      [
+        "Cytospin Blast Evaluation",
+        "Zero Blasts Seen",
+        "Absence of Blasts",
+        "Leishman / Giemsa",
+        "CNS-1 (No CNS Disease)"
+      ],
+      [
+        "CSF Protein",
+        "28.0 mg/dL",
+        "15.0 - 45.0",
+        "Biochemistry",
+        "Normal Protein Level"
+      ],
+      [
+        "CSF Glucose",
+        "64.0 mg/dL",
+        "40.0 - 75.0",
+        "Biochemistry",
+        "Normal Glucose Level"
+      ]
+    ],
+    "recommendations": [
+      "CSF status classified as CNS-1 (< 5 WBC/mcL and zero leukemic blasts on cytocentrifuged smears).",
+      "Recommendation: Administer scheduled prophylactic intrathecal methotrexate as per protocol.",
+      "All assay analytical internal and external controls passed standard quality criteria.",
+      "Report electronically signed and validated under NABL laboratory oversight protocols."
+    ],
+    "prepared_by": "Scientific Analyst Team",
+    "verified_by": "Dr. Transplant Pathologist, MD",
+    "director": "Dr. Director of Clinical Services, MD, DM",
+    "key_biomarkers": [
+      "Total CSF Nucleated Cells",
+      "1 cell/mcL",
+      "Cytopathology"
+    ]
+  },
+  {
+    "id": "MED_026",
+    "filename": "MED_026_Peripheral_Blood_Smear_Morphology.pdf",
+    "category": "Diagnostic Morphology",
+    "org_name": "KOSHIKA APEX CELLULAR THERAPY & BMT CENTRE",
+    "dept_name": "Clinical Diagnostic Division & Transplant Core",
+    "accreditation": "NABL ISO 15189 & FACT-JACIE AFFILIATED",
+    "address": "StemBridge Technology Park, Electronic City, Bangalore - 560100",
+    "report_id": "MED-KOSHIKA-2026-8826",
+    "barcode": "KOSH*0914*88026",
+    "title": "Peripheral Blood Smear Morphological Review & Manual Differential",
+    "patient_name": "Clinical Patient #26 (Verified Cohort)",
+    "date": "September 14, 2026",
+    "mrn": "KOSH-BMT-2026-1026",
+    "age": "46 Yrs",
+    "gender": "Female",
+    "blood_group": "O+",
+    "referring_doctor": "Dr. Ramesh Sarin, MD, DM (Hemato-Oncology)",
+    "diagnosis": "Hematologic Malignancy Protocol Assessment #26",
+    "specimen": "Peripheral Blood Smear",
+    "table_columns": [
+      "Test / Assay Target",
+      "Observed Value",
+      "Reference Range",
+      "Method / Assay",
+      "Status / Interpretation"
+    ],
+    "col_widths": [
+      140,
+      110,
+      106,
+      100,
+      100
+    ],
+    "table_rows": [
+      [
+        "Red Blood Cell Morphology",
+        "Normocytic Normochromic",
+        "Normal",
+        "100x Oil Immersion",
+        "Mild Anisocytosis"
+      ],
+      [
+        "White Blood Cell Series",
+        "Mature Forms Present",
+        "Normal Mature",
+        "100x Oil Immersion",
+        "Zero Peripheral Blasts"
+      ],
+      [
+        "Platelet Morphology",
+        "Adequate Clumps Seen",
+        "Normal Granular",
+        "100x Oil Immersion",
+        "No Giant Platelets"
+      ],
+      [
+        "Manual Neutrophil %",
+        "62 %",
+        "40 - 75 %",
+        "Manual 100-Cell",
+        "Normal Differential"
+      ],
+      [
+        "Manual Blast Count",
+        "0 %",
+        "0 %",
+        "Manual 200-Cell",
+        "Absence of Circulating Blasts"
+      ]
+    ],
+    "recommendations": [
+      "Manual 200-cell differential confirms absence of circulating blasts or atypical dysplastic cells.",
+      "Platelet clumps and red cell morphology demonstrate stable marrow trilineage production.",
+      "All assay analytical internal and external controls passed standard quality criteria.",
+      "Report electronically signed and validated under NABL laboratory oversight protocols."
+    ],
+    "prepared_by": "Scientific Analyst Team",
+    "verified_by": "Dr. Transplant Pathologist, MD",
+    "director": "Dr. Director of Clinical Services, MD, DM",
+    "key_biomarkers": [
+      "Red Blood Cell Morphology",
+      "Normocytic Normochromic",
+      "Diagnostic Morphology"
+    ]
+  },
+  {
+    "id": "MED_027",
+    "filename": "MED_027_Serum_Ferritin_Iron_Overload_Panel.pdf",
+    "category": "Iron Studies",
+    "org_name": "KOSHIKA APEX CELLULAR THERAPY & BMT CENTRE",
+    "dept_name": "Clinical Diagnostic Division & Transplant Core",
+    "accreditation": "NABL ISO 15189 & FACT-JACIE AFFILIATED",
+    "address": "StemBridge Technology Park, Electronic City, Bangalore - 560100",
+    "report_id": "MED-KOSHIKA-2026-8827",
+    "barcode": "KOSH*0914*88027",
+    "title": "Serum Ferritin & Iron Overload Panel (Post-Transfusion Hemosiderosis)",
+    "patient_name": "Clinical Patient #27 (Verified Cohort)",
+    "date": "September 14, 2026",
+    "mrn": "KOSH-BMT-2026-1027",
+    "age": "47 Yrs",
+    "gender": "Male",
+    "blood_group": "AB+",
+    "referring_doctor": "Dr. Ramesh Sarin, MD, DM (Hemato-Oncology)",
+    "diagnosis": "Hematologic Malignancy Protocol Assessment #27",
+    "specimen": "Serum SST",
+    "table_columns": [
+      "Test / Assay Target",
+      "Observed Value",
+      "Reference Range",
+      "Method / Assay",
+      "Status / Interpretation"
+    ],
+    "col_widths": [
+      140,
+      110,
+      106,
+      100,
+      100
+    ],
+    "table_rows": [
+      [
+        "Serum Ferritin",
+        "1,420 ng/mL",
+        "20 - 250",
+        "Chemiluminescence",
+        "Elevated Iron Stores"
+      ],
+      [
+        "Serum Iron",
+        "168 mcg/dL",
+        "60 - 170",
+        "Colorimetric",
+        "Normal Serum Iron"
+      ],
+      [
+        "Total Iron Binding Capacity",
+        "240 mcg/dL",
+        "250 - 450",
+        "Colorimetric",
+        "Low-Normal TIBC"
+      ],
+      [
+        "Transferrin Saturation",
+        "70.0 %",
+        "20.0 - 50.0",
+        "Calculated %",
+        "High Transferrin Saturation"
+      ],
+      [
+        "Liver MRI T2* Concordance",
+        "Moderate Hepatic Iron",
+        "Normal Iron",
+        "R2* Relaxometry",
+        "Ferritin Correlated"
+      ]
+    ],
+    "recommendations": [
+      "Elevated ferritin (1,420 ng/mL) and transferrin saturation (70%) reflect secondary transfusion hemosiderosis.",
+      "Recommendation: Initiate oral iron chelation therapy once engraftment is stabilized.",
+      "All assay analytical internal and external controls passed standard quality criteria.",
+      "Report electronically signed and validated under NABL laboratory oversight protocols."
+    ],
+    "prepared_by": "Scientific Analyst Team",
+    "verified_by": "Dr. Transplant Pathologist, MD",
+    "director": "Dr. Director of Clinical Services, MD, DM",
+    "key_biomarkers": [
+      "Serum Ferritin",
+      "1,420 ng/mL",
+      "Iron Studies"
+    ]
+  },
+  {
+    "id": "MED_028",
+    "filename": "MED_028_BAL_Respiratory_Multiplex_PCR_Panel.pdf",
+    "category": "Molecular Microbiology",
+    "org_name": "KOSHIKA APEX CELLULAR THERAPY & BMT CENTRE",
+    "dept_name": "Clinical Diagnostic Division & Transplant Core",
+    "accreditation": "NABL ISO 15189 & FACT-JACIE AFFILIATED",
+    "address": "StemBridge Technology Park, Electronic City, Bangalore - 560100",
+    "report_id": "MED-KOSHIKA-2026-8828",
+    "barcode": "KOSH*0914*88028",
+    "title": "Bronchoalveolar Lavage (BAL) Viral & Bacterial Respiratory Multiplex Panel",
+    "patient_name": "Clinical Patient #28 (Verified Cohort)",
+    "date": "September 14, 2026",
+    "mrn": "KOSH-BMT-2026-1028",
+    "age": "48 Yrs",
+    "gender": "Female",
+    "blood_group": "A-",
+    "referring_doctor": "Dr. Ramesh Sarin, MD, DM (Hemato-Oncology)",
+    "diagnosis": "Hematologic Malignancy Protocol Assessment #28",
+    "specimen": "Bronchoalveolar Lavage Fluid",
+    "table_columns": [
+      "Test / Assay Target",
+      "Observed Value",
+      "Reference Range",
+      "Method / Assay",
+      "Status / Interpretation"
+    ],
+    "col_widths": [
+      140,
+      110,
+      106,
+      100,
+      100
+    ],
+    "table_rows": [
+      [
+        "Pneumocystis jirovecii DNA",
+        "Not Detected",
+        "Negative",
+        "Real-Time PCR",
+        "Negative (No PCP)"
+      ],
+      [
+        "Respiratory Syncytial Virus",
+        "Not Detected",
+        "Negative",
+        "Multiplex PCR",
+        "Negative"
+      ],
+      [
+        "Influenza A & B RNA",
+        "Not Detected",
+        "Negative",
+        "Multiplex PCR",
+        "Negative"
+      ],
+      [
+        "Legionella pneumophila PCR",
+        "Not Detected",
+        "Negative",
+        "Real-Time PCR",
+        "Negative"
+      ],
+      [
+        "Aspergillus PCR",
+        "Not Detected",
+        "Negative",
+        "Target DNA",
+        "Negative"
+      ]
+    ],
+    "recommendations": [
+      "Multiplex molecular syndromic panel negative for typical viral, atypical bacterial, and fungal pathogens.",
+      "Zero evidence of opportunistic respiratory coinfection in post-transplant patient.",
+      "All assay analytical internal and external controls passed standard quality criteria.",
+      "Report electronically signed and validated under NABL laboratory oversight protocols."
+    ],
+    "prepared_by": "Scientific Analyst Team",
+    "verified_by": "Dr. Transplant Pathologist, MD",
+    "director": "Dr. Director of Clinical Services, MD, DM",
+    "key_biomarkers": [
+      "Pneumocystis jirovecii DNA",
+      "Not Detected",
+      "Molecular Microbiology"
+    ]
+  },
+  {
+    "id": "MED_029",
+    "filename": "MED_029_Quantitative_CMV_Viral_Load_RT_PCR.pdf",
+    "category": "Molecular Virology",
+    "org_name": "KOSHIKA APEX CELLULAR THERAPY & BMT CENTRE",
+    "dept_name": "Clinical Diagnostic Division & Transplant Core",
+    "accreditation": "NABL ISO 15189 & FACT-JACIE AFFILIATED",
+    "address": "StemBridge Technology Park, Electronic City, Bangalore - 560100",
+    "report_id": "MED-KOSHIKA-2026-8829",
+    "barcode": "KOSH*0914*88029",
+    "title": "Cytomegalovirus (CMV) Quantitative Real-Time PCR (IU/mL)",
+    "patient_name": "Clinical Patient #29 (Verified Cohort)",
+    "date": "September 14, 2026",
+    "mrn": "KOSH-BMT-2026-1029",
+    "age": "49 Yrs",
+    "gender": "Male",
+    "blood_group": "O-",
+    "referring_doctor": "Dr. Ramesh Sarin, MD, DM (Hemato-Oncology)",
+    "diagnosis": "Hematologic Malignancy Protocol Assessment #29",
+    "specimen": "Plasma K2-EDTA",
+    "table_columns": [
+      "Test / Assay Target",
+      "Observed Value",
+      "Reference Range",
+      "Method / Assay",
+      "Status / Interpretation"
+    ],
+    "col_widths": [
+      140,
+      110,
+      106,
+      100,
+      100
+    ],
+    "table_rows": [
+      [
+        "CMV DNA Viral Load",
+        "Not Detected (< 35)",
+        "< 35 IU/mL LOD",
+        "Real-Time PCR",
+        "Target Not Detected"
+      ],
+      [
+        "Log10 CMV Copy Number",
+        "0.0 Log10 IU/mL",
+        "0.0 Log10",
+        "Digital Quant",
+        "Negative Baseline"
+      ],
+      [
+        "Assay Linear Range",
+        "35 - 10,000,000 IU/mL",
+        "Valid Standard",
+        "WHO Calibration",
+        "Passed Quality Control"
+      ],
+      [
+        "Specimen Extraction Quality",
+        "Valid Internal Control",
+        "Passed",
+        "Extraction Control",
+        "Validated Processing"
+      ]
+    ],
+    "recommendations": [
+      "CMV DNA viral load is undetectable (< 35 IU/mL) via WHO-calibrated real-time PCR assay.",
+      "Patient remains protected from active cytomegalovirus reactivation under letermovir prophylaxis.",
+      "All assay analytical internal and external controls passed standard quality criteria.",
+      "Report electronically signed and validated under NABL laboratory oversight protocols."
+    ],
+    "prepared_by": "Scientific Analyst Team",
+    "verified_by": "Dr. Transplant Pathologist, MD",
+    "director": "Dr. Director of Clinical Services, MD, DM",
+    "key_biomarkers": [
+      "CMV DNA Viral Load",
+      "Not Detected (< 35)",
+      "Molecular Virology"
+    ]
+  },
+  {
+    "id": "MED_030",
+    "filename": "MED_030_EBV_Quantitative_DNA_PCR_PTLD_Screen.pdf",
+    "category": "Molecular Virology",
+    "org_name": "KOSHIKA APEX CELLULAR THERAPY & BMT CENTRE",
+    "dept_name": "Clinical Diagnostic Division & Transplant Core",
+    "accreditation": "NABL ISO 15189 & FACT-JACIE AFFILIATED",
+    "address": "StemBridge Technology Park, Electronic City, Bangalore - 560100",
+    "report_id": "MED-KOSHIKA-2026-8830",
+    "barcode": "KOSH*0914*88030",
+    "title": "Epstein-Barr Virus (EBV) Quantitative DNA PCR for PTLD Surveillance",
+    "patient_name": "Clinical Patient #30 (Verified Cohort)",
+    "date": "September 14, 2026",
+    "mrn": "KOSH-BMT-2026-1030",
+    "age": "50 Yrs",
+    "gender": "Female",
+    "blood_group": "A+",
+    "referring_doctor": "Dr. Ramesh Sarin, MD, DM (Hemato-Oncology)",
+    "diagnosis": "Hematologic Malignancy Protocol Assessment #30",
+    "specimen": "Whole Blood EDTA",
+    "table_columns": [
+      "Test / Assay Target",
+      "Observed Value",
+      "Reference Range",
+      "Method / Assay",
+      "Status / Interpretation"
+    ],
+    "col_widths": [
+      140,
+      110,
+      106,
+      100,
+      100
+    ],
+    "table_rows": [
+      [
+        "EBV Viral Load (Whole Blood)",
+        "340 IU/mL",
+        "< 200 Neg / < 1,000 Safe",
+        "Real-Time PCR",
+        "Low-Level Reactivation"
+      ],
+      [
+        "Log10 EBV Copy Number",
+        "2.53 Log10 IU/mL",
+        "< 3.00 Log10 Safe",
+        "Digital Quant",
+        "Clinically Insignificant"
+      ],
+      [
+        "PTLD Warning Threshold",
+        "< 1,000 IU/mL",
+        ">= 5,000 Trigger",
+        "Clinical Guideline",
+        "No Trigger for Rituximab"
+      ]
+    ],
+    "recommendations": [
+      "EBV DNA detected at low level (340 IU/mL), well below the pre-emptive intervention threshold (> 1,000 IU/mL).",
+      "Recommendation: Re-check weekly; no indication for pre-emptive anti-CD20 therapy at present.",
+      "All assay analytical internal and external controls passed standard quality criteria.",
+      "Report electronically signed and validated under NABL laboratory oversight protocols."
+    ],
+    "prepared_by": "Scientific Analyst Team",
+    "verified_by": "Dr. Transplant Pathologist, MD",
+    "director": "Dr. Director of Clinical Services, MD, DM",
+    "key_biomarkers": [
+      "EBV Viral Load (Whole Blood)",
+      "340 IU/mL",
+      "Molecular Virology"
+    ]
+  },
+  {
+    "id": "MED_031",
+    "filename": "MED_031_BK_Virus_Quantitative_PCR_Urine_Plasma.pdf",
+    "category": "Molecular Virology",
+    "org_name": "KOSHIKA APEX CELLULAR THERAPY & BMT CENTRE",
+    "dept_name": "Clinical Diagnostic Division & Transplant Core",
+    "accreditation": "NABL ISO 15189 & FACT-JACIE AFFILIATED",
+    "address": "StemBridge Technology Park, Electronic City, Bangalore - 560100",
+    "report_id": "MED-KOSHIKA-2026-8831",
+    "barcode": "KOSH*0914*88031",
+    "title": "BK Polyomavirus DNA Quantification in Urine & Plasma",
+    "patient_name": "Clinical Patient #31 (Verified Cohort)",
+    "date": "September 14, 2026",
+    "mrn": "KOSH-BMT-2026-1031",
+    "age": "51 Yrs",
+    "gender": "Male",
+    "blood_group": "B+",
+    "referring_doctor": "Dr. Ramesh Sarin, MD, DM (Hemato-Oncology)",
+    "diagnosis": "Hematologic Malignancy Protocol Assessment #31",
+    "specimen": "Urine & EDTA Plasma",
+    "table_columns": [
+      "Test / Assay Target",
+      "Observed Value",
+      "Reference Range",
+      "Method / Assay",
+      "Status / Interpretation"
+    ],
+    "col_widths": [
+      140,
+      110,
+      106,
+      100,
+      100
+    ],
+    "table_rows": [
+      [
+        "BK Virus DNA in Plasma",
+        "Target Not Detected",
+        "< 100 Copies/mL LOD",
+        "Real-Time PCR",
+        "Zero Viremia (Safe)"
+      ],
+      [
+        "BK Virus DNA in Urine",
+        "1.4 x10^4 Copies/mL",
+        "< 1.0 x10^7 Threat",
+        "Real-Time PCR",
+        "Asymptomatic Shedding"
+      ],
+      [
+        "Clinical Hematuria",
+        "Absent (Microscopy Clear)",
+        "Negative",
+        "Urine Routine",
+        "No Hemorrhagic Cystitis"
+      ]
+    ],
+    "recommendations": [
+      "Zero BK viremia in plasma; low-level asymptomatic viruria below hemorrhagic cystitis threshold.",
+      "Recommendation: Maintain high oral fluid intake and standard post-transplant surveillance.",
+      "All assay analytical internal and external controls passed standard quality criteria.",
+      "Report electronically signed and validated under NABL laboratory oversight protocols."
+    ],
+    "prepared_by": "Scientific Analyst Team",
+    "verified_by": "Dr. Transplant Pathologist, MD",
+    "director": "Dr. Director of Clinical Services, MD, DM",
+    "key_biomarkers": [
+      "BK Virus DNA in Plasma",
+      "Target Not Detected",
+      "Molecular Virology"
+    ]
+  },
+  {
+    "id": "MED_032",
+    "filename": "MED_032_T_Cell_Receptor_Gamma_Clonality_PCR.pdf",
+    "category": "Molecular Hematology",
+    "org_name": "KOSHIKA APEX CELLULAR THERAPY & BMT CENTRE",
+    "dept_name": "Clinical Diagnostic Division & Transplant Core",
+    "accreditation": "NABL ISO 15189 & FACT-JACIE AFFILIATED",
+    "address": "StemBridge Technology Park, Electronic City, Bangalore - 560100",
+    "report_id": "MED-KOSHIKA-2026-8832",
+    "barcode": "KOSH*0914*88032",
+    "title": "T-Cell Receptor Gamma (TCRG) Gene Rearrangement Clonality Screen",
+    "patient_name": "Clinical Patient #32 (Verified Cohort)",
+    "date": "September 14, 2026",
+    "mrn": "KOSH-BMT-2026-1032",
+    "age": "52 Yrs",
+    "gender": "Female",
+    "blood_group": "O+",
+    "referring_doctor": "Dr. Ramesh Sarin, MD, DM (Hemato-Oncology)",
+    "diagnosis": "Hematologic Malignancy Protocol Assessment #32",
+    "specimen": "Peripheral Blood / Marrow",
+    "table_columns": [
+      "Test / Assay Target",
+      "Observed Value",
+      "Reference Range",
+      "Method / Assay",
+      "Status / Interpretation"
+    ],
+    "col_widths": [
+      140,
+      110,
+      106,
+      100,
+      100
+    ],
+    "table_rows": [
+      [
+        "TCRG Tube A (Vgamma 1-8)",
+        "Polyclonal Gaussian Curve",
+        "Polyclonal Normal",
+        "Fragment Analysis",
+        "No Clonal Peak"
+      ],
+      [
+        "TCRG Tube B (Vgamma 9/11)",
+        "Polyclonal Gaussian Curve",
+        "Polyclonal Normal",
+        "Fragment Analysis",
+        "No Clonal Peak"
+      ],
+      [
+        "Overall Interpretation",
+        "Polyclonal T-Cell Population",
+        "Negative for Monoclonality",
+        "Biomed-2 Criteria",
+        "Benign Reactive"
+      ]
+    ],
+    "recommendations": [
+      "Biomed-2 EuroClonality fragment analysis reveals normal polyclonal Gaussian distribution in all tubes.",
+      "Negative for clonal T-cell receptor gene rearrangement; excludes T-cell lymphoproliferative disorder.",
+      "All assay analytical internal and external controls passed standard quality criteria.",
+      "Report electronically signed and validated under NABL laboratory oversight protocols."
+    ],
+    "prepared_by": "Scientific Analyst Team",
+    "verified_by": "Dr. Transplant Pathologist, MD",
+    "director": "Dr. Director of Clinical Services, MD, DM",
+    "key_biomarkers": [
+      "TCRG Tube A (Vgamma 1-8)",
+      "Polyclonal Gaussian Curve",
+      "Molecular Hematology"
+    ]
+  },
+  {
+    "id": "MED_033",
+    "filename": "MED_033_Clostridium_Difficile_Toxin_PCR_GDH.pdf",
+    "category": "Clinical Microbiology",
+    "org_name": "KOSHIKA APEX CELLULAR THERAPY & BMT CENTRE",
+    "dept_name": "Clinical Diagnostic Division & Transplant Core",
+    "accreditation": "NABL ISO 15189 & FACT-JACIE AFFILIATED",
+    "address": "StemBridge Technology Park, Electronic City, Bangalore - 560100",
+    "report_id": "MED-KOSHIKA-2026-8833",
+    "barcode": "KOSH*0914*88033",
+    "title": "Clostridium Difficile Toxin A/B and GDH Antigen Diagnostic Screen",
+    "patient_name": "Clinical Patient #33 (Verified Cohort)",
+    "date": "September 14, 2026",
+    "mrn": "KOSH-BMT-2026-1033",
+    "age": "53 Yrs",
+    "gender": "Male",
+    "blood_group": "AB+",
+    "referring_doctor": "Dr. Ramesh Sarin, MD, DM (Hemato-Oncology)",
+    "diagnosis": "Hematologic Malignancy Protocol Assessment #33",
+    "specimen": "Stool (Sterile Container)",
+    "table_columns": [
+      "Test / Assay Target",
+      "Observed Value",
+      "Reference Range",
+      "Method / Assay",
+      "Status / Interpretation"
+    ],
+    "col_widths": [
+      140,
+      110,
+      106,
+      100,
+      100
+    ],
+    "table_rows": [
+      [
+        "C. Difficile GDH Antigen",
+        "Negative",
+        "Negative",
+        "Chemiluminescent EIA",
+        "No Organism Present"
+      ],
+      [
+        "C. Difficile Toxin A/B",
+        "Negative",
+        "Negative",
+        "Chemiluminescent EIA",
+        "No Toxins Detected"
+      ],
+      [
+        "C. Difficile tcdB Gene PCR",
+        "Negative",
+        "Negative",
+        "Real-Time PCR",
+        "Negative for Toxigenic Strain"
+      ]
+    ],
+    "recommendations": [
+      "Diagnostic stool assay strictly negative for Clostridium difficile antigen, toxins, and toxigenic gene.",
+      "Patient colitis symptoms attributable to mild conditioning mucositis rather than infection.",
+      "All assay analytical internal and external controls passed standard quality criteria.",
+      "Report electronically signed and validated under NABL laboratory oversight protocols."
+    ],
+    "prepared_by": "Scientific Analyst Team",
+    "verified_by": "Dr. Transplant Pathologist, MD",
+    "director": "Dr. Director of Clinical Services, MD, DM",
+    "key_biomarkers": [
+      "C. Difficile GDH Antigen",
+      "Negative",
+      "Clinical Microbiology"
+    ]
+  },
+  {
+    "id": "MED_034",
+    "filename": "MED_034_HLH_Diagnostic_Biomarker_Panel.pdf",
+    "category": "Specialized Immunology",
+    "org_name": "KOSHIKA APEX CELLULAR THERAPY & BMT CENTRE",
+    "dept_name": "Clinical Diagnostic Division & Transplant Core",
+    "accreditation": "NABL ISO 15189 & FACT-JACIE AFFILIATED",
+    "address": "StemBridge Technology Park, Electronic City, Bangalore - 560100",
+    "report_id": "MED-KOSHIKA-2026-8834",
+    "barcode": "KOSH*0914*88034",
+    "title": "Hemophagocytic Lymphohistiocytosis (HLH) Comprehensive Biomarker Screen",
+    "patient_name": "Clinical Patient #34 (Verified Cohort)",
+    "date": "September 14, 2026",
+    "mrn": "KOSH-BMT-2026-1034",
+    "age": "54 Yrs",
+    "gender": "Female",
+    "blood_group": "A-",
+    "referring_doctor": "Dr. Ramesh Sarin, MD, DM (Hemato-Oncology)",
+    "diagnosis": "Hematologic Malignancy Protocol Assessment #34",
+    "specimen": "Serum & Whole Blood",
+    "table_columns": [
+      "Test / Assay Target",
+      "Observed Value",
+      "Reference Range",
+      "Method / Assay",
+      "Status / Interpretation"
+    ],
+    "col_widths": [
+      140,
+      110,
+      106,
+      100,
+      100
+    ],
+    "table_rows": [
+      [
+        "Soluble CD25 (sIL-2R)",
+        "1,280 pg/mL",
+        "400 - 2,500",
+        "ELISA",
+        "Normal sCD25 (HLH Excluded)"
+      ],
+      [
+        "Serum Ferritin",
+        "342 ng/mL",
+        "30 - 400",
+        "Chemiluminescence",
+        "Normal Ferritin Level"
+      ],
+      [
+        "Fasting Triglycerides",
+        "148 mg/dL",
+        "< 200",
+        "Biochemistry",
+        "Normal Lipid Profile"
+      ],
+      [
+        "Plasma Fibrinogen",
+        "290 mg/dL",
+        "200 - 400",
+        "Coagulation",
+        "Preserved Fibrinogen Level"
+      ],
+      [
+        "NK Cell Degranulation (CD107a)",
+        "24.2 %",
+        ">= 10.0 % Normal",
+        "Flow Cytometry",
+        "Normal NK Function"
+      ]
+    ],
+    "recommendations": [
+      "Patient meets 0 of the 5 requisite HLH-2004 diagnostic criteria (sCD25 normal, ferritin normal, NK intact).",
+      "Secondary hemophagocytic lymphohistiocytosis successfully ruled out.",
+      "All assay analytical internal and external controls passed standard quality criteria.",
+      "Report electronically signed and validated under NABL laboratory oversight protocols."
+    ],
+    "prepared_by": "Scientific Analyst Team",
+    "verified_by": "Dr. Transplant Pathologist, MD",
+    "director": "Dr. Director of Clinical Services, MD, DM",
+    "key_biomarkers": [
+      "Soluble CD25 (sIL-2R)",
+      "1,280 pg/mL",
+      "Specialized Immunology"
+    ]
+  },
+  {
+    "id": "MED_035",
+    "filename": "MED_035_Cryopreservation_Thaw_CFU_Colony_Assay.pdf",
+    "category": "Stem Cell Potency",
+    "org_name": "KOSHIKA APEX CELLULAR THERAPY & BMT CENTRE",
+    "dept_name": "Clinical Diagnostic Division & Transplant Core",
+    "accreditation": "NABL ISO 15189 & FACT-JACIE AFFILIATED",
+    "address": "StemBridge Technology Park, Electronic City, Bangalore - 560100",
+    "report_id": "MED-KOSHIKA-2026-8835",
+    "barcode": "KOSH*0914*88035",
+    "title": "Cryopreserved Stem Cell Post-Thaw Viability & CFU Colony Assay",
+    "patient_name": "Clinical Patient #35 (Verified Cohort)",
+    "date": "September 14, 2026",
+    "mrn": "KOSH-BMT-2026-1035",
+    "age": "55 Yrs",
+    "gender": "Male",
+    "blood_group": "O-",
+    "referring_doctor": "Dr. Ramesh Sarin, MD, DM (Hemato-Oncology)",
+    "diagnosis": "Hematologic Malignancy Protocol Assessment #35",
+    "specimen": "Thawed Stem Cell Sample",
+    "table_columns": [
+      "Test / Assay Target",
+      "Observed Value",
+      "Reference Range",
+      "Method / Assay",
+      "Status / Interpretation"
+    ],
+    "col_widths": [
+      140,
+      110,
+      106,
+      100,
+      100
+    ],
+    "table_rows": [
+      [
+        "Post-Thaw 7-AAD Viability",
+        "94.2 %",
+        ">= 70.0 %",
+        "Flow Cytometry",
+        "High Viability Verified"
+      ],
+      [
+        "CFU-GM Colony Yield",
+        "48 Colonies / 10^5",
+        ">= 20 Colonies",
+        "Methylcellulose Culture",
+        "Robust Granulopoiesis"
+      ],
+      [
+        "BFU-E Erythroid Colonies",
+        "36 Colonies / 10^5",
+        ">= 15 Colonies",
+        "Methylcellulose Culture",
+        "Active Erythropoiesis"
+      ],
+      [
+        "Sterility Retain Vial",
+        "Negative",
+        "Negative 14 Days",
+        "Automated Blood Bottle",
+        "Sterility Cleared"
+      ]
+    ],
+    "recommendations": [
+      "Cellular progenitor potency confirmed by active colony-forming units (CFU-GM and BFU-E) in 14-day culture.",
+      "Graft demonstrates high post-thaw proliferative potential and membrane integrity.",
+      "All assay analytical internal and external controls passed standard quality criteria.",
+      "Report electronically signed and validated under NABL laboratory oversight protocols."
+    ],
+    "prepared_by": "Scientific Analyst Team",
+    "verified_by": "Dr. Transplant Pathologist, MD",
+    "director": "Dr. Director of Clinical Services, MD, DM",
+    "key_biomarkers": [
+      "Post-Thaw 7-AAD Viability",
+      "94.2 %",
+      "Stem Cell Potency"
+    ]
+  },
+  {
+    "id": "MED_036",
+    "filename": "MED_036_Peripheral_Blood_CD34_Mobilization_Monitoring.pdf",
+    "category": "Stem Cell Mobilization",
+    "org_name": "KOSHIKA APEX CELLULAR THERAPY & BMT CENTRE",
+    "dept_name": "Clinical Diagnostic Division & Transplant Core",
+    "accreditation": "NABL ISO 15189 & FACT-JACIE AFFILIATED",
+    "address": "StemBridge Technology Park, Electronic City, Bangalore - 560100",
+    "report_id": "MED-KOSHIKA-2026-8836",
+    "barcode": "KOSH*0914*88036",
+    "title": "Pre-Apheresis Peripheral Blood CD34+ Mobilization Kinetic Assay",
+    "patient_name": "Clinical Patient #36 (Verified Cohort)",
+    "date": "September 14, 2026",
+    "mrn": "KOSH-BMT-2026-1036",
+    "age": "56 Yrs",
+    "gender": "Female",
+    "blood_group": "A+",
+    "referring_doctor": "Dr. Ramesh Sarin, MD, DM (Hemato-Oncology)",
+    "diagnosis": "Hematologic Malignancy Protocol Assessment #36",
+    "specimen": "Peripheral Blood EDTA",
+    "table_columns": [
+      "Test / Assay Target",
+      "Observed Value",
+      "Reference Range",
+      "Method / Assay",
+      "Status / Interpretation"
+    ],
+    "col_widths": [
+      140,
+      110,
+      106,
+      100,
+      100
+    ],
+    "table_rows": [
+      [
+        "Peripheral Blood CD34+ Count",
+        "68 cells/mcL",
+        ">= 20 cells/mcL Target",
+        "Single Platform Flow",
+        "Optimal Mobilization"
+      ],
+      [
+        "Total White Blood Cell Count",
+        "38,400 /mcL",
+        "Leukocytosis Expected",
+        "Automated Hemogram",
+        "G-CSF Effect"
+      ],
+      [
+        "Absolute Neutrophil Count",
+        "32,800 /mcL",
+        "Elevated",
+        "Automated Hemogram",
+        "G-CSF Mobilization"
+      ],
+      [
+        "Platelet Count",
+        "214,000 /mcL",
+        ">= 100,000 Safe",
+        "Automated Hemogram",
+        "Safe for Apheresis"
+      ]
+    ],
+    "recommendations": [
+      "Peripheral blood CD34+ count of 68/mcL surpasses collection threshold of >= 20 cells/mcL on Day 4 of G-CSF.",
+      "Recommendation: Connect to apheresis machine immediately for large-volume leukoapheresis.",
+      "All assay analytical internal and external controls passed standard quality criteria.",
+      "Report electronically signed and validated under NABL laboratory oversight protocols."
+    ],
+    "prepared_by": "Scientific Analyst Team",
+    "verified_by": "Dr. Transplant Pathologist, MD",
+    "director": "Dr. Director of Clinical Services, MD, DM",
+    "key_biomarkers": [
+      "Peripheral Blood CD34+ Count",
+      "68 cells/mcL",
+      "Stem Cell Mobilization"
+    ]
+  },
+  {
+    "id": "MED_037",
+    "filename": "MED_037_Umbilical_Cord_Blood_Unit_Characterization.pdf",
+    "category": "Cord Blood Banking",
+    "org_name": "KOSHIKA APEX CELLULAR THERAPY & BMT CENTRE",
+    "dept_name": "Clinical Diagnostic Division & Transplant Core",
+    "accreditation": "NABL ISO 15189 & FACT-JACIE AFFILIATED",
+    "address": "StemBridge Technology Park, Electronic City, Bangalore - 560100",
+    "report_id": "MED-KOSHIKA-2026-8837",
+    "barcode": "KOSH*0914*88037",
+    "title": "Clinical Grade Umbilical Cord Blood (UCB) Unit Cryo-Certificate",
+    "patient_name": "Clinical Patient #37 (Verified Cohort)",
+    "date": "September 14, 2026",
+    "mrn": "KOSH-BMT-2026-1037",
+    "age": "57 Yrs",
+    "gender": "Male",
+    "blood_group": "B+",
+    "referring_doctor": "Dr. Ramesh Sarin, MD, DM (Hemato-Oncology)",
+    "diagnosis": "Hematologic Malignancy Protocol Assessment #37",
+    "specimen": "Cord Blood Cryovial",
+    "table_columns": [
+      "Test / Assay Target",
+      "Observed Value",
+      "Reference Range",
+      "Method / Assay",
+      "Status / Interpretation"
+    ],
+    "col_widths": [
+      140,
+      110,
+      106,
+      100,
+      100
+    ],
+    "table_rows": [
+      [
+        "Total Nucleated Count (TNC)",
+        "1.84 x10^9 Cells",
+        ">= 1.20 x10^9",
+        "Automated Analyzer",
+        "Sufficient Cell Dose"
+      ],
+      [
+        "Viable CD34+ Absolute Count",
+        "7.42 x10^6 Cells",
+        ">= 4.0 x10^6",
+        "Flow Cytometry",
+        "Optimal CD34 Yield"
+      ],
+      [
+        "Post-Volume Reduction Viability",
+        "96.2 %",
+        ">= 85.0 %",
+        "7-AAD Flow",
+        "High Cell Quality"
+      ],
+      [
+        "Maternal Infectious Markers",
+        "Non-Reactive (All)",
+        "Non-Reactive",
+        "Serology + NAT",
+        "Maternal Safety Cleared"
+      ]
+    ],
+    "recommendations": [
+      "Cord blood unit #UCB-2026-99 meets NetCord-FACT international criteria for clinical transplantation.",
+      "Unit dual-bag system cryopreserved in vapor nitrogen tank at -196 deg C.",
+      "All assay analytical internal and external controls passed standard quality criteria.",
+      "Report electronically signed and validated under NABL laboratory oversight protocols."
+    ],
+    "prepared_by": "Scientific Analyst Team",
+    "verified_by": "Dr. Transplant Pathologist, MD",
+    "director": "Dr. Director of Clinical Services, MD, DM",
+    "key_biomarkers": [
+      "Total Nucleated Count (TNC)",
+      "1.84 x10^9 Cells",
+      "Cord Blood Banking"
+    ]
+  },
+  {
+    "id": "MED_038",
+    "filename": "MED_038_ABO_Isohemagglutinin_Antibody_Titre.pdf",
+    "category": "Transfusion Medicine",
+    "org_name": "KOSHIKA APEX CELLULAR THERAPY & BMT CENTRE",
+    "dept_name": "Clinical Diagnostic Division & Transplant Core",
+    "accreditation": "NABL ISO 15189 & FACT-JACIE AFFILIATED",
+    "address": "StemBridge Technology Park, Electronic City, Bangalore - 560100",
+    "report_id": "MED-KOSHIKA-2026-8838",
+    "barcode": "KOSH*0914*88038",
+    "title": "Isohemagglutinin Anti-A and Anti-B Antibody Titre for Mismatched BMT",
+    "patient_name": "Clinical Patient #38 (Verified Cohort)",
+    "date": "September 14, 2026",
+    "mrn": "KOSH-BMT-2026-1038",
+    "age": "58 Yrs",
+    "gender": "Female",
+    "blood_group": "O+",
+    "referring_doctor": "Dr. Ramesh Sarin, MD, DM (Hemato-Oncology)",
+    "diagnosis": "Hematologic Malignancy Protocol Assessment #38",
+    "specimen": "Serum SST",
+    "table_columns": [
+      "Test / Assay Target",
+      "Observed Value",
+      "Reference Range",
+      "Method / Assay",
+      "Status / Interpretation"
+    ],
+    "col_widths": [
+      140,
+      110,
+      106,
+      100,
+      100
+    ],
+    "table_rows": [
+      [
+        "Anti-A IgM Saline Titre",
+        "1 : 8",
+        "< 1 : 64 Safe",
+        "Direct Hemagglutination",
+        "Low Risk of Hemolysis"
+      ],
+      [
+        "Anti-A IgG AHG Titre",
+        "1 : 16",
+        "< 1 : 128 Safe",
+        "Indirect Antiglobulin",
+        "Low Isoantibody Titer"
+      ],
+      [
+        "Anti-B IgM Saline Titre",
+        "< 1 : 2",
+        "< 1 : 64 Safe",
+        "Direct Hemagglutination",
+        "Negative / Baseline"
+      ],
+      [
+        "Direct Antiglobulin Test (DAT)",
+        "Negative",
+        "Negative",
+        "Poly-specific AHG",
+        "No In Vivo Sensitization"
+      ]
+    ],
+    "recommendations": [
+      "Low isohemagglutinin titres (Anti-A 1:8 / Anti-B < 1:2) indicate low risk for acute hemolytic transfusion reaction.",
+      "Safe for minor/major ABO mismatched stem cell infusion without plasma depletion.",
+      "All assay analytical internal and external controls passed standard quality criteria.",
+      "Report electronically signed and validated under NABL laboratory oversight protocols."
+    ],
+    "prepared_by": "Scientific Analyst Team",
+    "verified_by": "Dr. Transplant Pathologist, MD",
+    "director": "Dr. Director of Clinical Services, MD, DM",
+    "key_biomarkers": [
+      "Anti-A IgM Saline Titre",
+      "1 : 8",
+      "Transfusion Medicine"
+    ]
+  },
+  {
+    "id": "MED_039",
+    "filename": "MED_039_Serum_Quantitative_Immunoglobulins_Panel.pdf",
+    "category": "Clinical Immunology",
+    "org_name": "KOSHIKA APEX CELLULAR THERAPY & BMT CENTRE",
+    "dept_name": "Clinical Diagnostic Division & Transplant Core",
+    "accreditation": "NABL ISO 15189 & FACT-JACIE AFFILIATED",
+    "address": "StemBridge Technology Park, Electronic City, Bangalore - 560100",
+    "report_id": "MED-KOSHIKA-2026-8839",
+    "barcode": "KOSH*0914*88039",
+    "title": "Serum Quantitative Immunoglobulin Profile (IgG, IgA, IgM & IgE)",
+    "patient_name": "Clinical Patient #39 (Verified Cohort)",
+    "date": "September 14, 2026",
+    "mrn": "KOSH-BMT-2026-1039",
+    "age": "59 Yrs",
+    "gender": "Male",
+    "blood_group": "AB+",
+    "referring_doctor": "Dr. Ramesh Sarin, MD, DM (Hemato-Oncology)",
+    "diagnosis": "Hematologic Malignancy Protocol Assessment #39",
+    "specimen": "Serum SST",
+    "table_columns": [
+      "Test / Assay Target",
+      "Observed Value",
+      "Reference Range",
+      "Method / Assay",
+      "Status / Interpretation"
+    ],
+    "col_widths": [
+      140,
+      110,
+      106,
+      100,
+      100
+    ],
+    "table_rows": [
+      [
+        "Serum IgG Concentration",
+        "840 mg/dL",
+        "700 - 1,600",
+        "Nephelometry",
+        "Normal IgG Reconstitution"
+      ],
+      [
+        "Serum IgA Concentration",
+        "112 mg/dL",
+        "70 - 400",
+        "Nephelometry",
+        "Normal Mucosal Immunity"
+      ],
+      [
+        "Serum IgM Concentration",
+        "78 mg/dL",
+        "40 - 230",
+        "Nephelometry",
+        "Normal Primary Antibody"
+      ],
+      [
+        "Serum IgE Concentration",
+        "32 IU/mL",
+        "< 100",
+        "Chemiluminescence",
+        "Normal Allergy Marker"
+      ]
+    ],
+    "recommendations": [
+      "Immunoglobulin levels demonstrate balanced humoral immune recovery on Day +180 post-transplant.",
+      "Endogenous antibody synthesis intact; intravenous immunoglobulin (IVIG) supplementation discontinued.",
+      "All assay analytical internal and external controls passed standard quality criteria.",
+      "Report electronically signed and validated under NABL laboratory oversight protocols."
+    ],
+    "prepared_by": "Scientific Analyst Team",
+    "verified_by": "Dr. Transplant Pathologist, MD",
+    "director": "Dr. Director of Clinical Services, MD, DM",
+    "key_biomarkers": [
+      "Serum IgG Concentration",
+      "840 mg/dL",
+      "Clinical Immunology"
+    ]
+  },
+  {
+    "id": "MED_040",
+    "filename": "MED_040_TPMT_and_NUDT15_Pharmacogenomics.pdf",
+    "category": "Pharmacogenomics",
+    "org_name": "KOSHIKA APEX CELLULAR THERAPY & BMT CENTRE",
+    "dept_name": "Clinical Diagnostic Division & Transplant Core",
+    "accreditation": "NABL ISO 15189 & FACT-JACIE AFFILIATED",
+    "address": "StemBridge Technology Park, Electronic City, Bangalore - 560100",
+    "report_id": "MED-KOSHIKA-2026-8840",
+    "barcode": "KOSH*0914*88040",
+    "title": "TPMT and NUDT15 Pharmacogenetic Genotyping Prior to 6-MP Chemotherapy",
+    "patient_name": "Clinical Patient #40 (Verified Cohort)",
+    "date": "September 14, 2026",
+    "mrn": "KOSH-BMT-2026-1040",
+    "age": "60 Yrs",
+    "gender": "Female",
+    "blood_group": "A-",
+    "referring_doctor": "Dr. Ramesh Sarin, MD, DM (Hemato-Oncology)",
+    "diagnosis": "Hematologic Malignancy Protocol Assessment #40",
+    "specimen": "Whole Blood DNA",
+    "table_columns": [
+      "Test / Assay Target",
+      "Observed Value",
+      "Reference Range",
+      "Method / Assay",
+      "Status / Interpretation"
+    ],
+    "col_widths": [
+      140,
+      110,
+      106,
+      100,
+      100
+    ],
+    "table_rows": [
+      [
+        "TPMT Allelic Call",
+        "*1 / *1 (Wild Type)",
+        "*1/*1 Normal",
+        "TaqMan Genotyping",
+        "Normal Metabolizer"
+      ],
+      [
+        "NUDT15 c.415C>T (Arg139Cys)",
+        "C/C (Wild Type)",
+        "C/C Normal",
+        "Sanger Sequencing",
+        "Normal Metabolizer"
+      ],
+      [
+        "Thiopurine S-Methyltransferase",
+        "High Activity (Normal)",
+        "15.0 - 26.0 U/mL",
+        "Enzymatic RBC Assay",
+        "Standard Clearance"
+      ]
+    ],
+    "recommendations": [
+      "Genotyping identifies normal metabolizer status for both TPMT and NUDT15 loci.",
+      "Zero risk of lethal myelosuppression from standard thiopurine dosing; initiate standard protocol 6-MP.",
+      "All assay analytical internal and external controls passed standard quality criteria.",
+      "Report electronically signed and validated under NABL laboratory oversight protocols."
+    ],
+    "prepared_by": "Scientific Analyst Team",
+    "verified_by": "Dr. Transplant Pathologist, MD",
+    "director": "Dr. Director of Clinical Services, MD, DM",
+    "key_biomarkers": [
+      "TPMT Allelic Call",
+      "*1 / *1 (Wild Type)",
+      "Pharmacogenomics"
+    ]
+  },
+  {
+    "id": "MED_041",
+    "filename": "MED_041_High_Sensitivity_Cardiac_Troponin_and_BNP.pdf",
+    "category": "Cardiovascular Biomarkers",
+    "org_name": "KOSHIKA APEX CELLULAR THERAPY & BMT CENTRE",
+    "dept_name": "Clinical Diagnostic Division & Transplant Core",
+    "accreditation": "NABL ISO 15189 & FACT-JACIE AFFILIATED",
+    "address": "StemBridge Technology Park, Electronic City, Bangalore - 560100",
+    "report_id": "MED-KOSHIKA-2026-8841",
+    "barcode": "KOSH*0914*88041",
+    "title": "Pre-Transplant Cardiotoxicity Assessment (hs-cTnI & NT-proBNP)",
+    "patient_name": "Clinical Patient #41 (Verified Cohort)",
+    "date": "September 14, 2026",
+    "mrn": "KOSH-BMT-2026-1041",
+    "age": "61 Yrs",
+    "gender": "Male",
+    "blood_group": "O-",
+    "referring_doctor": "Dr. Ramesh Sarin, MD, DM (Hemato-Oncology)",
+    "diagnosis": "Hematologic Malignancy Protocol Assessment #41",
+    "specimen": "Plasma EDTA",
+    "table_columns": [
+      "Test / Assay Target",
+      "Observed Value",
+      "Reference Range",
+      "Method / Assay",
+      "Status / Interpretation"
+    ],
+    "col_widths": [
+      140,
+      110,
+      106,
+      100,
+      100
+    ],
+    "table_rows": [
+      [
+        "High Sensitivity Troponin-I",
+        "3.2 pg/mL",
+        "< 15.0 Normal",
+        "Chemiluminescent CLIA",
+        "Zero Myocardial Injury"
+      ],
+      [
+        "NT-proBNP Natriuretic Peptide",
+        "74.0 pg/mL",
+        "< 125.0 Normal",
+        "ECLIA 4th Gen",
+        "Normal Ventricular Wall"
+      ],
+      [
+        "Left Ventricular Ejection Fraction",
+        "64 %",
+        ">= 50 % Normal",
+        "Transthoracic 2D Echo",
+        "Normal Systolic Function"
+      ]
+    ],
+    "recommendations": [
+      "hs-cTnI and NT-proBNP are normal; echocardiography confirms preserved ejection fraction (64%).",
+      "Cardiac clearance granted for high-dose Cyclophosphamide and Busulfan conditioning.",
+      "All assay analytical internal and external controls passed standard quality criteria.",
+      "Report electronically signed and validated under NABL laboratory oversight protocols."
+    ],
+    "prepared_by": "Scientific Analyst Team",
+    "verified_by": "Dr. Transplant Pathologist, MD",
+    "director": "Dr. Director of Clinical Services, MD, DM",
+    "key_biomarkers": [
+      "High Sensitivity Troponin-I",
+      "3.2 pg/mL",
+      "Cardiovascular Biomarkers"
+    ]
+  },
+  {
+    "id": "MED_042",
+    "filename": "MED_042_Pre_Transplant_Pulmonary_Function_DLCO.pdf",
+    "category": "Pulmonary Medicine",
+    "org_name": "KOSHIKA APEX CELLULAR THERAPY & BMT CENTRE",
+    "dept_name": "Clinical Diagnostic Division & Transplant Core",
+    "accreditation": "NABL ISO 15189 & FACT-JACIE AFFILIATED",
+    "address": "StemBridge Technology Park, Electronic City, Bangalore - 560100",
+    "report_id": "MED-KOSHIKA-2026-8842",
+    "barcode": "KOSH*0914*88042",
+    "title": "Pre-Transplant Pulmonary Function Test & Carbon Monoxide Diffusion (DLCO)",
+    "patient_name": "Clinical Patient #42 (Verified Cohort)",
+    "date": "September 14, 2026",
+    "mrn": "KOSH-BMT-2026-1042",
+    "age": "62 Yrs",
+    "gender": "Female",
+    "blood_group": "A+",
+    "referring_doctor": "Dr. Ramesh Sarin, MD, DM (Hemato-Oncology)",
+    "diagnosis": "Hematologic Malignancy Protocol Assessment #42",
+    "specimen": "Respiratory Lab Spirometry",
+    "table_columns": [
+      "Test / Assay Target",
+      "Observed Value",
+      "Reference Range",
+      "Method / Assay",
+      "Status / Interpretation"
+    ],
+    "col_widths": [
+      140,
+      110,
+      106,
+      100,
+      100
+    ],
+    "table_rows": [
+      [
+        "Forced Expiratory Volume (FEV1)",
+        "3.42 L (96 % Pred)",
+        ">= 80 % Predicted",
+        "Spirometry",
+        "Normal Lung Mechanics"
+      ],
+      [
+        "Forced Vital Capacity (FVC)",
+        "4.18 L (98 % Pred)",
+        ">= 80 % Predicted",
+        "Spirometry",
+        "Normal Lung Volumes"
+      ],
+      [
+        "FEV1 / FVC Ratio",
+        "81.8 %",
+        ">= 70.0 % Normal",
+        "Calculated Ratio",
+        "No Airway Obstruction"
+      ],
+      [
+        "DLCO (Single Breath Hemoglobin Adj)",
+        "22.4 mL/min/mmHg (92 %)",
+        ">= 75 % Normal",
+        "Gas Diffusion",
+        "Preserved Gas Transfer"
+      ]
+    ],
+    "recommendations": [
+      "Pulmonary mechanics and diffusion capacity (DLCO 92%) are well preserved without obstructive or restrictive disease.",
+      "Cleared for full-dose pulmonary radiation and conditioning chemotherapy.",
+      "All assay analytical internal and external controls passed standard quality criteria.",
+      "Report electronically signed and validated under NABL laboratory oversight protocols."
+    ],
+    "prepared_by": "Scientific Analyst Team",
+    "verified_by": "Dr. Transplant Pathologist, MD",
+    "director": "Dr. Director of Clinical Services, MD, DM",
+    "key_biomarkers": [
+      "Forced Expiratory Volume (FEV1)",
+      "3.42 L (96 % Pred)",
+      "Pulmonary Medicine"
+    ]
+  },
+  {
+    "id": "MED_043",
+    "filename": "MED_043_Trephine_Bone_Marrow_Core_Biopsy_IHC.pdf",
+    "category": "Histopathology",
+    "org_name": "KOSHIKA APEX CELLULAR THERAPY & BMT CENTRE",
+    "dept_name": "Clinical Diagnostic Division & Transplant Core",
+    "accreditation": "NABL ISO 15189 & FACT-JACIE AFFILIATED",
+    "address": "StemBridge Technology Park, Electronic City, Bangalore - 560100",
+    "report_id": "MED-KOSHIKA-2026-8843",
+    "barcode": "KOSH*0914*88043",
+    "title": "Trephine Bone Marrow Core Biopsy & Immunohistochemistry (Multiple Myeloma)",
+    "patient_name": "Clinical Patient #43 (Verified Cohort)",
+    "date": "September 14, 2026",
+    "mrn": "KOSH-BMT-2026-1043",
+    "age": "63 Yrs",
+    "gender": "Male",
+    "blood_group": "B+",
+    "referring_doctor": "Dr. Ramesh Sarin, MD, DM (Hemato-Oncology)",
+    "diagnosis": "Hematologic Malignancy Protocol Assessment #43",
+    "specimen": "Core Biopsy Specimen",
+    "table_columns": [
+      "Test / Assay Target",
+      "Observed Value",
+      "Reference Range",
+      "Method / Assay",
+      "Status / Interpretation"
+    ],
+    "col_widths": [
+      140,
+      110,
+      106,
+      100,
+      100
+    ],
+    "table_rows": [
+      [
+        "Marrow Core Cellularity",
+        "35 % Cellularity",
+        "30 - 50 % Normal",
+        "Core Histology",
+        "Normal for Age"
+      ],
+      [
+        "CD138 Plasma Cell IHC",
+        "2.1 % Plasma Cells",
+        "< 5.0 % Normal",
+        "Immunohistochemistry",
+        "Complete Remission"
+      ],
+      [
+        "Kappa / Lambda Dual IHC",
+        "Polytypic Distribution",
+        "Balanced Ratio",
+        "Immunohistochemistry",
+        "No Clonal Restriction"
+      ],
+      [
+        "Reticulin Fibrosis Score",
+        "Grade 0 (No Fibrosis)",
+        "Grade 0 - 1",
+        "Silver Stain",
+        "Normal Marrow Architecture"
+      ]
+    ],
+    "recommendations": [
+      "Bone marrow core biopsy exhibits < 3% polytypic plasma cells without atypical clusters or fibrosis.",
+      "Histological and immunohistochemical remission confirmed post-transplant.",
+      "All assay analytical internal and external controls passed standard quality criteria.",
+      "Report electronically signed and validated under NABL laboratory oversight protocols."
+    ],
+    "prepared_by": "Scientific Analyst Team",
+    "verified_by": "Dr. Transplant Pathologist, MD",
+    "director": "Dr. Director of Clinical Services, MD, DM",
+    "key_biomarkers": [
+      "Marrow Core Cellularity",
+      "35 % Cellularity",
+      "Histopathology"
+    ]
+  },
+  {
+    "id": "MED_044",
+    "filename": "MED_044_Intravascular_Hemolysis_Screen_Panel.pdf",
+    "category": "Specialized Hematology",
+    "org_name": "KOSHIKA APEX CELLULAR THERAPY & BMT CENTRE",
+    "dept_name": "Clinical Diagnostic Division & Transplant Core",
+    "accreditation": "NABL ISO 15189 & FACT-JACIE AFFILIATED",
+    "address": "StemBridge Technology Park, Electronic City, Bangalore - 560100",
+    "report_id": "MED-KOSHIKA-2026-8844",
+    "barcode": "KOSH*0914*88044",
+    "title": "Intravascular Hemolysis Evaluation Panel (Haptoglobin & Free Hemoglobin)",
+    "patient_name": "Clinical Patient #44 (Verified Cohort)",
+    "date": "September 14, 2026",
+    "mrn": "KOSH-BMT-2026-1044",
+    "age": "64 Yrs",
+    "gender": "Female",
+    "blood_group": "O+",
+    "referring_doctor": "Dr. Ramesh Sarin, MD, DM (Hemato-Oncology)",
+    "diagnosis": "Hematologic Malignancy Protocol Assessment #44",
+    "specimen": "Serum & Heparin Plasma",
+    "table_columns": [
+      "Test / Assay Target",
+      "Observed Value",
+      "Reference Range",
+      "Method / Assay",
+      "Status / Interpretation"
+    ],
+    "col_widths": [
+      140,
+      110,
+      106,
+      100,
+      100
+    ],
+    "table_rows": [
+      [
+        "Serum Haptoglobin",
+        "142 mg/dL",
+        "30 - 200",
+        "Immunoturbidimetric",
+        "Normal (No Active Lysis)"
+      ],
+      [
+        "Plasma Free Hemoglobin",
+        "2.4 mg/dL",
+        "< 5.0 mg/dL Normal",
+        "Spectrophotometric",
+        "Normal Free Heme"
+      ],
+      [
+        "Lactate Dehydrogenase (LDH)",
+        "182 U/L",
+        "125 - 220 U/L",
+        "Enzymatic IFCC",
+        "Normal Cellular Turnover"
+      ],
+      [
+        "Total Bilirubin",
+        "0.7 mg/dL",
+        "0.2 - 1.2 mg/dL",
+        "Diazo Reaction",
+        "Normal Excretion"
+      ]
+    ],
+    "recommendations": [
+      "Serum haptoglobin (142 mg/dL) and plasma free hemoglobin (2.4 mg/dL) rule out microangiopathic hemolysis (TMA/TTP).",
+      "Co-existing mild thrombocytopenia is consumptive or medication-related rather than thrombotic.",
+      "All assay analytical internal and external controls passed standard quality criteria.",
+      "Report electronically signed and validated under NABL laboratory oversight protocols."
+    ],
+    "prepared_by": "Scientific Analyst Team",
+    "verified_by": "Dr. Transplant Pathologist, MD",
+    "director": "Dr. Director of Clinical Services, MD, DM",
+    "key_biomarkers": [
+      "Serum Haptoglobin",
+      "142 mg/dL",
+      "Specialized Hematology"
+    ]
+  },
+  {
+    "id": "MED_045",
+    "filename": "MED_045_CAR_T_Cell_Product_Release_Certificate.pdf",
+    "category": "Cell & Gene Therapy",
+    "org_name": "KOSHIKA APEX CELLULAR THERAPY & BMT CENTRE",
+    "dept_name": "Clinical Diagnostic Division & Transplant Core",
+    "accreditation": "NABL ISO 15189 & FACT-JACIE AFFILIATED",
+    "address": "StemBridge Technology Park, Electronic City, Bangalore - 560100",
+    "report_id": "MED-KOSHIKA-2026-8845",
+    "barcode": "KOSH*0914*88045",
+    "title": "Autologous Anti-CD19 CAR-T Cell Product Quality & Release Certificate",
+    "patient_name": "Clinical Patient #45 (Verified Cohort)",
+    "date": "September 14, 2026",
+    "mrn": "KOSH-BMT-2026-1045",
+    "age": "20 Yrs",
+    "gender": "Male",
+    "blood_group": "AB+",
+    "referring_doctor": "Dr. Ramesh Sarin, MD, DM (Hemato-Oncology)",
+    "diagnosis": "Hematologic Malignancy Protocol Assessment #45",
+    "specimen": "Cryopreserved Cell Therapy Bag",
+    "table_columns": [
+      "Test / Assay Target",
+      "Observed Value",
+      "Reference Range",
+      "Method / Assay",
+      "Status / Interpretation"
+    ],
+    "col_widths": [
+      140,
+      110,
+      106,
+      100,
+      100
+    ],
+    "table_rows": [
+      [
+        "CAR Transduction Efficiency",
+        "62.4 %",
+        ">= 20.0 %",
+        "Flow (Protein L)",
+        "High Gene Delivery"
+      ],
+      [
+        "Total Viable CAR+ T-Cell Dose",
+        "2.8 x10^6 cells/kg",
+        "1.0 - 5.0 x10^6",
+        "Calculated Dose",
+        "Target Therapeutic Dose"
+      ],
+      [
+        "Cell Viability Post-Formulation",
+        "94.8 %",
+        ">= 80.0 %",
+        "7-AAD Flow",
+        "High Product Viability"
+      ],
+      [
+        "Replication Competent Lentivirus",
+        "Negative",
+        "Negative",
+        "Quantitative qPCR",
+        "Safety Cleared"
+      ],
+      [
+        "Endotoxin & Mycoplasma",
+        "Negative",
+        "Negative",
+        "Assay Standard",
+        "Cleared for Infusion"
+      ]
+    ],
+    "recommendations": [
+      "CAR-T cell product lot meets all release criteria for CD19-directed adoptive cellular therapy.",
+      "Product cleared for sterile shipment and bed-side thaw and infusion.",
+      "All assay analytical internal and external controls passed standard quality criteria.",
+      "Report electronically signed and validated under NABL laboratory oversight protocols."
+    ],
+    "prepared_by": "Scientific Analyst Team",
+    "verified_by": "Dr. Transplant Pathologist, MD",
+    "director": "Dr. Director of Clinical Services, MD, DM",
+    "key_biomarkers": [
+      "CAR Transduction Efficiency",
+      "62.4 %",
+      "Cell & Gene Therapy"
+    ]
+  },
+  {
+    "id": "MED_046",
+    "filename": "MED_046_Mesenchymal_Stem_Cell_Potency_Clearance.pdf",
+    "category": "Regenerative Medicine",
+    "org_name": "KOSHIKA APEX CELLULAR THERAPY & BMT CENTRE",
+    "dept_name": "Clinical Diagnostic Division & Transplant Core",
+    "accreditation": "NABL ISO 15189 & FACT-JACIE AFFILIATED",
+    "address": "StemBridge Technology Park, Electronic City, Bangalore - 560100",
+    "report_id": "MED-KOSHIKA-2026-8846",
+    "barcode": "KOSH*0914*88046",
+    "title": "Clinical Grade Mesenchymal Stem Cell (MSC) Sterility & Potency Clearance",
+    "patient_name": "Clinical Patient #46 (Verified Cohort)",
+    "date": "September 14, 2026",
+    "mrn": "KOSH-BMT-2026-1046",
+    "age": "21 Yrs",
+    "gender": "Female",
+    "blood_group": "A-",
+    "referring_doctor": "Dr. Ramesh Sarin, MD, DM (Hemato-Oncology)",
+    "diagnosis": "Hematologic Malignancy Protocol Assessment #46",
+    "specimen": "Cryovial Aliquot",
+    "table_columns": [
+      "Test / Assay Target",
+      "Observed Value",
+      "Reference Range",
+      "Method / Assay",
+      "Status / Interpretation"
+    ],
+    "col_widths": [
+      140,
+      110,
+      106,
+      100,
+      100
+    ],
+    "table_rows": [
+      [
+        "CD73 / CD90 / CD105 Co-expression",
+        "98.8 %",
+        ">= 95.0 %",
+        "Flow Cytometry",
+        "True Mesenchymal Phenotype"
+      ],
+      [
+        "CD34 / CD45 / HLA-DR Negative",
+        "< 1.0 %",
+        "< 2.0 % Negative",
+        "Flow Cytometry",
+        "Pure Non-Hematopoietic"
+      ],
+      [
+        "Tri-lineage Differentiation",
+        "Osteo, Chondro, Adipo",
+        "Confirmed 21 Days",
+        "Alizarin / Oil Red O",
+        "Multipotent Potency Cleared"
+      ],
+      [
+        "Sterility & Mycoplasma Screening",
+        "Negative (No Growth)",
+        "Negative",
+        "PCR + 14-Day Culture",
+        "Certified Sterile"
+      ]
+    ],
+    "recommendations": [
+      "Bone-marrow derived MSC product satisfies ISCT guidelines for clinical protocol administration.",
+      "Cleared for compassionate use infusion in steroid-refractory acute gut GVHD.",
+      "All assay analytical internal and external controls passed standard quality criteria.",
+      "Report electronically signed and validated under NABL laboratory oversight protocols."
+    ],
+    "prepared_by": "Scientific Analyst Team",
+    "verified_by": "Dr. Transplant Pathologist, MD",
+    "director": "Dr. Director of Clinical Services, MD, DM",
+    "key_biomarkers": [
+      "CD73 / CD90 / CD105 Co-expression",
+      "98.8 %",
+      "Regenerative Medicine"
+    ]
+  },
+  {
+    "id": "MED_047",
+    "filename": "MED_047_Clonal_Hematopoiesis_CHIP_Genomic_Panel.pdf",
+    "category": "Molecular Genetics",
+    "org_name": "KOSHIKA APEX CELLULAR THERAPY & BMT CENTRE",
+    "dept_name": "Clinical Diagnostic Division & Transplant Core",
+    "accreditation": "NABL ISO 15189 & FACT-JACIE AFFILIATED",
+    "address": "StemBridge Technology Park, Electronic City, Bangalore - 560100",
+    "report_id": "MED-KOSHIKA-2026-8847",
+    "barcode": "KOSH*0914*88047",
+    "title": "Clonal Hematopoiesis of Indeterminate Potential (CHIP) Genomic Panel",
+    "patient_name": "Clinical Patient #47 (Verified Cohort)",
+    "date": "September 14, 2026",
+    "mrn": "KOSH-BMT-2026-1047",
+    "age": "22 Yrs",
+    "gender": "Male",
+    "blood_group": "O-",
+    "referring_doctor": "Dr. Ramesh Sarin, MD, DM (Hemato-Oncology)",
+    "diagnosis": "Hematologic Malignancy Protocol Assessment #47",
+    "specimen": "Peripheral Blood DNA",
+    "table_columns": [
+      "Test / Assay Target",
+      "Observed Value",
+      "Reference Range",
+      "Method / Assay",
+      "Status / Interpretation"
+    ],
+    "col_widths": [
+      140,
+      110,
+      106,
+      100,
+      100
+    ],
+    "table_rows": [
+      [
+        "DNMT3A Exon 23 Mutation",
+        "Negative (< 0.5 % LOD)",
+        "< 2.0 % VAF",
+        "Ultra-Deep NGS (2000x)",
+        "Wild Type"
+      ],
+      [
+        "TET2 Mutation Screen",
+        "Negative (< 0.5 % LOD)",
+        "< 2.0 % VAF",
+        "Ultra-Deep NGS (2000x)",
+        "Wild Type"
+      ],
+      [
+        "ASXL1 Exon 12 Mutation",
+        "Negative (< 0.5 % LOD)",
+        "< 2.0 % VAF",
+        "Ultra-Deep NGS (2000x)",
+        "Wild Type"
+      ],
+      [
+        "PPM1D Exon 6 Mutation",
+        "Negative (< 0.5 % LOD)",
+        "< 2.0 % VAF",
+        "Ultra-Deep NGS (2000x)",
+        "Wild Type"
+      ]
+    ],
+    "recommendations": [
+      "Ultra-deep targeted NGS panel detects no mutations in canonical CHIP genes at 0.5% limit of detection.",
+      "Elderly matched sibling donor verified safe for bone marrow harvest without clonal hematopoiesis.",
+      "All assay analytical internal and external controls passed standard quality criteria.",
+      "Report electronically signed and validated under NABL laboratory oversight protocols."
+    ],
+    "prepared_by": "Scientific Analyst Team",
+    "verified_by": "Dr. Transplant Pathologist, MD",
+    "director": "Dr. Director of Clinical Services, MD, DM",
+    "key_biomarkers": [
+      "DNMT3A Exon 23 Mutation",
+      "Negative (< 0.5 % LOD)",
+      "Molecular Genetics"
+    ]
+  },
+  {
+    "id": "MED_048",
+    "filename": "MED_048_High_Sensitivity_PNH_Flow_Cytometry.pdf",
+    "category": "Flow Cytometry",
+    "org_name": "KOSHIKA APEX CELLULAR THERAPY & BMT CENTRE",
+    "dept_name": "Clinical Diagnostic Division & Transplant Core",
+    "accreditation": "NABL ISO 15189 & FACT-JACIE AFFILIATED",
+    "address": "StemBridge Technology Park, Electronic City, Bangalore - 560100",
+    "report_id": "MED-KOSHIKA-2026-8848",
+    "barcode": "KOSH*0914*88048",
+    "title": "Paroxysmal Nocturnal Hemoglobinuria (PNH) High-Sensitivity Flow Cytometry",
+    "patient_name": "Clinical Patient #48 (Verified Cohort)",
+    "date": "September 14, 2026",
+    "mrn": "KOSH-BMT-2026-1048",
+    "age": "23 Yrs",
+    "gender": "Female",
+    "blood_group": "A+",
+    "referring_doctor": "Dr. Ramesh Sarin, MD, DM (Hemato-Oncology)",
+    "diagnosis": "Hematologic Malignancy Protocol Assessment #48",
+    "specimen": "Whole Blood EDTA",
+    "table_columns": [
+      "Test / Assay Target",
+      "Observed Value",
+      "Reference Range",
+      "Method / Assay",
+      "Status / Interpretation"
+    ],
+    "col_widths": [
+      140,
+      110,
+      106,
+      100,
+      100
+    ],
+    "table_rows": [
+      [
+        "FLAER / CD157 Granulocyte Clone",
+        "0.00 % (Not Detected)",
+        "< 0.01 % Normal",
+        "High-Sensitivity Flow",
+        "No PNH Clone"
+      ],
+      [
+        "CD55 / CD59 Monocyte Clone",
+        "0.00 % (Not Detected)",
+        "< 0.01 % Normal",
+        "High-Sensitivity Flow",
+        "Normal GPI Anchor"
+      ],
+      [
+        "Red Blood Cell CD59 Expression",
+        "Type I Normal (100%)",
+        ">= 99.0 % Normal",
+        "Gated RBCs",
+        "No Complement Lysis Risk"
+      ]
+    ],
+    "recommendations": [
+      "High-sensitivity FLAER assay acquired 250,000 events, ruling out PNH clone at 0.01% sensitivity.",
+      "Normal expression of GPI-anchored proteins on granulocytes, monocytes, and erythrocytes.",
+      "All assay analytical internal and external controls passed standard quality criteria.",
+      "Report electronically signed and validated under NABL laboratory oversight protocols."
+    ],
+    "prepared_by": "Scientific Analyst Team",
+    "verified_by": "Dr. Transplant Pathologist, MD",
+    "director": "Dr. Director of Clinical Services, MD, DM",
+    "key_biomarkers": [
+      "FLAER / CD157 Granulocyte Clone",
+      "0.00 % (Not Detected)",
+      "Flow Cytometry"
+    ]
+  },
+  {
+    "id": "MED_049",
+    "filename": "MED_049_Busulfan_First_Dose_Pharmacokinetics_AUC.pdf",
+    "category": "Pharmacokinetics",
+    "org_name": "KOSHIKA APEX CELLULAR THERAPY & BMT CENTRE",
+    "dept_name": "Clinical Diagnostic Division & Transplant Core",
+    "accreditation": "NABL ISO 15189 & FACT-JACIE AFFILIATED",
+    "address": "StemBridge Technology Park, Electronic City, Bangalore - 560100",
+    "report_id": "MED-KOSHIKA-2026-8849",
+    "barcode": "KOSH*0914*88049",
+    "title": "Busulfan First-Dose Pharmacokinetics & Area Under Curve (AUC) Monitoring",
+    "patient_name": "Clinical Patient #49 (Verified Cohort)",
+    "date": "September 14, 2026",
+    "mrn": "KOSH-BMT-2026-1049",
+    "age": "24 Yrs",
+    "gender": "Male",
+    "blood_group": "B+",
+    "referring_doctor": "Dr. Ramesh Sarin, MD, DM (Hemato-Oncology)",
+    "diagnosis": "Hematologic Malignancy Protocol Assessment #49",
+    "specimen": "Serial Plasma Samples",
+    "table_columns": [
+      "Test / Assay Target",
+      "Observed Value",
+      "Reference Range",
+      "Method / Assay",
+      "Status / Interpretation"
+    ],
+    "col_widths": [
+      140,
+      110,
+      106,
+      100,
+      100
+    ],
+    "table_rows": [
+      [
+        "Calculated AUC0-inf (Dose 1)",
+        "1,140 mcM*min",
+        "900 - 1,350 Target",
+        "LC-MS/MS Kinetics",
+        "Optimal Exposure"
+      ],
+      [
+        "Peak Concentration (Cmax)",
+        "1,220 ng/mL",
+        "Expected Range",
+        "Mass Spectrometry",
+        "Within Therapeutic Safe Limit"
+      ],
+      [
+        "Clearance Rate (CL)",
+        "2.6 mL/min/kg",
+        "Normal Pediatric",
+        "Non-Compartmental",
+        "Normal Hepatic Clearance"
+      ],
+      [
+        "Dose Modification Recommendation",
+        "Keep Current Dose (100%)",
+        "80 - 120 % Target",
+        "Clinical Pharmacokinetics",
+        "Zero Dose Change Required"
+      ]
+    ],
+    "recommendations": [
+      "Busulfan exposure (AUC 1,140 mcM*min) falls precisely within optimal target therapeutic window.",
+      "Recommendation: Continue planned intravenous Busulfan dose every 6 hours without alteration.",
+      "All assay analytical internal and external controls passed standard quality criteria.",
+      "Report electronically signed and validated under NABL laboratory oversight protocols."
+    ],
+    "prepared_by": "Scientific Analyst Team",
+    "verified_by": "Dr. Transplant Pathologist, MD",
+    "director": "Dr. Director of Clinical Services, MD, DM",
+    "key_biomarkers": [
+      "Calculated AUC0-inf (Dose 1)",
+      "1,140 mcM*min",
+      "Pharmacokinetics"
+    ]
+  },
+  {
+    "id": "MED_050",
+    "filename": "MED_050_G_CSF_Mobilization_Absolute_Neutrophil_Log.pdf",
+    "category": "Stem Cell Mobilization",
+    "org_name": "KOSHIKA APEX CELLULAR THERAPY & BMT CENTRE",
+    "dept_name": "Clinical Diagnostic Division & Transplant Core",
+    "accreditation": "NABL ISO 15189 & FACT-JACIE AFFILIATED",
+    "address": "StemBridge Technology Park, Electronic City, Bangalore - 560100",
+    "report_id": "MED-KOSHIKA-2026-8850",
+    "barcode": "KOSH*0914*88050",
+    "title": "G-CSF Mobilization Kinetic Curve & Absolute Neutrophil Response Log",
+    "patient_name": "Clinical Patient #50 (Verified Cohort)",
+    "date": "September 14, 2026",
+    "mrn": "KOSH-BMT-2026-1050",
+    "age": "25 Yrs",
+    "gender": "Female",
+    "blood_group": "O+",
+    "referring_doctor": "Dr. Ramesh Sarin, MD, DM (Hemato-Oncology)",
+    "diagnosis": "Hematologic Malignancy Protocol Assessment #50",
+    "specimen": "Serial Daily Bloods",
+    "table_columns": [
+      "Test / Assay Target",
+      "Observed Value",
+      "Reference Range",
+      "Method / Assay",
+      "Status / Interpretation"
+    ],
+    "col_widths": [
+      140,
+      110,
+      106,
+      100,
+      100
+    ],
+    "table_rows": [
+      [
+        "Baseline Day 0 WBC",
+        "6,200 /mcL",
+        "4,000 - 10,000",
+        "Hemogram",
+        "Baseline Pre-Drug"
+      ],
+      [
+        "Day 2 G-CSF Response WBC",
+        "18,400 /mcL",
+        "Elevated",
+        "Hemogram",
+        "Robust Marrow Response"
+      ],
+      [
+        "Day 4 G-CSF Peak WBC",
+        "42,100 /mcL",
+        "Expected High",
+        "Hemogram",
+        "Optimal Mobilization Peak"
+      ],
+      [
+        "Day 4 CD34+ Absolute Count",
+        "54 cells/mcL",
+        ">= 20 cells/mcL",
+        "Flow Cytometry",
+        "Target Surpassed (Cleared)"
+      ]
+    ],
+    "recommendations": [
+      "Donor demonstrates normal kinetic hematopoietic mobilization in response to Filgrastim 10 mcg/kg/day.",
+      "Collection target surpassed; donor cleared for harvest.",
+      "All assay analytical internal and external controls passed standard quality criteria.",
+      "Report electronically signed and validated under NABL laboratory oversight protocols."
+    ],
+    "prepared_by": "Scientific Analyst Team",
+    "verified_by": "Dr. Transplant Pathologist, MD",
+    "director": "Dr. Director of Clinical Services, MD, DM",
+    "key_biomarkers": [
+      "Baseline Day 0 WBC",
+      "6,200 /mcL",
+      "Stem Cell Mobilization"
+    ]
+  },
+  {
+    "id": "MED_051",
+    "filename": "MED_051_ADAMTS13_Activity_and_Inhibitor_Assay.pdf",
+    "category": "Specialized Coagulation",
+    "org_name": "KOSHIKA APEX CELLULAR THERAPY & BMT CENTRE",
+    "dept_name": "Clinical Diagnostic Division & Transplant Core",
+    "accreditation": "NABL ISO 15189 & FACT-JACIE AFFILIATED",
+    "address": "StemBridge Technology Park, Electronic City, Bangalore - 560100",
+    "report_id": "MED-KOSHIKA-2026-8851",
+    "barcode": "KOSH*0914*88051",
+    "title": "ADAMTS13 Protease Activity & Bethesda Inhibitor Neutralization Screen",
+    "patient_name": "Clinical Patient #51 (Verified Cohort)",
+    "date": "September 14, 2026",
+    "mrn": "KOSH-BMT-2026-1051",
+    "age": "26 Yrs",
+    "gender": "Male",
+    "blood_group": "AB+",
+    "referring_doctor": "Dr. Ramesh Sarin, MD, DM (Hemato-Oncology)",
+    "diagnosis": "Hematologic Malignancy Protocol Assessment #51",
+    "specimen": "Citrated Platelet-Poor Plasma",
+    "table_columns": [
+      "Test / Assay Target",
+      "Observed Value",
+      "Reference Range",
+      "Method / Assay",
+      "Status / Interpretation"
+    ],
+    "col_widths": [
+      140,
+      110,
+      106,
+      100,
+      100
+    ],
+    "table_rows": [
+      [
+        "ADAMTS13 Activity",
+        "78.4 %",
+        "68.0 - 130.0 %",
+        "FRETS-VWF73 Assay",
+        "Normal Protease Function"
+      ],
+      [
+        "ADAMTS13 Inhibitor Neutralization",
+        "< 0.4 Bethesda Units",
+        "< 0.4 BU Negative",
+        "Inhibitor Mixing Test",
+        "Negative (No Inhibitor)"
+      ],
+      [
+        "ADAMTS13 IgG Autoantibody",
+        "5.2 U/mL",
+        "< 12.0 Negative",
+        "ELISA",
+        "Negative Autoantibody"
+      ],
+      [
+        "Diagnostic Ruling",
+        "TTP Excluded",
+        "TTP if < 10%",
+        "Clinical Guideline",
+        "Normal Cleaving Enzyme"
+      ]
+    ],
+    "recommendations": [
+      "Normal ADAMTS13 activity (78.4%) completely rules out Thrombotic Thrombocytopenic Purpura (TTP).",
+      "Post-transplant microangiopathy in this patient is calcineurin-related; switch to Sirolimus recommended.",
+      "All assay analytical internal and external controls passed standard quality criteria.",
+      "Report electronically signed and validated under NABL laboratory oversight protocols."
+    ],
+    "prepared_by": "Scientific Analyst Team",
+    "verified_by": "Dr. Transplant Pathologist, MD",
+    "director": "Dr. Director of Clinical Services, MD, DM",
+    "key_biomarkers": [
+      "ADAMTS13 Activity",
+      "78.4 %",
+      "Specialized Coagulation"
+    ]
+  },
+  {
+    "id": "MED_052",
+    "filename": "MED_052_Cytogenetic_FISH_Myelodysplastic_Syndrome.pdf",
+    "category": "Cytogenetics",
+    "org_name": "KOSHIKA APEX CELLULAR THERAPY & BMT CENTRE",
+    "dept_name": "Clinical Diagnostic Division & Transplant Core",
+    "accreditation": "NABL ISO 15189 & FACT-JACIE AFFILIATED",
+    "address": "StemBridge Technology Park, Electronic City, Bangalore - 560100",
+    "report_id": "MED-KOSHIKA-2026-8852",
+    "barcode": "KOSH*0914*88052",
+    "title": "Fluorescence In Situ Hybridization (FISH) Myelodysplastic Syndrome (MDS) Panel",
+    "patient_name": "Clinical Patient #52 (Verified Cohort)",
+    "date": "September 14, 2026",
+    "mrn": "KOSH-BMT-2026-1052",
+    "age": "27 Yrs",
+    "gender": "Female",
+    "blood_group": "A-",
+    "referring_doctor": "Dr. Ramesh Sarin, MD, DM (Hemato-Oncology)",
+    "diagnosis": "Hematologic Malignancy Protocol Assessment #52",
+    "specimen": "Bone Marrow Aspirate",
+    "table_columns": [
+      "Test / Assay Target",
+      "Observed Value",
+      "Reference Range",
+      "Method / Assay",
+      "Status / Interpretation"
+    ],
+    "col_widths": [
+      140,
+      110,
+      106,
+      100,
+      100
+    ],
+    "table_rows": [
+      [
+        "5q31 (EGR1) Deletion Probe",
+        "Normal 2 Signals (100%)",
+        "< 3.0 % Cutoff",
+        "Dual-Color FISH",
+        "Negative for del(5q)"
+      ],
+      [
+        "7q31 / Centromere 7 Probe",
+        "Normal 2 Signals (100%)",
+        "< 4.0 % Cutoff",
+        "Dual-Color FISH",
+        "Negative for Monosomy 7"
+      ],
+      [
+        "Centromere 8 (Trisomy 8) Probe",
+        "Normal 2 Signals (100%)",
+        "< 2.5 % Cutoff",
+        "Dual-Color FISH",
+        "Negative for +8"
+      ],
+      [
+        "20q12 (PTPRT) Deletion Probe",
+        "Normal 2 Signals (100%)",
+        "< 3.5 % Cutoff",
+        "Dual-Color FISH",
+        "Negative for del(20q)"
+      ],
+      [
+        "Overall FISH Score",
+        "Zero Aneuploid Metaphases",
+        "Normal Diploid",
+        "200 Interphase Nuclei",
+        "Normal MDS Panel"
+      ]
+    ],
+    "recommendations": [
+      "Interphase FISH analysis of 200 nuclei reveals normal signal patterns for chromosomes 5, 7, 8, and 20.",
+      "Zero high-risk myelodysplastic structural deletions detected; favourable post-therapy surveillance finding.",
+      "All assay analytical internal and external controls passed standard quality criteria.",
+      "Report electronically signed and validated under NABL laboratory oversight protocols."
+    ],
+    "prepared_by": "Scientific Analyst Team",
+    "verified_by": "Dr. Transplant Pathologist, MD",
+    "director": "Dr. Director of Clinical Services, MD, DM",
+    "key_biomarkers": [
+      "5q31 (EGR1) Deletion Probe",
+      "Normal 2 Signals (100%)",
+      "Cytogenetics"
+    ]
+  }
+]

@@ -1,0 +1,564 @@
+%PDF-1.4
+%“Œ‹ž ReportLab Generated PDF document http://www.reportlab.com
+1 0 obj
+<<
+/F1 2 0 R /F2 3 0 R /F3 4 0 R
+>>
+endobj
+2 0 obj
+<<
+/BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font
+>>
+endobj
+3 0 obj
+<<
+/BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font
+>>
+endobj
+4 0 obj
+<<
+/BaseFont /Courier-Bold /Encoding /WinAnsiEncoding /Name /F3 /Subtype /Type1 /Type /Font
+>>
+endobj
+5 0 obj
+<<
+/Contents 9 0 R /MediaBox [ 0 0 612 792 ] /Parent 8 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
+endobj
+6 0 obj
+<<
+/PageMode /UseNone /Pages 8 0 R /Type /Catalog
+>>
+endobj
+7 0 obj
+<<
+/Author (\(anonymous\)) /CreationDate (D:20260913141125-05'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20260913141125-05'00') /Producer (ReportLab PDF Library - www.reportlab.com) 
+  /Subject (\(unspecified\)) /Title (\(anonymous\)) /Trapped /False
+>>
+endobj
+8 0 obj
+<<
+/Count 1 /Kids [ 5 0 R ] /Type /Pages
+>>
+endobj
+9 0 obj
+<<
+/Length 8417
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 36 691 cm
+q
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 27 cm
+q
+.058824 .090196 .164706 rg
+BT 1 0 0 1 0 19 Tm /F2 13 Tf 16 TL (ALL INDIA INSTITUTE OF MEDICAL SCIENCES \(AIIMS\)) Tj T* (NEW DELHI) Tj T* ET
+Q
+Q
+q
+1 0 0 1 366 26 cm
+q
+BT 1 0 0 1 0 24.5 Tm 11 TL /F2 8.5 Tf .007843 .517647 .780392 rg (AUTOMATED HEMATOLOGY) Tj /F1 8.5 Tf .392157 .454902 .545098 rg  T* (GOVERNMENT OF INDIA APEX) Tj T* (INSTITUTE \(NABL\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 13 cm
+q
+.392157 .454902 .545098 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (Department of Hematology, Ansari Nagar, New Delhi - 110029) Tj T* ET
+Q
+Q
+q
+1 0 0 1 366 2 cm
+q
+BT 1 0 0 1 0 13.5 Tm 11 TL /F1 8.5 Tf .392157 .454902 .545098 rg (Report ID: ) Tj /F2 8.5 Tf (CBC-AIIMS-1092) Tj /F1 8.5 Tf  T* (Barcode: CBC-4410-DEL) Tj T* ET
+Q
+Q
+q
+Q
+Q
+Q
+q
+1 0 0 1 42 685 cm
+Q
+q
+1 0 0 1 42 682.5 cm
+q
+1.5 w
+1 J
+.117647 .25098 .686275 RG
+n 0 0 m 528 0 l S
+Q
+Q
+q
+1 0 0 1 36 631.5 cm
+q
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 4 cm
+q
+.117647 .25098 .686275 rg
+BT 1 0 0 1 0 22 Tm /F2 14 Tf 18 TL (COMPLETE HEMOGRAM \(CBC\) WITH AUTOMATED) Tj T* (DIFFERENTIAL) Tj T* ET
+Q
+Q
+q
+1 0 0 1 406 16.5 cm
+q
+BT 1 0 0 1 0 2.5 Tm 11 TL /F1 8.5 Tf .392157 .454902 .545098 rg (Date: ) Tj /F2 8.5 Tf (September 12, 2026) Tj T* ET
+Q
+Q
+q
+Q
+Q
+Q
+q
+1 0 0 1 42 625.5 cm
+Q
+q
+1 0 0 1 36 568.5 cm
+q
+.972549 .980392 .988235 rg
+n 0 57 540 -57 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 42 cm
+q
+.117647 .160784 .231373 rg
+BT 1 0 0 1 0 2.5 Tm /F2 8.5 Tf 11 TL (Patient Name:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 106 42 cm
+q
+.2 .254902 .333333 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (Rajesh Verma) Tj T* ET
+Q
+Q
+q
+1 0 0 1 276 42 cm
+q
+.117647 .160784 .231373 rg
+BT 1 0 0 1 0 2.5 Tm /F2 8.5 Tf 11 TL (MRN / Patient ID:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 396 42 cm
+q
+.117647 .25098 .686275 rg
+BT 1 0 0 1 0 2.5 Tm /F3 8.5 Tf 11 TL (AIIMS-HEM-991204) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 23 cm
+q
+.117647 .160784 .231373 rg
+BT 1 0 0 1 0 2.5 Tm /F2 8.5 Tf 11 TL (Age / Gender:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 106 23 cm
+q
+.2 .254902 .333333 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (44 Yrs / Male) Tj T* ET
+Q
+Q
+q
+1 0 0 1 276 23 cm
+q
+BT 1 0 0 1 0 2.5 Tm 11 TL /F2 8.5 Tf .117647 .160784 .231373 rg (Blood Group & Rh:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 396 23 cm
+q
+.862745 .14902 .14902 rg
+BT 1 0 0 1 0 2.5 Tm /F2 8.5 Tf 11 TL (AB+ \(AB Rh Positive\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 4 cm
+q
+.117647 .160784 .231373 rg
+BT 1 0 0 1 0 2.5 Tm /F2 8.5 Tf 11 TL (Clinical Diagnosis:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 106 4 cm
+q
+.2 .254902 .333333 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (Multiple Myeloma - Pre-ASCT Evaluation) Tj T* ET
+Q
+Q
+q
+1 0 0 1 276 4 cm
+q
+.117647 .160784 .231373 rg
+BT 1 0 0 1 0 2.5 Tm /F2 8.5 Tf 11 TL (Referring Consultant:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 396 4 cm
+q
+.2 .254902 .333333 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (Dr. Lalit Kumar, MD, DM, FRCP) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+.796078 .835294 .882353 RG
+1 w
+n 0 57 m 540 57 l S
+n 0 0 m 540 0 l S
+n 0 0 m 0 57 l S
+n 540 0 m 540 57 l S
+.5 w
+n 0 38 m 540 38 l S
+n 0 19 m 540 19 l S
+n 100 0 m 100 57 l S
+n 270 0 m 270 57 l S
+n 390 0 m 390 57 l S
+Q
+Q
+Q
+q
+1 0 0 1 42 558.5 cm
+Q
+q
+1 0 0 1 36 403.5 cm
+q
+.886275 .909804 .941176 rg
+n 0 155 540 -19 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 140 cm
+q
+.117647 .160784 .231373 rg
+BT 1 0 0 1 0 2.5 Tm /F2 8.5 Tf 11 TL (Test Parameter) Tj T* ET
+Q
+Q
+q
+1 0 0 1 141 140 cm
+q
+.117647 .160784 .231373 rg
+BT 1 0 0 1 0 2.5 Tm /F2 8.5 Tf 11 TL (Observed Value) Tj T* ET
+Q
+Q
+q
+1 0 0 1 276 140 cm
+q
+.117647 .160784 .231373 rg
+BT 1 0 0 1 0 2.5 Tm /F2 8.5 Tf 11 TL (Biological Reference Range) Tj T* ET
+Q
+Q
+q
+1 0 0 1 411 140 cm
+q
+.117647 .160784 .231373 rg
+BT 1 0 0 1 0 2.5 Tm /F2 8.5 Tf 11 TL (Status) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 121 cm
+q
+.2 .254902 .333333 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (Hemoglobin \(Hb\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 141 121 cm
+q
+.117647 .160784 .231373 rg
+BT 1 0 0 1 0 2.5 Tm /F2 8.5 Tf 11 TL (11.4 g/dL) Tj T* ET
+Q
+Q
+q
+1 0 0 1 276 121 cm
+q
+.2 .254902 .333333 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (13.0 - 17.0 g/dL) Tj T* ET
+Q
+Q
+q
+1 0 0 1 411 121 cm
+q
+.2 .254902 .333333 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (Mild Anemia) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 102 cm
+q
+.2 .254902 .333333 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (Total White Blood Cells \(WBC\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 141 102 cm
+q
+.117647 .160784 .231373 rg
+BT 1 0 0 1 0 2.5 Tm /F2 8.5 Tf 11 TL (4.8 x 10^3/uL) Tj T* ET
+Q
+Q
+q
+1 0 0 1 276 102 cm
+q
+.2 .254902 .333333 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (4.0 - 11.0 x 10^3/uL) Tj T* ET
+Q
+Q
+q
+1 0 0 1 411 102 cm
+q
+.019608 .588235 .411765 rg
+BT 1 0 0 1 0 2.5 Tm /F2 8.5 Tf 11 TL (Normal Range) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 72 cm
+q
+.2 .254902 .333333 rg
+BT 1 0 0 1 0 13.5 Tm /F1 8.5 Tf 11 TL (Absolute Neutrophil Count) Tj T* (\(ANC\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 141 72 cm
+q
+.117647 .160784 .231373 rg
+BT 1 0 0 1 0 2.5 Tm /F2 8.5 Tf 11 TL (2.4 x 10^9/L) Tj T* ET
+Q
+Q
+q
+1 0 0 1 276 72 cm
+q
+.2 .254902 .333333 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (2.0 - 7.0 x 10^9/L) Tj T* ET
+Q
+Q
+q
+1 0 0 1 411 72 cm
+q
+.019608 .588235 .411765 rg
+BT 1 0 0 1 0 2.5 Tm /F2 8.5 Tf 11 TL (Normal \(> 1.5\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 53 cm
+q
+.2 .254902 .333333 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (Platelet Count) Tj T* ET
+Q
+Q
+q
+1 0 0 1 141 53 cm
+q
+.117647 .160784 .231373 rg
+BT 1 0 0 1 0 2.5 Tm /F2 8.5 Tf 11 TL (185 x 10^9/L) Tj T* ET
+Q
+Q
+q
+1 0 0 1 276 53 cm
+q
+.2 .254902 .333333 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (150 - 450 x 10^9/L) Tj T* ET
+Q
+Q
+q
+1 0 0 1 411 53 cm
+q
+.019608 .588235 .411765 rg
+BT 1 0 0 1 0 2.5 Tm /F2 8.5 Tf 11 TL (Adequate Platelets) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 34 cm
+q
+.2 .254902 .333333 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (Red Blood Cell \(RBC\) Count) Tj T* ET
+Q
+Q
+q
+1 0 0 1 141 34 cm
+q
+.2 .254902 .333333 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (3.92 x 10^6/uL) Tj T* ET
+Q
+Q
+q
+1 0 0 1 276 34 cm
+q
+.2 .254902 .333333 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (4.5 - 5.5 x 10^6/uL) Tj T* ET
+Q
+Q
+q
+1 0 0 1 411 34 cm
+q
+.2 .254902 .333333 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (Slightly Reduced) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 4 cm
+q
+.2 .254902 .333333 rg
+BT 1 0 0 1 0 13.5 Tm /F1 8.5 Tf 11 TL (Mean Corpuscular Volume) Tj T* (\(MCV\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 141 4 cm
+q
+.2 .254902 .333333 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (88.4 fL) Tj T* ET
+Q
+Q
+q
+1 0 0 1 276 4 cm
+q
+.2 .254902 .333333 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (80.0 - 100.0 fL) Tj T* ET
+Q
+Q
+q
+1 0 0 1 411 4 cm
+q
+.019608 .588235 .411765 rg
+BT 1 0 0 1 0 2.5 Tm /F2 8.5 Tf 11 TL (Normocytic) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+.796078 .835294 .882353 RG
+1 w
+n 0 155 m 540 155 l S
+n 0 0 m 540 0 l S
+n 0 0 m 0 155 l S
+n 540 0 m 540 155 l S
+.5 w
+n 0 136 m 540 136 l S
+n 0 117 m 540 117 l S
+n 0 98 m 540 98 l S
+n 0 68 m 540 68 l S
+n 0 49 m 540 49 l S
+n 0 30 m 540 30 l S
+n 135 0 m 135 155 l S
+n 270 0 m 270 155 l S
+n 405 0 m 405 155 l S
+Q
+Q
+Q
+q
+1 0 0 1 42 393.5 cm
+Q
+q
+1 0 0 1 42 382.5 cm
+q
+BT 1 0 0 1 0 2.5 Tm 11 TL /F2 8.5 Tf .117647 .160784 .231373 rg (CLINICAL INTERPRETATION & RECOMMENDATIONS:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 379.5 cm
+Q
+q
+1 0 0 1 42 368.5 cm
+q
+BT 1 0 0 1 0 3 Tm 11 TL /F1 8 Tf .278431 .333333 .411765 rg (\177 Peripheral smear demonstrates normocytic normochromic red cells with mild rouleaux formation.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 366.5 cm
+Q
+q
+1 0 0 1 42 355.5 cm
+q
+BT 1 0 0 1 0 3 Tm 11 TL /F1 8 Tf .278431 .333333 .411765 rg (\177 No circulating plasma cells, myeloblasts, or dysplastic granulocytes identified on differential review.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 353.5 cm
+Q
+q
+1 0 0 1 42 342.5 cm
+q
+BT 1 0 0 1 0 3 Tm 11 TL /F1 8 Tf .278431 .333333 .411765 rg (\177 Adequate marrow reserve \(ANC > 2.0, Platelets > 150\) supporting planned autologous stem cell mobilization.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 340.5 cm
+Q
+q
+1 0 0 1 42 325.5 cm
+Q
+q
+1 0 0 1 36 283.5 cm
+q
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+BT 1 0 0 1 0 24.5 Tm 11 TL /F2 8.5 Tf .392157 .454902 .545098 rg (Prepared By:) Tj /F1 8.5 Tf  T* (Technical Specialist) Tj  T* (Transplant Immunology Lab) Tj T* ET
+Q
+Q
+q
+1 0 0 1 186 3 cm
+q
+BT 1 0 0 1 0 24.5 Tm 11 TL /F2 8.5 Tf .392157 .454902 .545098 rg (Verified By:) Tj /F1 8.5 Tf  T* (Dr. S. Damodar, MD, DM) Tj  T* (Head of Hemato-Oncology & BMT) Tj T* ET
+Q
+Q
+q
+1 0 0 1 366 3 cm
+q
+BT 1 0 0 1 0 24.5 Tm 11 TL /F2 8.5 Tf .392157 .454902 .545098 rg (Laboratory Director:) Tj /F1 8.5 Tf  T* (Dr. Meenakshi Sundaram, FRCPath) Tj  T* (Director of Cellular Therapy) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+.796078 .835294 .882353 RG
+1 w
+n 0 42 m 540 42 l S
+Q
+Q
+Q
+ 
+endstream
+endobj
+xref
+0 10
+0000000000 65535 f 
+0000000073 00000 n 
+0000000124 00000 n 
+0000000231 00000 n 
+0000000343 00000 n 
+0000000453 00000 n 
+0000000646 00000 n 
+0000000714 00000 n 
+0000000997 00000 n 
+0000001056 00000 n 
+trailer
+<<
+/ID 
+[<07d1a7cbf2d93bf0a98f9622e5637e37><07d1a7cbf2d93bf0a98f9622e5637e37>]
+% ReportLab generated PDF document -- digest (http://www.reportlab.com)
+
+/Info 7 0 R
+/Root 6 0 R
+/Size 10
+>>
+startxref
+9524
+%%EOF

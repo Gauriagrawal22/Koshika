@@ -1,0 +1,1740 @@
+/* ==========================================================================
+   KOSHIKA DESIGN SYSTEM — UNIFIED TOKENS & THEMING SPECIFICATION
+   Clinically trustworthy, technologically advanced, distinctive medical design.
+   Supports intentional Light Mode (Fresh Mint/Aqua Ethereal Canvas) and Dark Mode (Deep Clinical Slate).
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   1. LIGHT THEME TOKENS (Matching User Reference Image)
+   -------------------------------------------------------------------------- */
+:root,
+[data-theme="light"] {
+  /* Canvas & Atmospheric Surfaces — Ethereal Pale Mint/Aqua Wash */
+  --k-canvas: #edf8f7;
+  --k-canvas-pattern: radial-gradient(circle at 10% 8%, #d8f3f0 0%, transparent 45%),
+                      radial-gradient(circle at 92% 15%, #e0f6f4 0%, transparent 45%),
+                      radial-gradient(circle at 50% 90%, #dff4f2 0%, transparent 50%),
+                      #edf8f7;
+  --k-surface: #ffffff;
+  --k-surface-alt: #f4fbfb;
+  --k-surface-tint: #ddf4f2;
+  --k-surface-blue: #eef9fd;
+  --k-surface-elevated: #ffffff;
+  --k-surface-glass: rgba(255, 255, 255, 0.94);
+
+  /* Borders & Dividers */
+  --k-border: #d4ece9;
+  --k-border-subtle: #e6f5f3;
+  --k-border-focus: #0d766e;
+
+  /* Typography / Text Colors (Deep spruce pine & warm sage slate) */
+  --k-text-primary: #115e59;
+  --k-text-secondary: #4a6b68;
+  --k-text-muted: #6f918e;
+  --k-text-tertiary: #9bb5b2;
+  --k-text-inverse: #ffffff;
+
+  /* Primary Brand (Deep Rich Sea-Teal from Reference CTA buttons) */
+  --k-primary: #0d766e;
+  --k-primary-hover: #0f6c65;
+  --k-primary-deep: #115e59;
+  --k-primary-light: #ccfbf1;
+  --k-primary-subtle: rgba(13, 118, 110, 0.08);
+
+  /* Secondary Brand (Clinical Cyan/Blue) */
+  --k-accent-blue: #0284c7;
+  --k-accent-blue-hover: #0369a1;
+  --k-accent-blue-light: #e0f2fe;
+
+  /* Semantic Accents */
+  --k-success: #059669;
+  --k-success-bg: #ecfdf5;
+  --k-success-border: #a7f3d0;
+  --k-success-text: #047857;
+
+  --k-warning: #d97706;
+  --k-warning-bg: #fffbeb;
+  --k-warning-border: #fde68a;
+  --k-warning-text: #b45309;
+
+  --k-danger: #e11d48;
+  --k-danger-bg: #fff1f2;
+  --k-danger-border: #fecdd3;
+  --k-danger-text: #be123c;
+
+  --k-info: #0284c7;
+  --k-info-bg: #f0f9ff;
+  --k-info-border: #bae6fd;
+  --k-info-text: #0369a1;
+
+  /* Shadows (Soft, calm, airy) */
+  --k-shadow-xs: 0 1px 3px rgba(13, 118, 110, 0.04);
+  --k-shadow-card: 0 4px 20px -2px rgba(13, 118, 110, 0.04), 0 2px 6px -1px rgba(13, 118, 110, 0.02);
+  --k-shadow-hover: 0 12px 28px -4px rgba(13, 118, 110, 0.08), 0 4px 8px -2px rgba(13, 118, 110, 0.03);
+  --k-shadow-modal: 0 20px 45px -8px rgba(13, 118, 110, 0.14);
+
+  /* Navbar / Topbar */
+  --k-topbar-bg: #edf8f7;
+  --k-topbar-border: #d8ece9;
+
+  /* Sidebar */
+  --k-sidebar-bg: #ffffff;
+  --k-sidebar-border: #d8ece9;
+  --k-sidebar-link-active-bg: #ddf4f2;
+  --k-sidebar-link-active-text: #0d766e;
+  --k-sidebar-link-active-border: #0d766e;
+}
+
+/* --------------------------------------------------------------------------
+   2. DARK THEME TOKENS (Deep Clinical Slate & Bio-Luminescence)
+   -------------------------------------------------------------------------- */
+[data-theme="dark"],
+.dark-theme {
+  /* Canvas & Atmospheric Surfaces (Deep slate, not pitch black) */
+  --k-canvas: #090d16;
+  --k-canvas-pattern: radial-gradient(circle at 15% 15%, rgba(13, 148, 136, 0.08) 0%, transparent 40%),
+                      radial-gradient(circle at 85% 85%, rgba(2, 132, 199, 0.08) 0%, transparent 45%),
+                      #090d16;
+  --k-surface: #111827;
+  --k-surface-alt: #1a2333;
+  --k-surface-tint: rgba(13, 148, 136, 0.14);
+  --k-surface-blue: rgba(2, 132, 199, 0.14);
+  --k-surface-elevated: #1e293b;
+  --k-surface-glass: rgba(17, 24, 39, 0.92);
+
+  /* Borders & Dividers */
+  --k-border: rgba(255, 255, 255, 0.1);
+  --k-border-subtle: rgba(255, 255, 255, 0.06);
+  --k-border-focus: #2dd4bf;
+
+  /* Typography / Text Colors */
+  --k-text-primary: #f8fafc;
+  --k-text-secondary: #cbd5e1;
+  --k-text-muted: #94a3b8;
+  --k-text-tertiary: #64748b;
+  --k-text-inverse: #090d16;
+
+  /* Primary Brand (Luminescent Bio-Teal) */
+  --k-primary: #14b8a6;
+  --k-primary-hover: #2dd4bf;
+  --k-primary-deep: #0f766e;
+  --k-primary-light: rgba(20, 184, 166, 0.2);
+  --k-primary-subtle: rgba(20, 184, 166, 0.14);
+
+  /* Secondary Brand (Bio-Blue) */
+  --k-accent-blue: #38bdf8;
+  --k-accent-blue-hover: #60a5fa;
+  --k-accent-blue-light: rgba(56, 189, 248, 0.18);
+
+  /* Semantic Accents in Dark Mode */
+  --k-success: #34d399;
+  --k-success-bg: rgba(16, 185, 129, 0.16);
+  --k-success-border: rgba(52, 211, 153, 0.35);
+  --k-success-text: #6ee7b7;
+
+  --k-warning: #fbbf24;
+  --k-warning-bg: rgba(245, 158, 11, 0.16);
+  --k-warning-border: rgba(251, 191, 36, 0.35);
+  --k-warning-text: #fde68a;
+
+  --k-danger: #fb7185;
+  --k-danger-bg: rgba(244, 63, 94, 0.16);
+  --k-danger-border: rgba(251, 113, 133, 0.35);
+  --k-danger-text: #fecdd3;
+
+  --k-info: #38bdf8;
+  --k-info-bg: rgba(56, 189, 248, 0.16);
+  --k-info-border: rgba(56, 189, 248, 0.35);
+  --k-info-text: #bae6fd;
+
+  /* Shadows in Dark Mode */
+  --k-shadow-xs: 0 1px 3px rgba(0, 0, 0, 0.4);
+  --k-shadow-card: 0 4px 16px rgba(0, 0, 0, 0.45);
+  --k-shadow-hover: 0 12px 30px rgba(0, 0, 0, 0.65);
+  --k-shadow-modal: 0 24px 50px rgba(0, 0, 0, 0.8);
+
+  /* Navbar / Topbar */
+  --k-topbar-bg: #111827;
+  --k-topbar-border: rgba(255, 255, 255, 0.08);
+
+  /* Sidebar */
+  --k-sidebar-bg: #111827;
+  --k-sidebar-border: rgba(255, 255, 255, 0.08);
+  --k-sidebar-link-active-bg: rgba(20, 184, 166, 0.14);
+  --k-sidebar-link-active-text: #2dd4bf;
+  --k-sidebar-link-active-border: #2dd4bf;
+
+  /* Legacy & refresh.css token bridges */
+  --ui-canvas: #090d16;
+  --ui-canvas-gradient: radial-gradient(circle at 8% 4%, rgba(13, 148, 136, 0.12) 0%, transparent 42%),
+                         radial-gradient(circle at 94% 8%, rgba(2, 132, 199, 0.1) 0%, transparent 46%),
+                         #090d16;
+  --ui-surface: #111827;
+  --ui-surface-muted: #1a2333;
+  --ui-line: rgba(255, 255, 255, 0.1);
+  --ui-line-strong: rgba(255, 255, 255, 0.16);
+
+  --ui-ink-900: #f8fafc;
+  --ui-ink-800: #e2e8f0;
+  --ui-ink-700: #cbd5e1;
+  --ui-ink-600: #94a3b8;
+  --ui-ink-500: #64748b;
+  --ui-ink-400: #475569;
+  --ui-ink-300: #334155;
+  --ui-ink-200: #1e293b;
+  --ui-ink-100: #111827;
+
+  --med-bg: #090d16;
+  --med-bg-gradient: var(--ui-canvas-gradient);
+  --med-surface: #111827;
+  --med-surface-subtle: #1a2333;
+  --med-surface-elevated: #1e293b;
+  --med-surface-glass: rgba(17, 24, 39, 0.88);
+  --med-border: rgba(255, 255, 255, 0.1);
+  --med-border-subtle: rgba(255, 255, 255, 0.06);
+
+  --bio-bg: #090d16;
+  --bio-card-bg: #111827;
+  --bio-border-color: rgba(255, 255, 255, 0.1);
+  --bio-text-main: #f8fafc;
+  --bio-text-secondary: #cbd5e1;
+}
+
+/* --------------------------------------------------------------------------
+   3. TYPOGRAPHY SYSTEM
+   -------------------------------------------------------------------------- */
+:root {
+  --k-font-body: 'Plus Jakarta Sans', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --k-font-heading: 'Lora', 'Space Grotesk', Georgia, serif;
+  --k-font-editorial: 'Lora', 'Newsreader', Georgia, serif;
+  --k-font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, monospace;
+}
+
+body {
+  font-family: var(--k-font-body);
+  background: var(--k-canvas-pattern);
+  color: var(--k-text-primary);
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transition: background-color 0.25s ease, color 0.25s ease;
+}
+
+/* Headings Scale */
+h1, .k-h1 {
+  font-family: var(--k-font-heading);
+  font-weight: 600;
+  font-size: clamp(1.5rem, 2.5vw, 2.2rem);
+  letter-spacing: -0.02em;
+  color: var(--k-text-primary);
+  line-height: 1.22;
+}
+
+/* Editorial Heading style matching reference ("Hello 👋 Let's take this one step at a time.") */
+.koshika-editorial-heading {
+  font-family: var(--k-font-editorial);
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  color: var(--k-text-primary);
+  line-height: 1.2;
+}
+
+h2, .k-h2 {
+  font-family: var(--k-font-heading);
+  font-weight: 600;
+  font-size: clamp(1.2rem, 1.8vw, 1.45rem);
+  letter-spacing: -0.015em;
+  color: var(--k-text-primary);
+  line-height: 1.3;
+}
+
+h3, .k-h3 {
+  font-weight: 600;
+  font-size: 1.05rem;
+  letter-spacing: -0.01em;
+  color: var(--k-text-primary);
+  line-height: 1.35;
+}
+
+h4, .k-h4 {
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: var(--k-text-primary);
+}
+
+p, .k-body {
+  font-size: 0.9rem;
+  color: var(--k-text-secondary);
+  line-height: 1.55;
+}
+
+.k-lead {
+  font-size: 0.96rem;
+  color: var(--k-text-secondary);
+  line-height: 1.6;
+}
+
+.k-caption {
+  font-size: 0.78rem;
+  color: var(--k-text-muted);
+}
+
+.k-micro {
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+/* --------------------------------------------------------------------------
+   4. CORE CARDS & HERO BANNER SURFACES (Exact Match to Reference Image)
+   -------------------------------------------------------------------------- */
+.koshika-card {
+  background-color: var(--k-surface);
+  border: 1px solid var(--k-border);
+  border-radius: 24px;
+  box-shadow: var(--k-shadow-card);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+  color: var(--k-text-primary);
+}
+
+.koshika-card-hover:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--k-shadow-hover);
+  border-color: var(--k-primary-light);
+}
+
+/* Universal Top Head Banner matching Learn & Play Studio reference */
+.koshika-top-head-card,
+.koshika-hero-banner {
+  background: linear-gradient(135deg, #064e3b 0%, #0d9488 60%, #115e59 100%) !important;
+  color: #ffffff !important;
+  border: 1px solid rgba(255, 255, 255, 0.18) !important;
+  border-radius: 24px !important;
+  box-shadow: 0 10px 30px -5px rgba(6, 78, 59, 0.25) !important;
+  position: relative;
+  overflow: hidden;
+}
+
+[data-theme="dark"] .koshika-top-head-card,
+[data-theme="dark"] .koshika-hero-banner {
+  background: linear-gradient(135deg, #04382a 0%, #0a6f66 60%, #0f4c47 100%) !important;
+  border: 1px solid rgba(45, 212, 191, 0.25) !important;
+  box-shadow: 0 10px 30px -5px rgba(0, 0, 0, 0.45) !important;
+}
+
+/* Ensure text directly in the top head card is white and readable */
+.koshika-top-head-card .top-head-title,
+.koshika-hero-banner .top-head-title {
+  color: #ffffff !important;
+  font-weight: 700;
+}
+
+.koshika-top-head-card .top-head-desc,
+.koshika-hero-banner .top-head-desc {
+  color: rgba(255, 255, 255, 0.92) !important;
+}
+
+/* Pills & badges inside top head card */
+.koshika-top-head-card .top-head-pill-frosted,
+.koshika-hero-banner .top-head-pill-frosted {
+  background-color: rgba(255, 255, 255, 0.18) !important;
+  border: 1px solid rgba(255, 255, 255, 0.3) !important;
+  color: #ffffff !important;
+}
+
+.koshika-top-head-card .top-head-badge-white,
+.koshika-hero-banner .top-head-badge-white {
+  background-color: #ffffff !important;
+  color: #064e3b !important;
+  border: 1px solid rgba(255, 255, 255, 0.8) !important;
+  font-weight: 600;
+}
+
+/* Sub-card inside the top banner must have crisp legible text */
+.koshika-top-head-card .top-head-subcard,
+.koshika-hero-banner .top-head-subcard {
+  background: #ffffff;
+  color: #0f172a;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px -4px rgba(0, 0, 0, 0.12);
+}
+
+.koshika-top-head-card .top-head-subcard h1,
+.koshika-top-head-card .top-head-subcard h2,
+.koshika-top-head-card .top-head-subcard h3,
+.koshika-top-head-card .top-head-subcard h4,
+.koshika-top-head-card .top-head-subcard h5,
+.koshika-top-head-card .top-head-subcard h6,
+.koshika-hero-banner .top-head-subcard h1,
+.koshika-hero-banner .top-head-subcard h2,
+.koshika-hero-banner .top-head-subcard h3,
+.koshika-hero-banner .top-head-subcard h4,
+.koshika-hero-banner .top-head-subcard h5,
+.koshika-hero-banner .top-head-subcard h6 {
+  color: #064e3b;
+}
+
+.koshika-top-head-card .top-head-subcard p,
+.koshika-hero-banner .top-head-subcard p {
+  color: #334155;
+}
+
+[data-theme="dark"] .koshika-top-head-card .top-head-subcard,
+[data-theme="dark"] .koshika-hero-banner .top-head-subcard {
+  background: rgba(17, 24, 39, 0.92) !important;
+  color: var(--k-text-primary) !important;
+  border: 1px solid rgba(45, 212, 191, 0.3) !important;
+  box-shadow: 0 8px 24px -4px rgba(0, 0, 0, 0.4) !important;
+}
+
+[data-theme="dark"] .koshika-top-head-card .top-head-subcard h1,
+[data-theme="dark"] .koshika-top-head-card .top-head-subcard h2,
+[data-theme="dark"] .koshika-top-head-card .top-head-subcard h3,
+[data-theme="dark"] .koshika-top-head-card .top-head-subcard h4,
+[data-theme="dark"] .koshika-top-head-card .top-head-subcard h5,
+[data-theme="dark"] .koshika-top-head-card .top-head-subcard h6,
+[data-theme="dark"] .koshika-hero-banner .top-head-subcard h1,
+[data-theme="dark"] .koshika-hero-banner .top-head-subcard h2,
+[data-theme="dark"] .koshika-hero-banner .top-head-subcard h3,
+[data-theme="dark"] .koshika-hero-banner .top-head-subcard h4,
+[data-theme="dark"] .koshika-hero-banner .top-head-subcard h5,
+[data-theme="dark"] .koshika-hero-banner .top-head-subcard h6 {
+  color: #2dd4bf !important;
+}
+
+[data-theme="dark"] .koshika-top-head-card .top-head-subcard p,
+[data-theme="dark"] .koshika-hero-banner .top-head-subcard p {
+  color: #cbd5e1 !important;
+}
+
+[data-theme="dark"] .koshika-top-head-card .top-head-badge-white,
+[data-theme="dark"] .koshika-hero-banner .top-head-badge-white {
+  background-color: rgba(255, 255, 255, 0.18) !important;
+  color: #ffffff !important;
+  border: 1px solid rgba(255, 255, 255, 0.3) !important;
+}
+
+/* Care Journey Cards Matching Reference */
+.koshika-journey-card {
+  background-color: var(--k-surface);
+  border: 1px solid var(--k-border);
+  border-radius: 26px;
+  box-shadow: var(--k-shadow-card);
+  transition: all 0.22s ease;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.koshika-journey-card:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--k-shadow-hover);
+  border-color: var(--k-border-focus);
+}
+
+/* --------------------------------------------------------------------------
+   5. BUTTON SYSTEM (Matching Reference CTA Style)
+   -------------------------------------------------------------------------- */
+.k-btn-primary,
+.btn-koshika-primary {
+  background: #0d766e !important;
+  color: #ffffff !important;
+  border: none;
+  font-weight: 600;
+  border-radius: 9999px;
+  padding: 10px 22px;
+  font-size: 0.88rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  box-shadow: 0 2px 6px rgba(13, 118, 110, 0.2);
+  transition: all 0.2s ease;
+}
+
+.k-btn-primary:hover,
+.btn-koshika-primary:hover {
+  background: #0f6c65 !important;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 14px rgba(13, 118, 110, 0.3);
+}
+
+.k-btn-secondary {
+  background-color: #ffffff;
+  color: var(--k-text-primary) !important;
+  border: 1px solid var(--k-border);
+  font-weight: 600;
+  border-radius: 9999px;
+  padding: 10px 22px;
+  font-size: 0.88rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  transition: all 0.18s ease;
+}
+
+.k-btn-secondary:hover {
+  background-color: var(--k-surface-tint);
+  border-color: var(--k-primary);
+  color: var(--k-primary) !important;
+}
+
+.k-btn-outline {
+  background-color: transparent;
+  color: var(--k-primary) !important;
+  border: 1px solid var(--k-primary);
+  font-weight: 600;
+  border-radius: 9999px;
+  padding: 8px 18px;
+  font-size: 0.84rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  transition: all 0.18s ease;
+}
+
+.k-btn-outline:hover {
+  background-color: var(--k-primary-subtle);
+  transform: translateY(-1px);
+}
+
+/* --------------------------------------------------------------------------
+   6. SEMANTIC HEALTHCARE PILLARS (UNDERSTAND / PREPARE / CONNECT / VERIFIED)
+   Meaning-driven, cohesive clinical palette:
+   - UNDERSTAND: Cellular Biology & Clarity (Bio-Teal #0d9488 / #2dd4bf)
+   - PREPARE: Diagnostics, Reports & Records (Diagnostic Sapphire #2563eb / #60a5fa)
+   - CONNECT: Care Teams & Specialists (Warm Care Amber #d97706 / #fbbf24)
+   - VERIFIED: Accreditation & Match Integrity (Emerald #059669 / #34d399)
+   - CRITICAL: Urgent Clinical Flags (Clinical Rose #e11d48 / #fb7185)
+   -------------------------------------------------------------------------- */
+
+/* Badges: High-contrast, clean borders, patient-accessible */
+.k-badge-understand {
+  background-color: rgba(13, 148, 136, 0.12);
+  color: #0f766e;
+  border: 1px solid rgba(13, 148, 136, 0.28);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  border-radius: 9999px;
+  padding: 4px 12px;
+  display: inline-flex;
+  align-items: center;
+  transition: all 0.2s ease;
+}
+[data-theme="dark"] .k-badge-understand {
+  background-color: rgba(20, 184, 166, 0.2);
+  color: #5eead4;
+  border-color: rgba(94, 234, 212, 0.35);
+}
+
+.k-badge-prepare {
+  background-color: rgba(37, 99, 235, 0.12);
+  color: #1d4ed8;
+  border: 1px solid rgba(37, 99, 235, 0.28);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  border-radius: 9999px;
+  padding: 4px 12px;
+  display: inline-flex;
+  align-items: center;
+  transition: all 0.2s ease;
+}
+[data-theme="dark"] .k-badge-prepare {
+  background-color: rgba(59, 130, 246, 0.2);
+  color: #93c5fd;
+  border-color: rgba(147, 197, 253, 0.35);
+}
+
+.k-badge-connect {
+  background-color: rgba(217, 119, 6, 0.12);
+  color: #b45309;
+  border: 1px solid rgba(217, 119, 6, 0.28);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  border-radius: 9999px;
+  padding: 4px 12px;
+  display: inline-flex;
+  align-items: center;
+  transition: all 0.2s ease;
+}
+[data-theme="dark"] .k-badge-connect {
+  background-color: rgba(245, 158, 11, 0.2);
+  color: #fde68a;
+  border-color: rgba(253, 230, 138, 0.35);
+}
+
+.k-badge-verified {
+  background-color: rgba(5, 150, 105, 0.12);
+  color: #047857;
+  border: 1px solid rgba(5, 150, 105, 0.28);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  border-radius: 9999px;
+  padding: 4px 12px;
+  display: inline-flex;
+  align-items: center;
+}
+[data-theme="dark"] .k-badge-verified {
+  background-color: rgba(52, 211, 153, 0.2);
+  color: #6ee7b7;
+  border-color: rgba(110, 231, 183, 0.35);
+}
+
+.k-badge-critical {
+  background-color: rgba(225, 29, 72, 0.12);
+  color: #be123c;
+  border: 1px solid rgba(225, 29, 72, 0.28);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  border-radius: 9999px;
+  padding: 4px 12px;
+  display: inline-flex;
+  align-items: center;
+}
+[data-theme="dark"] .k-badge-critical {
+  background-color: rgba(251, 113, 133, 0.2);
+  color: #fca5a5;
+  border-color: rgba(252, 165, 165, 0.35);
+}
+
+/* Pillar Action Buttons: Tactile, distinctive, purposeful gradients */
+.k-btn-understand {
+  background: linear-gradient(135deg, #0d9488 0%, #0f766e 100%) !important;
+  color: #ffffff !important;
+  border: 1px solid rgba(255, 255, 255, 0.2) !important;
+  box-shadow: 0 4px 14px rgba(13, 148, 136, 0.25) !important;
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1) !important;
+}
+.k-btn-understand:hover {
+  background: linear-gradient(135deg, #0f766e 0%, #115e59 100%) !important;
+  color: #ffffff !important;
+  transform: translateY(-1.5px);
+  box-shadow: 0 6px 18px rgba(13, 148, 136, 0.35) !important;
+}
+
+.k-btn-prepare {
+  background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%) !important;
+  color: #ffffff !important;
+  border: 1px solid rgba(255, 255, 255, 0.2) !important;
+  box-shadow: 0 4px 14px rgba(37, 99, 235, 0.25) !important;
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1) !important;
+}
+.k-btn-prepare:hover {
+  background: linear-gradient(135deg, #1d4ed8 0%, #1e40af 100%) !important;
+  color: #ffffff !important;
+  transform: translateY(-1.5px);
+  box-shadow: 0 6px 18px rgba(37, 99, 235, 0.35) !important;
+}
+
+.k-btn-connect {
+  background: linear-gradient(135deg, #d97706 0%, #b45309 100%) !important;
+  color: #ffffff !important;
+  border: 1px solid rgba(255, 255, 255, 0.2) !important;
+  box-shadow: 0 4px 14px rgba(217, 119, 6, 0.25) !important;
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1) !important;
+}
+.k-btn-connect:hover {
+  background: linear-gradient(135deg, #b45309 0%, #92400e 100%) !important;
+  color: #ffffff !important;
+  transform: translateY(-1.5px);
+  box-shadow: 0 6px 18px rgba(217, 119, 6, 0.35) !important;
+}
+
+/* Card Top Illustration Canvas: Soft tints matching semantic domain */
+.k-card-top-understand {
+  background: linear-gradient(180deg, rgba(13, 148, 136, 0.08) 0%, rgba(13, 148, 136, 0.01) 100%) !important;
+}
+[data-theme="dark"] .k-card-top-understand {
+  background: linear-gradient(180deg, rgba(20, 184, 166, 0.15) 0%, rgba(17, 24, 39, 0.3) 100%) !important;
+}
+
+.k-card-top-prepare {
+  background: linear-gradient(180deg, rgba(37, 99, 235, 0.08) 0%, rgba(37, 99, 235, 0.01) 100%) !important;
+}
+[data-theme="dark"] .k-card-top-prepare {
+  background: linear-gradient(180deg, rgba(59, 130, 246, 0.15) 0%, rgba(17, 24, 39, 0.3) 100%) !important;
+}
+
+.k-card-top-connect {
+  background: linear-gradient(180deg, rgba(217, 119, 6, 0.08) 0%, rgba(217, 119, 6, 0.01) 100%) !important;
+}
+[data-theme="dark"] .k-card-top-connect {
+  background: linear-gradient(180deg, rgba(245, 158, 11, 0.15) 0%, rgba(17, 24, 39, 0.3) 100%) !important;
+}
+
+/* Journey Card Border Accents on Hover */
+.koshika-journey-card {
+  transition: transform 0.22s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.22s ease, border-color 0.22s ease;
+}
+.koshika-journey-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 28px -4px rgba(13, 118, 110, 0.08), 0 4px 12px -2px rgba(13, 118, 110, 0.04);
+}
+.koshika-journey-card.k-card-understand:hover {
+  border-color: rgba(13, 148, 136, 0.45) !important;
+}
+.koshika-journey-card.k-card-prepare:hover {
+  border-color: rgba(37, 99, 235, 0.45) !important;
+}
+.koshika-journey-card.k-card-connect:hover {
+  border-color: rgba(217, 119, 6, 0.45) !important;
+}
+
+/* Care Journey Card Image Header Fitted & Cropped */
+.koshika-journey-card .k-card-img-wrapper {
+  height: 215px;
+  overflow: hidden;
+  position: relative;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+.koshika-journey-card .k-card-img-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
+  transition: transform 0.45s cubic-bezier(0.16, 1, 0.3, 1);
+  display: block;
+}
+
+.koshika-journey-card:hover .k-card-img-wrapper img {
+  transform: scale(1.05);
+}
+
+.koshika-journey-card .k-card-img-wrapper::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 40px;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.08), transparent);
+  pointer-events: none;
+}
+
+[data-theme="dark"] .koshika-journey-card .k-card-img-wrapper::after {
+  background: linear-gradient(to top, rgba(17, 24, 39, 0.6), transparent);
+}
+
+/* --------------------------------------------------------------------------
+   PURPLE & VIOLET SYSTEM UTILITIES (High Contrast & Complete Accessibility)
+   -------------------------------------------------------------------------- */
+.bg-purple-subtle,
+.k-badge-west-bengal {
+  background-color: #f3e8ff !important;
+  color: #6b21a8 !important;
+  border: 1px solid #d8b4fe !important;
+}
+
+.text-purple {
+  color: #7e22ce !important;
+}
+
+.border-purple-subtle {
+  border-color: #d8b4fe !important;
+}
+
+.border-purple {
+  border-color: #a855f7 !important;
+}
+
+.bg-purple {
+  background-color: #7e22ce !important;
+  color: #ffffff !important;
+}
+
+.btn-purple {
+  background-color: #7e22ce !important;
+  border-color: #7e22ce !important;
+  color: #ffffff !important;
+}
+.btn-purple:hover {
+  background-color: #6b21a8 !important;
+  border-color: #6b21a8 !important;
+  color: #ffffff !important;
+}
+
+.btn-outline-purple {
+  color: #7e22ce !important;
+  border-color: #c084fc !important;
+  background-color: transparent !important;
+}
+.btn-outline-purple:hover {
+  background-color: #f3e8ff !important;
+  color: #6b21a8 !important;
+  border-color: #a855f7 !important;
+}
+
+/* Dark Mode Overrides for Purple */
+[data-theme="dark"] .bg-purple-subtle,
+[data-theme="dark"] .k-badge-west-bengal {
+  background-color: rgba(168, 85, 247, 0.22) !important;
+  color: #e9d5ff !important;
+  border-color: rgba(216, 180, 254, 0.45) !important;
+}
+
+[data-theme="dark"] .text-purple {
+  color: #d8b4fe !important;
+}
+
+[data-theme="dark"] .border-purple-subtle {
+  border-color: rgba(216, 180, 254, 0.45) !important;
+}
+
+/* --------------------------------------------------------------------------
+   7. THEME OVERRIDES FOR COMMON BOOTSTRAP ELEMENTS
+   -------------------------------------------------------------------------- */
+[data-theme="dark"] .bg-white {
+  background-color: var(--k-surface) !important;
+  background: var(--k-surface) !important;
+}
+
+[data-theme="dark"] .bg-light {
+  background-color: var(--k-surface-alt) !important;
+  background: var(--k-surface-alt) !important;
+}
+
+[data-theme="dark"] .text-dark {
+  color: var(--k-text-primary) !important;
+}
+
+[data-theme="dark"] .text-secondary {
+  color: var(--k-text-secondary) !important;
+}
+
+[data-theme="dark"] .text-muted {
+  color: var(--k-text-muted) !important;
+}
+
+[data-theme="dark"] .border,
+[data-theme="dark"] .border-top,
+[data-theme="dark"] .border-bottom,
+[data-theme="dark"] .border-start,
+[data-theme="dark"] .border-end {
+  border-color: var(--k-border) !important;
+}
+
+/* Ensure ALL cards, without exception, use the dark surface and clean border in dark mode */
+[data-theme="dark"] .card,
+[data-theme="dark"] .koshika-card,
+[data-theme="dark"] .koshika-journey-card,
+[data-theme="dark"] .modal-content,
+[data-theme="dark"] .card[style*="background"],
+[data-theme="dark"] .card[style*="backgroundColor"],
+[data-theme="dark"] .card[style*="background-color"],
+[data-theme="dark"] .card.bg-white,
+[data-theme="dark"] div.card.bg-white {
+  background-color: var(--k-surface) !important;
+  background: var(--k-surface) !important;
+  border-color: var(--k-border) !important;
+  color: var(--k-text-primary) !important;
+}
+
+/* Intercept bright borders in dark mode across cards and containers */
+[data-theme="dark"] .card[style*="border"],
+[data-theme="dark"] *[style*="#e2e8f0"],
+[data-theme="dark"] *[style*="226, 232, 240"],
+[data-theme="dark"] *[style*="#cbd5e1"],
+[data-theme="dark"] *[style*="203, 213, 225"],
+[data-theme="dark"] *[style*="#f1f5f9"],
+[data-theme="dark"] *[style*="241, 245, 249"],
+[data-theme="dark"] *[style*="#e5e7eb"],
+[data-theme="dark"] *[style*="229, 231, 235"] {
+  border-color: var(--k-border) !important;
+}
+
+/* Universal White Background Interceptor in Dark Mode (catches all surfaces) */
+[data-theme="dark"] *[style*="backgroundColor: #ffffff"],
+[data-theme="dark"] *[style*="backgroundColor:#ffffff"],
+[data-theme="dark"] *[style*="background: #ffffff"],
+[data-theme="dark"] *[style*="background:#ffffff"],
+[data-theme="dark"] *[style*="background-color: #ffffff"],
+[data-theme="dark"] *[style*="background-color:#ffffff"],
+[data-theme="dark"] *[style*="backgroundColor: #fff"],
+[data-theme="dark"] *[style*="background: #fff"],
+[data-theme="dark"] *[style*="background-color: #fff"],
+[data-theme="dark"] *[style*="background: rgb(255, 255, 255)"],
+[data-theme="dark"] *[style*="background-color: rgb(255, 255, 255)"],
+[data-theme="dark"] *[style*="background:rgb(255, 255, 255)"],
+[data-theme="dark"] *[style*="background-color:rgb(255, 255, 255)"],
+[data-theme="dark"] *[style*="background: rgb(255,255,255)"],
+[data-theme="dark"] *[style*="background-color: rgb(255,255,255)"],
+[data-theme="dark"] *[style*="background:rgb(255,255,255)"],
+[data-theme="dark"] *[style*="background-color:rgb(255,255,255)"],
+[data-theme="dark"] *[style*="background: white"],
+[data-theme="dark"] *[style*="background-color: white"],
+[data-theme="dark"] .card[style*="rgb(255, 255, 255)"],
+[data-theme="dark"] .card[style*="#ffffff"],
+[data-theme="dark"] .card[style*="#fff"],
+[data-theme="dark"] *[style*="linear-gradient"][style*="255, 255, 255"],
+[data-theme="dark"] *[style*="linear-gradient"][style*="#fff"],
+[data-theme="dark"] *[style*="linear-gradient"][style*="#ffffff"] {
+  background-color: var(--k-surface) !important;
+  background: var(--k-surface) !important;
+  border-color: var(--k-border) !important;
+  color: var(--k-text-primary) !important;
+}
+
+/* Pastel & Light Tint Cards & Tiles in Dark Mode (transforms into sleek dark glowing surfaces) */
+/* Rose / Red */
+[data-theme="dark"] *[style*="#fff1f2"],
+[data-theme="dark"] *[style*="#fef2f2"],
+[data-theme="dark"] *[style*="#fee2e2"],
+[data-theme="dark"] *[style*="#ffe4e6"],
+[data-theme="dark"] *[style*="255, 241, 242"],
+[data-theme="dark"] *[style*="255,241,242"],
+[data-theme="dark"] *[style*="254, 242, 242"],
+[data-theme="dark"] *[style*="254,242,242"],
+[data-theme="dark"] *[style*="254, 226, 226"],
+[data-theme="dark"] *[style*="254,226,226"],
+[data-theme="dark"] *[style*="255, 228, 230"],
+[data-theme="dark"] *[style*="255,228,230"] {
+  background-color: rgba(244, 63, 94, 0.12) !important;
+  background: rgba(244, 63, 94, 0.12) !important;
+  border-color: rgba(244, 63, 94, 0.35) !important;
+}
+
+/* Emerald / Green */
+[data-theme="dark"] *[style*="#ecfdf5"],
+[data-theme="dark"] *[style*="#dcfce7"],
+[data-theme="dark"] *[style*="#d1fae5"],
+[data-theme="dark"] *[style*="236, 253, 245"],
+[data-theme="dark"] *[style*="236,253,245"],
+[data-theme="dark"] *[style*="220, 252, 231"],
+[data-theme="dark"] *[style*="220,252,231"],
+[data-theme="dark"] *[style*="209, 250, 229"],
+[data-theme="dark"] *[style*="209,250,229"] {
+  background-color: rgba(16, 185, 129, 0.12) !important;
+  background: rgba(16, 185, 129, 0.12) !important;
+  border-color: rgba(16, 185, 129, 0.35) !important;
+}
+
+/* Teal / Mint */
+[data-theme="dark"] *[style*="#f0fdfa"],
+[data-theme="dark"] *[style*="#ccfbf1"],
+[data-theme="dark"] *[style*="#eaf7f4"],
+[data-theme="dark"] *[style*="#f0fdf4"],
+[data-theme="dark"] *[style*="240, 253, 250"],
+[data-theme="dark"] *[style*="240,253,250"],
+[data-theme="dark"] *[style*="204, 251, 241"],
+[data-theme="dark"] *[style*="204,251,241"],
+[data-theme="dark"] *[style*="234, 247, 244"],
+[data-theme="dark"] *[style*="234,247,244"],
+[data-theme="dark"] *[style*="240, 253, 244"],
+[data-theme="dark"] *[style*="240,253,244"] {
+  background-color: rgba(13, 148, 136, 0.12) !important;
+  background: rgba(13, 148, 136, 0.12) !important;
+  border-color: rgba(13, 148, 136, 0.35) !important;
+}
+
+/* Blue / Sky */
+[data-theme="dark"] *[style*="#eff6ff"],
+[data-theme="dark"] *[style*="#e0f2fe"],
+[data-theme="dark"] *[style*="#dbeafe"],
+[data-theme="dark"] *[style*="#f0f9ff"],
+[data-theme="dark"] *[style*="239, 246, 255"],
+[data-theme="dark"] *[style*="239,246,255"],
+[data-theme="dark"] *[style*="240, 249, 255"],
+[data-theme="dark"] *[style*="240,249,255"],
+[data-theme="dark"] *[style*="224, 242, 254"],
+[data-theme="dark"] *[style*="224,242,254"],
+[data-theme="dark"] *[style*="219, 234, 254"],
+[data-theme="dark"] *[style*="219,234,254"] {
+  background-color: rgba(59, 130, 246, 0.12) !important;
+  background: rgba(59, 130, 246, 0.12) !important;
+  border-color: rgba(59, 130, 246, 0.35) !important;
+}
+
+/* Purple / Violet */
+[data-theme="dark"] *[style*="#faf5ff"],
+[data-theme="dark"] *[style*="#f3e8ff"],
+[data-theme="dark"] *[style*="#ede9fe"],
+[data-theme="dark"] *[style*="#f5f3ff"],
+[data-theme="dark"] *[style*="250, 245, 255"],
+[data-theme="dark"] *[style*="250,245,255"],
+[data-theme="dark"] *[style*="243, 232, 255"],
+[data-theme="dark"] *[style*="243,232,255"],
+[data-theme="dark"] *[style*="237, 233, 254"],
+[data-theme="dark"] *[style*="237,233,254"] {
+  background-color: rgba(168, 85, 247, 0.12) !important;
+  background: rgba(168, 85, 247, 0.12) !important;
+  border-color: rgba(168, 85, 247, 0.35) !important;
+}
+
+/* Amber / Warm / Pale Yellow */
+[data-theme="dark"] *[style*="#fffbeb"],
+[data-theme="dark"] *[style*="#fffdf5"],
+[data-theme="dark"] *[style*="#fef3c7"],
+[data-theme="dark"] *[style*="#fef9c3"],
+[data-theme="dark"] *[style*="#fef08a"],
+[data-theme="dark"] *[style*="255, 251, 235"],
+[data-theme="dark"] *[style*="255,251,235"],
+[data-theme="dark"] *[style*="255, 253, 245"],
+[data-theme="dark"] *[style*="255,253,245"],
+[data-theme="dark"] *[style*="254, 243, 199"],
+[data-theme="dark"] *[style*="254,243,199"],
+[data-theme="dark"] *[style*="254, 249, 195"],
+[data-theme="dark"] *[style*="254,249,195"],
+[data-theme="dark"] *[style*="254, 240, 138"],
+[data-theme="dark"] *[style*="254,240,138"] {
+  background-color: rgba(245, 158, 11, 0.14) !important;
+  background: rgba(245, 158, 11, 0.14) !important;
+  border-color: rgba(245, 158, 11, 0.35) !important;
+}
+
+/* Yellow / Warning Buttons & Badges Interceptors in Dark Mode */
+[data-theme="dark"] .btn-warning,
+[data-theme="dark"] button[style*="#fef08a"],
+[data-theme="dark"] a[style*="#fef08a"],
+[data-theme="dark"] *[style*="#fef08a"],
+[data-theme="dark"] *[style*="254, 240, 138"],
+[data-theme="dark"] *[style*="254,240,138"],
+[data-theme="dark"] *[style*="#fef9c3"],
+[data-theme="dark"] *[style*="254, 249, 195"],
+[data-theme="dark"] *[style*="#fde047"],
+[data-theme="dark"] *[style*="253, 224, 71"] {
+  background-color: rgba(234, 179, 8, 0.22) !important;
+  background: rgba(234, 179, 8, 0.22) !important;
+  border-color: rgba(234, 179, 8, 0.5) !important;
+  color: #fde047 !important;
+}
+
+[data-theme="dark"] .btn-warning *,
+[data-theme="dark"] button[style*="#fef08a"] *,
+[data-theme="dark"] a[style*="#fef08a"] *,
+[data-theme="dark"] *[style*="#fef08a"] *,
+[data-theme="dark"] *[style*="254, 240, 138"] *,
+[data-theme="dark"] *[style*="254,240,138"] *,
+[data-theme="dark"] *[style*="#fef9c3"] *,
+[data-theme="dark"] *[style*="#fde047"] * {
+  color: #fde047 !important;
+  stroke: #fde047 !important;
+}
+
+/* Slate / Gray light backgrounds */
+[data-theme="dark"] *[style*="#f8fafc"],
+[data-theme="dark"] *[style*="#f1f5f9"],
+[data-theme="dark"] *[style*="#f3f4f6"],
+[data-theme="dark"] *[style*="248, 250, 252"],
+[data-theme="dark"] *[style*="248,250,252"],
+[data-theme="dark"] *[style*="241, 245, 249"],
+[data-theme="dark"] *[style*="241,245,249"],
+[data-theme="dark"] *[style*="243, 244, 246"],
+[data-theme="dark"] *[style*="243,244,246"] {
+  background-color: var(--k-surface-alt) !important;
+  background: var(--k-surface-alt) !important;
+  border-color: var(--k-border) !important;
+}
+
+/* 100% Readable Text Everywhere in Dark Mode */
+[data-theme="dark"] h1, [data-theme="dark"] .h1,
+[data-theme="dark"] h2, [data-theme="dark"] .h2,
+[data-theme="dark"] h3, [data-theme="dark"] .h3,
+[data-theme="dark"] h4, [data-theme="dark"] .h4,
+[data-theme="dark"] h5, [data-theme="dark"] .h5,
+[data-theme="dark"] h6, [data-theme="dark"] .h6 {
+  color: var(--k-text-primary) !important;
+}
+
+[data-theme="dark"] .text-dark,
+[data-theme="dark"] strong.text-dark,
+[data-theme="dark"] span.text-dark,
+[data-theme="dark"] p.text-dark,
+[data-theme="dark"] div.text-dark,
+[data-theme="dark"] small.text-dark,
+[data-theme="dark"] td.text-dark,
+[data-theme="dark"] th.text-dark {
+  color: var(--k-text-primary) !important;
+}
+
+/* Hardcoded Dark Foreground Colors Interceptor in Dark Mode */
+[data-theme="dark"] *[style*="color: #064e3b"],
+[data-theme="dark"] *[style*="color:#064e3b"],
+[data-theme="dark"] *[style*="rgb(6, 78, 59)"],
+[data-theme="dark"] *[style*="rgb(6,78,59)"],
+[data-theme="dark"] *[style*="color: #0f172a"],
+[data-theme="dark"] *[style*="color:#0f172a"],
+[data-theme="dark"] *[style*="rgb(15, 23, 42)"],
+[data-theme="dark"] *[style*="color: #1e293b"],
+[data-theme="dark"] *[style*="color:#1e293b"],
+[data-theme="dark"] *[style*="rgb(30, 41, 59)"],
+[data-theme="dark"] *[style*="color: #111827"],
+[data-theme="dark"] *[style*="color:#111827"],
+[data-theme="dark"] *[style*="rgb(17, 24, 39)"],
+[data-theme="dark"] *[style*="color: #000000"],
+[data-theme="dark"] *[style*="color: #000"],
+[data-theme="dark"] *[style*="rgb(0, 0, 0)"],
+[data-theme="dark"] *[style*="color: #0f766e"],
+[data-theme="dark"] *[style*="rgb(15, 118, 110)"],
+[data-theme="dark"] *[style*="color: #065f46"],
+[data-theme="dark"] *[style*="rgb(6, 95, 70)"] {
+  color: var(--k-text-primary) !important;
+}
+
+/* Secondary & Muted Text Interceptors in Dark Mode */
+[data-theme="dark"] .text-secondary,
+[data-theme="dark"] span.text-secondary,
+[data-theme="dark"] p.text-secondary,
+[data-theme="dark"] *[style*="color: #475569"],
+[data-theme="dark"] *[style*="color:#475569"],
+[data-theme="dark"] *[style*="rgb(71, 85, 105)"],
+[data-theme="dark"] *[style*="color: #334155"],
+[data-theme="dark"] *[style*="color:#334155"],
+[data-theme="dark"] *[style*="rgb(51, 65, 85)"],
+[data-theme="dark"] *[style*="color: #64748b"],
+[data-theme="dark"] *[style*="color:#64748b"],
+[data-theme="dark"] *[style*="rgb(100, 116, 139)"] {
+  color: var(--k-text-secondary) !important;
+}
+
+[data-theme="dark"] .text-muted,
+[data-theme="dark"] span.text-muted,
+[data-theme="dark"] p.text-muted,
+[data-theme="dark"] small.text-muted {
+  color: var(--k-text-muted) !important;
+}
+
+/* Lucide SVGs & Icons with hardcoded dark green */
+[data-theme="dark"] svg[stroke="#064e3b"],
+[data-theme="dark"] svg[stroke*="rgb(6, 78, 59)"],
+[data-theme="dark"] svg[style*="#064e3b"],
+[data-theme="dark"] svg[style*="rgb(6, 78, 59)"] {
+  stroke: var(--k-primary) !important;
+  color: var(--k-primary) !important;
+}
+
+/* Top Hero Banner Action Buttons in Dark Mode */
+[data-theme="dark"] .koshika-hero-banner a.btn[style*="255, 255, 255"],
+[data-theme="dark"] .koshika-hero-banner button.btn[style*="255, 255, 255"],
+[data-theme="dark"] .koshika-hero-banner a.btn[style*="#ffffff"],
+[data-theme="dark"] .koshika-hero-banner button.btn[style*="#ffffff"],
+[data-theme="dark"] .koshika-top-head-card a.btn[style*="255, 255, 255"],
+[data-theme="dark"] .koshika-top-head-card button.btn[style*="255, 255, 255"],
+[data-theme="dark"] .koshika-top-head-card a.btn[style*="#ffffff"],
+[data-theme="dark"] .koshika-top-head-card button.btn[style*="#ffffff"],
+[data-theme="dark"] .card.text-white a.btn[style*="255, 255, 255"],
+[data-theme="dark"] .card.text-white button.btn[style*="255, 255, 255"],
+[data-theme="dark"] .card.text-white a.btn[style*="#ffffff"],
+[data-theme="dark"] .card.text-white button.btn[style*="#ffffff"],
+[data-theme="dark"] .koshika-hero-action-btn {
+  background-color: #0d9488 !important;
+  background: #0d9488 !important;
+  color: #ffffff !important;
+  border-color: #0d9488 !important;
+  box-shadow: 0 4px 14px rgba(13, 148, 136, 0.45) !important;
+}
+
+[data-theme="dark"] .koshika-hero-banner a.btn[style*="255, 255, 255"] *,
+[data-theme="dark"] .koshika-hero-banner button.btn[style*="255, 255, 255"] *,
+[data-theme="dark"] .koshika-hero-banner a.btn[style*="#ffffff"] *,
+[data-theme="dark"] .koshika-hero-banner button.btn[style*="#ffffff"] *,
+[data-theme="dark"] .koshika-top-head-card a.btn[style*="255, 255, 255"] *,
+[data-theme="dark"] .koshika-top-head-card button.btn[style*="255, 255, 255"] *,
+[data-theme="dark"] .card.text-white a.btn[style*="255, 255, 255"] *,
+[data-theme="dark"] .card.text-white button.btn[style*="255, 255, 255"] *,
+[data-theme="dark"] .koshika-hero-action-btn * {
+  color: #ffffff !important;
+  stroke: #ffffff !important;
+}
+
+/* Top Hero Banner Badges & Stat Chips in Dark Mode */
+[data-theme="dark"] .koshika-hero-banner .badge[style*="255, 255, 255"],
+[data-theme="dark"] .koshika-hero-banner .badge[style*="#ffffff"],
+[data-theme="dark"] .koshika-top-head-card .badge[style*="255, 255, 255"],
+[data-theme="dark"] .koshika-top-head-card .badge[style*="#ffffff"],
+[data-theme="dark"] .card.text-white .badge[style*="255, 255, 255"],
+[data-theme="dark"] .card.text-white .badge[style*="#ffffff"],
+[data-theme="dark"] .top-head-badge-white,
+[data-theme="dark"] .koshika-hero-stat-badge {
+  background-color: rgba(17, 24, 39, 0.92) !important;
+  background: rgba(17, 24, 39, 0.92) !important;
+  color: #2dd4bf !important;
+  border: 1px solid rgba(45, 212, 191, 0.35) !important;
+}
+
+[data-theme="dark"] .top-head-subcard,
+[data-theme="dark"] .koshika-top-head-card .bg-white,
+[data-theme="dark"] .koshika-hero-banner .bg-white,
+[data-theme="dark"] .card.text-white .bg-white {
+  background-color: rgba(17, 24, 39, 0.92) !important;
+  background: rgba(17, 24, 39, 0.92) !important;
+  color: var(--k-text-primary) !important;
+  border-color: rgba(45, 212, 191, 0.3) !important;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4) !important;
+}
+
+[data-theme="dark"] .top-head-subcard .fw-bold,
+[data-theme="dark"] .koshika-top-head-card .bg-white .fw-bold,
+[data-theme="dark"] .koshika-hero-banner .bg-white .fw-bold,
+[data-theme="dark"] .card.text-white .bg-white .fw-bold {
+  color: #2dd4bf !important;
+}
+
+[data-theme="dark"] .top-head-subcard .fw-semibold,
+[data-theme="dark"] .koshika-top-head-card .bg-white .fw-semibold,
+[data-theme="dark"] .koshika-hero-banner .bg-white .fw-semibold,
+[data-theme="dark"] .card.text-white .bg-white .fw-semibold {
+  color: #cbd5e1 !important;
+}
+
+/* Light badge pills inside cards in dark mode */
+[data-theme="dark"] .badge.bg-white,
+[data-theme="dark"] .badge.bg-light {
+  background-color: var(--k-surface-alt) !important;
+  color: var(--k-text-primary) !important;
+  border-color: var(--k-border) !important;
+}
+
+[data-theme="dark"] .modal-header,
+[data-theme="dark"] .modal-footer {
+  border-color: var(--k-border);
+}
+
+[data-theme="dark"] .form-control,
+[data-theme="dark"] .form-select,
+[data-theme="dark"] input,
+[data-theme="dark"] select,
+[data-theme="dark"] textarea {
+  background-color: var(--k-surface-alt) !important;
+  border-color: var(--k-border) !important;
+  color: var(--k-text-primary) !important;
+}
+
+[data-theme="dark"] input::placeholder,
+[data-theme="dark"] textarea::placeholder {
+  color: var(--k-text-muted) !important;
+}
+
+[data-theme="dark"] .form-control:focus,
+[data-theme="dark"] .form-select:focus,
+[data-theme="dark"] input:focus,
+[data-theme="dark"] select:focus,
+[data-theme="dark"] textarea:focus {
+  background-color: var(--k-surface-alt) !important;
+  border-color: var(--k-border-focus) !important;
+  color: var(--k-text-primary) !important;
+  box-shadow: 0 0 0 3px rgba(20, 184, 166, 0.25) !important;
+}
+
+[data-theme="dark"] .dropdown-menu {
+  background-color: var(--k-surface);
+  border-color: var(--k-border);
+  color: var(--k-text-primary);
+  box-shadow: var(--k-shadow-modal);
+}
+
+[data-theme="dark"] .dropdown-item {
+  color: var(--k-text-primary);
+}
+
+[data-theme="dark"] .dropdown-item:hover {
+  background-color: var(--k-surface-alt);
+  color: var(--k-primary);
+}
+
+[data-theme="dark"] .table,
+[data-theme="dark"] .koshika-table {
+  --bs-table-bg: var(--k-surface) !important;
+  --bs-table-color: var(--k-text-primary) !important;
+  --bs-table-border-color: var(--k-border) !important;
+  color: var(--k-text-primary) !important;
+  border-color: var(--k-border) !important;
+}
+
+[data-theme="dark"] .table > :not(caption) > * > * {
+  background-color: var(--k-surface) !important;
+  color: var(--k-text-primary) !important;
+  border-color: var(--k-border) !important;
+  box-shadow: none !important;
+}
+
+[data-theme="dark"] thead,
+[data-theme="dark"] thead tr,
+[data-theme="dark"] thead th,
+[data-theme="dark"] thead td,
+[data-theme="dark"] .table thead,
+[data-theme="dark"] .table thead tr,
+[data-theme="dark"] .table thead th,
+[data-theme="dark"] .table thead td,
+[data-theme="dark"] thead[style*="#f8fafc"],
+[data-theme="dark"] thead[style*="248, 250, 252"],
+[data-theme="dark"] .table-light,
+[data-theme="dark"] .table-light th,
+[data-theme="dark"] .table-light td,
+[data-theme="dark"] thead.table-light,
+[data-theme="dark"] thead.table-light th,
+[data-theme="dark"] thead.table-light td,
+[data-theme="dark"] thead.table-light > * > *,
+[data-theme="dark"] .table-light > * > *,
+[data-theme="dark"] thead.bg-light,
+[data-theme="dark"] thead.bg-light th,
+[data-theme="dark"] thead.bg-light > * > *,
+[data-theme="dark"] .bg-light th,
+[data-theme="dark"] .table th {
+  --bs-table-bg: var(--k-surface-alt) !important;
+  --bs-table-color: var(--k-text-secondary) !important;
+  --bs-table-border-color: var(--k-border) !important;
+  background-color: var(--k-surface-alt) !important;
+  background: var(--k-surface-alt) !important;
+  color: var(--k-text-secondary) !important;
+  border-color: var(--k-border) !important;
+  box-shadow: none !important;
+}
+
+[data-theme="dark"] .table td,
+[data-theme="dark"] .koshika-table td {
+  border-color: var(--k-border) !important;
+  background-color: var(--k-surface) !important;
+  color: var(--k-text-primary) !important;
+  box-shadow: none !important;
+}
+
+[data-theme="dark"] .table-hover tbody tr:hover > * {
+  --bs-table-bg-state: rgba(255, 255, 255, 0.05) !important;
+  background-color: rgba(255, 255, 255, 0.05) !important;
+  color: var(--k-text-primary) !important;
+  box-shadow: none !important;
+}
+
+/* Buttons in Dark Mode */
+[data-theme="dark"] .btn-white,
+[data-theme="dark"] .btn-light {
+  background-color: var(--k-surface-alt) !important;
+  border-color: var(--k-border) !important;
+  color: var(--k-text-primary) !important;
+}
+
+[data-theme="dark"] .btn-white:hover,
+[data-theme="dark"] .btn-light:hover {
+  background-color: var(--k-surface-tint) !important;
+  border-color: var(--k-primary) !important;
+  color: var(--k-primary) !important;
+}
+
+[data-theme="dark"] .btn-outline-secondary {
+  border-color: var(--k-border) !important;
+  color: var(--k-text-secondary) !important;
+  background-color: transparent !important;
+}
+
+[data-theme="dark"] .btn-outline-secondary:hover {
+  background-color: var(--k-surface-alt) !important;
+  color: var(--k-text-primary) !important;
+}
+
+/* --------------------------------------------------------------------------
+   8. ROLE-SPECIFIC POLISH STYLES
+   -------------------------------------------------------------------------- */
+/* PATIENT: Ethereal mint-aqua canvas */
+.patient-app-wrapper {
+  background: var(--k-canvas-pattern);
+}
+
+/* DOCTOR: Clinical focus */
+.doctor-app-wrapper {
+  background: var(--k-canvas);
+}
+
+/* ADMIN: Operational precision */
+.admin-app-wrapper {
+  background: var(--k-canvas);
+}
+
+/* --------------------------------------------------------------------------
+   9. GLOBAL SMOOTH THEME TRANSITION
+   -------------------------------------------------------------------------- */
+body,
+.patient-app-wrapper,
+.doctor-app-wrapper,
+.admin-app-wrapper,
+.patient-sidebar,
+.doctor-sidebar,
+.admin-sidebar,
+.patient-top-bar,
+.doctor-top-bar,
+.admin-top-bar,
+.card,
+.modal-content {
+  transition: background-color 0.22s ease, border-color 0.22s ease, color 0.22s ease, box-shadow 0.22s ease;
+}
+
+/* --------------------------------------------------------------------------
+   10. AUTHENTICATION PAGES GLASSMORPHISM & SPLIT CARD SYSTEM
+   -------------------------------------------------------------------------- */
+.auth-split-wrapper {
+  width: 100%;
+  max-width: 1020px;
+  margin: 1.5rem auto;
+}
+
+/* Centered Modern Auth Card */
+.auth-centered-wrapper {
+  min-height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem 1rem;
+  width: 100%;
+  position: relative;
+  z-index: 10;
+}
+
+.auth-glass-card {
+  backdrop-filter: blur(28px) saturate(190%);
+  -webkit-backdrop-filter: blur(28px) saturate(190%);
+  border-radius: 1.75rem !important;
+  transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.3s ease, background-color 0.3s ease, border-color 0.3s ease;
+  overflow: hidden;
+}
+
+[data-theme="dark"] .auth-glass-card {
+  background: rgba(11, 19, 38, 0.88) !important;
+  border: 1px solid rgba(45, 212, 191, 0.22) !important;
+  box-shadow: 0 25px 65px -10px rgba(0, 0, 0, 0.8), 0 0 35px rgba(13, 148, 136, 0.15) !important;
+  color: var(--k-text-primary) !important;
+}
+
+:root:not([data-theme="dark"]) .auth-glass-card,
+[data-theme="light"] .auth-glass-card {
+  background: rgba(255, 255, 255, 0.95) !important;
+  border: 1px solid rgba(255, 255, 255, 0.9) !important;
+  box-shadow: 0 20px 50px -10px rgba(13, 118, 110, 0.14), 0 0 30px rgba(13, 148, 136, 0.08) !important;
+  color: var(--k-text-primary);
+}
+
+/* ==========================================================================
+   VIBRANT ROLE SELECTOR CARDS (PROPER RICH COLORS & TEXT)
+   ========================================================================== */
+.k-role-tile {
+  cursor: pointer;
+  border-radius: 1.1rem;
+  padding: 0.85rem 0.5rem;
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+  border: 1.5px solid transparent;
+  user-select: none;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.k-role-tile:hover {
+  transform: translateY(-2px);
+}
+
+/* PATIENT TILE: Rich Mint & Teal */
+.k-role-tile.tile-patient {
+  background: linear-gradient(145deg, rgba(204, 251, 241, 0.7) 0%, rgba(240, 253, 250, 0.95) 100%);
+  border-color: rgba(13, 148, 136, 0.32);
+}
+.k-role-tile.tile-patient .tile-role-title {
+  color: #0f766e;
+  font-weight: 700;
+}
+.k-role-tile.tile-patient .tile-role-sub {
+  color: #0d9488;
+  font-weight: 500;
+}
+.k-role-tile.tile-patient .tile-icon-box {
+  background: linear-gradient(135deg, #0d9488 0%, #14b8a6 100%);
+  color: #ffffff;
+  box-shadow: 0 4px 12px rgba(13, 148, 136, 0.28);
+}
+
+.k-role-tile.tile-patient:hover,
+.k-role-tile.tile-patient.active {
+  background: linear-gradient(145deg, rgba(153, 246, 228, 0.75) 0%, rgba(204, 251, 241, 0.95) 100%) !important;
+  border-color: #0d9488 !important;
+  box-shadow: 0 8px 24px -4px rgba(13, 148, 136, 0.35), 0 0 0 1px #0d9488 !important;
+}
+
+[data-theme="dark"] .k-role-tile.tile-patient {
+  background: linear-gradient(145deg, rgba(13, 148, 136, 0.24) 0%, rgba(15, 23, 42, 0.7) 100%);
+  border-color: rgba(45, 212, 191, 0.38);
+}
+[data-theme="dark"] .k-role-tile.tile-patient .tile-role-title {
+  color: #2dd4bf;
+}
+[data-theme="dark"] .k-role-tile.tile-patient .tile-role-sub {
+  color: #5eead4;
+}
+[data-theme="dark"] .k-role-tile.tile-patient.active {
+  background: linear-gradient(145deg, rgba(13, 148, 136, 0.38) 0%, rgba(15, 23, 42, 0.85) 100%) !important;
+  border-color: #2dd4bf !important;
+  box-shadow: 0 8px 28px -4px rgba(45, 212, 191, 0.4), 0 0 16px rgba(45, 212, 191, 0.25) !important;
+}
+
+/* DOCTOR TILE: Royal Cobalt & Sky Blue */
+.k-role-tile.tile-doctor {
+  background: linear-gradient(145deg, rgba(219, 234, 254, 0.7) 0%, rgba(239, 246, 255, 0.95) 100%);
+  border-color: rgba(37, 99, 235, 0.32);
+}
+.k-role-tile.tile-doctor .tile-role-title {
+  color: #1d4ed8;
+  font-weight: 700;
+}
+.k-role-tile.tile-doctor .tile-role-sub {
+  color: #2563eb;
+  font-weight: 500;
+}
+.k-role-tile.tile-doctor .tile-icon-box {
+  background: linear-gradient(135deg, #2563eb 0%, #38bdf8 100%);
+  color: #ffffff;
+  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.28);
+}
+
+.k-role-tile.tile-doctor:hover,
+.k-role-tile.tile-doctor.active {
+  background: linear-gradient(145deg, rgba(191, 219, 254, 0.75) 0%, rgba(219, 234, 254, 0.95) 100%) !important;
+  border-color: #2563eb !important;
+  box-shadow: 0 8px 24px -4px rgba(37, 99, 235, 0.35), 0 0 0 1px #2563eb !important;
+}
+
+[data-theme="dark"] .k-role-tile.tile-doctor {
+  background: linear-gradient(145deg, rgba(37, 99, 235, 0.24) 0%, rgba(15, 23, 42, 0.7) 100%);
+  border-color: rgba(96, 165, 250, 0.38);
+}
+[data-theme="dark"] .k-role-tile.tile-doctor .tile-role-title {
+  color: #60a5fa;
+}
+[data-theme="dark"] .k-role-tile.tile-doctor .tile-role-sub {
+  color: #93c5fd;
+}
+[data-theme="dark"] .k-role-tile.tile-doctor.active {
+  background: linear-gradient(145deg, rgba(37, 99, 235, 0.38) 0%, rgba(15, 23, 42, 0.85) 100%) !important;
+  border-color: #60a5fa !important;
+  box-shadow: 0 8px 28px -4px rgba(96, 165, 250, 0.4), 0 0 16px rgba(96, 165, 250, 0.25) !important;
+}
+
+/* ADMIN TILE: Royal Violet & Amethyst */
+.k-role-tile.tile-admin {
+  background: linear-gradient(145deg, rgba(243, 232, 255, 0.7) 0%, rgba(250, 245, 255, 0.95) 100%);
+  border-color: rgba(147, 51, 234, 0.32);
+}
+.k-role-tile.tile-admin .tile-role-title {
+  color: #7e22ce;
+  font-weight: 700;
+}
+.k-role-tile.tile-admin .tile-role-sub {
+  color: #9333ea;
+  font-weight: 500;
+}
+.k-role-tile.tile-admin .tile-icon-box {
+  background: linear-gradient(135deg, #9333ea 0%, #c084fc 100%);
+  color: #ffffff;
+  box-shadow: 0 4px 12px rgba(147, 51, 234, 0.28);
+}
+
+.k-role-tile.tile-admin:hover,
+.k-role-tile.tile-admin.active {
+  background: linear-gradient(145deg, rgba(233, 213, 255, 0.75) 0%, rgba(243, 232, 255, 0.95) 100%) !important;
+  border-color: #9333ea !important;
+  box-shadow: 0 8px 24px -4px rgba(147, 51, 234, 0.35), 0 0 0 1px #9333ea !important;
+}
+
+[data-theme="dark"] .k-role-tile.tile-admin {
+  background: linear-gradient(145deg, rgba(147, 51, 234, 0.24) 0%, rgba(15, 23, 42, 0.7) 100%);
+  border-color: rgba(192, 132, 252, 0.38);
+}
+[data-theme="dark"] .k-role-tile.tile-admin .tile-role-title {
+  color: #c084fc;
+}
+[data-theme="dark"] .k-role-tile.tile-admin .tile-role-sub {
+  color: #e9d5ff;
+}
+[data-theme="dark"] .k-role-tile.tile-admin.active {
+  background: linear-gradient(145deg, rgba(147, 51, 234, 0.38) 0%, rgba(15, 23, 42, 0.85) 100%) !important;
+  border-color: #c084fc !important;
+  box-shadow: 0 8px 28px -4px rgba(192, 132, 252, 0.4), 0 0 16px rgba(192, 132, 252, 0.25) !important;
+}
+
+/* Role Active Check Badge */
+.tile-check-badge {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  font-size: 10px;
+}
+
+/* ==========================================================================
+   INPUTS & BUTTONS WITH DYNAMIC ROLE COLORS
+   ========================================================================== */
+.auth-input-group {
+  border-radius: 0.85rem;
+  overflow: hidden;
+  border: 1.5px solid var(--k-border);
+  background-color: var(--k-surface);
+  transition: all 0.2s ease;
+}
+.auth-input-group .input-group-text {
+  background-color: transparent !important;
+  border: none !important;
+  padding-right: 0.5rem;
+}
+.auth-input-group .form-control {
+  border: none !important;
+  background-color: transparent !important;
+  color: var(--k-text-primary) !important;
+  box-shadow: none !important;
+}
+
+[data-theme="dark"] .auth-input-group {
+  background-color: rgba(15, 23, 42, 0.65);
+  border-color: rgba(255, 255, 255, 0.12);
+}
+
+.auth-input-group.role-patient:focus-within {
+  border-color: #0d9488 !important;
+  box-shadow: 0 0 0 3px rgba(13, 148, 136, 0.22) !important;
+}
+.auth-input-group.role-doctor:focus-within {
+  border-color: #2563eb !important;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.22) !important;
+}
+.auth-input-group.role-admin:focus-within {
+  border-color: #9333ea !important;
+  box-shadow: 0 0 0 3px rgba(147, 51, 234, 0.22) !important;
+}
+
+/* Role Buttons */
+.btn-role-patient {
+  background: linear-gradient(135deg, #0d9488 0%, #10b981 100%) !important;
+  color: #ffffff !important;
+  border: none !important;
+  box-shadow: 0 6px 20px -2px rgba(13, 148, 136, 0.4);
+  transition: all 0.22s ease;
+}
+.btn-role-patient:hover {
+  background: linear-gradient(135deg, #0f766e 0%, #059669 100%) !important;
+  transform: translateY(-1.5px);
+  box-shadow: 0 10px 24px -2px rgba(13, 148, 136, 0.5);
+}
+
+.btn-role-doctor {
+  background: linear-gradient(135deg, #2563eb 0%, #38bdf8 100%) !important;
+  color: #ffffff !important;
+  border: none !important;
+  box-shadow: 0 6px 20px -2px rgba(37, 99, 235, 0.4);
+  transition: all 0.22s ease;
+}
+.btn-role-doctor:hover {
+  background: linear-gradient(135deg, #1d4ed8 0%, #0284c7 100%) !important;
+  transform: translateY(-1.5px);
+  box-shadow: 0 10px 24px -2px rgba(37, 99, 235, 0.5);
+}
+
+.btn-role-admin {
+  background: linear-gradient(135deg, #9333ea 0%, #c084fc 100%) !important;
+  color: #ffffff !important;
+  border: none !important;
+  box-shadow: 0 6px 20px -2px rgba(147, 51, 234, 0.4);
+  transition: all 0.22s ease;
+}
+.btn-role-admin:hover {
+  background: linear-gradient(135deg, #7e22ce 0%, #a855f7 100%) !important;
+  transform: translateY(-1.5px);
+  box-shadow: 0 10px 24px -2px rgba(147, 51, 234, 0.5);
+}
+
+.hover-scale {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.hover-scale:hover {
+  transform: translateY(-1.5px);
+}
+
+/* --------------------------------------------------------------------------
+   11. FRACTIONAL SPACING & GAP UTILITIES (Bootstrap Extension)
+   -------------------------------------------------------------------------- */
+.gap-0\.5 { gap: 0.25rem !important; }
+.gap-1\.5 { gap: 0.5rem !important; }
+.gap-2\.5 { gap: 0.85rem !important; }
+.gap-3\.5 { gap: 1.25rem !important; }
+.gap-4\.5 { gap: 1.75rem !important; }
+
+.p-0\.5 { padding: 0.25rem !important; }
+.p-1\.5 { padding: 0.5rem !important; }
+.p-2\.5 { padding: 0.75rem !important; }
+.p-3\.5 { padding: 1.15rem !important; }
+.p-4\.5 { padding: 1.75rem !important; }
+
+.px-1\.5 { padding-left: 0.5rem !important; padding-right: 0.5rem !important; }
+.px-2\.5 { padding-left: 0.75rem !important; padding-right: 0.75rem !important; }
+.px-3\.5 { padding-left: 1.15rem !important; padding-right: 1.15rem !important; }
+
+.py-1\.5 { padding-top: 0.5rem !important; padding-bottom: 0.5rem !important; }
+.py-2\.5 { padding-top: 0.75rem !important; padding-bottom: 0.75rem !important; }
+.py-3\.5 { padding-top: 1.15rem !important; padding-bottom: 1.15rem !important; }
+
+.mb-0\.5 { margin-bottom: 0.25rem !important; }
+.mb-1\.5 { margin-bottom: 0.5rem !important; }
+.mb-2\.5 { margin-bottom: 0.75rem !important; }
+.mb-3\.5 { margin-bottom: 1.25rem !important; }
+.mb-4\.5 { margin-bottom: 1.75rem !important; }
+
+.mt-0\.5 { margin-top: 0.25rem !important; }
+.mt-1\.5 { margin-top: 0.5rem !important; }
+.mt-2\.5 { margin-top: 0.75rem !important; }
+
+/* --------------------------------------------------------------------------
+   12. INTERACTIVE CLINICAL GAMES SYSTEM STYLES (Light & Dark Mode Accessible)
+   -------------------------------------------------------------------------- */
+.k-game-card-teal {
+  border-top: 4px solid #0d9488 !important;
+}
+.k-game-card-purple {
+  border-top: 4px solid #7e22ce !important;
+}
+.k-game-card-amber {
+  border-top: 4px solid #d97706 !important;
+}
+
+/* Flashcard 3D hover elevation */
+.k-flashcard-active {
+  transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.3s ease;
+}
+.k-flashcard-active:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 16px 36px -6px rgba(13, 148, 136, 0.16) !important;
+}
+
+/* Game choice item */
+.k-game-choice-btn {
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+  background-color: var(--k-surface) !important;
+  color: var(--k-text-primary) !important;
+}
+.k-game-choice-btn:hover {
+  transform: translateY(-1.5px);
+  border-color: #a855f7 !important;
+  background-color: rgba(168, 85, 247, 0.06) !important;
+}
+
+/* Dark mode overrides for game surfaces */
+[data-theme="dark"] .k-game-feedback-box {
+  background-color: rgba(15, 23, 42, 0.8) !important;
+  border-color: rgba(255, 255, 255, 0.12) !important;
+  color: var(--k-text-primary) !important;
+}
+
+[data-theme="dark"] .k-claim-card-box {
+  background-color: rgba(30, 41, 59, 0.7) !important;
+  border-color: rgba(245, 158, 11, 0.4) !important;
+  color: var(--k-text-primary) !important;
+}
+
+

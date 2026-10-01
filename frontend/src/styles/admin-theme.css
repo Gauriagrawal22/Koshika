@@ -1,0 +1,253 @@
+/* ==========================================================================
+   KOSHIKA — ADMIN ROLE WORKSPACE STYLING
+   Operational, precise, biobank & governance administration interface
+   Fully tokenized for unified Light and Dark modes
+   ========================================================================== */
+
+/* Overall Admin Workspace Wrapper */
+.admin-app-wrapper {
+  display: flex;
+  min-height: 100vh;
+  background-color: var(--k-canvas);
+  color: var(--k-text-primary);
+  position: relative;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+/* Admin Sidebar Container */
+.admin-sidebar {
+  width: 256px;
+  background-color: var(--k-sidebar-bg);
+  border-right: 1px solid var(--k-border);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  position: sticky;
+  top: 0;
+  z-index: 1040;
+  transition: width 0.25s cubic-bezier(0.4, 0, 0.2, 1), transform 0.25s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.2s ease, border-color 0.2s ease;
+  overflow-y: auto;
+  overflow-x: hidden;
+  box-shadow: var(--k-shadow-xs);
+}
+
+.admin-sidebar::-webkit-scrollbar {
+  width: 5px;
+}
+.admin-sidebar::-webkit-scrollbar-thumb {
+  background-color: var(--k-border);
+  border-radius: 4px;
+}
+
+/* Collapsed Desktop State */
+.admin-sidebar.collapsed {
+  width: 72px;
+}
+
+.admin-sidebar.collapsed .sidebar-hide-collapsed {
+  display: none !important;
+}
+
+.admin-sidebar.collapsed .admin-sidebar-section-title {
+  display: none !important;
+}
+
+.admin-sidebar.collapsed .admin-sidebar-link {
+  justify-content: center;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.admin-sidebar.collapsed .admin-sidebar-header {
+  justify-content: center;
+  padding: 0 8px;
+  height: 60px;
+}
+
+/* Sidebar Brand Header (Strict 60px height to align with top bar) */
+.admin-sidebar-header {
+  height: 60px;
+  padding: 0 18px;
+  border-bottom: 1px solid var(--k-border);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.admin-sidebar-brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.admin-sidebar-brand-name {
+  font-family: var(--k-font-heading);
+  font-weight: 800;
+  font-size: 1.15rem;
+  letter-spacing: 0.04em;
+  color: var(--k-text-primary);
+  line-height: 1.1;
+}
+
+.admin-sidebar-brand-sub {
+  font-size: 0.68rem;
+  color: var(--k-text-muted);
+  font-weight: 500;
+  letter-spacing: 0.01em;
+}
+
+/* Sidebar Sections & Navigation Links */
+.admin-sidebar-nav {
+  padding: 14px 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.admin-sidebar-section-title {
+  font-size: 0.68rem;
+  font-weight: 700;
+  color: var(--k-text-muted);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 12px 12px 6px 12px;
+  margin-top: 6px;
+}
+
+.admin-sidebar-link {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  padding: 8.5px 12px;
+  border-radius: 10px;
+  color: var(--k-text-secondary);
+  font-size: 0.86rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.16s ease;
+  position: relative;
+  border-left: 3px solid transparent;
+}
+
+.admin-sidebar-link:hover {
+  background-color: var(--k-surface-alt);
+  color: var(--k-text-primary);
+}
+
+.admin-sidebar-link.active {
+  background-color: var(--k-sidebar-link-active-bg);
+  color: var(--k-sidebar-link-active-text);
+  font-weight: 600;
+  border-left: 3px solid var(--k-sidebar-link-active-border);
+}
+
+.admin-sidebar-link.active .sidebar-icon {
+  color: var(--k-sidebar-link-active-text);
+}
+
+.admin-sidebar-link .sidebar-icon {
+  color: var(--k-text-muted);
+  flex-shrink: 0;
+  width: 18px;
+  height: 18px;
+  transition: color 0.16s ease;
+}
+
+.admin-sidebar-link:hover .sidebar-icon {
+  color: var(--k-primary);
+}
+
+/* Bottom Utility & Profile Area */
+.admin-sidebar-footer {
+  padding: 14px 12px 18px 12px;
+  border-top: 1px solid var(--k-border);
+  background-color: var(--k-sidebar-bg);
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.admin-profile-card-trigger {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 9px 10px;
+  border-radius: 12px;
+  background-color: var(--k-surface-alt);
+  border: 1px solid var(--k-border);
+  color: var(--k-text-primary);
+  cursor: pointer;
+  transition: all 0.16s ease;
+  text-align: left;
+}
+
+.admin-profile-card-trigger:hover {
+  background-color: var(--k-surface-tint);
+  border-color: var(--k-primary);
+}
+
+/* Admin Minimal Top Bar */
+.admin-top-bar {
+  height: 60px;
+  background-color: var(--k-topbar-bg);
+  border-bottom: 1px solid var(--k-border);
+  padding: 0 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 1020;
+  transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+
+@media (max-width: 767.98px) {
+  .admin-top-bar {
+    padding: 0 16px;
+  }
+}
+
+/* Responsive Offcanvas Drawer for Mobile/Tablet (< 1024px) */
+@media (max-width: 1023.98px) {
+  .admin-sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    transform: translateX(-100%);
+    box-shadow: 4px 0 24px rgba(0, 0, 0, 0.35);
+  }
+
+  .admin-sidebar.mobile-open {
+    transform: translateX(0);
+  }
+
+  .admin-backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(9, 13, 22, 0.65);
+    backdrop-filter: blur(3px);
+    z-index: 1030;
+  }
+}
+
+/* Main Content Area */
+.admin-main-container {
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.admin-content-container {
+  max-width: 1360px;
+  margin: 0 auto;
+  width: 100%;
+}

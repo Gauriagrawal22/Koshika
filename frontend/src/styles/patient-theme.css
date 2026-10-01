@@ -1,0 +1,346 @@
+/* ==========================================================================
+   KOSHIKA — PATIENT ROLE NAVIGATION & INTERFACE STYLING
+   Clean, trustworthy, human-made healthcare design with left sidebar
+   ========================================================================== */
+
+/* Overall Patient Layout Wrapper */
+.patient-app-wrapper {
+  display: flex;
+  min-height: 100vh;
+  background: var(--k-canvas-pattern);
+  color: var(--k-text-primary);
+  position: relative;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+/* Sidebar Container */
+.patient-sidebar {
+  width: 256px;
+  background-color: var(--k-sidebar-bg);
+  border-right: 1px solid var(--k-border);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  position: sticky;
+  top: 0;
+  z-index: 1040;
+  transition: width 0.25s cubic-bezier(0.4, 0, 0.2, 1), transform 0.25s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.2s ease, border-color 0.2s ease;
+  overflow-y: auto;
+  overflow-x: hidden;
+  box-shadow: 1px 0 3px rgba(15, 23, 42, 0.03);
+}
+
+/* Scrollbar refinement */
+.patient-sidebar::-webkit-scrollbar {
+  width: 5px;
+}
+.patient-sidebar::-webkit-scrollbar-thumb {
+  background-color: var(--k-border);
+  border-radius: 4px;
+}
+
+/* Collapsed Desktop State */
+.patient-sidebar.collapsed {
+  width: 72px;
+}
+
+.patient-sidebar.collapsed .sidebar-hide-collapsed {
+  display: none !important;
+}
+
+.patient-sidebar.collapsed .sidebar-section-title {
+  display: none !important;
+}
+
+.patient-sidebar.collapsed .patient-sidebar-link {
+  justify-content: center !important;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.patient-sidebar.collapsed .sidebar-nested-item {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.patient-sidebar.collapsed .patient-sidebar-header {
+  justify-content: center;
+  padding: 0 8px;
+  height: 60px;
+}
+
+/* Sidebar Brand Header (Strict 60px height to align with top bar) */
+.patient-sidebar-header {
+  height: 60px;
+  padding: 0 18px;
+  border-bottom: 1px solid var(--k-border);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.patient-sidebar-brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.patient-sidebar-brand-name {
+  font-family: var(--k-font-heading);
+  font-weight: 800;
+  font-size: 1.15rem;
+  letter-spacing: 0.04em;
+  color: var(--k-text-primary);
+  line-height: 1.1;
+}
+
+.patient-sidebar-brand-sub {
+  font-size: 0.68rem;
+  color: var(--k-text-muted);
+  font-weight: 500;
+  letter-spacing: 0.01em;
+}
+
+/* Sidebar Sections & Navigation Links */
+.patient-sidebar-nav {
+  padding: 14px 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.sidebar-section-title {
+  font-size: 0.68rem;
+  font-weight: 700;
+  color: var(--k-text-tertiary);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 12px 12px 6px 12px;
+  margin-top: 6px;
+}
+
+.patient-sidebar-link {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  padding: 8.5px 12px;
+  border-radius: 10px;
+  color: var(--k-text-secondary);
+  font-size: 0.86rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.16s ease;
+  position: relative;
+  border-left: 3px solid transparent;
+}
+
+.patient-sidebar-link:hover {
+  background-color: var(--k-surface-alt);
+  color: var(--k-text-primary);
+}
+
+.patient-sidebar-link.active {
+  background-color: var(--k-sidebar-link-active-bg);
+  color: var(--k-sidebar-link-active-text);
+  font-weight: 600;
+  border-left: 3px solid var(--k-sidebar-link-active-border);
+}
+
+.patient-sidebar-link.active .sidebar-icon {
+  color: var(--k-primary);
+}
+
+.patient-sidebar-link .sidebar-icon {
+  color: var(--k-text-muted);
+  flex-shrink: 0;
+  width: 18px;
+  height: 18px;
+  transition: color 0.16s ease;
+}
+
+.patient-sidebar-link:hover .sidebar-icon {
+  color: var(--k-primary);
+}
+
+/* Nested Sub-links for Find Care */
+.patient-sidebar-subgroup {
+  margin-left: 20px;
+  padding-left: 10px;
+  border-left: 2px solid #e2e8f0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  margin-top: 2px;
+  margin-bottom: 4px;
+}
+
+.patient-sidebar-sublink {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 10px;
+  border-radius: 8px;
+  color: #64748b;
+  font-size: 0.81rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.15s ease;
+}
+
+.patient-sidebar-sublink:hover {
+  background-color: var(--k-surface-alt);
+  color: var(--k-text-primary);
+}
+
+.patient-sidebar-sublink.active {
+  background-color: var(--k-sidebar-link-active-bg);
+  color: var(--k-sidebar-link-active-text);
+  font-weight: 600;
+}
+
+/* Bottom Controls */
+.patient-sidebar-footer {
+  padding: 14px 12px 18px 12px;
+  border-top: 1px solid var(--k-border);
+  background-color: var(--k-surface);
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.patient-profile-card-trigger {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 9px 10px;
+  border-radius: 12px;
+  background-color: var(--k-surface-alt);
+  border: 1px solid var(--k-border);
+  color: var(--k-text-primary);
+  cursor: pointer;
+  transition: all 0.16s ease;
+  text-align: left;
+}
+
+.patient-profile-card-trigger:hover {
+  background-color: var(--k-surface-tint);
+  border-color: var(--k-primary);
+}
+
+/* Patient Top Bar (Matches Doctor & Admin design) */
+.patient-top-bar {
+  height: 60px;
+  background-color: var(--k-topbar-bg);
+  border-bottom: 1px solid var(--k-topbar-border);
+  padding: 0 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 1020;
+  transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+
+@media (max-width: 767.98px) {
+  .patient-top-bar {
+    padding: 0 16px;
+  }
+}
+
+/* Patient Mobile Header (Legacy fallback) */
+.patient-mobile-header {
+  display: none;
+  height: 60px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #e2e8f0;
+  padding: 0 16px;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 1020;
+}
+
+/* Responsive Breakpoints for Sidebar Drawer */
+@media (max-width: 1023.98px) {
+  .patient-sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    transform: translateX(-100%);
+    box-shadow: 4px 0 24px rgba(15, 23, 42, 0.15);
+  }
+
+  .patient-sidebar.mobile-open {
+    transform: translateX(0);
+  }
+
+  .patient-backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(15, 23, 42, 0.4);
+    backdrop-filter: blur(2px);
+    z-index: 1030;
+  }
+}
+
+/* Main Content Area */
+.patient-main-container {
+  min-width: 0; /* Prevents flex children horizontal blowout */
+  display: flex;
+  flex-direction: column;
+}
+
+.patient-content-container {
+  max-width: 1360px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+/* Subtle Healthcare Cards */
+.patient-card {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 20px;
+  padding: 24px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+  box-shadow: 0 1px 3px rgba(15, 23, 42, 0.04);
+}
+
+.patient-card:hover {
+  border-color: #cbd5e1;
+  box-shadow: 0 4px 12px rgba(15, 23, 42, 0.06);
+}
+
+/* Compact Care Overview Item */
+.care-overview-card {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 16px;
+  padding: 16px 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  text-decoration: none;
+  color: inherit;
+  transition: all 0.18s ease;
+}
+
+.care-overview-card:hover {
+  border-color: #99f6e4;
+  background-color: #fafdfc;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(13, 148, 136, 0.08);
+}
