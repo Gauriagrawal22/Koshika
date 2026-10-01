@@ -45,17 +45,9 @@ const PatientSidebar = ({
   const [showProfileMenu, setShowProfileMenu] = useState(false);
   const [showLangMenu, setShowLangMenu] = useState(false);
   const [showRoleModal, setShowRoleModal] = useState(false);
-  const [findCareOpen, setFindCareOpen] = useState(() => location.pathname.startsWith('/find-care'));
 
   const profileRef = useRef(null);
   const langRef = useRef(null);
-
-  // Keep Find Care expanded when navigating within find-care routes
-  useEffect(() => {
-    if (location.pathname.startsWith('/find-care')) {
-      setFindCareOpen(true);
-    }
-  }, [location.pathname]);
 
   // Close menus on outside click
   useEffect(() => {
@@ -152,152 +144,92 @@ const PatientSidebar = ({
           </button>
         </div>
 
-        {/* Navigation Sections: Home -> Awareness -> My Care -> Care -> Stem Cell Banks */}
+        {/* Navigation Sections: Clean 3-Group Healthcare Architecture */}
         <div className="patient-sidebar-nav flex-grow-1 overflow-y-auto">
-          {/* Section: HOME */}
-          <div className="sidebar-section-title">{t.sidebarHome || 'HOME'}</div>
+          {/* Group 1: OVERVIEW & KNOWLEDGE */}
+          <div className="sidebar-section-title">{t.sidebarHome || 'OVERVIEW & KNOWLEDGE'}</div>
+          
           <NavLink
             to="/"
             end
             className={({ isActive }) =>
               `patient-sidebar-link ${isActive || location.pathname === '/dashboard' ? 'active' : ''}`
             }
-            title={t.navHome || 'Home'}
+            title={t.navHome || 'Care Journey'}
           >
             <Home size={18} className="sidebar-icon" />
-            {!isCollapsed && <span className="sidebar-hide-collapsed">{t.navHome || 'Home'}</span>}
+            {!isCollapsed && <span className="sidebar-hide-collapsed">{t.navHome || 'Care Journey'}</span>}
           </NavLink>
 
-          {/* Section: AWARENESS (UNDERSTAND - Teal) */}
-          <div className="sidebar-section-title d-flex align-items-center gap-1.5">
-            <span className="rounded-circle flex-shrink-0" style={{ width: '6px', height: '6px', backgroundColor: '#0d9488' }} />
-            <span>{t.sidebarAwareness || 'AWARENESS'}</span>
-          </div>
           <NavLink
             to="/learn"
             className={({ isActive }) => `patient-sidebar-link ${isActive ? 'active' : ''}`}
-            title={t.cardLearnUnderstand || 'Learn & Understand'}
+            title={t.cardLearnUnderstand || 'Learn & Guides'}
           >
             <BookOpen size={18} className="sidebar-icon" />
-            {!isCollapsed && <span className="sidebar-hide-collapsed">{t.cardLearnUnderstand || 'Learn & Understand'}</span>}
+            {!isCollapsed && <span className="sidebar-hide-collapsed">{t.cardLearnUnderstand || 'Learn & Guides'}</span>}
           </NavLink>
 
           <NavLink
             to="/games"
             className={({ isActive }) => `patient-sidebar-link ${isActive ? 'active' : ''}`}
-            title={t.navLearnPlay || 'Learn & Play'}
+            title={t.navLearnPlay || 'Interactive Studio'}
           >
             <Gamepad2 size={18} className="sidebar-icon" />
-            {!isCollapsed && <span className="sidebar-hide-collapsed">{t.navLearnPlay || 'Learn & Play'}</span>}
+            {!isCollapsed && <span className="sidebar-hide-collapsed">{t.navLearnPlay || 'Interactive Studio'}</span>}
           </NavLink>
 
-          {/* Section: MY CARE (PREPARE - Blue) */}
-          <div className="sidebar-section-title d-flex align-items-center gap-1.5">
-            <span className="rounded-circle flex-shrink-0" style={{ width: '6px', height: '6px', backgroundColor: '#2563eb' }} />
-            <span>{t.sidebarMyCare || 'MY CARE'}</span>
-          </div>
+          {/* Group 2: HEALTH & DIAGNOSTICS */}
+          <div className="sidebar-section-title mt-3">{t.sidebarMyCare || 'HEALTH & DIAGNOSTICS'}</div>
+
           <NavLink
             to="/preliminary-assessment"
             className={({ isActive }) => `patient-sidebar-link ${isActive ? 'active' : ''}`}
-            title={t.navAssessment || 'Assessment'}
+            title={t.navAssessment || 'Health Assessment'}
           >
             <ClipboardCheck size={18} className="sidebar-icon" />
-            {!isCollapsed && <span className="sidebar-hide-collapsed">{t.navAssessment || 'Assessment'}</span>}
+            {!isCollapsed && <span className="sidebar-hide-collapsed">{t.navAssessment || 'Health Assessment'}</span>}
           </NavLink>
 
           <NavLink
             to="/ocr-reports"
             className={({ isActive }) => `patient-sidebar-link ${isActive ? 'active' : ''}`}
-            title={t.navReports || 'Medical Reports'}
+            title={t.navReports || 'Medical Reports & OCR'}
           >
             <FileText size={18} className="sidebar-icon" />
-            {!isCollapsed && <span className="sidebar-hide-collapsed">{t.navReports || 'Medical Reports'}</span>}
+            {!isCollapsed && <span className="sidebar-hide-collapsed">{t.navReports || 'Medical Reports & OCR'}</span>}
           </NavLink>
-
-          {/* Section: CARE (CONNECT - Amber) */}
-          <div className="sidebar-section-title d-flex align-items-center gap-1.5">
-            <span className="rounded-circle flex-shrink-0" style={{ width: '6px', height: '6px', backgroundColor: '#d97706' }} />
-            <span>{t.sidebarCare || 'CARE'}</span>
-          </div>
-          
-          {/* Find Care Subgroup */}
-          <div className="sidebar-nested-item">
-            <button
-              type="button"
-              className={`patient-sidebar-link w-100 border-0 bg-transparent ${
-                isCollapsed
-                  ? 'justify-content-center'
-                  : 'text-start d-flex align-items-center justify-content-between'
-              } ${
-                location.pathname.startsWith('/find-care') ? 'active' : ''
-              }`}
-              onClick={() => {
-                if (isCollapsed && onToggleCollapse) {
-                  onToggleCollapse();
-                }
-                setFindCareOpen(!findCareOpen);
-              }}
-              title="Find Care"
-              aria-expanded={findCareOpen}
-            >
-              {isCollapsed ? (
-                <Search size={18} className="sidebar-icon" />
-              ) : (
-                <>
-                  <div className="d-flex align-items-center gap-2 overflow-hidden">
-                    <Search size={18} className="sidebar-icon" />
-                    <span className="sidebar-hide-collapsed">Find Care</span>
-                  </div>
-                  <ChevronDown
-                    size={14}
-                    className="text-muted flex-shrink-0"
-                    style={{
-                      transform: findCareOpen ? 'rotate(180deg)' : 'none',
-                      transition: 'transform 0.15s ease'
-                    }}
-                  />
-                </>
-              )}
-            </button>
-
-            {/* Sub-links */}
-            {!isCollapsed && findCareOpen && (
-              <div className="patient-sidebar-subgroup">
-                <NavLink
-                  to="/find-care/doctors"
-                  className={({ isActive }) => `patient-sidebar-sublink ${isActive ? 'active' : ''}`}
-                  title={t.navDoctors || 'Find Doctors'}
-                >
-                  <Stethoscope size={14} className="flex-shrink-0" />
-                  <span>{t.navDoctors || 'Find Doctors'}</span>
-                </NavLink>
-
-                <NavLink
-                  to="/find-care/centres"
-                  className={({ isActive }) => `patient-sidebar-sublink ${isActive ? 'active' : ''}`}
-                  title={t.navCentres || 'Transplant Centres'}
-                >
-                  <Building2 size={14} className="flex-shrink-0" />
-                  <span>{t.navCentres || 'Transplant Centres'}</span>
-                </NavLink>
-              </div>
-            )}
-          </div>
 
           <NavLink
             to="/appointments"
             className={({ isActive }) => `patient-sidebar-link ${isActive ? 'active' : ''}`}
-            title={t.navConsultations || 'Consultations'}
+            title={t.navConsultations || 'Appointments & Telehealth'}
           >
             <Calendar size={18} className="sidebar-icon" />
-            {!isCollapsed && <span className="sidebar-hide-collapsed">{t.navConsultations || 'Consultations'}</span>}
+            {!isCollapsed && <span className="sidebar-hide-collapsed">{t.navConsultations || 'Appointments'}</span>}
           </NavLink>
 
-          {/* Section: STEM CELL BANKS (VERIFIED - Emerald) */}
-          <div className="sidebar-section-title d-flex align-items-center gap-1.5">
-            <span className="rounded-circle flex-shrink-0" style={{ width: '6px', height: '6px', backgroundColor: '#059669' }} />
-            <span>{t.sidebarStemCellBanks || 'STEM CELL BANKS'}</span>
-          </div>
+          {/* Group 3: CARE DIRECTORY */}
+          <div className="sidebar-section-title mt-3">{t.sidebarCare || 'CARE DIRECTORY'}</div>
+
+          <NavLink
+            to="/find-care/doctors"
+            className={({ isActive }) => `patient-sidebar-link ${isActive ? 'active' : ''}`}
+            title={t.navDoctors || 'Find Doctors'}
+          >
+            <Stethoscope size={18} className="sidebar-icon" />
+            {!isCollapsed && <span className="sidebar-hide-collapsed">{t.navDoctors || 'Specialist Doctors'}</span>}
+          </NavLink>
+
+          <NavLink
+            to="/find-care/centres"
+            className={({ isActive }) => `patient-sidebar-link ${isActive ? 'active' : ''}`}
+            title={t.navCentres || 'Transplant Centres'}
+          >
+            <Building2 size={18} className="sidebar-icon" />
+            {!isCollapsed && <span className="sidebar-hide-collapsed">{t.navCentres || 'Transplant Centres'}</span>}
+          </NavLink>
+
           <NavLink
             to="/bank"
             className={({ isActive }) => `patient-sidebar-link ${isActive ? 'active' : ''}`}

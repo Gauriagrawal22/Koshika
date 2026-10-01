@@ -207,7 +207,7 @@ const DoctorDashboard = () => {
             >
               <div className="position-relative overflow-hidden" style={{ height: '160px' }}>
                 <img
-                  src="/images/home/stem_cell_video_thumb.jpg"
+                  src="/images/home/doc_telehealth_rounds.jpg"
                   alt="Clinical Cellular Therapy Suite"
                   className="w-100 h-100 object-fit-cover"
                   onError={(e) => { e.target.style.display = 'none'; }}
@@ -270,6 +270,48 @@ const DoctorDashboard = () => {
             </div>
           </div>
         </div>
+      </div>
+
+      {/* ---------------------------------------------------------------------
+          CLINICAL TELEMETRY STRIP: IMMEDIATE DECISION-SUPPORT COUNTS
+      ---------------------------------------------------------------------- */}
+      <div className="row g-3 mb-4">
+        {[
+          { label: 'Active BMT Cohort', count: '24', sub: '3 High Priority', link: '/doctor/patients', color: '#0d9488', bg: 'rgba(13, 148, 136, 0.08)' },
+          { label: 'Diagnostic Sign-Offs', count: '3', sub: 'Awaiting Attending Sign', link: '/doctor/reports', color: '#e11d48', bg: 'rgba(225, 29, 72, 0.08)' },
+          { label: "Today's Consultations", count: '4', sub: 'Next call at 10:30 AM', link: '/doctor/consultations', color: '#2563eb', bg: 'rgba(37, 99, 235, 0.08)' },
+          { label: 'Donor Matches Found', count: '18', sub: '10/10 & 9/10 HLA Alleles', link: '/doctor/banks', color: '#d97706', bg: 'rgba(217, 119, 6, 0.08)' }
+        ].map((item, idx) => (
+          <div key={idx} className="col-6 col-lg-3">
+            <Link
+              to={item.link}
+              className="card border-0 rounded-4 p-3 text-decoration-none shadow-xs transition-all hover-translate-y d-flex flex-column justify-content-between h-100"
+              style={{
+                backgroundColor: 'var(--k-surface)',
+                border: '1px solid var(--k-border)',
+                borderTop: `3px solid ${item.color}`
+              }}
+            >
+              <div className="d-flex align-items-center justify-content-between mb-1">
+                <span className="text-secondary small fw-semibold" style={{ fontSize: '0.78rem' }}>
+                  {item.label}
+                </span>
+                <span
+                  className="rounded-circle d-inline-block"
+                  style={{ width: '6px', height: '6px', backgroundColor: item.color }}
+                />
+              </div>
+              <div className="d-flex align-items-baseline gap-2">
+                <span className="fw-extrabold text-dark" style={{ fontSize: '1.65rem', lineHeight: 1.1 }}>
+                  {item.count}
+                </span>
+                <span className="text-secondary small text-truncate" style={{ fontSize: '0.72rem' }}>
+                  {item.sub}
+                </span>
+              </div>
+            </Link>
+          </div>
+        ))}
       </div>
 
       {/* ---------------------------------------------------------------------

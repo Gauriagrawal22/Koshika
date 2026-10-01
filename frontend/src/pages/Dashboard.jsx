@@ -277,6 +277,92 @@ const Dashboard = () => {
       </div>
 
       {/* ---------------------------------------------------------------------
+          CARE PATHWAY ROADMAP: 4-STAGE GUIDED REASSURANCE FOR PATIENTS
+      ---------------------------------------------------------------------- */}
+      <div 
+        className="card border-0 mb-4 p-3.5 rounded-4 shadow-xs"
+        style={{ backgroundColor: 'var(--k-surface)', border: '1px solid var(--k-border)' }}
+      >
+        <div className="d-flex align-items-center justify-content-between mb-2.5 px-1">
+          <div className="d-flex align-items-center gap-2">
+            <span className="badge rounded-pill px-2.5 py-1 small fw-bold" style={{ backgroundColor: 'var(--k-surface-tint)', color: 'var(--k-primary)' }}>
+              CARE PATHWAY
+            </span>
+            <span className="fw-bold text-dark small" style={{ fontSize: '0.88rem' }}>
+              Your Guided Navigation from Diagnosis to Transplant Support
+            </span>
+          </div>
+          <span className="text-secondary small d-none d-md-inline" style={{ fontSize: '0.78rem' }}>
+            Click any milestone to open tool
+          </span>
+        </div>
+
+        <div className="row g-2.5">
+          {[
+            {
+              num: '01',
+              title: t.journeyStep1 || 'Understand Biology',
+              desc: t.journeyStep1Desc || 'Plain-language guides & myths',
+              link: '/learn',
+              color: '#0d9488',
+              bg: 'rgba(13, 148, 136, 0.08)'
+            },
+            {
+              num: '02',
+              title: t.journeyStep2 || 'Eligibility Check',
+              desc: t.journeyStep2Desc || 'Self-check clinical criteria',
+              link: '/preliminary-assessment',
+              color: '#2563eb',
+              bg: 'rgba(37, 99, 235, 0.08)'
+            },
+            {
+              num: '03',
+              title: t.journeyStep3 || 'Medical Reports',
+              desc: t.journeyStep3Desc || 'Automated OCR & HLA extraction',
+              link: '/ocr-reports',
+              color: '#7c3aed',
+              bg: 'rgba(124, 58, 237, 0.08)'
+            },
+            {
+              num: '04',
+              title: t.journeyStep4 || 'Specialist Care',
+              desc: t.journeyStep4Desc || 'Telehealth & Biobank registry',
+              link: '/find-care/doctors',
+              color: '#d97706',
+              bg: 'rgba(217, 119, 6, 0.08)'
+            }
+          ].map((st, idx) => (
+            <div key={st.num} className="col-6 col-lg-3">
+              <Link
+                to={st.link}
+                className="card h-100 p-2.5 rounded-3 text-decoration-none border transition-all hover-translate-y d-flex flex-column justify-content-between"
+                style={{
+                  backgroundColor: 'var(--k-surface)',
+                  borderColor: 'var(--k-border)',
+                  borderLeft: `3px solid ${st.color}`
+                }}
+              >
+                <div>
+                  <div className="d-flex align-items-center justify-content-between mb-1">
+                    <span className="fw-extrabold small" style={{ color: st.color, fontSize: '0.75rem' }}>
+                      STEP {st.num}
+                    </span>
+                    <ArrowRight size={12} className="text-muted" />
+                  </div>
+                  <div className="fw-bold text-dark small text-truncate" style={{ fontSize: '0.84rem' }}>
+                    {st.title}
+                  </div>
+                  <div className="text-secondary small mt-0.5 text-truncate" style={{ fontSize: '0.72rem' }}>
+                    {st.desc}
+                  </div>
+                </div>
+              </Link>
+            </div>
+          ))}
+        </div>
+      </div>
+
+      {/* ---------------------------------------------------------------------
           2. YOUR CARE JOURNEY: 3 CLEAR CARDS MATCHING REFERENCE
              01 UNDERSTAND -> 02 PREPARE -> 03 CONNECT
       ---------------------------------------------------------------------- */}

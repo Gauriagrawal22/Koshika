@@ -220,7 +220,7 @@ const AdminDashboard = () => {
             >
               <div className="position-relative overflow-hidden" style={{ height: '160px' }}>
                 <img
-                  src="/images/home/stem_cell_video_thumb.jpg"
+                  src="/images/home/admin_network_ecosystem.jpg"
                   alt="KOSHIKA Stem Cell Biobank Network"
                   className="w-100 h-100 object-fit-cover"
                   onError={(e) => { e.target.style.display = 'none'; }}
@@ -283,6 +283,48 @@ const AdminDashboard = () => {
             </div>
           </div>
         </div>
+      </div>
+
+      {/* ---------------------------------------------------------------------
+          OPERATIONAL GOVERNANCE STRIP: SYSTEM & AUDIT HEALTH METRICS
+      ---------------------------------------------------------------------- */}
+      <div className="row g-3 mb-4">
+        {[
+          { label: 'Licensed Clinicians', count: '48', sub: '5 Pending NMC Verification', link: '/admin/doctors', color: '#2563eb' },
+          { label: 'Accredited Biobanks', count: '12', sub: 'All Cryo-Sensors Normal', link: '/admin/banks', color: '#0d9488' },
+          { label: 'Active Care Patients', count: '1,240', sub: '+18% Month-over-Month', link: '/admin/users', color: '#7c3aed' },
+          { label: 'Security & Audit (24h)', count: '284', sub: '0 Critical Exceptions', link: '/admin/activity', color: '#059669' }
+        ].map((item, idx) => (
+          <div key={idx} className="col-6 col-lg-3">
+            <Link
+              to={item.link}
+              className="card border-0 rounded-4 p-3 text-decoration-none shadow-xs transition-all hover-translate-y d-flex flex-column justify-content-between h-100"
+              style={{
+                backgroundColor: 'var(--k-surface)',
+                border: '1px solid var(--k-border)',
+                borderTop: `3px solid ${item.color}`
+              }}
+            >
+              <div className="d-flex align-items-center justify-content-between mb-1">
+                <span className="text-secondary small fw-semibold" style={{ fontSize: '0.78rem' }}>
+                  {item.label}
+                </span>
+                <span
+                  className="rounded-circle d-inline-block"
+                  style={{ width: '6px', height: '6px', backgroundColor: item.color }}
+                />
+              </div>
+              <div className="d-flex align-items-baseline gap-2">
+                <span className="fw-extrabold text-dark" style={{ fontSize: '1.65rem', lineHeight: 1.1 }}>
+                  {item.count}
+                </span>
+                <span className="text-secondary small text-truncate" style={{ fontSize: '0.72rem' }}>
+                  {item.sub}
+                </span>
+              </div>
+            </Link>
+          </div>
+        ))}
       </div>
 
       {/* ---------------------------------------------------------------------
